@@ -1,0 +1,584 @@
+{
+  "name": "Bone Appétit",
+  "season": {
+    "start": "2026-10-01",
+    "end": "2026-11-01",
+    "weekdays": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "timezone": "America/Chicago"
+  },
+  "hours": {
+    "open": "15:00",
+    "close": "22:00",
+    "night": "18:00",
+    "kitchenClose": "21:00",
+    "trailClose": "21:30"
+  },
+  "planner": {
+    "version": 1,
+    "storageKey": "bone-appetit-visit-v1",
+    "arrivals": [
+      {
+        "value": "15:00",
+        "label": "The golden hours"
+      },
+      {
+        "value": "16:00",
+        "label": "A little afternoon magic"
+      },
+      {
+        "value": "17:00",
+        "label": "Supper at sunset"
+      },
+      {
+        "value": "18:00",
+        "label": "Into the evening"
+      },
+      {
+        "value": "19:00",
+        "label": "After dark"
+      }
+    ],
+    "guests": {
+      "min": 1,
+      "max": 8,
+      "default": 2
+    },
+    "children": {
+      "min": 0,
+      "max": 4,
+      "default": 0
+    },
+    "freeUnderAge": 5,
+    "trailPrice": 12,
+    "arrivalMinutes": 10,
+    "stops": {
+      "pizza": {
+        "title": "The haunted pizzeria",
+        "scheduleTitle": "Supper with the spirits",
+        "minutes": 60,
+        "detail": "Food purchased separately"
+      },
+      "trail": {
+        "title": "Pumpkin Hollow",
+        "scheduleTitle": "Wander Pumpkin Hollow",
+        "minutes": 30,
+        "detail": "Take it at your own pace",
+        "location": "The pumpkin trail"
+      },
+      "oddities": {
+        "title": "The oddities counter",
+        "scheduleTitle": "Inspect the family inventory",
+        "minutes": 20,
+        "detail": "Six fictional specimens · Browsing only"
+      }
+    },
+    "arrival": {
+      "title": "Arrive at Wicked Lane",
+      "detail": "Find your bearings. Visitor Services has placed a sign. The house has placed an objection."
+    },
+    "departureTitle": "Back to the land of the living"
+  },
+  "address": {
+    "street": "13 Wicked Lane",
+    "district": "Hauntwood District"
+  },
+  "menuCategories": {
+    "pizzas": "Pizzas",
+    "bites": "Bites & sides",
+    "sweets": "Sweet endings",
+    "drinks": "Drinks"
+  },
+  "menu": {
+    "pizzas": [
+      {
+        "id": "witchs-cauldron",
+        "name": "Witch’s Cauldron",
+        "price": 24,
+        "description": "Blackened crust, mozzarella, ghost peppers, and truffle oil.",
+        "tags": [
+          "VERY SPICY",
+          "V"
+        ]
+      },
+      {
+        "id": "headless-horseman",
+        "name": "Headless Horseman",
+        "price": 22,
+        "description": "Charred sausage, smoked gouda, bone-shaped parmesan, and red onion.",
+        "tags": []
+      },
+      {
+        "id": "poltergeist-pepperoni",
+        "name": "Poltergeist Pepperoni",
+        "price": 20,
+        "description": "Cupped pepperoni, provolone, garlic confit, and fresh basil.",
+        "tags": []
+      },
+      {
+        "id": "cemetery-margherita",
+        "name": "Cemetery Margherita",
+        "price": 19,
+        "description": "San Marzano tomato, fresh mozzarella, basil, and black sea salt.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "black-lagoon-bianca",
+        "name": "Black Lagoon Bianca",
+        "price": 23,
+        "description": "Garlic béchamel, roasted mushrooms, truffle oil, and arugula.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "devils-harvest",
+        "name": "Devil’s Harvest",
+        "price": 25,
+        "description": "Spicy nduja, roasted peppers, caramelized onions, and Calabrian honey.",
+        "tags": [
+          "SPICY"
+        ]
+      },
+      {
+        "id": "little-monster-cheese",
+        "name": "Little Monster Cheese",
+        "price": 10,
+        "description": "A smaller tomato-and-mozzarella pizza for a smaller appetite.",
+        "tags": [
+          "V",
+          "KIDS"
+        ]
+      }
+    ],
+    "bites": [
+      {
+        "id": "crawlers-breadsticks",
+        "name": "Crawler’s Breadsticks",
+        "price": 12,
+        "description": "Garlic butter, parmesan, and a side of marinara.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "pumpkin-arancini",
+        "name": "Pumpkin Arancini",
+        "price": 13,
+        "description": "Crispy pumpkin risotto balls with sage and pecorino cream.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "crypt-caprese",
+        "name": "Crypt Caprese",
+        "price": 14,
+        "description": "Heirloom tomatoes, burrata, basil, and aged balsamic.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "funeral-fries",
+        "name": "Funeral Fries",
+        "price": 11,
+        "description": "Parmesan, herbs, and black garlic aioli.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "bat-wing-wings",
+        "name": "Bat-Wing Wings",
+        "price": 16,
+        "description": "Chicken wings with hot sauce, garlic parmesan, or smoky bourbon glaze.",
+        "tags": []
+      },
+      {
+        "id": "graveyard-garlic-knots",
+        "name": "Graveyard Garlic Knots",
+        "price": 9,
+        "description": "Warm dough knots with garlic butter, parsley, and parmesan.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "inferno-mozzarella",
+        "name": "Inferno Mozzarella",
+        "price": 12,
+        "description": "Fried mozzarella with a gently fiery Calabrian marinara.",
+        "tags": [
+          "V",
+          "SPICY"
+        ]
+      }
+    ],
+    "sweets": [
+      {
+        "id": "graveyard-gelato",
+        "name": "Graveyard Gelato",
+        "price": 9,
+        "description": "Vanilla bean gelato, chocolate soil, and a tombstone cookie.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "seance-tiramisu",
+        "name": "Séance Tiramisu",
+        "price": 10,
+        "description": "Espresso-soaked sponge, mascarpone, and cocoa dust.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "black-candle-cheesecake",
+        "name": "Black Candle Cheesecake",
+        "price": 10,
+        "description": "Baked cheesecake, blackberry compote, and dark cocoa crumble.",
+        "tags": [
+          "V"
+        ]
+      },
+      {
+        "id": "afterlife-affogato",
+        "name": "Afterlife Affogato",
+        "price": 8,
+        "description": "Vanilla gelato drowned in hot espresso. A civilized haunting.",
+        "tags": [
+          "V"
+        ]
+      }
+    ],
+    "drinks": [
+      {
+        "id": "wicked-orchard-cider",
+        "name": "Wicked Orchard Cider",
+        "price": 6,
+        "description": "Warm apple cider, cinnamon, and orange peel.",
+        "tags": [
+          "ZERO-PROOF"
+        ]
+      },
+      {
+        "id": "midnight-cola",
+        "name": "Midnight Cola",
+        "price": 6,
+        "description": "House cola with vanilla, cherry, and a twist of lime.",
+        "tags": [
+          "ZERO-PROOF"
+        ]
+      },
+      {
+        "id": "little-ghost-cocoa",
+        "name": "Little Ghost Cocoa",
+        "price": 5,
+        "description": "Warm cocoa with a marshmallow ghost. Friendly, obviously.",
+        "tags": [
+          "ZERO-PROOF"
+        ]
+      },
+      {
+        "id": "ravens-negroni",
+        "name": "Raven’s Negroni",
+        "price": 15,
+        "description": "Gin, Campari, sweet vermouth, and blood orange.",
+        "tags": [
+          "21+"
+        ]
+      },
+      {
+        "id": "the-last-rites",
+        "name": "The Last Rites",
+        "price": 16,
+        "description": "Bourbon, maple, lemon, and smoky bitters over a large cube.",
+        "tags": [
+          "21+"
+        ]
+      },
+      {
+        "id": "blood-orange-spritz",
+        "name": "Blood Orange Spritz",
+        "price": 14,
+        "description": "Aperol, prosecco, blood orange, and soda.",
+        "tags": [
+          "21+"
+        ]
+      }
+    ]
+  },
+  "attractions": {
+    "pizzeria": {
+      "title": "The haunted pizzeria",
+      "kicker": "THE ORIGINAL HAUNT / LOW SCARE",
+      "image": "hero-haunted-pizza",
+      "alt": "A hot pizza in a candlelit room with ghostly decorations.",
+      "description": "Find a table in the old house and watch the wood-fired oven earn its keep. We set one extra place, as the family has since 1893. You are welcome to ask who it is for. The portrait will refer you to management. Settle in for a proper meal, or split a pie before a wander. The haunt is gentle; the ghost peppers are not.",
+      "access": "Concept access: step-free entrance, flexible table seating, a quieter corner, and no surprise character visits at your table.",
+      "stop": "pizza",
+      "setting": "Indoors · Candlelit",
+      "card": {
+        "title": "The haunted pizzeria",
+        "copy": "A wood-fired supper. An extra place setting. A family business with a very complicated seating chart.",
+        "alt": "A wood-fired pizza in a candlelit dining room, with ghostly shapes in the shadows.",
+        "imageLabel": "01 / FEED YOUR SOUL",
+        "kicker": "THE ORIGINAL HAUNT",
+        "intensity": "LOW SCARE",
+        "action": "Pull up a chair"
+      }
+    },
+    "hollow": {
+      "title": "Pumpkin Hollow",
+      "kicker": "TAKE THE LONG WAY / YOUR PACE",
+      "image": "pumpkin-hollow",
+      "alt": "A glowing pumpkin-lined trail through autumn woods.",
+      "description": "Follow the lanterns around a pumpkin patch maintained by Visitor Services, a department consisting of one rake and a handwritten rota. Before {{NIGHT_TIME}}, it’s a gentle woodland ramble. After {{NIGHT_TIME}}, the soundscape deepens and a few costumed residents come out to say hello. The pumpkins have been asked to remain in their assigned positions.",
+      "access": "Concept access: firm, level surfacing, rest benches, and a shorter return path. No strobes, chasing, or touching. Real-world facilities have not been established.",
+      "stop": "trail",
+      "setting": "Outdoors · Weather dependent",
+      "card": {
+        "title": "A walk on the weird side",
+        "copy": "A lantern-lit loop through our little patch of woods. All pumpkins have been briefed. Compliance varies.",
+        "alt": "An autumn trail winding past glowing jack-o’-lanterns beneath string lights.",
+        "imageLabel": "02 / TAKE THE LONG WAY",
+        "kicker": "PUMPKIN HOLLOW",
+        "intensity": "YOUR PACE",
+        "action": "Meet the residents"
+      }
+    },
+    "oddities": {
+      "title": "The oddities counter",
+      "kicker": "DOUBTFUL INVENTORY / LOW SCARE",
+      "image": "oddities-cabinet",
+      "alt": "Ceramic ghosts and curious souvenirs arranged in an old wooden cabinet.",
+      "description": "Some places keep a gift shop. We keep magnets with unresolved business. Browse six specimens from the family’s doubtful inventory: ceramic ghosts, old keys, postcards, a pumpkin pin, a returning magnet, and a raven from Accounts. The shelf labels record what we remember. None of it has survived an independent audit.",
+      "access": "Concept access: a step-free counter with low display surfaces and space to browse slowly. The collection is for browsing only; curiosity is encouraged.",
+      "stop": "oddities",
+      "setting": "Indoors · Beside the dining room",
+      "card": {
+        "title": "Proof you were here",
+        "copy": "Six things the family cannot quite account for. Shelf labels supplied. Explanations pending.",
+        "alt": "An old wooden curiosity cabinet filled with tiny ghosts, antique keys, and Halloween souvenirs.",
+        "imageLabel": "03 / CHECK THE INVENTORY",
+        "kicker": "THE ODDITIES COUNTER",
+        "intensity": "CURIOUS ONLY",
+        "action": "Have a little look"
+      }
+    }
+  },
+  "moods": {
+    "day": {
+      "title": "For the little monsters.\nAnd the easily spooked.",
+      "copy": "A lazy afternoon of pumpkin spotting, warm cider, and a table full of pizza. All the Halloween magic, with room to take it slow.",
+      "features": [
+        "Explore the trail in daylight",
+        "Meet our decidedly friendly skeletons",
+        "Settle in for an early supper"
+      ],
+      "timeDetail": "SOFT LIGHT, SMALL SCARES",
+      "label": "The golden hours"
+    },
+    "night": {
+      "title": "For the night owls.\nAnd the beautifully strange.",
+      "copy": "Candlelit supper, glowing pumpkins, and something curious around the next bend. Give the evening a little room to get wonderfully weird.",
+      "features": [
+        "Follow the pumpkin-lit woodland trail",
+        "Meet the costumed residents after {{NIGHT_TIME}}",
+        "Linger over a nightcap or warm cider"
+      ],
+      "timeDetail": "FOLLOW THE LANTERNS",
+      "label": "After dark"
+    }
+  },
+  "disclosures": {
+    "menu": "V = vegetarian ingredients. Our fictional menu is not an allergy assurance. In a real kitchen, ask about preparation and cross-contact. Alcoholic drinks are marked 21+.",
+    "access": "Concept access: step-free dining, firm level trail, rest benches, and a shorter return path.",
+    "sensory": "No strobes, chasing, or touching. After-dark trail includes costumed characters and eerie audio.",
+    "weather": "Outdoor trail subject to weather. These facilities and policies are fictional design intentions.",
+    "estimate": "Food and drinks are extra. The oddities collection is for browsing only. This is a concept estimate, not a quote or ticket."
+  },
+  "featured": [
+    {
+      "id": "witchs-cauldron",
+      "image": "witchs-cauldron",
+      "alt": "Witch’s Cauldron pizza with dark blistered crust and melted cheese.",
+      "badge": "THE HOUSE CURSE",
+      "description": "Blackened crust, bubbling mozzarella, ghost peppers, and truffle oil.",
+      "note": "SOME LIKE IT HAUNTED. THIS ONE’S HOT."
+    },
+    {
+      "id": "headless-horseman",
+      "image": "headless-horseman",
+      "alt": "Headless Horseman pizza with sausage and bone-shaped cheese.",
+      "badge": "A LOCAL LEGEND",
+      "description": "Charred sausage, smoked gouda, bone-shaped parmesan, and red onion.",
+      "note": "LOSE YOUR HEAD. KEEP YOUR APPETITE."
+    },
+    {
+      "id": "poltergeist-pepperoni",
+      "image": "poltergeist-pepperoni",
+      "alt": "A slice of pepperoni pizza lifted from the pie with long strands of melted cheese.",
+      "badge": "SPIRIT OF THE CLASSICS",
+      "description": "Cupped pepperoni, stretchy provolone, garlic confit, and fresh basil.",
+      "note": "THE ONLY THING MOVING IS THE CHEESE."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How scary are we talking?",
+      "answer": "Think cozy Halloween movie, not an endurance test. The dining room and oddities counter are low-scare spaces. After dark, Pumpkin Hollow adds eerie soundscapes and costumed characters. No touching, chasing, or strobe lighting is part of this concept.",
+      "open": true
+    },
+    {
+      "question": "Can I bring my little monsters?",
+      "answer": "Absolutely. The golden hours, from {{DAY_RANGE}}, are designed for families and anyone who likes their spooky on the gentle side. Children stay with their grown-ups, and children under {{FREE_UNDER_AGE}} join the trail free.",
+      "open": false
+    },
+    {
+      "question": "What about access and sensory needs?",
+      "answer": "The concept calls for a step-free dining room, accessible restroom, seating along the route, and a firm, level trail with a shorter return path. A quieter dining corner and a character-free daytime visit are part of the plan. These are design intentions for a fictional venue, not verified facilities.",
+      "open": false
+    },
+    {
+      "question": "Do I need a ticket just to eat?",
+      "answer": "No. In this concept, the pizzeria, grounds, and oddities counter are free to enter. Food, drinks, and the optional Pumpkin Hollow trail are priced separately. The oddities collection is for browsing only. The visit builder helps estimate a trip; it doesn’t sell tickets or reserve tables.",
+      "open": false
+    },
+    {
+      "question": "What if the weather gets wicked?",
+      "answer": "The pizzeria and oddities counter are indoors. The trail is outdoors and would close for unsafe weather. Bring a layer and shoes that don’t mind autumn. In the planner, you can skip the trail and still make a cozy evening of it.",
+      "open": false
+    },
+    {
+      "question": "Can you feed vegetarians and picky eaters?",
+      "answer": "The menu includes vegetarian pizzas, plain cheese pizza for small appetites, and nonalcoholic drinks. Ingredients and dietary tags are shown in the full menu. A real kitchen would need to confirm allergies and cross-contact precautions; no item here is represented as allergen-free.",
+      "open": false
+    }
+  ],
+  "oddities": [
+    {
+      "id": "employee-of-the-month",
+      "name": "The Employee of the Month",
+      "image": "oddity-ghost.svg",
+      "alt": "Ink illustration of a small ceramic ghost wearing an employee award.",
+      "material": "Glazed ceramic · Outstanding attendance",
+      "copy": "Awarded in 1958. Still on the counter. The family has stopped asking when its shift ends.",
+      "origin": "Beside the till, every Monday.",
+      "record": "The building says it came with the staff. The staff say it came with the building. Neither has signed the inventory sheet."
+    },
+    {
+      "id": "unlisted-room-key",
+      "name": "Key to the Unlisted Room",
+      "image": "oddity-key.svg",
+      "alt": "Ink illustration of an old brass key with a tag marked 13.",
+      "material": "Brass · Floor plan pending",
+      "copy": "The tag says Room 13. The floor plan stops at 12. Maintenance has filed this as a numbering issue.",
+      "origin": "Front desk drawer, under “Do not file.”",
+      "record": "Opens nothing we are currently advertising. A replacement lock has been ordered for a door we have not located."
+    },
+    {
+      "id": "next-thursday-postcard",
+      "name": "Postcard from Next Thursday",
+      "image": "oddity-postcard.svg",
+      "alt": "Illustrated postcard showing the haunted house beneath an autumn moon.",
+      "material": "Printed card · Delivery disputed",
+      "copy": "A cheerful view of the house, signed by someone who has not arrived. Postage is your department.",
+      "origin": "The outgoing post tray.",
+      "record": "The date keeps getting ahead of the postmark. We have asked the sender to allow three to five business days."
+    },
+    {
+      "id": "pumpkin-visitor-badge",
+      "name": "The Pumpkin’s Visitor Badge",
+      "image": "oddity-pin.svg",
+      "alt": "Ink illustration of an enamel pumpkin pin with a visitor ribbon.",
+      "material": "Enamel pin · Guest registration",
+      "copy": "Issued to a pumpkin that requested a guided tour. It completed the feedback form. Mostly circles.",
+      "origin": "Guest register, entry illegible.",
+      "record": "Visitor Services would like its badge back. The pumpkin would like to speak to the person who carved it."
+    },
+    {
+      "id": "unresolved-business-magnet",
+      "name": "Magnet with Unresolved Business",
+      "image": "oddity-magnet.svg",
+      "alt": "Illustrated souvenir magnet depicting the house, with a receipt attached.",
+      "material": "Souvenir magnet · Strong attachment",
+      "copy": "Keeps returning to the invoice it came from. Excellent hold. Poor closure.",
+      "origin": "Gift-shop reorder, still marked “Returned.”",
+      "record": "Removed from stock three times. Found on the purchase ledger four times. The discrepancy has been carried forward."
+    },
+    {
+      "id": "raven-from-accounts",
+      "name": "The Raven from Accounts",
+      "image": "oddity-raven.svg",
+      "alt": "Ink illustration of a black raven figurine perched on a small ledger.",
+      "material": "Painted resin · Receipts retained",
+      "copy": "A small black raven guarding a very small ledger. Never promoted. Never off duty.",
+      "origin": "The ledger shelf, since before the ledger.",
+      "record": "It has approved no expenses since 1893. It has also approved no explanation for the extra place setting."
+    }
+  ],
+  "map": {
+    "image": "grounds-map.svg",
+    "title": "The grounds, according to the grounds.",
+    "caption": "Drawn from family memory. The house has declined to confirm.",
+    "disclosure": "A fictional map, not to scale. Routes, surfacing, benches, and restroom access are imagined design intentions, not verified facilities or real directions.",
+    "locations": [
+      {
+        "number": 1,
+        "name": "House & pizzeria",
+        "attraction": "pizzeria",
+        "stop": "pizza",
+        "detail": "Supper, the extra place setting, and the imagined accessible restroom."
+      },
+      {
+        "number": 2,
+        "name": "Oddities counter",
+        "attraction": "oddities",
+        "stop": "oddities",
+        "detail": "Beside the dining room. Six objects; several unanswered questions."
+      },
+      {
+        "number": 3,
+        "name": "Pumpkin Hollow",
+        "attraction": "hollow",
+        "stop": "trail",
+        "detail": "Follow the solid loop. Lanterns lead back toward the house."
+      },
+      {
+        "number": 4,
+        "name": "Rest bench",
+        "detail": "A pause beside the loop. Sitting down requires no explanation."
+      },
+      {
+        "number": 5,
+        "name": "Shorter return",
+        "detail": "The dashed route leads back toward the house. Skip the long loop whenever you like."
+      },
+      {
+        "number": 6,
+        "name": "Wicked Lane entrance",
+        "detail": "Begin and return here. Visitor Services has made a note of it."
+      }
+    ]
+  },
+  "fieldNotes": {
+    "form": "FORM 013 · DEPARTMENT OF RETURN VISITS",
+    "title": "Field notes from Wicked Lane",
+    "stamp": "FICTIONAL ITINERARY",
+    "houseNotes": {
+      "pizza": "We keep one extra place setting for house business. Your party count stays exactly as entered.",
+      "trail": "The pumpkins have been asked to remain in their assigned positions. Any administrative movement is the house’s problem.",
+      "oddities": "The shelf labels record what the family remembers. Pencil corrections are welcome.",
+      "grounds": "A look around is enough. No stop is compulsory, including the one recommended by the portrait."
+    }
+  }
+}
