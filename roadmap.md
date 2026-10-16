@@ -77,6 +77,11 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 - **Draft vs. Named Comparison**: Instant toggle between current working draft and last deliberate named version.
 - **Granular Copy Overrides**: Bounded field picker allowing overrides for venue story, section headings, and supporting details without altering core structural layout.
 
+### Milestone 9: Portable Single-Property Website ZIP Export
+- **Self-Contained Packages**: `website-export.js` generates complete, standalone single-property website ZIPs containing `index.html`, embedded content snapshot, all artwork, local fonts, licenses, and SHA-256 integrity manifest.
+- **Frozen Source Isolation**: Source snapshot is frozen at export trigger to guarantee consistency during asynchronous resource gathering and hashing.
+- **Dedicated Visitor Storage**: Exported sites generate a unique content-hash planner storage key (`bone-website-{propertyId}-{hash}-visit-v1`), preventing plan collisions when hosted alongside other exports.
+
 ---
 
 ## 3. Current System Status
@@ -90,6 +95,7 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 | Marketing Pack Assembler | Verified v1.0 | `npm run check:marketing` |
 | Sister Properties Catalog | Verified v1.0 | `npm run check:properties` |
 | Website Workspace Adapter | Verified v1.0 | `npm run check:website-workspace` |
+| Single-Property Website Export | Verified v1.0 | `npm run check:website-export` |
 | Python Preview Launcher | Verified v1.0 | `npm run check:preview` |
 | End-to-End Headless Browser Suite | Verified v1.0 | Playwright / Chromium (153.0.8010.12) |
 
