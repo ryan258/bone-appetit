@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#181c17">
+  <meta name="description" content="A local creator workspace for fictional Bone Appétit restaurant campaigns.">
+  <title>Creator workspace — Bone Appétit</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="creator.css">
+  <script src="content.js" defer></script>
+  <script src="planner.js" defer></script>
+  <script src="property-catalog.js" defer></script>
+  <script src="website-copy.js" defer></script>
+  <script src="field-notes.js" defer></script>
+  <script src="website-renderer.js" defer></script>
+  <script src="website-workspace.js" defer></script>
+  <script src="creator-model.js" defer></script>
+  <script src="marketing-pack.js" defer></script>
+  <script src="website-export.js" defer></script>
+  <script src="marketing-workspace.js" defer></script>
+  <script src="creator.js" defer></script>
+</head>
+<body class="creator-page">
+  <a class="skip-link" href="#creator-main">Skip to workspace</a>
+  <header class="creator-header wrap">
+    <a class="creator-brand" href="index.html"><img src="assets/favicon.svg" width="40" height="40" alt=""><span>Bone Appétit<small>CREATOR WORKSPACE</small></span></a>
+    <a class="text-link" href="index.html">Explore the restaurant websites ↗</a>
+  </header>
+  <main class="wrap creator-main" id="creator-main" tabindex="-1">
+    <div class="creator-intro">
+      <p class="eyebrow accent">THE DEPARTMENT OF POSSIBLE CAMPAIGNS</p>
+      <h1>A little room<br>for <em>strange ideas.</em></h1>
+      <p>Start with a Halloween restaurant property. Shape a brief, try the copy, and keep a version worth returning to.</p>
+      <p class="creator-note">Fictional campaigns · Draft recovery in this browser · Portable JSON backups</p>
+    </div>
+    <p id="startup-status" role="status">Open this workspace through Preview.command with JavaScript enabled.</p>
+    <button id="retry-startup" class="button" type="button" hidden>Retry loading workspace</button>
+    <noscript><p class="creator-notice">The creator workspace needs JavaScript. The <a href="index.html">original destination</a> remains available.</p></noscript>
+    <div data-creator-control>
+      <section class="creator-library" aria-labelledby="library-title">
+        <div class="creator-section-heading"><div><p class="eyebrow accent">KEEP THE GOOD OFFCUTS</p><h2 id="library-title">Your campaigns</h2></div><button id="start-example" type="button" class="button">Start with Bone Appétit</button></div>
+        <section class="property-starters" aria-labelledby="property-starters-title">
+          <div class="creator-section-heading"><div><h3 id="property-starters-title">Three more establishments. Several new concerns.</h3><p class="creator-note">A pizza place, an upscale chop house, and a cheeky 21+ sports lodge. Each has its own Halloween voice, 18-item menu, artwork, brief, and ready-to-build campaign.</p></div><button id="start-property-collection" type="button" class="text-link" disabled>Add all three properties</button></div>
+          <p id="property-status" class="creator-note" role="status">Loading the property starters…</p>
+          <button id="retry-properties" type="button" class="text-link" hidden>Retry property starters</button>
+          <div id="property-options" class="property-options"></div>
+        </section>
+        <p id="library-empty">No local campaigns yet. Start with the example or import a backup.</p>
+        <ul id="campaign-list" class="campaign-list" aria-label="Choose a campaign"></ul>
+        <div class="creator-library-tools">
+          <button id="backup-workspace" class="text-link" type="button" disabled>Download workspace backup ↓</button>
+          <button id="backup-campaign" class="text-link" type="button" disabled>Back up current campaign ↓</button>
+          <label class="creator-import">Import backup<input id="import-backup" type="file" accept=".json,application/json" aria-describedby="import-hint"></label>
+          <button id="undo-workspace" class="text-link" type="button" hidden>Undo change</button>
+        </div>
+        <p id="import-hint" class="creator-note">Import adds copies and keeps existing campaigns. A backup includes every campaign, its named version, and unfinished drafts. Up to 20 campaigns and 2 MiB per backup.</p>
+      </section>
+      <p id="workspace-status" class="creator-status" role="status" aria-atomic="true"></p>
+      <p id="storage-status" class="creator-notice" role="status" hidden></p>
+      <div id="campaign-editor" hidden>
+        <div class="creator-editor-heading"><h2 id="editor-title">Your campaign</h2><button id="duplicate-campaign" class="text-link" type="button">Duplicate current draft</button></div>
+        <div class="creator-columns">
+          <form id="creator-form" novalidate aria-labelledby="editor-title">
+            <fieldset id="editor-fields">
+              <legend class="creator-sr-only">Campaign details and content</legend>
+              <label class="creator-field">Campaign name<input id="campaign-name" name="campaign-name" data-field="name" maxlength="120" autocomplete="off" required></label>
+              <p id="draft-state" class="creator-draft-state" role="status"></p>
+              <div class="creator-save-tools"><button class="button" type="submit">Save named version</button><button id="restore-named" class="text-link" type="button" disabled>Restore named version</button></div>
+              <details class="creator-section" open>
+                <summary><span>01 / The brief</span><span aria-hidden="true">+</span></summary>
+                <div class="creator-section-body">
+                  <p class="creator-note">These are working notes. Fill what helps; an unfinished brief can still be saved.</p>
+                  <label class="creator-field">Audience<textarea data-brief="audience" rows="2" maxlength="4000"></textarea></label>
+                  <label class="creator-field">Objective<textarea data-brief="objective" rows="2" maxlength="4000"></textarea></label>
+                  <label class="creator-field">Occasion<textarea data-brief="occasion" rows="2" maxlength="4000"></textarea></label>
+                  <label class="creator-field">Offer<textarea data-brief="offer" rows="2" maxlength="4000"></textarea></label>
+                  <label class="creator-field">Call to action<textarea data-brief="callToAction" rows="2" maxlength="4000"></textarea></label>
+                  <label class="creator-field">Tone<textarea data-brief="tone" rows="2" maxlength="4000"></textarea></label>
+                  <label class="creator-field">Channels<textarea data-brief="channels" rows="2" maxlength="4000"></textarea></label>
+                  <div class="creator-date-fields"><label class="creator-field">Campaign start<input data-brief="startsOn" type="date"></label><label class="creator-field">Campaign end<input data-brief="endsOn" type="date"></label></div>
+                  <label class="creator-field">Creative boundaries and required facts<textarea data-brief="boundaries" rows="3" maxlength="4000"></textarea></label>
+                  <p class="creator-note">Campaign dates belong to the brief. The reference destination keeps its fixed 2026 season.</p>
+                </div>
+              </details>
+              <details class="creator-section" open>
+                <summary><span>02 / Essential copy</span><span aria-hidden="true">+</span></summary>
+                <div class="creator-section-body">
+                  <label class="creator-field">Venue name<input data-field="venueName" maxlength="120" required></label>
+                  <label class="creator-field">Headline<textarea data-copy="headline" rows="2" maxlength="180" required></textarea></label>
+                  <label class="creator-field">Introduction<textarea data-copy="introduction" rows="4" maxlength="2000" required></textarea></label>
+                  <label class="creator-field">Action label<input data-copy="actionLabel" maxlength="80" required></label>
+                  <details class="website-copy-fields">
+                    <summary>Website story, section headings, and supporting copy</summary>
+                    <p class="creator-note">Keep each property's original voice, or shape its page here. Essential copy above supplies the website hero. This copy is included in named saves and backups.</p>
+                    <label class="creator-field">Website field<select id="website-field" disabled></select></label>
+                    <label class="creator-field"><span id="website-field-label">Website copy</span><textarea id="website-copy-edit" rows="5" maxlength="10000" disabled></textarea></label>
+                    <p id="website-field-hint" class="creator-note"></p>
+                    <button id="website-reset-field" class="text-link" type="button" disabled>Restore original field</button>
+                  </details>
+                </div>
+              </details>
+              <details class="creator-section" open>
+                <summary><span>03 / Menu copy</span><span aria-hidden="true">+</span></summary>
+                <div class="creator-section-body">
+                  <label class="creator-field">Menu item<select id="menu-item-picker"></select></label>
+                  <label class="creator-field">Item name<input id="menu-name" data-menu="name" maxlength="120" required></label>
+                  <label class="creator-field">Item description<textarea id="menu-description" data-menu="description" rows="3" maxlength="2000" required></textarea></label>
+                  <label class="creator-field creator-price">Price in USD<input id="menu-price" data-menu="price" inputmode="decimal" maxlength="20" required aria-describedby="price-hint"></label>
+                  <p id="price-hint" class="creator-note">Use an amount such as 24 or 24.50. An incomplete price is kept in the draft; a named version needs valid prices.</p>
+                </div>
+              </details>
+              <details class="creator-section">
+                <summary><span>04 / Attraction copy</span><span aria-hidden="true">+</span></summary>
+                <div class="creator-section-body">
+                  <label class="creator-field">Attraction<select id="attraction-picker"></select></label>
+                  <label class="creator-field">Attraction title<input id="attraction-name" data-attraction-edit="title" maxlength="120" required></label>
+                  <label class="creator-field">Attraction description<textarea id="attraction-description-edit" data-attraction-edit="description" rows="5" maxlength="4000" required></textarea></label>
+                  <p class="creator-note">The existing DAY_RANGE, NIGHT_TIME, and FREE_UNDER_AGE copy tokens are supported in attraction descriptions.</p>
+                </div>
+              </details>
+            </fieldset>
+          </form>
+          <aside class="creator-preview" aria-labelledby="preview-title" tabindex="0">
+            <div class="creator-preview-heading"><p class="eyebrow accent">A WORKING LOOK</p><h2 id="preview-title">Campaign preview</h2><p class="creator-note">A live copy preview. The original destination stays available as your reference.</p></div>
+            <article class="campaign-paper">
+              <img class="creator-preview-image" src="assets/haunted-roadhouse.webp" alt="The fictional haunted pizzeria at Wicked Lane." width="1536" height="1024">
+              <div class="campaign-paper-body"><p id="preview-venue" class="creator-preview-brand"></p><h3 id="preview-headline"></h3><p id="preview-introduction"></p><span id="preview-action" class="creator-preview-action"></span><p class="creator-fiction">FICTIONAL CAMPAIGN · COPY PREVIEW</p></div>
+            </article>
+            <section class="creator-preview-card" aria-labelledby="preview-menu-heading"><h3 id="preview-menu-heading">Selected menu item</h3><div class="creator-preview-item-title"><p id="preview-menu-name"></p><strong id="preview-menu-price"></strong></div><p id="preview-menu-description"></p></section>
+            <section class="creator-preview-card" aria-labelledby="preview-attraction-heading"><h3 id="preview-attraction-heading">Selected attraction</h3><p id="preview-attraction-title" class="creator-preview-item-title"></p><p id="preview-attraction-description"></p></section>
+            <p id="preview-validation" class="creator-note" role="status"></p>
+          </aside>
+        </div>
+        <section id="website-workspace" class="marketing-pack" aria-labelledby="website-title" aria-busy="false">
+          <p class="eyebrow accent">THE WHOLE HAUNT, WITH YOUR COPY</p>
+          <h2 id="website-title">Preview your restaurant website.</h2>
+          <p>Use the full restaurant design with your venue name, hero copy, menu, attractions, and page copy. Explore its menus and planner before keeping a named version.</p>
+          <p class="creator-note">A local preview. Changes stay in your campaign. Preview visit plans last only until the preview refreshes. Choose another campaign above to preview a different property.</p>
+          <div class="pack-tools">
+            <label class="creator-field">Website source<select id="website-source"><option value="draft">Current draft</option><option value="named" disabled>Last named version</option></select></label>
+            <button id="preview-website" class="button" type="button" disabled>Preview full website</button>
+            <button id="download-website" class="button" type="button" disabled>Download complete website ZIP ↓</button>
+            <label class="creator-field">Preview width<select id="website-size"><option value="desktop">Desktop</option><option value="mobile">Phone</option></select></label>
+            <button id="retry-website" class="text-link" type="button" hidden>Retry website resources</button>
+          </div>
+          <p id="website-status" class="creator-status" role="status" aria-atomic="true">Loading website resources…</p>
+          <p class="creator-note">The website ZIP includes this property's artwork, fonts, styles, full menu, and interactive planner. Extract the whole ZIP and open index.html, or share the complete ZIP. It uses the Website source selected above; your working brief and saved visit plans stay here.</p>
+          <p id="website-export-status" class="creator-status" role="status" aria-atomic="true">Choose a source, then download its complete website.</p>
+          <div id="website-results" hidden>
+            <p id="website-provenance" class="creator-note"></p>
+            <div class="website-frame-wrap"><iframe id="website-preview" title="Full restaurant website preview" sandbox="allow-scripts allow-forms allow-modals allow-downloads" referrerpolicy="no-referrer"></iframe></div>
+          </div>
+        </section>
+        <section id="marketing-pack" class="marketing-pack" aria-labelledby="pack-title" aria-busy="false">
+          <p class="eyebrow accent">05 / THE DEPARTMENT OF PUBLIC APPEARANCES</p>
+          <h2 id="pack-title">A campaign, properly packed.</h2>
+          <p>Turn this campaign into landing copy, a menu insert, three social drafts, an email draft, a poster, and a review summary.</p>
+          <p class="creator-note">A ZIP of offline HTML and editable text, with the exact source campaign and an integrity manifest. Menu insert and poster use US Letter print styles. No publishing or email sending takes place.</p>
+          <div class="pack-settings">
+            <label class="creator-field">Pack source<select id="pack-source"><option value="draft">Current draft</option><option value="named" disabled>Last named version</option></select></label>
+            <label class="creator-field">Attraction spotlight<select id="pack-attraction"></select></label>
+          </div>
+          <details class="pack-selection"><summary>Choose menu items for the insert and landing copy (1–4)</summary><fieldset><legend class="creator-sr-only">Featured menu items</legend><div id="pack-menu-items"></div></fieldset></details>
+          <p class="creator-note">For a readable poster: offer 1–240 characters, headline up to 100, venue name up to 80, and action label up to 60. Longer drafts stay saved; shorten those fields before building. Export choices reset when you reopen the workspace.</p>
+          <button id="build-pack" class="button" type="button">Build marketing pack</button>
+          <p id="pack-status" class="creator-status" role="status" aria-atomic="true">Build a pack when the campaign is ready.</p>
+          <div id="pack-results" hidden>
+            <p id="pack-provenance" class="creator-note"></p>
+            <div class="pack-tools">
+              <button id="download-pack" type="button" class="button">Download complete ZIP ↓</button>
+              <label class="creator-field">Preview piece<select id="pack-piece"><option value="review-summary">Review summary</option><option value="landing">Landing copy</option><option value="menu-insert">Menu insert</option><option value="social-copy">Social copy</option><option value="email-draft">Email draft</option><option value="poster">Poster</option></select></label>
+              <button id="download-pack-html" type="button" class="text-link">Download this HTML ↓</button>
+              <button id="download-pack-text" type="button" class="text-link">Download this text ↓</button>
+              <button id="print-pack-piece" type="button" class="text-link">Print this piece</button>
+            </div>
+            <iframe id="pack-preview" title="Marketing pack preview" sandbox="allow-same-origin allow-modals" referrerpolicy="no-referrer"></iframe>
+          </div>
+        </section>
+      </div>
+        <details class="creator-recovery"><summary>Campaign management and recovery</summary><div>
+          <button id="remove-campaign" class="text-link" type="button">Remove current campaign</button>
+          <button id="reload-workspace" class="text-link" type="button">Reload saved workspace</button>
+          <button id="download-recovery" class="text-link" type="button" hidden>Download unreadable local data ↓</button>
+          <button id="replace-damaged" class="text-link" type="button" hidden>Replace unreadable local copy</button>
+          <p class="creator-note">Remove and restore have one-level undo until another edit or action. If browser saving fails, keep the work with a backup before reloading.</p>
+        </div></details>
+    </div>
+  </main>
+  <footer class="creator-footer wrap"><p>Bone Appétit · The original stays strange. Your drafts get a place to land.</p><a href="index.html">Back to the destination ↑</a></footer>
+</body>
+</html>
