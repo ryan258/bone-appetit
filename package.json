@@ -9,7 +9,7 @@
   "scripts": {
     "build": "node scripts/render-site.cjs",
     "validate": "node scripts/render-site.cjs --validate",
-    "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace",
+    "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace && npm run check:website-export",
     "check:generated": "node scripts/render-site.cjs --check",
     "check:validation": "node tests/content.cjs",
     "check:planner": "node tests/planner.cjs",
@@ -31,7 +31,9 @@
     "check:final-review": "node tests/final-review.cjs",
     "browser:install": "playwright install chromium",
     "check:website-workspace": "node tests/website-workspace.cjs",
-    "check:website-workspace-browser": "node tests/website-workspace-browser.cjs"
+    "check:website-workspace-browser": "node tests/website-workspace-browser.cjs",
+    "check:website-export": "node tests/website-export.cjs",
+    "check:website-export-browser": "node tests/website-export-browser.cjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"
