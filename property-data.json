@@ -1,0 +1,1665 @@
+{
+  "version": 1,
+  "properties": [
+    {
+      "id": "rest-in-pizza",
+      "type": "Neighborhood pizzeria",
+      "summary": "Family-friendly pizza, rising dough, and a founder who refuses to clock out.",
+      "brief": {
+        "audience": "Families, hungry friend groups, pizza devotees, and anyone who prefers a cozy haunting to a jump scare.",
+        "objective": "Introduce a funny neighborhood pizza concept and encourage readers to explore the menu and a relaxed fictional visit.",
+        "occasion": "A Halloween pizza season with no compulsory costume or compulsory haunting.",
+        "offer": "Wood-fired pies, garlic knots, and a family-friendly haunting. The dough is alive. The owner is under review.",
+        "callToAction": "Browse the pies and plan a fictional pizza night.",
+        "tone": "Warm neighborhood confidence, dough-and-afterlife puns, and cheerful disputes with the deceased owner.",
+        "channels": "Landing page, printed menu insert, social posts, email draft and poster",
+        "startsOn": "2026-10-01",
+        "endsOn": "2026-11-01",
+        "boundaries": "Keep prices, ingredients, dietary tags and operational information plain. Gentle scares only. No real booking, ordering, allergy assurance or discount claim. The former owner is a fictional story device."
+      },
+      "copy": {
+        "headline": "The dough rises.\nSo does the owner.",
+        "introduction": "A neighborhood pizzeria for the living, the dearly departed, and anyone who said they only wanted one slice. Our founder still checks the oven. He has been off payroll since 1913. Come for blistered crust, stay for the garlic knots, and please stop asking the portrait for a discount.",
+        "actionLabel": "Inspect the slices"
+      },
+      "reference": {
+        "name": "Rest in Pizza",
+        "season": {
+          "start": "2026-10-01",
+          "end": "2026-11-01",
+          "weekdays": [
+            0,
+            4,
+            5,
+            6
+          ],
+          "timezone": "America/Chicago"
+        },
+        "hours": {
+          "open": "15:00",
+          "night": "18:00",
+          "close": "22:00",
+          "kitchenClose": "21:00",
+          "trailClose": "21:30"
+        },
+        "planner": {
+          "version": 1,
+          "storageKey": "bone-property-rest-in-pizza-visit-v1",
+          "arrivals": [
+            {
+              "value": "15:00",
+              "label": "Arrive at 15:00"
+            },
+            {
+              "value": "16:00",
+              "label": "Arrive at 16:00"
+            },
+            {
+              "value": "17:00",
+              "label": "Arrive at 17:00"
+            },
+            {
+              "value": "18:00",
+              "label": "Arrive at 18:00"
+            },
+            {
+              "value": "19:00",
+              "label": "Arrive at 19:00"
+            }
+          ],
+          "guests": {
+            "min": 1,
+            "max": 8,
+            "default": 2
+          },
+          "children": {
+            "min": 0,
+            "max": 4,
+            "default": 0
+          },
+          "freeUnderAge": 5,
+          "trailPrice": 0,
+          "arrivalMinutes": 10,
+          "stops": {
+            "pizza": {
+              "title": "The proofing room",
+              "scheduleTitle": "The proofing room",
+              "minutes": 60,
+              "detail": "Food purchased separately",
+              "location": "The proofing room"
+            },
+            "trail": {
+              "title": "The rising garden",
+              "scheduleTitle": "The rising garden",
+              "minutes": 20,
+              "detail": "Free to explore",
+              "location": "The rising garden"
+            },
+            "oddities": {
+              "title": "The lost-and-found crypt",
+              "scheduleTitle": "The lost-and-found crypt",
+              "minutes": 15,
+              "detail": "Free to browse",
+              "location": "The lost-and-found crypt"
+            }
+          },
+          "arrival": {
+            "title": "Arrive at Rest in Pizza",
+            "detail": "Find your bearings. The host is alive, employed, and prepared to help."
+          },
+          "departureTitle": "Return to ordinary business"
+        },
+        "address": {
+          "street": "13 Proofing Lane",
+          "district": "Old Dough Quarter"
+        },
+        "menuCategories": {
+          "pizzas": "Pizzas",
+          "bites": "Knots & other loose ends",
+          "sweets": "Final courses",
+          "drinks": "Spirits & soft landings"
+        },
+        "menu": {
+          "pizzas": [
+            {
+              "id": "dead-and-buried-pepperoni",
+              "name": "Dead & Buried Pepperoni",
+              "price": 22,
+              "description": "Cupped pepperoni, mozzarella, tomato, and oregano. All the evidence is under the cheese.",
+              "tags": []
+            },
+            {
+              "id": "margherita-morticia",
+              "name": "Margherita Morticia",
+              "price": 19,
+              "description": "Tomato, fresh mozzarella, basil, and olive oil. Elegantly dressed for a very short occasion.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "the-exorcist",
+              "name": "The Exorcist",
+              "price": 24,
+              "description": "Hot soppressata, roasted peppers, mozzarella, and chili honey. The heat has requested its own room.",
+              "tags": [
+                "SPICY"
+              ]
+            },
+            {
+              "id": "mushroom-afterlife",
+              "name": "Mushroom Afterlife",
+              "price": 23,
+              "description": "Roasted mushrooms, fontina, garlic cream, and thyme. Excellent conditions for returning.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "sausage-seance",
+              "name": "Sausage Séance",
+              "price": 25,
+              "description": "Fennel sausage, red onion, tomato, mozzarella, and pecorino. Everyone at the table has been summoned.",
+              "tags": []
+            },
+            {
+              "id": "little-boo-cheese",
+              "name": "Little Boo Cheese",
+              "price": 12,
+              "description": "A small tomato-and-mozzarella pie. No jump scares hidden beneath the crust.",
+              "tags": [
+                "V",
+                "KIDS"
+              ]
+            }
+          ],
+          "bites": [
+            {
+              "id": "last-rites-garlic-knots",
+              "name": "Last Rites Garlic Knots",
+              "price": 9,
+              "description": "Garlic butter, parsley, parmesan, and marinara. Best administered warm.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "burial-burrata",
+              "name": "Burial Burrata",
+              "price": 15,
+              "description": "Burrata, roast tomatoes, basil, and toasted bread. The casket is optional.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "graveyard-meatballs",
+              "name": "Graveyard Meatballs",
+              "price": 14,
+              "description": "Beef-and-pork meatballs, tomato sauce, and pecorino. Three witnesses, no statements.",
+              "tags": []
+            },
+            {
+              "id": "crypt-caesar",
+              "name": "Crypt Caesar",
+              "price": 13,
+              "description": "Romaine, parmesan, anchovy dressing, and sourdough crumbs. A long-standing regime.",
+              "tags": []
+            }
+          ],
+          "sweets": [
+            {
+              "id": "tiramisu-mortem",
+              "name": "Tiramisu Mortem",
+              "price": 10,
+              "description": "Espresso-soaked sponge, mascarpone, and cocoa. A post-supper investigation.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "dearly-departed-cannoli",
+              "name": "Dearly Departed Cannoli",
+              "price": 9,
+              "description": "Two crisp shells with sweet ricotta, chocolate, and pistachio. Neither left a forwarding address.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "haunted-sundae",
+              "name": "The Haunted Sundae",
+              "price": 8,
+              "description": "Vanilla gelato, cherry sauce, and chocolate soil. Disturb gently.",
+              "tags": [
+                "V"
+              ]
+            }
+          ],
+          "drinks": [
+            {
+              "id": "blood-orange-soda",
+              "name": "Blood Orange Soda",
+              "price": 6,
+              "description": "Blood orange, sparkling water, and a lime wedge. The name is doing the frightening part.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            },
+            {
+              "id": "little-ghost-cocoa",
+              "name": "Little Ghost Cocoa",
+              "price": 5,
+              "description": "Warm cocoa with marshmallow. For the recently chilled.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            },
+            {
+              "id": "wake-up-espresso",
+              "name": "Wake-Up Espresso",
+              "price": 4,
+              "description": "A double espresso. The owner has misunderstood its purpose.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            },
+            {
+              "id": "dead-mans-draft",
+              "name": "Dead Man’s Draft",
+              "price": 8,
+              "description": "A fictional house lager, served cold enough to raise questions.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "last-call-negroni",
+              "name": "Last Call Negroni",
+              "price": 14,
+              "description": "Gin, bitter aperitivo, and sweet vermouth. Equal parts; disputed inheritance.",
+              "tags": [
+                "21+"
+              ]
+            }
+          ]
+        },
+        "attractions": {
+          "pizzeria": {
+            "title": "The proofing room",
+            "kicker": "A proper pizza night, with one unresolved staffing matter.",
+            "image": "rest-in-pizza.svg",
+            "alt": "Ink illustration of a ghostly pizza baker, a wood-fired oven, and a rising pizza pie.",
+            "description": "Watch the oven turn out wood-fired pies while the founder’s portrait monitors portion control. The living staff handle every order. The former owner only contributes opinions, which remain unpaid.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "pizza",
+            "setting": "Indoors · Family-friendly",
+            "card": {
+              "title": "The proofing room",
+              "copy": "A proper pizza night, with one unresolved staffing matter.",
+              "alt": "Ink illustration of a ghostly pizza baker, a wood-fired oven, and a rising pizza pie.",
+              "imageLabel": "01 / THE HOUSE EXPERIENCE",
+              "kicker": "THE PROOFING ROOM",
+              "intensity": "COZY HALLOWEEN",
+              "action": "Take a look"
+            },
+            "priceLabel": "Food purchased separately"
+          },
+          "hollow": {
+            "title": "The rising garden",
+            "kicker": "A short wander while the next pie is in the oven.",
+            "image": "rest-in-pizza-map.svg",
+            "alt": "An imagined house plan showing The rising garden and the shorter return. Fictional; not to scale.",
+            "description": "A lantern-lit courtyard of herb pots, pumpkin faces, and one scarecrow on an extended lunch break. Sit for a while. The basil has heard enough family business.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "trail",
+            "setting": "Courtyard · Weather dependent",
+            "card": {
+              "title": "The rising garden",
+              "copy": "A short wander while the next pie is in the oven.",
+              "alt": "An imagined house plan showing The rising garden and the shorter return. Fictional; not to scale.",
+              "imageLabel": "02 / THE HOUSE EXPERIENCE",
+              "kicker": "THE RISING GARDEN",
+              "intensity": "COZY HALLOWEEN",
+              "action": "Take a look"
+            },
+            "priceLabel": "Free to explore"
+          },
+          "oddities": {
+            "title": "The lost-and-found crypt",
+            "kicker": "Six objects. Several unfinished shifts.",
+            "image": "oddity-raven.svg",
+            "alt": "Ink illustration of the fictional raven from Accounts guarding a small ledger.",
+            "description": "Browse the house inventory: a ghostly assistant manager, a cellar key, a postcard from a former delivery driver, and further evidence that staff meetings continue after death. Nothing here is for sale.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "oddities",
+            "setting": "Indoors · Browsing only",
+            "card": {
+              "title": "The lost-and-found crypt",
+              "copy": "Six objects. Several unfinished shifts.",
+              "alt": "Ink illustration of the fictional raven from Accounts guarding a small ledger.",
+              "imageLabel": "03 / THE HOUSE EXPERIENCE",
+              "kicker": "THE LOST-AND-FOUND CRYPT",
+              "intensity": "COZY HALLOWEEN",
+              "action": "Take a look"
+            },
+            "priceLabel": "Free to browse"
+          }
+        },
+        "moods": {
+          "day": {
+            "title": "Arrive before the candles.",
+            "copy": "Ease into a fictional Halloween evening at Rest in Pizza.",
+            "features": [
+              "Browse the menu",
+              "Meet the house atmosphere",
+              "Take the visit at your own pace"
+            ],
+            "timeDetail": "EARLY SUPPER",
+            "label": "Before dark"
+          },
+          "night": {
+            "title": "Let the evening acquire a reputation.",
+            "copy": "Candlelight, pumpkin lanterns and a house with opinions.",
+            "features": [
+              "Settle in for supper",
+              "Explore the house collection",
+              "Linger without a compulsory itinerary"
+            ],
+            "timeDetail": "HALLOWEEN AFTER DARK",
+            "label": "After dark"
+          }
+        },
+        "disclosures": {
+          "menu": "V = vegetarian ingredients. This fictional menu is not an allergy assurance. A real kitchen must confirm ingredients, preparation and cross-contact. Alcoholic drinks are marked 21+.",
+          "access": "Fictional design intentions include step-free dining and flexible seating; no real facilities have been established.",
+          "sensory": "Halloween decorations and theatrical lighting are imagined. No strobes, chasing or touching are part of the concept.",
+          "weather": "Outdoor areas are fictional and weather dependent. These are imagined facilities, not verified access or operating policies.",
+          "estimate": "Food and drinks are purchased separately. Optional spaces and the collection are for exploring only. No booking, ticket or payment is offered.",
+          "admission": "All ages in this fictional concept; children stay with their grown-ups."
+        },
+        "featured": [
+          {
+            "id": "dead-and-buried-pepperoni",
+            "image": "rest-in-pizza.svg",
+            "alt": "Ink illustration of a ghostly pizza baker, a wood-fired oven, and a rising pizza pie.",
+            "badge": "THE HOUSE SPECIAL",
+            "description": "Cupped pepperoni, mozzarella, tomato, and oregano. All the evidence is under the cheese.",
+            "note": "COMPLIMENTS TO THE LIVING CHEF."
+          },
+          {
+            "id": "margherita-morticia",
+            "image": "rest-in-pizza.svg",
+            "alt": "Ink illustration of a ghostly pizza baker, a wood-fired oven, and a rising pizza pie.",
+            "badge": "A LOCAL RUMOR",
+            "description": "Tomato, fresh mozzarella, basil, and olive oil. Elegantly dressed for a very short occasion.",
+            "note": "THE HOUSE HAS AN OPINION."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is this a real restaurant?",
+            "answer": "No. Rest in Pizza is a fictional Halloween parody property. Names, food, prices, facilities and policies are invented for creative exploration.",
+            "open": true
+          },
+          {
+            "question": "Who is this concept for?",
+            "answer": "Families, hungry friend groups, pizza devotees, and anyone who prefers a cozy haunting to a jump scare.",
+            "open": false
+          },
+          {
+            "question": "Can I book or order here?",
+            "answer": "This creator workspace and its marketing pack do not accept bookings, orders, payments or mailing-list subscriptions.",
+            "open": false
+          },
+          {
+            "question": "What about allergies and access?",
+            "answer": "Ingredients and V tags are working copy, not allergy assurances. Access and sensory details are fictional intentions and require real-world confirmation before use.",
+            "open": false
+          },
+          {
+            "question": "Do the outdoor spaces cost extra?",
+            "answer": "No. The imagined house spaces and collection are free to explore; food and drinks have separate menu prices. You can skip any part of the itinerary. All ages in this fictional concept; children stay with their grown-ups.",
+            "open": false
+          },
+          {
+            "question": "How does the visit planner work?",
+            "answer": "Choose a concept date, an offered arrival, your party size and the spaces you want to explore. Save keeps the plan in this browser for this property. Downloads are fictional itineraries, not tickets or reservations.",
+            "open": false
+          },
+          {
+            "question": "What happens after dark?",
+            "answer": "Halloween decorations and theatrical lighting are imagined. No strobes, chasing or touching are part of the concept. Outdoor spaces are weather dependent. No real facilities or operating policies are promised.",
+            "open": false
+          }
+        ],
+        "oddities": [
+          {
+            "id": "employee-of-the-month",
+            "name": "The Former Assistant Manager",
+            "image": "oddity-ghost.svg",
+            "alt": "Ink illustration of a small ceramic ghost wearing an employee award.",
+            "material": "Glazed ceramic · Still on the rota",
+            "copy": "The ghost claims it was promised a permanent position. Accounts says the wording was unfortunate.",
+            "origin": "The house collection at Rest in Pizza.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "unlisted-room-key",
+            "name": "The Cellar Key",
+            "image": "oddity-key.svg",
+            "alt": "Ink illustration of an old brass key with a tag marked 13.",
+            "material": "Brass · Access disputed",
+            "copy": "Opens a room the floor plan describes as a filing error.",
+            "origin": "The house collection at Rest in Pizza.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "next-thursday-postcard",
+            "name": "Postcard from the Previous Owner",
+            "image": "oddity-postcard.svg",
+            "alt": "Illustrated postcard showing the haunted house beneath an autumn moon.",
+            "material": "Printed card · Forwarding address uncertain",
+            "copy": "The previous owner says business is looking up. The postmark suggests otherwise.",
+            "origin": "The house collection at Rest in Pizza.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "pumpkin-visitor-badge",
+            "name": "The Pumpkin’s Staff Badge",
+            "image": "oddity-pin.svg",
+            "alt": "Ink illustration of an enamel pumpkin pin with a visitor ribbon.",
+            "material": "Enamel pin · Seasonal appointment",
+            "copy": "Passed induction. Has yet to complete the knife-safety module.",
+            "origin": "The house collection at Rest in Pizza.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "unresolved-business-magnet",
+            "name": "The Unsettled Tab",
+            "image": "oddity-magnet.svg",
+            "alt": "Illustrated souvenir magnet depicting the house, with a receipt attached.",
+            "material": "Souvenir magnet · Strong attachment",
+            "copy": "Keeps returning to the invoice. The finance team calls this retention.",
+            "origin": "The house collection at Rest in Pizza.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "raven-from-accounts",
+            "name": "The Raven from Accounts",
+            "image": "oddity-raven.svg",
+            "alt": "Ink illustration of a black raven figurine perched on a small ledger.",
+            "material": "Painted resin · Receipt retained",
+            "copy": "An excellent attendance record. An extremely conservative approach to expenses.",
+            "origin": "The house collection at Rest in Pizza.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          }
+        ],
+        "map": {
+          "image": "rest-in-pizza-map.svg",
+          "title": "The house, according to management.",
+          "caption": "A fictional floor plan. The walls have not signed off.",
+          "disclosure": "Fictional schematic, not to scale. Facilities, routes and access are imagined; this is not real navigation.",
+          "locations": [
+            {
+              "number": 1,
+              "name": "The proofing room",
+              "attraction": "pizzeria",
+              "stop": "pizza",
+              "detail": "Imagined location at Rest in Pizza."
+            },
+            {
+              "number": 2,
+              "name": "The lost-and-found crypt",
+              "attraction": "oddities",
+              "stop": "oddities",
+              "detail": "Imagined location at Rest in Pizza."
+            },
+            {
+              "number": 3,
+              "name": "The rising garden",
+              "attraction": "hollow",
+              "stop": "trail",
+              "detail": "Imagined location at Rest in Pizza."
+            },
+            {
+              "number": 4,
+              "name": "Rest bench",
+              "detail": "Imagined location at Rest in Pizza."
+            },
+            {
+              "number": 5,
+              "name": "Shorter return",
+              "detail": "Imagined location at Rest in Pizza."
+            },
+            {
+              "number": 6,
+              "name": "House entrance",
+              "detail": "Imagined location at Rest in Pizza."
+            }
+          ]
+        },
+        "fieldNotes": {
+          "form": "FORM 013 · DEPARTMENT OF RETURN CUSTOMERS",
+          "title": "Field notes from Rest in Pizza",
+          "stamp": "FICTIONAL VISIT",
+          "houseNotes": {
+            "pizza": "The table is yours. The family paperwork is not.",
+            "trail": "Fresh air does not require a committee vote.",
+            "oddities": "Browsing is encouraged. Provenance is a group project.",
+            "grounds": "A look around is enough. No stop is compulsory."
+          }
+        },
+        "branding": {
+          "propertyId": "rest-in-pizza",
+          "hero": "rest-in-pizza.svg",
+          "heroAlt": "Ink illustration of a ghostly pizza baker, a wood-fired oven, and a rising pizza pie."
+        }
+      }
+    },
+    {
+      "id": "grave-expectations",
+      "type": "Upscale steakhouse",
+      "summary": "An absurdly elegant chop house where the steaks are aged and the committee is older.",
+      "brief": {
+        "audience": "Adult diners planning date nights, celebrations, and an elegant Halloween supper with a dry sense of humor.",
+        "objective": "Present a premium steakhouse concept with clear menu pricing and a satirical old-money hospitality voice.",
+        "occasion": "Halloween supper service for special occasions and otherwise ordinary Thursdays.",
+        "offer": "Seared steaks, candlelit tables, and a cellar with excellent references. Inheritance sold separately.",
+        "callToAction": "Explore the cuts and imagine an evening at the chop house.",
+        "tone": "Elegant, dry, ceremonious and gently ridiculous. Target status theater, inherited privilege and overexplained hospitality.",
+        "channels": "Landing page, printed menu insert, social posts, email draft and poster",
+        "startsOn": "2026-10-01",
+        "endsOn": "2026-11-01",
+        "boundaries": "Keep the premium dining experience plausible and the satire affectionate. No fabricated awards, provenance, aging durations, wine vintages, critic quotes or real reservation availability. Menus and access details are fictional."
+      },
+      "copy": {
+        "headline": "A cut above.\nSix feet below.",
+        "introduction": "An intimate chop house for people who enjoy a good steak and a lengthy explanation of the chair. Expect seared cuts, restrained candlelight, and a cellar committee whose members have technically stopped attending. Our maître d’ can find your table. Your ancestral seat is another department.",
+        "actionLabel": "Peruse the cuts"
+      },
+      "reference": {
+        "name": "Grave Expectations Chop House",
+        "season": {
+          "start": "2026-10-01",
+          "end": "2026-11-01",
+          "weekdays": [
+            0,
+            4,
+            5,
+            6
+          ],
+          "timezone": "America/Chicago"
+        },
+        "hours": {
+          "open": "17:00",
+          "night": "18:00",
+          "close": "23:00",
+          "kitchenClose": "22:00",
+          "trailClose": "22:30"
+        },
+        "planner": {
+          "version": 1,
+          "storageKey": "bone-property-grave-expectations-visit-v1",
+          "arrivals": [
+            {
+              "value": "17:00",
+              "label": "Arrive at 17:00"
+            },
+            {
+              "value": "18:00",
+              "label": "Arrive at 18:00"
+            },
+            {
+              "value": "19:00",
+              "label": "Arrive at 19:00"
+            },
+            {
+              "value": "20:00",
+              "label": "Arrive at 20:00"
+            }
+          ],
+          "guests": {
+            "min": 1,
+            "max": 8,
+            "default": 2
+          },
+          "children": {
+            "min": 0,
+            "max": 4,
+            "default": 0
+          },
+          "freeUnderAge": 5,
+          "trailPrice": 0,
+          "arrivalMinutes": 10,
+          "stops": {
+            "pizza": {
+              "title": "The candlelit dining room",
+              "scheduleTitle": "The candlelit dining room",
+              "minutes": 60,
+              "detail": "Food purchased separately",
+              "location": "The candlelit dining room"
+            },
+            "trail": {
+              "title": "The mourning terrace",
+              "scheduleTitle": "The mourning terrace",
+              "minutes": 20,
+              "detail": "Free to enjoy",
+              "location": "The mourning terrace"
+            },
+            "oddities": {
+              "title": "The ancestral cabinet",
+              "scheduleTitle": "The ancestral cabinet",
+              "minutes": 15,
+              "detail": "Free to browse",
+              "location": "The ancestral cabinet"
+            }
+          },
+          "arrival": {
+            "title": "Arrive at Grave Expectations Chop House",
+            "detail": "Find your bearings. The host is alive, employed, and prepared to help."
+          },
+          "departureTitle": "Return to ordinary business"
+        },
+        "address": {
+          "street": "1 Inheritance Row",
+          "district": "Upper Mourning"
+        },
+        "menuCategories": {
+          "pizzas": "Steaks & main courses",
+          "bites": "Opening statements",
+          "sweets": "The final settlement",
+          "drinks": "Cellar & civil refreshments"
+        },
+        "menu": {
+          "pizzas": [
+            {
+              "id": "ribeye-in-perpetuity",
+              "name": "Ribeye in Perpetuity",
+              "price": 68,
+              "description": "A 14 oz ribeye with peppercorn butter and roasted shallot. A substantial estate.",
+              "tags": []
+            },
+            {
+              "id": "filet-of-the-deceased",
+              "name": "Filet of the Deceased",
+              "price": 62,
+              "description": "An 8 oz filet with red-wine jus and glazed shallots. Impeccably tender. Professionally discreet.",
+              "tags": []
+            },
+            {
+              "id": "the-heir-apparent-strip",
+              "name": "The Heir Apparent Strip",
+              "price": 64,
+              "description": "A 12 oz strip steak with bone-marrow butter. Succession has never looked so well seared.",
+              "tags": []
+            },
+            {
+              "id": "porterhouse-for-the-executors",
+              "name": "Porterhouse for the Executors",
+              "price": 138,
+              "description": "A 32 oz porterhouse to share, with herb butter and roast garlic. Requires two signatures.",
+              "tags": []
+            },
+            {
+              "id": "lamb-of-the-last-testament",
+              "name": "Lamb of the Last Testament",
+              "price": 54,
+              "description": "Roasted lamb chops, rosemary jus, and fondant potato. Please initial beside the mint.",
+              "tags": []
+            },
+            {
+              "id": "mushroom-mausoleum",
+              "name": "Mushroom Mausoleum",
+              "price": 34,
+              "description": "Roasted portobello, wild-mushroom ragout, parmesan polenta, and thyme butter. A fine place to settle.",
+              "tags": [
+                "V"
+              ]
+            }
+          ],
+          "bites": [
+            {
+              "id": "estate-tartare",
+              "name": "Estate Tartare",
+              "price": 24,
+              "description": "Hand-cut beef, capers, shallot, egg yolk, and toasted sourdough. Served raw; the family requested transparency.",
+              "tags": []
+            },
+            {
+              "id": "ancestral-onion-soup",
+              "name": "Ancestral Onion Soup",
+              "price": 18,
+              "description": "Slow-cooked onion in beef broth, Gruyère toast, and a lid of quiet authority.",
+              "tags": []
+            },
+            {
+              "id": "buried-bone-marrow",
+              "name": "Buried Bone Marrow",
+              "price": 22,
+              "description": "Roasted bone marrow, parsley salad, and sourdough. The trustees approve of spreading the wealth.",
+              "tags": []
+            },
+            {
+              "id": "heirloom-wedge",
+              "name": "The Heirloom Wedge",
+              "price": 17,
+              "description": "Iceberg, blue cheese, tomato, and chive dressing. Old money, newly chilled.",
+              "tags": [
+                "V"
+              ]
+            }
+          ],
+          "sweets": [
+            {
+              "id": "creme-brulee-bequest",
+              "name": "Crème Brûlée Bequest",
+              "price": 15,
+              "description": "Vanilla custard beneath a brittle caramel lid. Break the seal in the presence of witnesses.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "black-tie-forest",
+              "name": "Black Tie Forest",
+              "price": 16,
+              "description": "Chocolate cake, cherries, and whipped cream. Formalwear for a very dark wood.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "the-cheese-executor",
+              "name": "The Cheese Executor",
+              "price": 21,
+              "description": "Three cheeses with fruit preserve and crackers. Distribution at the discretion of the table.",
+              "tags": [
+                "V"
+              ]
+            }
+          ],
+          "drinks": [
+            {
+              "id": "old-money-fashioned",
+              "name": "Old Money Fashioned",
+              "price": 19,
+              "description": "Bourbon, bitters, sugar, and orange oils. A small fortune on a large cube.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "widows-martini",
+              "name": "Widow’s Martini",
+              "price": 20,
+              "description": "Gin, dry vermouth, and a lemon twist. Very dry; the condolences are optional.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "house-red-in-trust",
+              "name": "House Red in Trust",
+              "price": 16,
+              "description": "A fictional house red by the glass. Vintage and producer await the cellar’s written statement.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "bloodline-fizz",
+              "name": "Bloodline Fizz",
+              "price": 12,
+              "description": "Blood orange, rosemary, lemon, and sparkling water. No disputed parentage.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            },
+            {
+              "id": "the-designated-heir",
+              "name": "The Designated Heir",
+              "price": 7,
+              "description": "Blackcurrant, lime, and soda. Someone must get the estate home.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            }
+          ]
+        },
+        "attractions": {
+          "pizzeria": {
+            "title": "The candlelit dining room",
+            "kicker": "An evening of excellent cuts and inherited confidence.",
+            "image": "grave-expectations.svg",
+            "alt": "Ink illustration of a formal steakhouse table, a cloche, and a chandelier with a ghostly guest.",
+            "description": "Settle into a candlelit room where the service is composed and the portraits are not. Choose a cut, take your time, and allow the maître d’ to explain a chair that has never asked for representation.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "pizza",
+            "setting": "Indoors · Quiet supper",
+            "card": {
+              "title": "The candlelit dining room",
+              "copy": "An evening of excellent cuts and inherited confidence.",
+              "alt": "Ink illustration of a formal steakhouse table, a cloche, and a chandelier with a ghostly guest.",
+              "imageLabel": "01 / THE HOUSE EXPERIENCE",
+              "kicker": "THE CANDLELIT DINING ROOM",
+              "intensity": "COZY HALLOWEEN",
+              "action": "Take a look"
+            },
+            "priceLabel": "Food purchased separately"
+          },
+          "hollow": {
+            "title": "The mourning terrace",
+            "kicker": "Fresh air for the recently overindulged.",
+            "image": "grave-expectations-map.svg",
+            "alt": "An imagined house plan showing The mourning terrace and the shorter return. Fictional; not to scale.",
+            "description": "A sheltered terrace offers pumpkin lanterns and a useful distance from anyone discussing their cellar. The hedges have been shaped by generations of people with very little else to do.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "trail",
+            "setting": "Terrace · Weather dependent",
+            "card": {
+              "title": "The mourning terrace",
+              "copy": "Fresh air for the recently overindulged.",
+              "alt": "An imagined house plan showing The mourning terrace and the shorter return. Fictional; not to scale.",
+              "imageLabel": "02 / THE HOUSE EXPERIENCE",
+              "kicker": "THE MOURNING TERRACE",
+              "intensity": "COZY HALLOWEEN",
+              "action": "Take a look"
+            },
+            "priceLabel": "Free to enjoy"
+          },
+          "oddities": {
+            "title": "The ancestral cabinet",
+            "kicker": "Provenance presented with exceptional posture.",
+            "image": "oddity-raven.svg",
+            "alt": "Ink illustration of the fictional raven from Accounts guarding a small ledger.",
+            "description": "Six objects from the family collection, each accompanied by a confident label and a conspicuous absence of supporting evidence. The raven oversees expenses. It has declined the lighting budget.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "oddities",
+            "setting": "Indoors · Browsing only",
+            "card": {
+              "title": "The ancestral cabinet",
+              "copy": "Provenance presented with exceptional posture.",
+              "alt": "Ink illustration of the fictional raven from Accounts guarding a small ledger.",
+              "imageLabel": "03 / THE HOUSE EXPERIENCE",
+              "kicker": "THE ANCESTRAL CABINET",
+              "intensity": "COZY HALLOWEEN",
+              "action": "Take a look"
+            },
+            "priceLabel": "Free to browse"
+          }
+        },
+        "moods": {
+          "day": {
+            "title": "Arrive before the candles.",
+            "copy": "Ease into a fictional Halloween evening at Grave Expectations Chop House.",
+            "features": [
+              "Browse the menu",
+              "Meet the house atmosphere",
+              "Take the visit at your own pace"
+            ],
+            "timeDetail": "EARLY SUPPER",
+            "label": "Before dark"
+          },
+          "night": {
+            "title": "Let the evening acquire a reputation.",
+            "copy": "Candlelight, pumpkin lanterns and a house with opinions.",
+            "features": [
+              "Settle in for supper",
+              "Explore the house collection",
+              "Linger without a compulsory itinerary"
+            ],
+            "timeDetail": "HALLOWEEN AFTER DARK",
+            "label": "After dark"
+          }
+        },
+        "disclosures": {
+          "menu": "V = vegetarian ingredients. This fictional menu is not an allergy assurance. A real kitchen must confirm ingredients, preparation and cross-contact. Alcoholic drinks are marked 21+. Estate Tartare contains raw beef.",
+          "access": "Fictional design intentions include step-free dining and flexible seating; no real facilities have been established.",
+          "sensory": "Halloween decorations and theatrical lighting are imagined. No strobes, chasing or touching are part of the concept.",
+          "weather": "Outdoor areas are fictional and weather dependent. These are imagined facilities, not verified access or operating policies.",
+          "estimate": "Food and drinks are purchased separately. Optional spaces and the collection are for exploring only. No booking, ticket or payment is offered.",
+          "admission": "Quiet dining concept; children are welcome with their grown-ups. Alcoholic drinks are marked 21+."
+        },
+        "featured": [
+          {
+            "id": "ribeye-in-perpetuity",
+            "image": "grave-expectations.svg",
+            "alt": "Ink illustration of a formal steakhouse table, a cloche, and a chandelier with a ghostly guest.",
+            "badge": "THE HOUSE SPECIAL",
+            "description": "A 14 oz ribeye with peppercorn butter and roasted shallot. A substantial estate.",
+            "note": "COMPLIMENTS TO THE LIVING CHEF."
+          },
+          {
+            "id": "filet-of-the-deceased",
+            "image": "grave-expectations.svg",
+            "alt": "Ink illustration of a formal steakhouse table, a cloche, and a chandelier with a ghostly guest.",
+            "badge": "A LOCAL RUMOR",
+            "description": "An 8 oz filet with red-wine jus and glazed shallots. Impeccably tender. Professionally discreet.",
+            "note": "THE HOUSE HAS AN OPINION."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is this a real restaurant?",
+            "answer": "No. Grave Expectations Chop House is a fictional Halloween parody property. Names, food, prices, facilities and policies are invented for creative exploration.",
+            "open": true
+          },
+          {
+            "question": "Who is this concept for?",
+            "answer": "Adult diners planning date nights, celebrations, and an elegant Halloween supper with a dry sense of humor.",
+            "open": false
+          },
+          {
+            "question": "Can I book or order here?",
+            "answer": "This creator workspace and its marketing pack do not accept bookings, orders, payments or mailing-list subscriptions.",
+            "open": false
+          },
+          {
+            "question": "What about allergies and access?",
+            "answer": "Ingredients and V tags are working copy, not allergy assurances. Access and sensory details are fictional intentions and require real-world confirmation before use.",
+            "open": false
+          },
+          {
+            "question": "Do the outdoor spaces cost extra?",
+            "answer": "No. The imagined house spaces and collection are free to explore; food and drinks have separate menu prices. You can skip any part of the itinerary. Quiet dining concept; children are welcome with their grown-ups. Alcoholic drinks are marked 21+.",
+            "open": false
+          },
+          {
+            "question": "How does the visit planner work?",
+            "answer": "Choose a concept date, an offered arrival, your party size and the spaces you want to explore. Save keeps the plan in this browser for this property. Downloads are fictional itineraries, not tickets or reservations.",
+            "open": false
+          },
+          {
+            "question": "What happens after dark?",
+            "answer": "Halloween decorations and theatrical lighting are imagined. No strobes, chasing or touching are part of the concept. Outdoor spaces are weather dependent. No real facilities or operating policies are promised.",
+            "open": false
+          }
+        ],
+        "oddities": [
+          {
+            "id": "employee-of-the-month",
+            "name": "The Former Assistant Manager",
+            "image": "oddity-ghost.svg",
+            "alt": "Ink illustration of a small ceramic ghost wearing an employee award.",
+            "material": "Glazed ceramic · Still on the rota",
+            "copy": "The ghost claims it was promised a permanent position. Accounts says the wording was unfortunate.",
+            "origin": "The house collection at Grave Expectations Chop House.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "unlisted-room-key",
+            "name": "The Cellar Key",
+            "image": "oddity-key.svg",
+            "alt": "Ink illustration of an old brass key with a tag marked 13.",
+            "material": "Brass · Access disputed",
+            "copy": "Opens a room the floor plan describes as a filing error.",
+            "origin": "The house collection at Grave Expectations Chop House.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "next-thursday-postcard",
+            "name": "Postcard from the Previous Owner",
+            "image": "oddity-postcard.svg",
+            "alt": "Illustrated postcard showing the haunted house beneath an autumn moon.",
+            "material": "Printed card · Forwarding address uncertain",
+            "copy": "The previous owner says business is looking up. The postmark suggests otherwise.",
+            "origin": "The house collection at Grave Expectations Chop House.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "pumpkin-visitor-badge",
+            "name": "The Pumpkin’s Staff Badge",
+            "image": "oddity-pin.svg",
+            "alt": "Ink illustration of an enamel pumpkin pin with a visitor ribbon.",
+            "material": "Enamel pin · Seasonal appointment",
+            "copy": "Passed induction. Has yet to complete the knife-safety module.",
+            "origin": "The house collection at Grave Expectations Chop House.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "unresolved-business-magnet",
+            "name": "The Unsettled Tab",
+            "image": "oddity-magnet.svg",
+            "alt": "Illustrated souvenir magnet depicting the house, with a receipt attached.",
+            "material": "Souvenir magnet · Strong attachment",
+            "copy": "Keeps returning to the invoice. The finance team calls this retention.",
+            "origin": "The house collection at Grave Expectations Chop House.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "raven-from-accounts",
+            "name": "The Raven from Accounts",
+            "image": "oddity-raven.svg",
+            "alt": "Ink illustration of a black raven figurine perched on a small ledger.",
+            "material": "Painted resin · Receipt retained",
+            "copy": "An excellent attendance record. An extremely conservative approach to expenses.",
+            "origin": "The house collection at Grave Expectations Chop House.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          }
+        ],
+        "map": {
+          "image": "grave-expectations-map.svg",
+          "title": "The house, according to management.",
+          "caption": "A fictional floor plan. The walls have not signed off.",
+          "disclosure": "Fictional schematic, not to scale. Facilities, routes and access are imagined; this is not real navigation.",
+          "locations": [
+            {
+              "number": 1,
+              "name": "The candlelit dining room",
+              "attraction": "pizzeria",
+              "stop": "pizza",
+              "detail": "Imagined location at Grave Expectations Chop House."
+            },
+            {
+              "number": 2,
+              "name": "The ancestral cabinet",
+              "attraction": "oddities",
+              "stop": "oddities",
+              "detail": "Imagined location at Grave Expectations Chop House."
+            },
+            {
+              "number": 3,
+              "name": "The mourning terrace",
+              "attraction": "hollow",
+              "stop": "trail",
+              "detail": "Imagined location at Grave Expectations Chop House."
+            },
+            {
+              "number": 4,
+              "name": "Rest bench",
+              "detail": "Imagined location at Grave Expectations Chop House."
+            },
+            {
+              "number": 5,
+              "name": "Shorter return",
+              "detail": "Imagined location at Grave Expectations Chop House."
+            },
+            {
+              "number": 6,
+              "name": "House entrance",
+              "detail": "Imagined location at Grave Expectations Chop House."
+            }
+          ]
+        },
+        "fieldNotes": {
+          "form": "FORM 013 · DEPARTMENT OF RETURN CUSTOMERS",
+          "title": "Field notes from Grave Expectations Chop House",
+          "stamp": "FICTIONAL VISIT",
+          "houseNotes": {
+            "pizza": "The table is yours. The family paperwork is not.",
+            "trail": "Fresh air does not require a committee vote.",
+            "oddities": "Browsing is encouraged. Provenance is a group project.",
+            "grounds": "A look around is enough. No stop is compulsory."
+          }
+        },
+        "branding": {
+          "propertyId": "grave-expectations",
+          "hero": "grave-expectations.svg",
+          "heroAlt": "Ink illustration of a formal steakhouse table, a cloche, and a chandelier with a ghostly guest."
+        }
+      }
+    },
+    {
+      "id": "boobies-lodge",
+      "type": "21+ Halloween sports lodge",
+      "summary": "Smoked rib racks, cold drafts, monster games, and cheerfully shameless lodge hospitality.",
+      "brief": {
+        "audience": "Adults 21+ seeking sports-bar food, game-night atmosphere, Halloween camp and cheeky lodge hospitality.",
+        "objective": "Introduce a distinct fictional adult sports-lodge property and invite readers to browse its food and game-night concept.",
+        "occasion": "Halloween game nights, friend-group outings, and extremely unofficial monster playoffs.",
+        "offer": "Smoked rib racks, cold drafts, monster-game screens, and a 21+ lodge where the staff are suspiciously lively.",
+        "callToAction": "Browse the racks and imagine a fictional 21+ lodge night.",
+        "tone": "Cheeky adult double entendres, lumberjack pin-up camp, ghost stories and sports-bar excess. The rib racks can take a joke.",
+        "channels": "Landing page, printed menu insert, social posts, email draft and poster",
+        "startsOn": "2026-10-01",
+        "endsOn": "2026-11-01",
+        "boundaries": "All hosts and guests are adults 21+. Keep it suggestive and non-explicit. Staff are people, not prizes; no touching or harassment. Satirize sports-lodge marketing, not bodies. Original fictional property; no affiliation with Twin Peaks or another chain. No real games, dates, promotions, bookings or orders promised."
+      },
+      "copy": {
+        "headline": "Great racks.\nGrave decisions.",
+        "introduction": "A 21+ Halloween sports lodge serving smoked rib racks, cold drafts, and enough screens to monitor a minor apocalypse. Our adult hosts wear campy lumberjack pin-up uniforms; the ghosts wear whatever they died in. Come for the game. Stay because overtime has become a supernatural event.",
+        "actionLabel": "Check out the lodge"
+      },
+      "reference": {
+        "name": "BooBies Lodge",
+        "season": {
+          "start": "2026-10-01",
+          "end": "2026-11-01",
+          "weekdays": [
+            0,
+            4,
+            5,
+            6
+          ],
+          "timezone": "America/Chicago"
+        },
+        "hours": {
+          "open": "15:00",
+          "night": "18:00",
+          "close": "23:00",
+          "kitchenClose": "22:00",
+          "trailClose": "22:30"
+        },
+        "planner": {
+          "version": 1,
+          "storageKey": "bone-property-boobies-lodge-visit-v1",
+          "arrivals": [
+            {
+              "value": "15:00",
+              "label": "Arrive at 15:00"
+            },
+            {
+              "value": "16:00",
+              "label": "Arrive at 16:00"
+            },
+            {
+              "value": "17:00",
+              "label": "Arrive at 17:00"
+            },
+            {
+              "value": "18:00",
+              "label": "Arrive at 18:00"
+            },
+            {
+              "value": "19:00",
+              "label": "Arrive at 19:00"
+            },
+            {
+              "value": "20:00",
+              "label": "Arrive at 20:00"
+            }
+          ],
+          "guests": {
+            "min": 1,
+            "max": 8,
+            "default": 2
+          },
+          "children": {
+            "min": 0,
+            "max": 0,
+            "default": 0
+          },
+          "freeUnderAge": 21,
+          "trailPrice": 0,
+          "arrivalMinutes": 10,
+          "stops": {
+            "pizza": {
+              "title": "The main-event lodge",
+              "scheduleTitle": "The main-event lodge",
+              "minutes": 60,
+              "detail": "Food and drinks purchased separately",
+              "location": "The main-event lodge"
+            },
+            "trail": {
+              "title": "The afterlife beer garden",
+              "scheduleTitle": "The afterlife beer garden",
+              "minutes": 20,
+              "detail": "Free for lodge guests 21+",
+              "location": "The afterlife beer garden"
+            },
+            "oddities": {
+              "title": "The trophy crypt",
+              "scheduleTitle": "The trophy crypt",
+              "minutes": 15,
+              "detail": "Free for lodge guests 21+",
+              "location": "The trophy crypt"
+            }
+          },
+          "arrival": {
+            "title": "Arrive at BooBies Lodge",
+            "detail": "Find your bearings. The host is alive, employed, and prepared to help."
+          },
+          "departureTitle": "Return to ordinary business"
+        },
+        "address": {
+          "street": "69 Deadwood Drive",
+          "district": "Upper Boo County"
+        },
+        "menuCategories": {
+          "pizzas": "Racks, stacks & main events",
+          "bites": "Opening boos",
+          "sweets": "Overtime sweets",
+          "drinks": "Cold drafts & other spirits"
+        },
+        "menu": {
+          "pizzas": [
+            {
+              "id": "the-great-rack",
+              "name": "The Great Rack",
+              "price": 32,
+              "description": "A half rack of smoked pork ribs, bourbon barbecue glaze, slaw, and fries. Bone structure: outstanding.",
+              "tags": []
+            },
+            {
+              "id": "double-dare-rack",
+              "name": "Double Dare Rack",
+              "price": 49,
+              "description": "A full rack of smoked pork ribs with slaw and fries. For ambitious appetites and shared custody of the napkins.",
+              "tags": []
+            },
+            {
+              "id": "resting-witch-burger",
+              "name": "Resting Witch Burger",
+              "price": 21,
+              "description": "A beef patty, smoked cheddar, bacon, pickles, and lodge sauce. A severe expression, a warm center.",
+              "tags": []
+            },
+            {
+              "id": "hot-ghoul-chicken",
+              "name": "Hot Ghoul Chicken",
+              "price": 20,
+              "description": "Crispy chicken, chili glaze, pickles, and slaw on a bun. The heat signed its own waiver.",
+              "tags": [
+                "SPICY"
+              ]
+            },
+            {
+              "id": "deadwood-smash",
+              "name": "Deadwood Smash",
+              "price": 22,
+              "description": "Two beef patties, American cheese, griddled onion, and mustard. Two hits, no comeback.",
+              "tags": []
+            },
+            {
+              "id": "the-veggie-vixen",
+              "name": "The Veggie Vixen",
+              "price": 19,
+              "description": "A bean-and-mushroom patty, cheddar, lettuce, and tomato relish. No meat, plenty of main-character energy.",
+              "tags": [
+                "V"
+              ]
+            }
+          ],
+          "bites": [
+            {
+              "id": "boo-bites-wings",
+              "name": "Boo Bites Wings",
+              "price": 17,
+              "description": "Chicken wings with buffalo sauce and blue-cheese dip. A little flapping never hurt a scoreboard.",
+              "tags": [
+                "SPICY"
+              ]
+            },
+            {
+              "id": "loaded-lumberjacks",
+              "name": "Loaded Lumberjacks",
+              "price": 15,
+              "description": "Fries, smoked pork, cheddar, scallions, and lodge sauce. Off-duty forestry work.",
+              "tags": []
+            },
+            {
+              "id": "haunted-hoops",
+              "name": "Haunted Hoops",
+              "price": 12,
+              "description": "Beer-battered onion rings and ranch dip. Circles of questionable influence.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "nachos-of-the-living-dead",
+              "name": "Nachos of the Living Dead",
+              "price": 16,
+              "description": "Corn chips, black beans, queso, jalapeños, salsa, and sour cream. They keep coming back.",
+              "tags": [
+                "V",
+                "SPICY"
+              ]
+            }
+          ],
+          "sweets": [
+            {
+              "id": "cheesecake-after-dark",
+              "name": "Cheesecake After Dark",
+              "price": 11,
+              "description": "Vanilla cheesecake, blackberry sauce, and chocolate crumbs. A very tasteful scandal.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "brownie-points-afterlife",
+              "name": "Afterlife Brownie Points",
+              "price": 10,
+              "description": "Warm chocolate brownie, vanilla ice cream, and caramel. Reputation management by the spoonful.",
+              "tags": [
+                "V"
+              ]
+            },
+            {
+              "id": "pumpkin-spice-sinner",
+              "name": "Pumpkin Spice Sinner",
+              "price": 10,
+              "description": "Pumpkin bread pudding, cinnamon cream, and caramel. Confession available on the feedback card.",
+              "tags": [
+                "V"
+              ]
+            }
+          ],
+          "drinks": [
+            {
+              "id": "cold-shoulder-lager",
+              "name": "Cold Shoulder Lager",
+              "price": 8,
+              "description": "A fictional house lager. Colder than a ghosted group chat.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "lumberjack-o-lantern",
+              "name": "Lumberjack-o’-Lantern",
+              "price": 15,
+              "description": "Bourbon, apple, lemon, and cinnamon. Plaid in a glass.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "resting-beach-face",
+              "name": "Resting Beach Face",
+              "price": 15,
+              "description": "Rum, pineapple, lime, and a splash of ginger. The lodge has no beach; management has commissioned a sign.",
+              "tags": [
+                "21+"
+              ]
+            },
+            {
+              "id": "designated-monster",
+              "name": "Designated Monster",
+              "price": 8,
+              "description": "Blackberry, lime, mint, and soda. Fully present, suspiciously responsible.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            },
+            {
+              "id": "banshee-ginger-fizz",
+              "name": "Banshee Ginger Fizz",
+              "price": 7,
+              "description": "Ginger beer, orange, lime, and sparkling water. Considerably quieter than advertised.",
+              "tags": [
+                "ZERO-PROOF"
+              ]
+            }
+          ]
+        },
+        "attractions": {
+          "pizzeria": {
+            "title": "The main-event lodge",
+            "kicker": "Every screen has a game. Every booth has a theory.",
+            "image": "boobies-lodge.svg",
+            "alt": "Ink illustration of a Halloween sports lodge with rib racks, cold drinks, pumpkins, and a monster-game scoreboard.",
+            "description": "Settle into a timber-lined room with monster-game screens, smoky plates, and adult hosts in campy pin-up lumberjack uniforms. The only mandatory contact is between the ribs and the barbecue sauce. All guests and hosts are 21+.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "pizza",
+            "setting": "Indoors · 21+ · Sports audio",
+            "card": {
+              "title": "The main-event lodge",
+              "copy": "Every screen has a game. Every booth has a theory.",
+              "alt": "Ink illustration of a Halloween sports lodge with rib racks, cold drinks, pumpkins, and a monster-game scoreboard.",
+              "imageLabel": "01 / THE HOUSE EXPERIENCE",
+              "kicker": "THE MAIN-EVENT LODGE",
+              "intensity": "21+ HALLOWEEN CAMP",
+              "action": "Take a look"
+            },
+            "priceLabel": "Food and drinks purchased separately"
+          },
+          "hollow": {
+            "title": "The afterlife beer garden",
+            "kicker": "A little fresh air between questionable calls.",
+            "image": "boobies-lodge-map.svg",
+            "alt": "An imagined house plan showing The afterlife beer garden and the shorter return. Fictional; not to scale.",
+            "description": "Step out beneath pumpkin lanterns, catch your breath, and explain the referee’s decision to a decorative skeleton. It has heard every theory and remains neutral. The garden follows the lodge’s 21+ policy.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "trail",
+            "setting": "Beer garden · 21+ · Weather dependent",
+            "card": {
+              "title": "The afterlife beer garden",
+              "copy": "A little fresh air between questionable calls.",
+              "alt": "An imagined house plan showing The afterlife beer garden and the shorter return. Fictional; not to scale.",
+              "imageLabel": "02 / THE HOUSE EXPERIENCE",
+              "kicker": "THE AFTERLIFE BEER GARDEN",
+              "intensity": "21+ HALLOWEEN CAMP",
+              "action": "Take a look"
+            },
+            "priceLabel": "Free for lodge guests 21+"
+          },
+          "oddities": {
+            "title": "The trophy crypt",
+            "kicker": "An impressive record of undocumented victories.",
+            "image": "oddity-raven.svg",
+            "alt": "Ink illustration of the fictional raven from Accounts guarding a small ledger.",
+            "description": "Browse six unofficial trophies and staff legends. The raven handles the tab, the key opens no advertised room, and the ceramic ghost is employee of the month by technical persistence. Nothing is for sale.",
+            "access": "Fictional design intention: step-free access, flexible seating and room to pause. No real facilities have been verified.",
+            "stop": "oddities",
+            "setting": "Indoors · 21+ · Browsing only",
+            "card": {
+              "title": "The trophy crypt",
+              "copy": "An impressive record of undocumented victories.",
+              "alt": "Ink illustration of the fictional raven from Accounts guarding a small ledger.",
+              "imageLabel": "03 / THE HOUSE EXPERIENCE",
+              "kicker": "THE TROPHY CRYPT",
+              "intensity": "21+ HALLOWEEN CAMP",
+              "action": "Take a look"
+            },
+            "priceLabel": "Free for lodge guests 21+"
+          }
+        },
+        "moods": {
+          "day": {
+            "title": "Arrive before the candles.",
+            "copy": "Ease into a fictional Halloween evening at BooBies Lodge.",
+            "features": [
+              "Browse the menu",
+              "Meet the house atmosphere",
+              "Take the visit at your own pace"
+            ],
+            "timeDetail": "EARLY SUPPER",
+            "label": "Before dark"
+          },
+          "night": {
+            "title": "Let the evening acquire a reputation.",
+            "copy": "Candlelight, pumpkin lanterns and a house with opinions.",
+            "features": [
+              "Settle in for supper",
+              "Explore the house collection",
+              "Linger without a compulsory itinerary"
+            ],
+            "timeDetail": "HALLOWEEN AFTER DARK",
+            "label": "After dark"
+          }
+        },
+        "disclosures": {
+          "menu": "V = vegetarian ingredients. This fictional menu is not an allergy assurance. A real kitchen must confirm ingredients, preparation and cross-contact. Alcoholic drinks are marked 21+.",
+          "access": "Fictional design intentions include step-free dining and flexible seating; no real facilities have been established.",
+          "sensory": "Halloween decorations and theatrical lighting are imagined. Sports audio and lively bar noise are part of the 21+ lodge concept.",
+          "weather": "Outdoor areas are fictional and weather dependent. These are imagined facilities, not verified access or operating policies.",
+          "estimate": "Food and drinks are purchased separately. Optional spaces and the collection are for exploring only. No booking, ticket or payment is offered.",
+          "admission": "21+ only in this fictional lodge concept. All hosts are adults. Costumes are camp; respectful behavior is required."
+        },
+        "featured": [
+          {
+            "id": "the-great-rack",
+            "image": "boobies-lodge.svg",
+            "alt": "Ink illustration of a Halloween sports lodge with rib racks, cold drinks, pumpkins, and a monster-game scoreboard.",
+            "badge": "THE HOUSE SPECIAL",
+            "description": "A half rack of smoked pork ribs, bourbon barbecue glaze, slaw, and fries. Bone structure: outstanding.",
+            "note": "COMPLIMENTS TO THE LIVING CHEF."
+          },
+          {
+            "id": "double-dare-rack",
+            "image": "boobies-lodge.svg",
+            "alt": "Ink illustration of a Halloween sports lodge with rib racks, cold drinks, pumpkins, and a monster-game scoreboard.",
+            "badge": "A LOCAL RUMOR",
+            "description": "A full rack of smoked pork ribs with slaw and fries. For ambitious appetites and shared custody of the napkins.",
+            "note": "THE HOUSE HAS AN OPINION."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is this a real restaurant?",
+            "answer": "No. BooBies Lodge is a fictional Halloween parody property. Names, food, prices, facilities and policies are invented for creative exploration.",
+            "open": true
+          },
+          {
+            "question": "Who is this concept for?",
+            "answer": "Adults 21+ seeking sports-bar food, game-night atmosphere, Halloween camp and cheeky lodge hospitality.",
+            "open": false
+          },
+          {
+            "question": "Can I book or order here?",
+            "answer": "This creator workspace and its marketing pack do not accept bookings, orders, payments or mailing-list subscriptions.",
+            "open": false
+          },
+          {
+            "question": "What about allergies and access?",
+            "answer": "Ingredients and V tags are working copy, not allergy assurances. Access and sensory details are fictional intentions and require real-world confirmation before use.",
+            "open": false
+          },
+          {
+            "question": "Do the outdoor spaces cost extra?",
+            "answer": "No. The imagined house spaces and collection are free to explore; food and drinks have separate menu prices. You can skip any part of the itinerary. 21+ only in this fictional lodge concept. All hosts are adults. Costumes are camp; respectful behavior is required.",
+            "open": false
+          },
+          {
+            "question": "How does the visit planner work?",
+            "answer": "Choose a concept date, an offered arrival, your party size and the spaces you want to explore. Save keeps the plan in this browser for this property. Downloads are fictional itineraries, not tickets or reservations.",
+            "open": false
+          },
+          {
+            "question": "What happens after dark?",
+            "answer": "Halloween decorations and theatrical lighting are imagined. Sports audio and lively bar noise are part of the 21+ lodge concept. Outdoor spaces are weather dependent. No real facilities or operating policies are promised.",
+            "open": false
+          }
+        ],
+        "oddities": [
+          {
+            "id": "employee-of-the-month",
+            "name": "The Former Assistant Manager",
+            "image": "oddity-ghost.svg",
+            "alt": "Ink illustration of a small ceramic ghost wearing an employee award.",
+            "material": "Glazed ceramic · Still on the rota",
+            "copy": "The ghost claims it was promised a permanent position. Accounts says the wording was unfortunate.",
+            "origin": "The house collection at BooBies Lodge.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "unlisted-room-key",
+            "name": "The Cellar Key",
+            "image": "oddity-key.svg",
+            "alt": "Ink illustration of an old brass key with a tag marked 13.",
+            "material": "Brass · Access disputed",
+            "copy": "Opens a room the floor plan describes as a filing error.",
+            "origin": "The house collection at BooBies Lodge.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "next-thursday-postcard",
+            "name": "Postcard from the Previous Owner",
+            "image": "oddity-postcard.svg",
+            "alt": "Illustrated postcard showing the haunted house beneath an autumn moon.",
+            "material": "Printed card · Forwarding address uncertain",
+            "copy": "The previous owner says business is looking up. The postmark suggests otherwise.",
+            "origin": "The house collection at BooBies Lodge.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "pumpkin-visitor-badge",
+            "name": "The Pumpkin’s Staff Badge",
+            "image": "oddity-pin.svg",
+            "alt": "Ink illustration of an enamel pumpkin pin with a visitor ribbon.",
+            "material": "Enamel pin · Seasonal appointment",
+            "copy": "Passed induction. Has yet to complete the knife-safety module.",
+            "origin": "The house collection at BooBies Lodge.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "unresolved-business-magnet",
+            "name": "The Unsettled Tab",
+            "image": "oddity-magnet.svg",
+            "alt": "Illustrated souvenir magnet depicting the house, with a receipt attached.",
+            "material": "Souvenir magnet · Strong attachment",
+            "copy": "Keeps returning to the invoice. The finance team calls this retention.",
+            "origin": "The house collection at BooBies Lodge.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          },
+          {
+            "id": "raven-from-accounts",
+            "name": "The Raven from Accounts",
+            "image": "oddity-raven.svg",
+            "alt": "Ink illustration of a black raven figurine perched on a small ledger.",
+            "material": "Painted resin · Receipt retained",
+            "copy": "An excellent attendance record. An extremely conservative approach to expenses.",
+            "origin": "The house collection at BooBies Lodge.",
+            "record": "A fictional specimen for browsing. The label is confident; the supporting documentation is missing."
+          }
+        ],
+        "map": {
+          "image": "boobies-lodge-map.svg",
+          "title": "The house, according to management.",
+          "caption": "A fictional floor plan. The walls have not signed off.",
+          "disclosure": "Fictional schematic, not to scale. Facilities, routes and access are imagined; this is not real navigation.",
+          "locations": [
+            {
+              "number": 1,
+              "name": "The main-event lodge",
+              "attraction": "pizzeria",
+              "stop": "pizza",
+              "detail": "Imagined location at BooBies Lodge."
+            },
+            {
+              "number": 2,
+              "name": "The trophy crypt",
+              "attraction": "oddities",
+              "stop": "oddities",
+              "detail": "Imagined location at BooBies Lodge."
+            },
+            {
+              "number": 3,
+              "name": "The afterlife beer garden",
+              "attraction": "hollow",
+              "stop": "trail",
+              "detail": "Imagined location at BooBies Lodge."
+            },
+            {
+              "number": 4,
+              "name": "Rest bench",
+              "detail": "Imagined location at BooBies Lodge."
+            },
+            {
+              "number": 5,
+              "name": "Shorter return",
+              "detail": "Imagined location at BooBies Lodge."
+            },
+            {
+              "number": 6,
+              "name": "House entrance",
+              "detail": "Imagined location at BooBies Lodge."
+            }
+          ]
+        },
+        "fieldNotes": {
+          "form": "FORM 013 · DEPARTMENT OF RETURN CUSTOMERS",
+          "title": "Field notes from BooBies Lodge",
+          "stamp": "FICTIONAL VISIT",
+          "houseNotes": {
+            "pizza": "The table is yours. The family paperwork is not.",
+            "trail": "Fresh air does not require a committee vote.",
+            "oddities": "Browsing is encouraged. Provenance is a group project.",
+            "grounds": "A look around is enough. No stop is compulsory."
+          }
+        },
+        "branding": {
+          "propertyId": "boobies-lodge",
+          "hero": "boobies-lodge.svg",
+          "heroAlt": "Ink illustration of a Halloween sports lodge with rib racks, cold drinks, pumpkins, and a monster-game scoreboard."
+        },
+        "admission": {
+          "minimumAge": 21
+        }
+      }
+    }
+  ]
+}

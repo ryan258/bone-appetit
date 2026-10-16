@@ -1,0 +1,233 @@
+/* Shared property navigation and three restrained variations on the original design. */
+.property-switcher {
+  padding: 14px max(24px, calc((100% - 1280px) / 2));
+  background: var(--deep);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+}
+
+.property-switcher > span {
+  font: 700 12px/1.4 var(--label);
+  letter-spacing: .12em;
+  color: var(--orange);
+}
+
+.property-switcher ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.property-switcher a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.property-switcher a[aria-current="page"] {
+  background: var(--orange);
+  color: var(--ink);
+  border-color: var(--orange);
+}
+
+.property-switcher a:hover {
+  border-color: var(--orange);
+}
+
+.property-switcher p {
+  flex-basis: 100%;
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.property-switcher-footer {
+  padding: 24px 0;
+  background: transparent;
+  border-top: 1px solid var(--line);
+}
+
+.property-grave-expectations {
+  --orange: #e3b875;
+  --rust: #bc6c44;
+}
+
+.property-boobies-lodge {
+  --orange: #f3ad68;
+  --rust: #df7547;
+}
+
+.property-site .brand {
+  min-width: 0;
+  max-width: 43%;
+}
+
+.property-site .brand-type {
+  font-size: clamp(20px, 2.05vw, 29px);
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.property-site .main-nav {
+  gap: 20px;
+}
+
+.property-site .hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  padding-inline: max(40px, calc((100% - 1280px) / 2));
+}
+
+.property-site .hero-content {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  margin: 0;
+  padding-block: 70px 100px;
+}
+
+.property-site .hero-image {
+  position: static;
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: 0;
+}
+
+.property-site .hero-shade {
+  display: none;
+}
+
+.property-site .hero h1 {
+  font-size: clamp(48px, 4.6vw, 70px);
+  max-width: none;
+}
+
+.property-site .hero-description {
+  max-width: 540px;
+}
+
+.property-site .hero-actions {
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.property-site .haunted-seal {
+  right: 6%;
+  bottom: 65px;
+}
+
+.property-site .pizza-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.property-site .story-photo > img {
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: var(--deep);
+}
+
+.property-site .haunt-image img {
+  background: var(--deep);
+  object-fit: contain;
+}
+
+@media (max-width: 980px) {
+  .property-site .brand {
+    max-width: calc(100% - 90px);
+  }
+  .property-site .hero {
+    grid-template-columns: minmax(0, 1fr);
+    padding-inline: 40px;
+    gap: 0;
+  }
+  .property-site .hero-image {
+    grid-column: 1;
+    grid-row: 1;
+    max-height: 360px;
+  }
+  .property-site .hero-content {
+    grid-column: 1;
+    grid-row: 2;
+    padding-block: 20px 95px;
+  }
+  .property-site .haunted-seal {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .property-switcher {
+    padding-inline: 20px;
+  }
+  .property-switcher ul {
+    width: 100%;
+  }
+  .property-switcher li {
+    flex: 1 1 140px;
+  }
+  .property-switcher a {
+    height: 100%;
+    overflow-wrap: anywhere;
+  }
+  .property-switcher-footer {
+    padding-inline: 0;
+  }
+  .property-site .hero {
+    padding-inline: 24px;
+  }
+  .property-site .hero-image {
+    max-height: 260px;
+  }
+  .property-site .hero h1 {
+    font-size: clamp(38px, 10vw, 54px);
+  }
+  .property-site .hero-description {
+    font-size: 15px;
+  }
+  .property-site .hero-caption {
+    left: 24px;
+    right: 24px;
+    gap: 20px;
+  }
+  .property-site .pizza-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media print {
+  .property-switcher {
+    display: none !important;
+  }
+  .property-site .hero {
+    display: block;
+    padding: 0;
+  }
+  .property-site .hero-content {
+    padding: 0;
+  }
+  .property-site .hero-image {
+    display: none;
+  }
+  .property-site .hero h1 {
+    font-size: 34px;
+  }
+  .property-site .pizza-grid {
+    display: block;
+  }
+}
