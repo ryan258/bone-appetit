@@ -59,6 +59,7 @@ scripts/render-site.cjs                   website-workspace.js
 - **`marketing-pack.js`**: Pure functional generator creating the six-piece collateral pack (Landing copy, Menu insert, Social copy, UTF-8 RFC 822 Email draft, US Letter poster, and Manifested review summary) bundled into an uncompressed ZIP.
 - **`website-copy.js`**: Defines the allowlist of overridable website fields and handles clean hierarchical fallback resolution.
 - **`website-workspace.js`**: Manages the live iframe sandbox, viewport size toggle (Desktop vs. 375px Phone), draft vs. named source selector, and async build cache invalidation.
+- **`website-export.js`**: Bundles a complete, standalone single-property website with all local assets, stylesheets, scripts, license notices, and integrity manifest into a downloadable offline ZIP.
 
 ---
 
