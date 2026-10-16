@@ -62,6 +62,7 @@ function render(data, template, options = {}) {
     BODY_ATTRIBUTES: data.branding ? ` class="property-site property-${escape(site.id)}"` : '',
     PROPERTY_SWITCHER: switcher(false),
     PROPERTY_SWITCHER_FOOTER: switcher(true),
+    FONT_PRELOAD: options.standalone ? '' : '<link rel="preload" href="assets/fonts/fraunces-700.ttf" as="font" type="font/ttf" crossorigin>',
     CREATOR_LINK: options.standalone ? '' : '<a href="creator.html">Creator workspace</a>',
     COLLECTION_NAV: data.branding ? 'The collection' : 'The counter',
     HERO_ASSET: `assets/${escape(data.branding?.hero || 'haunted-roadhouse.webp')}`,

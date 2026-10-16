@@ -162,9 +162,9 @@ async function run() {
   await download(creator, '#download-website', path.join(output, 'retry.zip'));
   // Delayed download must be discarded after the source changes.
   await creator.reload(); await creatorReady(creator);
-  let release, requested, finished;
+  let release, requested, finished, requestSeen = false;
   const gate = new Promise(resolve => { release = resolve; }), started = new Promise(resolve => { requested = resolve; }), completed = new Promise(resolve => { finished = resolve; });
-  await creator.route('**/app.js', async route => { requested(); await gate; try { await route.continue(); } finally { finished(); } });
+  await creator.route('**/app.js', async route => { requestSeen = true; requested(); await gate; try { await route.continue(); } finally { finished(); } });
   const observedDownloads = []; creator.on('download', file => observedDownloads.push(file.suggestedFilename()));
   let timeout;
   try {
@@ -172,7 +172,7 @@ async function run() {
     await Promise.race([started, new Promise((_, reject) => { timeout = setTimeout(() => reject(new Error('Expected delayed app resource request.')), 6000); })]);
     await creator.fill('[data-copy=headline]', 'Edited while downloading');
   } finally {
-    clearTimeout(timeout); release(); await completed; await creator.unroute('**/app.js');
+    clearTimeout(timeout); release(); if (requestSeen) await completed; await creator.unroute('**/app.js');
   }
   await download(creator, '#download-website', path.join(output, 'current-after-edit.zip'));
   assert.equal(observedDownloads.length, 1, 'The stale build must never start a download.');
