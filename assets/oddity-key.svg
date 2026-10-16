@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="object-title object-description">
+  <title id="object-title">Key to the Unlisted Room</title>
+  <desc id="object-description">Ink illustration of an old brass key with a tag marked 13. A fictional counter specimen.</desc>
+  <rect width="480" height="320" fill="#e8dfc7"/>
+  <rect x="17" y="17" width="446" height="286" rx="3" fill="none" stroke="#aaa38e"/>
+  <path d="M41 281h398M44 47h41m310 0h41" stroke="#aaa38e" fill="none"/>
+  <ellipse cx="244" cy="268" rx="112" ry="9" fill="#181c17" opacity=".09"/>
+  <g stroke="#181c17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-25 240 160)"><circle cx="145" cy="155" r="44" fill="#c39a5d"/><circle cx="145" cy="155" r="24" fill="#e8dfc7"/><path d="M188 144h182v23h-26v26h-25v-26h-37v-23" fill="#c39a5d"/><path d="M171 124q25-64 56-45" fill="none"/><path d="m208 65 78 8-5 78-77-10Z" fill="#f2e9cf"/><circle cx="220" cy="83" r="5" fill="#181c17"/><text x="244" y="126" font-size="35" text-anchor="middle" fill="#181c17" stroke="none" font-family="Georgia,serif">13</text></g></g>
+</svg>

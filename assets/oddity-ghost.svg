@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="object-title object-description">
+  <title id="object-title">The Employee of the Month</title>
+  <desc id="object-description">Ink illustration of a small ceramic ghost wearing an employee award. A fictional counter specimen.</desc>
+  <rect width="480" height="320" fill="#e8dfc7"/>
+  <rect x="17" y="17" width="446" height="286" rx="3" fill="none" stroke="#aaa38e"/>
+  <path d="M41 281h398M44 47h41m310 0h41" stroke="#aaa38e" fill="none"/>
+  <ellipse cx="244" cy="268" rx="112" ry="9" fill="#181c17" opacity=".09"/>
+  <g stroke="#181c17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M160 241V133c0-102 155-102 155 0v108l-27-17-24 17-27-17-27 17-25-17Z" fill="#f2e9cf"/><ellipse cx="211" cy="128" rx="9" ry="15" fill="#181c17"/><ellipse cx="267" cy="128" rx="9" ry="15" fill="#181c17"/><path d="M226 164q14 10 27-2" fill="none"/><path d="m266 169 48 18-11 61-48-17z" fill="#d9683e"/><path d="m272 191 23 8m-26 6 23 8"/><path d="M173 86q16-23 33-19M171 111l-2 33" fill="none"/></g>
+</svg>

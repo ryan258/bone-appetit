@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="object-title object-description">
+  <title id="object-title">The Raven from Accounts</title>
+  <desc id="object-description">Ink illustration of a black raven figurine perched on a small ledger. A fictional counter specimen.</desc>
+  <rect width="480" height="320" fill="#e8dfc7"/>
+  <rect x="17" y="17" width="446" height="286" rx="3" fill="none" stroke="#aaa38e"/>
+  <path d="M41 281h398M44 47h41m310 0h41" stroke="#aaa38e" fill="none"/>
+  <ellipse cx="244" cy="268" rx="112" ry="9" fill="#181c17" opacity=".09"/>
+  <g stroke="#181c17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M131 223h230v47H131z" fill="#95522e"/><path d="M139 223v47m9-47v47m200-46v45" fill="none"/><path d="M186 219c-52-72 1-142 70-104l24-41q40-24 69 6l28 24-42 5q-5 47-27 69l-17 34 55 10-108 12Z" fill="#181c17"/><path d="M217 131q60-18 69 55l-43 21" fill="none" stroke="#737b58"/><circle cx="317" cy="86" r="4" fill="#f2e9cf" stroke="none"/><path d="m260 211-4 17m22-16 9 15" fill="none"/><path d="M156 243h65m-65 11h41" fill="none" stroke="#f2e9cf" stroke-width="2"/></g>
+</svg>

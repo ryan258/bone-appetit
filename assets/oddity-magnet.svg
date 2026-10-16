@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="object-title object-description">
+  <title id="object-title">Magnet with Unresolved Business</title>
+  <desc id="object-description">Illustrated souvenir magnet depicting the house, with a receipt attached. A fictional counter specimen.</desc>
+  <rect width="480" height="320" fill="#e8dfc7"/>
+  <rect x="17" y="17" width="446" height="286" rx="3" fill="none" stroke="#aaa38e"/>
+  <path d="M41 281h398M44 47h41m310 0h41" stroke="#aaa38e" fill="none"/>
+  <ellipse cx="244" cy="268" rx="112" ry="9" fill="#181c17" opacity=".09"/>
+  <g stroke="#181c17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(5 240 160)"><rect x="119" y="68" width="242" height="169" rx="16" fill="#181c17"/><rect x="133" y="80" width="214" height="143" rx="8" fill="#c29a70"/><path d="M163 203v-70l73-47 73 47v70Z" fill="#e8dfc7"/><path d="m153 135 83-57 83 57Z" fill="#566044"/><path d="M182 151h27v25h-27zm83 0h27v25h-27z" fill="#d9683e"/><path d="m286 159 84 10-11 112-84-10z" fill="#f2e9cf"/><path d="m301 190 51 6m-53 12 51 6m-53 12 51 6m-53 12 27 3" fill="none" stroke-width="2"/><path d="M324 151q-17-23-19 0l-2 30" fill="none"/></g></g>
+</svg>

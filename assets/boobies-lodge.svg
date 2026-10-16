@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">BooBies Lodge — fictional property illustration</title><desc id="desc">Ink illustration of a Halloween sports lodge with rib racks, cold drinks, pumpkins, and a monster-game scoreboard.</desc>
+<defs><radialGradient id="glow"><stop stop-color="#583c28"/><stop offset="1" stop-color="#181c17"/></radialGradient><pattern id="grain" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M3 4h1m23 15h1M14 35h1" stroke="#e8dfc7" opacity=".13"/></pattern></defs>
+<rect width="1536" height="1024" fill="url(#glow)"/><rect width="1536" height="1024" fill="url(#grain)"/>
+<g fill="none" stroke="#e8dfc7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M64 512h90m1228 0h90" opacity=".35"/><path d="M205 335l9 20 22 4-18 14 2 23-18-12-21 9 7-22-15-17 23-1zM1310 650l7 15 18 3-14 12 1 18-15-10-17 7 5-17-12-14 18-1z" stroke-width="3"/>
+<path d="M329 716V435l439-162 439 162v281" fill="#24271e"/><path d="M286 435l482-184 482 184m-895 28h826m-826 55h826m-826 55h826m-826 55h826m-826 55h826" stroke="#727b63" stroke-width="4"/>
+<rect x="609" y="342" width="318" height="137" rx="9" fill="#181c17" stroke="#f3a064"/><text x="768" y="384" fill="#f3a064" stroke="none" font-family="Georgia,serif" font-size="25" text-anchor="middle">MONSTER LEAGUE</text><text x="768" y="441" fill="#e8dfc7" stroke="none" font-family="Georgia,serif" font-size="47" text-anchor="middle">BOO  13 : 13  RIP</text>
+<ellipse cx="768" cy="692" rx="233" ry="39" fill="#e8dfc7"/><path d="M584 669l42-125 326 12 22 115z" fill="#a54b2d" stroke="#f3a064"/><path d="M636 558l-29 95m79-93-24 98m76-97-18 100m76-97-12 98m69-96-4 99m52-96 6 97" stroke="#e8dfc7" stroke-width="11"/>
+<path d="M383 693V543h104v150q-52 21-104 0m104-126h29q39 38 0 74h-29" fill="#b97d42"/><path d="M384 547q-21-12-9-30 12-16 27-1 5-28 25-26 24 2 20 28 30-14 43 10 5 14-5 19" fill="#e8dfc7"/>
+<path d="M1050 693V543h104v150q-52 21-104 0m104-126h29q39 38 0 74h-29" fill="#b97d42"/><path d="M1052 547q-21-12-9-30 12-16 27-1 5-28 25-26 24 2 20 28 30-14 43 10 5 14-5 19" fill="#e8dfc7"/>
+<ellipse cx="292" cy="682" rx="45" ry="38" fill="#d9683e"/><path d="M281 645l6-21m-17 49 12-10 11 10m10 13 13-10 10 10m-48 10 25 9 21-9" stroke="#181c17" stroke-width="4"/><rect x="1095" y="402" width="70" height="45" rx="5" fill="#181c17"/><text x="1130" y="434" text-anchor="middle" fill="#e8dfc7" stroke="none" font-family="Georgia,serif" font-size="25">21+</text>
+</g><path d="M210 764h1116" stroke="#e8dfc7" stroke-width="3" opacity=".5"/></svg>

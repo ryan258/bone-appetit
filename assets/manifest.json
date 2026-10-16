@@ -1,0 +1,77 @@
+{
+  "generatedWith": "Built-in image_gen tool",
+  "assets": [
+    {
+      "file": "haunted-roadhouse.webp",
+      "use": "Hero and story",
+      "prompt": "Use case: stylized-concept. Asset type: cinematic website hero photograph for a fictional Halloween roadside attraction called Bone Appétit, an old haunted pizzeria with a pumpkin trail. Primary request: exceptionally atmospheric wide cinematic exterior scene of a rambling old Victorian roadside pizzeria at blue hour in late autumn, warm amber windows and a red-orange vintage neon PIZZA sign, glowing carved jack-o-lanterns in foreground, old crooked wooden fence, cozy porch and mismatched chairs, bare branches silhouetted above, faint mist along ground, deep near-black evergreen forest behind. A little eccentric, handcrafted Americana Halloween tourist trap, charming and inviting with just enough eerie mystery, practical movie set not a cartoon, fine 35mm film grain. Composition: very wide landscape 3:2, the Victorian house and readable glowing PIZZA sign concentrated in the right half, left third mostly dark wooded negative space for website title overlay. Warm orange light contrasts with muted olive and charcoal night, realistic wood and falling leaves, glowing pumpkin faces in bottom right. No people, no gore, no watermark, no overlaid captions, no other text except PIZZA. Rich photographic detail, intentional art direction, sophisticated analog cinema look."
+    },
+    {
+      "file": "pumpkin-hollow.webp",
+      "use": "Pumpkin Hollow attraction",
+      "prompt": "Use case: stylized-concept. Asset type: website attraction card photography, landscape 3:2. Primary request: a richly atmospheric photograph of Pumpkin Hollow, the whimsical autumn woodland trail behind a fictional haunted roadside pizzeria. A wide firm smooth fine-gravel walking path curves gently through orange-leaved trees, surrounded by many hand-carved softly glowing jack-o-lanterns on stacked wooden crates and fallen logs, warm string lights draped overhead and an empty old wooden bench beside the path, a friendly sheet ghost decoration suspended off to one side. Twilight, muted dark olive foliage, cinnamon brown and burnt orange, warm amber practical lights. A real artisanal Halloween attraction, cozy spooky, enchanting Americana, analog movie-set photography, natural texture, light film grain, inviting enough to want to walk inside. No people, no text, no logos, no gore, no buildings."
+    },
+    {
+      "file": "oddities-cabinet.webp",
+      "use": "Oddities counter attraction",
+      "prompt": "Use case: stylized-concept. Asset type: website attraction card photography, landscape 3:2. Primary request: close editorial photograph inside a cozy eccentric Halloween roadside souvenir shop, an antique dark wooden cabinet and counter filled with small handmade ceramic white ghosts, enamel pumpkin pins, tiny orange pumpkins, old brass skeleton keys, a postcard rack showing an old Victorian haunted house, a glowing amber mushroom lamp, a black raven figurine. Moody rich autumn warm light, tiny dust motes, deep olive shadows, orange and bone white accents. Items artfully arranged and tactile with realistic material textures, very high quality natural 35mm film still, sophisticated witchy Americana curiosity shop, handcrafted and delightfully peculiar. No people, no legible lettering, no logos, no horror gore. Tight composition with shelf and counter filling image."
+    }
+  ],
+  "retainedImages": [
+    "hero-haunted-pizza.png",
+    "witchs-cauldron.png",
+    "headless-horseman.png",
+    "poltergeist-pepperoni.png"
+  ],
+  "imageNote": "Original food PNGs were preserved; WebP delivery copies were added.",
+  "fonts": {
+    "families": [
+      "Fraunces 700",
+      "DM Sans 400 and 600",
+      "Barlow Condensed 700"
+    ],
+    "source": "Google Fonts",
+    "licenses": [
+      "fonts/OFL-Fraunces.txt",
+      "fonts/OFL-DM-Sans.txt",
+      "fonts/OFL-Barlow-Condensed.txt"
+    ]
+  },
+  "authoredVectors": [
+    {
+      "file": "grounds-map.svg",
+      "use": "Fictional grounds map and offline field-note itinerary",
+      "method": "Project-authored SVG schematic; invented layout, not verified navigation."
+    },
+    {
+      "file": "oddity-ghost.svg",
+      "use": "The Employee of the Month",
+      "method": "Project-authored SVG illustration of an imaginary object."
+    },
+    {
+      "file": "oddity-key.svg",
+      "use": "Key to the Unlisted Room",
+      "method": "Project-authored SVG illustration of an imaginary object."
+    },
+    {
+      "file": "oddity-postcard.svg",
+      "use": "Postcard from Next Thursday",
+      "method": "Project-authored SVG illustration of an imaginary object."
+    },
+    {
+      "file": "oddity-pin.svg",
+      "use": "The Pumpkin’s Visitor Badge",
+      "method": "Project-authored SVG illustration of an imaginary object."
+    },
+    {
+      "file": "oddity-magnet.svg",
+      "use": "Magnet with Unresolved Business",
+      "method": "Project-authored SVG illustration of an imaginary object."
+    },
+    {
+      "file": "oddity-raven.svg",
+      "use": "The Raven from Accounts",
+      "method": "Project-authored SVG illustration of an imaginary object."
+    }
+  ]
+}

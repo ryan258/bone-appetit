@@ -1,0 +1,39 @@
+{
+  "name": "bone-appetit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fictional haunted pizzeria and roadside destination.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/render-site.cjs",
+    "validate": "node scripts/render-site.cjs --validate",
+    "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace",
+    "check:generated": "node scripts/render-site.cjs --check",
+    "check:validation": "node tests/content.cjs",
+    "check:planner": "node tests/planner.cjs",
+    "check:creative": "node tests/creative.cjs",
+    "check:creator": "node tests/creator.cjs",
+    "check:creator-browser": "node tests/creator-browser.cjs",
+    "check:marketing": "node tests/marketing.cjs",
+    "check:marketing-browser": "node tests/marketing-browser.cjs",
+    "check:properties": "node tests/properties.cjs",
+    "check:properties-browser": "node tests/properties-browser.cjs",
+    "check:websites": "node tests/websites.cjs",
+    "check:websites-browser": "node tests/websites-browser.cjs",
+    "check:preview": "python3 -B tests/test_preview.py",
+    "check:browser-env": "node tests/helpers/browser.cjs",
+    "check:sharing": "node tests/editing-sharing.cjs",
+    "check:maintenance": "node tests/maintenance.cjs",
+    "check:reliability": "node tests/reliability.cjs",
+    "check:creative-browser": "node tests/creative-browser.cjs",
+    "check:final-review": "node tests/final-review.cjs",
+    "browser:install": "playwright install chromium",
+    "check:website-workspace": "node tests/website-workspace.cjs",
+    "check:website-workspace-browser": "node tests/website-workspace-browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

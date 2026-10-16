@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">Rest in Pizza — fictional property illustration</title><desc id="desc">Ink illustration of a ghostly pizza baker, a wood-fired oven, and a rising pizza pie.</desc>
+<defs><radialGradient id="glow"><stop stop-color="#583c28"/><stop offset="1" stop-color="#181c17"/></radialGradient><pattern id="grain" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M3 4h1m23 15h1M14 35h1" stroke="#e8dfc7" opacity=".13"/></pattern></defs>
+<rect width="1536" height="1024" fill="url(#glow)"/><rect width="1536" height="1024" fill="url(#grain)"/>
+<g fill="none" stroke="#e8dfc7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M64 512h90m1228 0h90" opacity=".35"/><path d="M205 335l9 20 22 4-18 14 2 23-18-12-21 9 7-22-15-17 23-1zM1310 650l7 15 18 3-14 12 1 18-15-10-17 7 5-17-12-14 18-1z" stroke-width="3"/>
+<path d="M435 730V515a290 240 0 0 1 580 0v215z" fill="#24271e"/><path d="M504 730V555a220 175 0 0 1 440 0v175" fill="#33291e"/>
+<path d="M590 667q-14-33 9-69-1 38 25 41-5-59 37-88-12 57 19 66 7-42 38-64-5 51 28 72 18-36 37-49 5 40 21 53 27-24 30-51 30 35 13 89" fill="#d9683e" stroke="#f3a064"/>
+<ellipse cx="722" cy="696" rx="163" ry="28" fill="#f3a064"/><ellipse cx="722" cy="689" rx="141" ry="21" fill="#a54b2d"/>
+<path d="M437 512h67m-49-65 62 14m-25-72 58 28m-4-71 46 39m25-65 30 44m46-57 11 49m57-51-4 49m66-40-20 49m68-24-30 44m64-5-42 35m64 11-51 27m57 27-59 14" stroke-width="4"/>
+<path d="M1070 679v-154q0-88 70-88t70 88v154l-26-23-24 23-24-23-24 23-20-23z" fill="#e8dfc7" stroke="#e8dfc7"/><path d="M1093 443q-26-12-25-32 4-35 39-25-5-39 27-44 34-4 37 31 37-15 48 17 7 28-24 42v20z" fill="#e8dfc7"/><ellipse cx="1120" cy="518" rx="7" ry="13" fill="#181c17"/><ellipse cx="1161" cy="518" rx="7" ry="13" fill="#181c17"/><path d="M1120 562q20 22 39 0" stroke="#181c17"/>
+<path d="M313 682l73-168 65 155z" fill="#e8dfc7"/><path d="M320 668l64-133 51 124z" fill="#d9683e"/><circle cx="378" cy="598" r="13" fill="#8e3e2c"/><circle cx="365" cy="640" r="10" fill="#8e3e2c"/>
+<path d="M612 302q-20-25 0-48m100 47q-20-25 0-48m101 49q-20-25 0-48" stroke="#f3a064" opacity=".65"/>
+</g><path d="M210 764h1116" stroke="#e8dfc7" stroke-width="3" opacity=".5"/></svg>

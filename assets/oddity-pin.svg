@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="object-title object-description">
+  <title id="object-title">The Pumpkin’s Visitor Badge</title>
+  <desc id="object-description">Ink illustration of an enamel pumpkin pin with a visitor ribbon. A fictional counter specimen.</desc>
+  <rect width="480" height="320" fill="#e8dfc7"/>
+  <rect x="17" y="17" width="446" height="286" rx="3" fill="none" stroke="#aaa38e"/>
+  <path d="M41 281h398M44 47h41m310 0h41" stroke="#aaa38e" fill="none"/>
+  <ellipse cx="244" cy="268" rx="112" ry="9" fill="#181c17" opacity=".09"/>
+  <g stroke="#181c17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m184 191-24 78 43-18 18 27 22-74m18-13 45 78-43-18-18 27-23-74" fill="#95522e"/><path d="M228 74q-7-31 21-37l8 15q-20 7-15 24" fill="#566044"/><ellipse cx="240" cy="143" rx="98" ry="77" fill="#d9683e"/><path d="M221 73c-35 32-31 115 0 143m38-143c32 33 29 113-1 144" fill="none" stroke="#69482e"/><path d="m186 126 30-8-4 23Zm100 0-28-8 4 23Z" fill="#181c17"/><path d="m190 164 21 8 16-5 20 7 17-11 25 0-26 24-53-5Z" fill="#181c17"/></g>
+</svg>

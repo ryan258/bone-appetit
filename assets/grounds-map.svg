@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="grounds-title grounds-description">
+  <title id="grounds-title">Fictional grounds of Bone Appétit</title>
+  <desc id="grounds-description">Six numbered locations: house and pizzeria, oddities counter, Pumpkin Hollow, rest bench, shorter return, and Wicked Lane entrance. A solid trail loops through the woods; a dashed shorter return leads toward the house. This imagined map is not to scale and is not real navigation or verified access information.</desc>
+  <rect width="760" height="560" rx="12" fill="#e8dfc7"/>
+  <rect x="18" y="18" width="724" height="524" rx="8" fill="none" stroke="#8b886c" stroke-width="2"/>
+  <g fill="none" stroke="#c6bea3" stroke-width="1.5">
+    <path d="M385 70q175-55 290 78t-55 180M402 91q163-55 253 66t-48 149M428 121q112-35 190 46t-37 116"/>
+    <path d="M54 165q52-57 107-24t49 90M67 179q47-46 89-22t38 63"/>
+    <path d="M454 370q97 75 227 40M458 389q102 78 224 39"/>
+  </g>
+  <g fill="#aeb297" stroke="#687052" stroke-width="2" stroke-linejoin="round">
+    <path d="m465 120-25 53h50zM465 171v16m48-91-23 48h46zM513 142v17m80-49-24 51h48zM593 159v18m69-14-24 50h48zM662 211v18m37 46-21 46h42zM699 319v18m-26 30-24 51h48zM673 416v14M109 217l-23 50h46zM109 265v18m-45-93-24 52h48zM64 240v18"/>
+  </g>
+  <path d="M224 397C336 440 433 421 570 376S698 271 652 192 519 111 461 176 456 296 411 348 306 394 224 397Z" fill="none" stroke="#566044" stroke-width="9" stroke-linecap="round"/>
+  <path d="M456 263Q471 318 413 349" fill="none" stroke="#95522e" stroke-width="6" stroke-dasharray="12 10" stroke-linecap="round"/>
+  <g fill="#d9683e" stroke="#69482e" stroke-width="1.5">
+    <ellipse cx="477" cy="176" rx="11" ry="9"/><ellipse cx="494" cy="146" rx="11" ry="9"/><ellipse cx="548" cy="145" rx="11" ry="9"/><ellipse cx="613" cy="168" rx="11" ry="9"/><ellipse cx="669" cy="263" rx="11" ry="9"/><ellipse cx="646" cy="324" rx="11" ry="9"/><ellipse cx="565" cy="390" rx="11" ry="9"/>
+  </g>
+  <g stroke="#181c17" stroke-width="3" stroke-linejoin="round">
+    <path d="M135 362v-94l91-65 87 65v94Z" fill="#c29a70"/>
+    <path d="m120 269 105-82 105 82Z" fill="#566044"/>
+    <path d="M210 207v-54h29v52" fill="#95522e"/>
+    <path d="M140 363h178v31H140Z" fill="#a58a65"/>
+    <path d="M176 394v-29m101 29v-29"/>
+    <path d="M211 310h32v53h-32z" fill="#181c17"/>
+    <path d="M159 284h31v31h-31zm105 0h31v31h-31zM210 253h31v30h-31z" fill="#f3a064"/>
+    <path d="M322 319h69v72h-69z" fill="#95522e"/>
+    <path d="M315 318h82v12h-82z" fill="#181c17"/>
+    <path d="M620 242h55v12h-55zm5 12v19m45-19v19" fill="#c29a70"/>
+  </g>
+  <g font-family="Georgia,serif" fill="#181c17" text-anchor="middle">
+    <text x="224" y="345" font-size="16" fill="#e8dfc7">WC</text>
+    <text x="227" y="429" font-size="21">THE HOUSE</text>
+    <text x="549" y="75" font-size="23">PUMPKIN HOLLOW</text>
+    <text x="479" y="351" font-size="16">SHORT RETURN</text>
+  </g>
+  <path d="M45 486h670" stroke="#737b58" stroke-width="28" stroke-linecap="round"/>
+  <path d="M45 486h670" stroke="#e8dfc7" stroke-width="2" stroke-dasharray="22 14"/>
+  <path d="M184 463v-41m-10 11 10-11 10 11" fill="none" stroke="#181c17" stroke-width="3"/>
+  <g font-family="Arial,sans-serif" font-size="18" letter-spacing="2" fill="#181c17">
+    <text x="285" y="526">WICKED LANE</text>
+    <text x="48" y="58" font-size="13" letter-spacing="1">FAMILY SKETCH / FICTIONAL / NOT TO SCALE</text>
+  </g>
+  <g fill="#181c17" stroke="#e8dfc7" stroke-width="3">
+    <circle cx="155" cy="241" r="22"/><circle cx="367" cy="301" r="22"/><circle cx="563" cy="103" r="22"/><circle cx="649" cy="220" r="22"/><circle cx="467" cy="303" r="22"/><circle cx="184" cy="486" r="22"/>
+  </g>
+  <g fill="#f2e9cf" text-anchor="middle" font-family="Georgia,serif" font-size="27" font-weight="bold">
+    <text x="155" y="250">1</text><text x="367" y="310">2</text><text x="563" y="112">3</text><text x="649" y="229">4</text><text x="467" y="312">5</text><text x="184" y="495">6</text>
+  </g>
+</svg>

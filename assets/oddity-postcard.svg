@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="object-title object-description">
+  <title id="object-title">Postcard from Next Thursday</title>
+  <desc id="object-description">Illustrated postcard showing the haunted house beneath an autumn moon. A fictional counter specimen.</desc>
+  <rect width="480" height="320" fill="#e8dfc7"/>
+  <rect x="17" y="17" width="446" height="286" rx="3" fill="none" stroke="#aaa38e"/>
+  <path d="M41 281h398M44 47h41m310 0h41" stroke="#aaa38e" fill="none"/>
+  <ellipse cx="244" cy="268" rx="112" ry="9" fill="#181c17" opacity=".09"/>
+  <g stroke="#181c17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-7 240 160)"><path d="M89 65h302v190H89z" fill="#f2e9cf"/><path d="M105 82h270v130H105z" fill="#566044"/><circle cx="327" cy="111" r="20" fill="#e8dfc7"/><path d="M135 208v-63l83-51 89 51v63Z" fill="#c29a70"/><path d="m121 150 97-66 102 66Z" fill="#181c17"/><path d="M157 162h28v25h-28zm96 0h28v25h-28zM209 176h22v32h-22z" fill="#f3a064"/><path d="M108 230h179m-179 10h126" fill="none" stroke-width="2"/><rect x="333" y="224" width="35" height="18" fill="#95522e"/></g></g>
+</svg>
