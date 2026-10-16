@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-16",
+  "scope": "Increment two: local creator workspace, campaign duplication, structured briefs, essential content, named saves, draft/view resumption, backup and import",
+  "runtime": {
+    "node": "v22.22.3",
+    "playwright": "1.63.0",
+    "chromiumRevision": "1243"
+  },
+  "passed": [
+    "npm run check:creator",
+    "npm run check:generated",
+    "npm run check:creator-browser",
+    "New JavaScript syntax checks",
+    "Creator HTML nesting, unique IDs, and local references",
+    "Source preservation comparison against pre-increment SHA-256 snapshot"
+  ],
+  "browserScope": [
+    "brief and essential content editing",
+    "named saves with separate visitor storage",
+    "unfinished price recovery and editing-position resumption",
+    "duplication isolation and view preservation",
+    "restore/remove undo",
+    "workspace and single-campaign backups",
+    "non-destructive import, invalid files, versions, and size limits",
+    "literal rendering of untrusted text",
+    "changed-tab write protection and draft backup",
+    "blocked-storage backup and import rescue",
+    "damaged-data recovery and explicit replacement",
+    "script-load retry recovery",
+    "375/1440 pixel reflow and simulated 200% text enlargement",
+    "no-JavaScript original visitor guide",
+    "no collected page errors or external requests"
+  ],
+  "browserEvidenceDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-creator-itwfNs",
+  "visualInspection": "Inspected captured 375 and 1440 pixel workspace header and campaign-library views. No full manual editor or assistive-technology walkthrough.",
+  "preservation": "Only README.md, package.json, index.template.html, and generated index.html changed among pre-existing files. Visitor content, styles, application, planner, field notes, artwork, launcher, lockfile, and earlier evidence are unchanged. The homepage adds a footer link.",
+  "limits": {
+    "campaigns": 20,
+    "backupBytes": 2097152,
+    "savedVersionsPerCampaign": 1,
+    "undo": "one level, in memory"
+  },
+  "notRun": [
+    "Full test suite",
+    "Historical broad browser checks",
+    "Fresh Lighthouse",
+    "Human VoiceOver or dictation",
+    "Safari or Firefox",
+    "Physical printer"
+  ],
+  "sourceSha256": {
+    "creator.html": "cc534204d6b29173df7435d085198100645194f1021dc49ea3a2172fa8209d74",
+    "creator.css": "7a5dd8362935e68a0108282655624ea222741f0c1238ad3081db6d3b4bbc5741",
+    "creator.js": "812d7fa695033db102829eff19696c455ee5563c6c199e33c1b04bff33dd94a5",
+    "creator-model.js": "08a27d9adc82ff11c880b37e1d4d4304228cc0c5544541c81abd1454e6a12202",
+    "tests/creator.cjs": "5eedefca74bb06bd75e2d66f045adeda7b9ec07eeed38b2154a90cb17cacdd22",
+    "tests/creator-browser.cjs": "59477fb83c75d0159405a4cd35a74abe77eb7582fea3718bdebd7af4c46828ea",
+    "index.template.html": "1e2a37e857b9ef742ce6f726b45ee5a2480ef3e9e2cc8fc8713ceaabf8cdee2b",
+    "index.html": "ce622201a21cb96327bd3fe5957b09e4710302b09aecc5faabb7d4a46b6944ba",
+    "package.json": "90b24e509acdf40346c6fc4fa9441e80f793f79c43cfabfb2a35f45b48a13be6",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "content.js": "864fe745f35d59fbc2745b2aa79c05d8d6278d5cd0567a73f6b7cd736eddbe57",
+    "planner.js": "15c5cebde19e8f32cc6a73625cc3c7f0edcf27777d907bc5c541349bfb189cd4",
+    "app.js": "48760ac4b7c52cd113aea1309e7b128258ca414bf61d84085500d65c900ad67f",
+    "styles.css": "26e99621f78883beae915af6517e938feeae1e71e98c1084d9562a0f74654848",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "tests/helpers/browser.cjs": "74f72878094e5301a5d887e1f8efb8958060c57a9c30a4a23bcf44404e4b64dc",
+    "tests/helpers/server.cjs": "ef5437f370b1195eb14994b91b19829129074eb10093cf2f555c843863d8bcfa"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-16",
+  "scope": "Increment one: editing validation, schedules, shared URLs, and reproducible targeted checks",
+  "runtime": {
+    "node": "v22.22.3",
+    "playwright": "1.63.0",
+    "chromiumRevision": "1243",
+    "chromiumVersion": "153.0.8010.12"
+  },
+  "passed": [
+    "npm run check (generated page, content validation, planner, creative contracts)",
+    "39 invalid-edit regressions plus closing and output-preservation checks",
+    "800 current date/arrival/optional-stop combinations",
+    "npm run check:sharing (headless; direct links, reload, Back/Forward, per-entry return anchors, category URLs, focus, planner handoff, saving and recovery, invalid selection, fallbacks, invalid embedded data, blocked storage)",
+    "JavaScript syntax checks for changed application and new browser tooling"
+  ],
+  "browserEvidenceDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-editing-sharing-dME6b7",
+  "visualInspection": "Inspected the 375 and 1440 pixel planner control screenshots. These are scrolled dialog samples, not complete-page visual acceptance.",
+  "notRun": [
+    "Full suite",
+    "Historical final-review browser script",
+    "Fresh Lighthouse",
+    "Human VoiceOver or dictation",
+    "Safari or Firefox",
+    "Physical printer"
+  ],
+  "preservation": "site-data.json, stylesheets, field-note renderer and all artwork match the pre-increment snapshot. Generated index.html adds only the content.js script tag.",
+  "sourceSha256": {
+    "content.js": "864fe745f35d59fbc2745b2aa79c05d8d6278d5cd0567a73f6b7cd736eddbe57",
+    "planner.js": "15c5cebde19e8f32cc6a73625cc3c7f0edcf27777d907bc5c541349bfb189cd4",
+    "app.js": "48760ac4b7c52cd113aea1309e7b128258ca414bf61d84085500d65c900ad67f",
+    "field-notes.js": "4b1b0ea349c5845760a46599f9a5d11019b9016e61674d451a9867b70fb17206",
+    "field-notes.css": "d0e9d41775cd29273546e8e7c9b129fb8e4fb44e240925cfc3bb8deead73c827",
+    "styles.css": "26e99621f78883beae915af6517e938feeae1e71e98c1084d9562a0f74654848",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "index.template.html": "610b9a508bd52f7b101edd5a1ceb7311d6a82f94662073106fa122b888bf0d5a",
+    "index.html": "e5d3b959ac3f954970d085201bf8a558ed964786dd52309548bfb243a57717aa",
+    "scripts/render-site.cjs": "2835d5cbe284e953e60cf26ba5728a3b56bd6af2fcbcb90e6e442fe8e5768077",
+    "package.json": "a9417491d8e3cf73d11f70b0eb6f28f50b7da3bcc7ac67ae51032f5a68b5d6b3",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "tests/content.cjs": "63837c7f97dcedf162470c9db24ed9c7bd5808b6572b69064c1c060dfaa5c3c7",
+    "tests/planner.cjs": "b3970cdca6b44d664c0a93928d594d4467aa45e2fe02c97a1e0199805af25493",
+    "tests/creative.cjs": "29c81cd9afc3c2c1e70bed588792f2c177918b62fbf87da8d58278bca93f6285",
+    "tests/editing-sharing.cjs": "77f8e53c5bdc1cb4927f6a298c30b7e52a7b0f67fa962f68ff56b7d382c3e261",
+    "tests/helpers/browser.cjs": "74f72878094e5301a5d887e1f8efb8958060c57a9c30a4a23bcf44404e4b64dc",
+    "tests/helpers/server.cjs": "ef5437f370b1195eb14994b91b19829129074eb10093cf2f555c843863d8bcfa"
+  }
+}

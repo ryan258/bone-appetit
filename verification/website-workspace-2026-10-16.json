@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-16",
+  "recordedAt": "2026-10-16T23:51:25.245499+00:00",
+  "scope": "Local creator editing connected to full four-property restaurant previews; existing public designs, content and parody preserved. No publication.",
+  "runtime": {
+    "node": "v22.22.3",
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12"
+  },
+  "finalChecksPassed": [
+    "npm run check:website-workspace",
+    "npm run check:creator",
+    "npm run check:marketing",
+    "npm run check:validation",
+    "npm run check:websites",
+    "npm run check:generated",
+    "Five HTML pages: nesting, unique IDs, local references and anchors",
+    "Eleven edited/new JavaScript files: syntax"
+  ],
+  "additionalChecksPassedDuringIncrement": [
+    "npm run check:planner",
+    "npm run check:properties"
+  ],
+  "browserCheck": "npm run check:website-workspace-browser",
+  "browserScope": [
+    "All four full restaurant previews with edited hero, venue, menu, featured card, attraction card/detail and story copy",
+    "Draft versus named sources; preview invalidation on edit/source changes",
+    "Menu and attraction dialogs; in-frame plan saves clear on refresh",
+    "Existing visitor keys unchanged by previews; public visitor runtime still saves normally",
+    "Website-copy field and panel resumption, incomplete draft recovery",
+    "Named saves, campaign backup/import, independent duplication",
+    "Invalid copy/prices prevent preview; restore original field",
+    "In-flight build cannot reappear after edit",
+    "Failed font-fetch retry and missing-app-script static fallback",
+    "Phone layout inside frame and 375px creator reflow",
+    "Local fonts and artwork load in opaque-origin sandbox"
+  ],
+  "browserPageErrors": [],
+  "browserExternalRequests": [],
+  "browserCorrections": [
+    "Allowed form interaction in sandbox without allowing same-origin access",
+    "Corrected test iframe lookup",
+    "Added field/panel resumption and corrected test disclosure setup",
+    "Corrected delayed-route cleanup in test"
+  ],
+  "visualInspection": [
+    "Representative desktop full-site preview at visitor section",
+    "Full creator page with phone-width preview"
+  ],
+  "limitations": [
+    "No full suite or old broad browser passes",
+    "No other engines, human VoiceOver/dictation, physical print or production acceptance",
+    "Website preview is local and is not a shareable published site",
+    "Unedited page-copy fields use current bundled profile; explicit website overrides are portable",
+    "Preview size/source choices reset on workspace reload",
+    "After the passing browser run, a missing-core-script startup guard was added and syntax checked; Node file-adapter error labels and unit assertions were refined and rechecked"
+  ],
+  "artifacts": {
+    "retainedDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/creator-website-preview",
+    "temporaryBrowserDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-website-workspace-ROd2g4"
+  },
+  "preservation": {
+    "gitMetadataPresent": true,
+    "gitCommitsPresent": false,
+    "baselineFiles": 90,
+    "changedBaselineFiles": [
+      "creator.css",
+      "README.md",
+      "creator.js",
+      "package.json",
+      "creator-model.js",
+      "creator.html",
+      "app.js",
+      "tests/planner.cjs",
+      "tests/websites.cjs",
+      "scripts/render-site.cjs"
+    ],
+    "addedFilesBeforeRecord": [
+      "website-workspace.js",
+      "website-copy.js",
+      "website-renderer.js",
+      "tests/website-workspace.cjs",
+      "tests/website-workspace-browser.cjs"
+    ],
+    "deletedBaselineFiles": [],
+    "preservedPublicAndCoreFiles": [
+      "index.html",
+      "rest-in-pizza.html",
+      "grave-expectations.html",
+      "boobies-lodge.html",
+      "index.template.html",
+      "site-data.json",
+      "property-data.json",
+      "visitor-sites.json",
+      "styles.css",
+      "properties.css",
+      "content.js",
+      "planner.js",
+      "field-notes.js",
+      "field-notes.css",
+      "marketing-pack.js",
+      "marketing-workspace.js",
+      "property-catalog.js",
+      "package-lock.json",
+      "Preview.command",
+      "preview.py"
+    ],
+    "allExistingAssetsPreserved": true,
+    "allEarlierVerificationRecordsPreserved": true,
+    "gitActions": "No staging, commits, push, publication or deployment."
+  },
+  "sourceSha256": {
+    "Preview.command": "2b85bcc31c5ac974c59648707e8e78fa7ba0979511b88a996aea71ed40616cf8",
+    "README.md": "938d00433f6b17bf3f45304c485f8c727d201bc9c3d017e4a2c8a08778bbbebd",
+    "app.js": "fb4eef6e50320ff6ff19b0fde24616978f4b2dbb667231075da7d813eb3c6f41",
+    "boobies-lodge.html": "14198b94a1dd492866a6be20e92de9f9e5a4d8c3048f937e3d1e8c50371401c6",
+    "content.js": "44602e3338b16c266c39208108ab4fc93280828b142e7d65e09566d6636bce46",
+    "creator-model.js": "23c647e04713734c25496f6609e94386998522322796f88b306b4e2b8640e8d8",
+    "creator.css": "66d9876d0caad897a3ed9156c4b29c6f2b6908d7f1f079f91be5b43251e1834b",
+    "creator.html": "edef4386c67f601c7b5f2fbf8603c437ff6ecf522ac5dcd5efde238cb41ab5ae",
+    "creator.js": "38809776c06d20aa9110b1745b6db75979ae2d4b6658d0a89bbc42ed3f1e41ef",
+    "field-notes.css": "d0e9d41775cd29273546e8e7c9b129fb8e4fb44e240925cfc3bb8deead73c827",
+    "field-notes.js": "2bc71e611d0873f70e4e8468cf60402df80d144dd73a2e187cfcf28540819e13",
+    "grave-expectations.html": "6c26dc5f06a1105165f62870e4a51fb5b08417a6ae827cb08b62c192d1593778",
+    "index.html": "df47d0a296d8f9b3d49c333108dceab91e6e01fd1f192dbcc364ecc938dcd27f",
+    "index.template.html": "5b93036d2ca11bac377f4eddec982ee250911c8750c290416cf68e81f96a3660",
+    "marketing-pack.js": "30c06e56a828280290b6cc8bf10af2ee9ec44a516c68ed9edf6aa9dd5c456060",
+    "marketing-workspace.js": "192f846376790febba36f4016b9db89be67e77ea96d8e67b492827f1396d0e31",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "package.json": "31d55c37187aa08592683593a325cfac35249985b7d97c5b335120268e3ca3ef",
+    "planner.js": "a71f5dcf4c8fc27f1111673decac2d15a0aef84e5b2836f0c50441a9cea94f72",
+    "preview.py": "73967d53bb89d24cfb3f116dcbb6a6a5a3f30ad1e34d01c0c5ba0cc035486216",
+    "properties.css": "87f2e80ea05170521fdf18cbbdf5b0ba92cf41860513eb0e5a819192540232b5",
+    "property-catalog.js": "b2a729649c66a0ca83a8552f4fc586510298ff31e7f0dd4db727adef3f804cc8",
+    "property-data.json": "8285754f3928f10009ac024604a69e9382261295ce16fe666308b3817b3789b8",
+    "rest-in-pizza.html": "4d9227332a1de045d40a33ab4036cf44357a75c935b7f6ca12318688205d6c48",
+    "scripts/render-site.cjs": "c8fe2a0768f3046647d062dafd12c25c50e90300c1ebeaf2f179b2c84cb36662",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "styles.css": "26e99621f78883beae915af6517e938feeae1e71e98c1084d9562a0f74654848",
+    "tests/planner.cjs": "e8b84b66e8e3c90cc92e0c9a37e58644bfd52514ea586c9523d493d97e0619ed",
+    "tests/website-workspace-browser.cjs": "6681914f74e93858fd071437028526ec8b175a50a15b2723b1cd2e30ff6dd53b",
+    "tests/website-workspace.cjs": "e8615be0c62fe663de9a3d6a68b5c79642fe0e9228d318b321819c9055a7562f",
+    "tests/websites.cjs": "b350c7d7f329602d2ff009e03a86ef563fb90039e182ea79e83d07cdad8f5f61",
+    "visitor-sites.json": "5973a1b04ef95ce0c8dc669b6445a8e15f597467fb1754bb4520f41b194bbdc0",
+    "website-copy.js": "bad8425ab269e41901fbdd5450b94f90395a9a5ad976cf77e7c83e490cf678ca",
+    "website-renderer.js": "1a9a35b8572819f27ae92b0703f9b94fff481caf0478b4937107e71dea51de32",
+    "website-workspace.js": "5acc832d1dd546a8c554f060102054d4e0b9b5e5d08bb4fbd0500f5325de347e"
+  }
+}

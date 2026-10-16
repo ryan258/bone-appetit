@@ -1,0 +1,126 @@
+{
+  "increment": 3,
+  "date": "2026-10-16",
+  "recordedAt": "2026-10-16T22:06:51.898250+00:00",
+  "scope": "Campaign marketing pack: landing, menu insert, three social drafts, email draft, poster and review summary; local offline export only.",
+  "runtime": {
+    "node": "v22.22.3",
+    "python": "3.14.7",
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12",
+    "chromiumRevision": "1243"
+  },
+  "checksPassed": [
+    "npm run check:marketing",
+    "npm run check:creator",
+    "npm run check:generated",
+    "npm run check:marketing-browser",
+    "JavaScript syntax checks for new/edited scripts",
+    "Creator HTML nesting, IDs and local references"
+  ],
+  "browserScope": [
+    "Isolated storage and disposable loopback server",
+    "Draft and named source separation; exact source backup",
+    "Six previews; ZIP, HTML and text downloads",
+    "Export does not change named or draft storage",
+    "Offline/no-JavaScript HTML and local index links",
+    "Loaded images; no horizontal document overflow",
+    "Print button action without opening a dialog",
+    "Edited and default menu/poster Letter print-media geometry within 740x979 CSS pixels",
+    "375/1440px creator pack reflow",
+    "Invalid price and long offer rejection",
+    "Asset failure, retry and stale async build invalidation",
+    "Missing generator script leaves creator editing usable"
+  ],
+  "browserPageErrors": [],
+  "browserExternalRequests": [],
+  "postBrowserChanges": {
+    "description": "Non-rendering complete font-license comments in individual HTML and venue-timezone archive warning boundaries.",
+    "validation": "Final marketing checks passed; all seven retained example HTML bodies and styles equal browser-verified HTML byte-for-byte after stripping only the added license comment."
+  },
+  "visualInspection": [
+    "Unedited and edited menu insert print-media screenshots",
+    "Unedited and edited poster print-media screenshots",
+    "Creator pack panel captures at desktop/narrow widths"
+  ],
+  "limitations": [
+    "No full suite or historical broad browser rerun",
+    "No actual PDF pagination or physical printer acceptance",
+    "Other browser engines and real mail-client import not checked",
+    "No human VoiceOver/dictation acceptance",
+    "Long edited/four-item menus can flow across pages",
+    "Free-text semantic agreement and ingredient/tag/art relevance require human review"
+  ],
+  "artifacts": {
+    "retainedDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/marketing-pack",
+    "exampleZip": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/marketing-pack/example-marketing-pack.zip",
+    "browserTemporaryDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-marketing-browser-XQRJ5k",
+    "unitTemporaryDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-marketing-unit-kS6Pkr"
+  },
+  "preservation": {
+    "gitMetadata": "absent",
+    "baselineFileCount": 65,
+    "unchangedBaselineFiles": 60,
+    "changedBaselineFiles": [
+      "creator.css",
+      "README.md",
+      "creator.js",
+      "package.json",
+      "creator.html"
+    ],
+    "newImplementationFiles": [
+      "marketing-workspace.js",
+      "marketing-pack.js",
+      "tests/marketing.cjs",
+      "tests/marketing-browser.cjs"
+    ],
+    "deletedBaselineFiles": [],
+    "originalVisitorFilesUnchanged": true,
+    "noStageCommitPushDeployPublishOrEmail": true
+  },
+  "sha256": {
+    "creator.html": "d7b424e3d94324f75a7716b0fecbccbc7d4530709511af3aa1b1f672e8452b92",
+    "creator.css": "55a2a6064cb7466baa311c0564adee72d890e0133d68776c65232566c03d07c3",
+    "creator.js": "ed26a0317220a1f2aed9391483ef551578a9dc3c493ee45fc66b514c5eea7ea4",
+    "creator-model.js": "08a27d9adc82ff11c880b37e1d4d4304228cc0c5544541c81abd1454e6a12202",
+    "marketing-pack.js": "e8f5808aede6277d3f6220a74a9da7045d136f5aa90a68cb2702a8547827052e",
+    "marketing-workspace.js": "00caa9283a74297411fab1d8bcf895c95590df336aec66154171192b2b306eb5",
+    "tests/marketing.cjs": "c0dfc733bfe47af6f6e418a212b89e38ed75014f43c201e0116a82bcb204749b",
+    "tests/marketing-browser.cjs": "3d9bae05ce3d7390c6cdfcde1986014563cd7625e1cb6115816ba811543b6517",
+    "package.json": "2e31cde64ed13ece9db78471bc33a22a0e7f06eecfd6e4798a64e74568c19493",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "README.md": "9f8b079c5ee9951c1d47949d9a99d3e8d70f8f6fb25e9d2a89b5d6728cfdde25",
+    "tests/helpers/browser.cjs": "74f72878094e5301a5d887e1f8efb8958060c57a9c30a4a23bcf44404e4b64dc",
+    "tests/helpers/server.cjs": "ef5437f370b1195eb14994b91b19829129074eb10093cf2f555c843863d8bcfa",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "planner.js": "15c5cebde19e8f32cc6a73625cc3c7f0edcf27777d907bc5c541349bfb189cd4",
+    "content.js": "864fe745f35d59fbc2745b2aa79c05d8d6278d5cd0567a73f6b7cd736eddbe57",
+    "assets/favicon.svg": "5057d3ddf1eae772a7dc248344e4634d4bc4c5d5ec4e2ce29efa1e2d0c3fb68d",
+    "assets/fonts/OFL-Barlow-Condensed.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "assets/fonts/OFL-DM-Sans.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+    "assets/fonts/OFL-Fraunces.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "assets/fonts/barlow-condensed-700.ttf": "7dde307fa887fc65ff5830cfada77a7decc5dae8d3c816c9d39ba3f1af1c4ed7",
+    "assets/fonts/dm-sans-400.ttf": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+    "assets/fonts/dm-sans-600.ttf": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a",
+    "assets/fonts/fraunces-700.ttf": "f0a9d39b9f14079c55070189562da36c794f824cbcf514b50a0ad0ef20c69379",
+    "assets/grounds-map.svg": "1de4ce6d263e1ed75f3c9bd474510a1831355f56306aa81150440de6956c90a2",
+    "assets/haunted-roadhouse.webp": "d6bfef3a57a5412fd227d4dac0748b37e330caba940736f4cf489f651c5bc0f3",
+    "assets/headless-horseman.png": "8a24192d1bbd3b8f67bc034fc383852428b24c7e23fec9a63dec62bb0ee7b94f",
+    "assets/headless-horseman.webp": "be4e5daa339541c77058c4666587047e2e3d1558ccd9c11d6c2ce0f115ca0f82",
+    "assets/hero-haunted-pizza.png": "72acd21561437cc85c371bab4efbb1cbf114260833363597c1a29d288479e9c4",
+    "assets/hero-haunted-pizza.webp": "1e8c4de1d5b8824cff9d49b9d0f0fc7464085339da341656060c3adbb3d1aac7",
+    "assets/manifest.json": "0a54d5bfb7c32b2150aecf30f682e27c4da1e18d56ac4bd499404ec71054a478",
+    "assets/oddities-cabinet.webp": "a2b1d688019dfd9f9291ac51b79700c3d04552df7fcc049bd9a703135de36e53",
+    "assets/oddity-ghost.svg": "3df41aca2ca4912826ee34939fa041366e38cc15ab4f6405ea07577695dc5eb8",
+    "assets/oddity-key.svg": "4f00206ec1016558678ba03f84a9ac93db74923fcf304cbcddd0a5455eadf938",
+    "assets/oddity-magnet.svg": "bc0f23b8499fe2f3c6c56524c4ffcff25823755668b08a3cc85c72c3c4daf2bd",
+    "assets/oddity-pin.svg": "de7cd0bdd98a312840847e6179dcab92cab58829845c096602addc4abb6f4f81",
+    "assets/oddity-postcard.svg": "5c581f542d9e96e548215f7720ff0ce3f5fed228add5adc0c8cdcfffefe60eb1",
+    "assets/oddity-raven.svg": "debc9d6b3d39b1e77cf2148c0cf3296d11eca04b9b5e68b3318de2e1c3c3de8b",
+    "assets/poltergeist-pepperoni.png": "1b952e87222b265588f5f66aa7acbbf8298a69a8f535705ffc7af930284e039d",
+    "assets/poltergeist-pepperoni.webp": "b2bc6706620ce05a98e9a3f0b9af1ebc225f8dcb907f99cafc4baeff1eb0ada6",
+    "assets/pumpkin-hollow.webp": "07c0f3719d9c44330c45dd94d1aead3628e1c0ac062c1a314f9955053e40cd7e",
+    "assets/witchs-cauldron.png": "692131556ec22b429b33351b18ed71231d630196b4ccbe50c74ac43b3fcab171",
+    "assets/witchs-cauldron.webp": "65428043b5c950afce9426463fec6ac1ae475dc47aa9c19ecbcd8e44f0a91373"
+  }
+}

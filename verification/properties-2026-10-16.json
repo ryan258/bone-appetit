@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-16",
+  "recordedAt": "2026-10-16T22:49:24.757259+00:00",
+  "scope": "Three independent Halloween parody campaign properties, one-click collection creation, branded previews and six-piece packs; original visitor website preserved.",
+  "properties": [
+    {
+      "id": "rest-in-pizza",
+      "name": "Rest in Pizza",
+      "menuItems": 18,
+      "headline": "The dough rises.\nSo does the owner."
+    },
+    {
+      "id": "grave-expectations",
+      "name": "Grave Expectations Chop House",
+      "menuItems": 18,
+      "headline": "A cut above.\nSix feet below."
+    },
+    {
+      "id": "boobies-lodge",
+      "name": "BooBies Lodge",
+      "menuItems": 18,
+      "headline": "Great racks.\nGrave decisions."
+    }
+  ],
+  "runtime": {
+    "node": "v22.22.3",
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12"
+  },
+  "checksPassed": [
+    "npm run check:properties",
+    "npm run check:creator",
+    "npm run check:marketing",
+    "npm run check:validation",
+    "npm run check:planner",
+    "npm run check:generated",
+    "npm run check:properties-browser",
+    "JavaScript syntax for all new/edited scripts",
+    "Creator HTML nesting/IDs/local references",
+    "Six new SVG XML files",
+    "Independent retained ZIP CRC/file hashes and collection JSON checks"
+  ],
+  "browserScope": [
+    "Isolated storage; disposable loopback server",
+    "Original campaign preserved while adding three properties",
+    "One-click collection and individual starter creation",
+    "18 menu items per property and correct preview artwork",
+    "All six previews per property and property-specific ZIP names",
+    "Exact embedded SVG bytes after switching between properties",
+    "Named save/resume and independent duplication",
+    "Non-destructive workspace backup/import with new IDs",
+    "All 21 offline/no-JavaScript HTML files",
+    "Loaded images and no horizontal document overflow",
+    "Six default menu/poster samples fit 740x979px Letter printable area under print-media emulation",
+    "375/1440px starter cards; image aspect ratios",
+    "Catalog-load failure leaves original example usable; retry keeps current work"
+  ],
+  "browserPageErrors": [],
+  "browserExternalRequests": [],
+  "intermediateFindings": [
+    "Visual review found oversized starter images and inherited Trail wording; both corrected and verified in the final browser pass.",
+    "One intermediate run timed out awaiting pack results. Diagnostics now report build errors directly; the final complete pass passed. Root cause was not reproduced or established."
+  ],
+  "visualInspection": [
+    "Desktop and narrow starter-card screenshots",
+    "Property poster artwork and type",
+    "Representative menu insert and poster print-media screenshots"
+  ],
+  "limitations": [
+    "No full suite or historical broad browser reruns",
+    "Physical printers and actual PDF pagination not verified",
+    "Other browser engines and human assistive technology not tested",
+    "Mail-client import not tested",
+    "Source campaign free text still requires human review",
+    "New properties are creator campaign starters/offline marketing pages; no separate deployed visitor sites"
+  ],
+  "artifacts": {
+    "retainedDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/halloween-properties",
+    "browserTemporaryDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-properties-browser-o8n8fB",
+    "sha256": {
+      "rest-in-pizza-marketing-pack.zip": "e71f8bbaa7dcf414cd6976369a320a112d55f6811e0163c6737c408324ea7620",
+      "grave-expectations-marketing-pack.zip": "1d5a9f0df08b61c3bd1f1643ddebc95126fa25c4fccf06358c9e77594f1b0687",
+      "boobies-lodge-marketing-pack.zip": "dfc8dc4de773d65887087794b75113da701a7cbc297de582dd703dff43d8dab7",
+      "three-properties-backup.json": "0dfd77ae664a4808781e33626e97de61be66d612ae85fe21016cbc1d8c35e17a"
+    }
+  },
+  "preservation": {
+    "gitMetadataPresent": false,
+    "baselineFiles": 70,
+    "changedBaselineFiles": [
+      "marketing-workspace.js",
+      "marketing-pack.js",
+      "planner.js",
+      "creator.css",
+      "README.md",
+      "creator.js",
+      "package.json",
+      "creator-model.js",
+      "content.js",
+      "creator.html"
+    ],
+    "unchangedBaselineFiles": 60,
+    "addedFilesBeforeVerificationRecord": [
+      "property-catalog.js",
+      "property-data.json",
+      "tests/properties-browser.cjs",
+      "tests/properties.cjs",
+      "scripts/export-properties.cjs",
+      "assets/rest-in-pizza.svg",
+      "assets/rest-in-pizza-map.svg",
+      "assets/boobies-lodge-map.svg",
+      "assets/boobies-lodge.svg",
+      "assets/grave-expectations-map.svg",
+      "assets/grave-expectations.svg"
+    ],
+    "deletedBaselineFiles": [],
+    "noStageCommitPushDeployPublishOrEmail": true
+  },
+  "sha256": {
+    "README.md": "6fd81f00304784443a1271681188864b52e67a21fb4b4ef7a130fe4f8d4c94c6",
+    "app.js": "48760ac4b7c52cd113aea1309e7b128258ca414bf61d84085500d65c900ad67f",
+    "assets/boobies-lodge-map.svg": "1803061212fc90f0c1c94e0bd5f738bd88b5081cb159594b403477ad928e2f81",
+    "assets/boobies-lodge.svg": "7ac6b14bfd2c839f9708d77a1eaf6f6056df146186a9ba98d224d873fba0efb0",
+    "assets/grave-expectations-map.svg": "96321b5e89cfc2cd6408672416ca511eb707f9616af59a2110870cfd7f50b813",
+    "assets/grave-expectations.svg": "002b754e948761873c44ba7bd1afcdee37a89269866716c83bde865232159ce1",
+    "assets/rest-in-pizza-map.svg": "aff84ff33eef8258526c99484cd5831ed2bb228fd410b09d38af8ddd4c163682",
+    "assets/rest-in-pizza.svg": "05ea794d43a8c1b4fb1d1b5732a9e2ffd8969e8e0d9249b3e4b3aa5179f59933",
+    "content.js": "44602e3338b16c266c39208108ab4fc93280828b142e7d65e09566d6636bce46",
+    "creator-model.js": "991ffb25a2360516dce46e58a75edb35c9613615954ead3062400636fd57ef18",
+    "creator.css": "d158d6bd87212ceb53d7545c77892d16d0da08fe44c9c21d49b20d7b3c1725a8",
+    "creator.html": "d0a90ccc6124cc9290bdf9a950d1265cb28561c5bd213f496fb30337b5d5bb99",
+    "creator.js": "addc216d2f43968e45cbdbf8a4ab3688eb794bcc43411eb6de825423b13365a3",
+    "index.html": "ce622201a21cb96327bd3fe5957b09e4710302b09aecc5faabb7d4a46b6944ba",
+    "index.template.html": "1e2a37e857b9ef742ce6f726b45ee5a2480ef3e9e2cc8fc8713ceaabf8cdee2b",
+    "marketing-pack.js": "30c06e56a828280290b6cc8bf10af2ee9ec44a516c68ed9edf6aa9dd5c456060",
+    "marketing-workspace.js": "192f846376790febba36f4016b9db89be67e77ea96d8e67b492827f1396d0e31",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "package.json": "dff10a92a320a932ba4f932d090af1e3404e566ee726f33fa54e12aae04e7bbf",
+    "planner.js": "fe7816cb040897e2da0c6b264dc2ce2c1c9a11c497fa89b381c77038c25e50d9",
+    "property-catalog.js": "b2a729649c66a0ca83a8552f4fc586510298ff31e7f0dd4db727adef3f804cc8",
+    "property-data.json": "30ebdb507056990e2fe30349f9dbb9a82ebc89e98c7a64464ace7e679b51c79d",
+    "scripts/export-properties.cjs": "e5df190514f38031c487690fb5a1ac2184eab3d5fd45a0e49faf19092eedd471",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "styles.css": "26e99621f78883beae915af6517e938feeae1e71e98c1084d9562a0f74654848",
+    "tests/helpers/browser.cjs": "74f72878094e5301a5d887e1f8efb8958060c57a9c30a4a23bcf44404e4b64dc",
+    "tests/helpers/server.cjs": "ef5437f370b1195eb14994b91b19829129074eb10093cf2f555c843863d8bcfa",
+    "tests/properties-browser.cjs": "2b5bc7bf5cc5045dfa95dd62a7c586d0fb06e3c762fe8a85fdf2380c56db55a7",
+    "tests/properties.cjs": "4bee723eb18e4dc45857b6d74ab4771b6dafc40c69e25bb181d1fc9a99c4e98c"
+  }
+}
