@@ -9,7 +9,7 @@
   <meta name="description"
     content="Take the scenic route to the strange. Explore Bone Appétit, a fictional Halloween roadside haunt with wood-fired pizza, a pumpkin trail, and peculiar souvenirs.">
   <title>Bone Appétit — Come hungry. Leave haunted.</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/bone-appetit-logo.webp" type="image/webp">
   <link rel="preload" href="assets/fonts/fraunces-700.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="properties.css">
@@ -606,7 +606,7 @@
   <script src="app.js" defer></script>
 </head>
 
-<body>
+<body class="restaurant-theme theme-bone-appetit">
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="season-bar"><span><span class="little-star" aria-hidden="true">✦</span> THE 2026
       HAUNTING <span class="season-dates">/ OCTOBER 1 – NOVEMBER 1</span></span><span
@@ -614,15 +614,7 @@
   <nav id="property-switcher" class="property-switcher" aria-label="Explore restaurant properties"><span>CHOOSE YOUR HAUNT</span><ul><li><a href="index.html" data-property-link="bone-appetit" aria-current="page">Bone Appétit</a></li><li><a href="rest-in-pizza.html" data-property-link="rest-in-pizza">Rest in Pizza</a></li><li><a href="grave-expectations.html" data-property-link="grave-expectations">Grave Expectations</a></li><li><a href="boobies-lodge.html" data-property-link="boobies-lodge">BooBies Lodge</a></li></ul><p>Four fictional restaurants · Each keeps its own saved visit plan</p></nav>
   <header class="site-header">
     <a class="brand" href="#">
-      <svg class="brand-mark" viewBox="0 0 60 66" aria-hidden="true">
-        <path
-          d="M11 28c-5-2-8-5-8-10C3 11 9 7 16 9 19-2 34-2 38 8c9-4 19 1 19 10 0 5-3 9-8 11v11c0 11-8 20-19 20S11 51 11 40Z"
-          fill="currentColor" />
-        <path d="M11 28h38M23 51v8m7-9v10m7-9v8" fill="none" stroke="#181c17" stroke-width="3" />
-        <ellipse cx="21" cy="37" rx="5" ry="6" fill="#181c17" />
-        <ellipse cx="39" cy="37" rx="5" ry="6" fill="#181c17" />
-        <path d="m30 41-4 6h8Z" fill="#181c17" />
-      </svg>
+      <img class="brand-mark restaurant-logo" src="assets/bone-appetit-logo.webp" alt="" width="80" height="80">
       <span class="brand-type">Bone Appétit<span>PIZZERIA &amp; ROADSIDE ODDITIES</span></span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span
@@ -679,7 +671,7 @@
       <div class="haunt-grid">
         <article class="haunt-card">
           <div class="haunt-image">
-            <img src="assets/hero-haunted-pizza.webp" alt="A wood-fired pizza in a candlelit dining room, with ghostly shapes in the shadows." width="900" height="600" loading="lazy">
+            <img src="assets/bone-dining-room-scene.webp" alt="Concept illustration of Wide interior of a crooked Victorian roadside pizzeria with old dark wood tables, moss-green chairs, a busy wood-fired oven, slightly off-kilter family portraits, pumpkins and warm amber lanterns." width="900" height="600" loading="lazy">
             <span class="image-label">01 / FEED YOUR SOUL</span>
           </div>
           <div class="haunt-copy">
@@ -760,7 +752,7 @@
         <div class="pizza-grid">
           <article class="pizza-card" data-featured-id="witchs-cauldron">
             <div class="pizza-photo">
-              <img src="assets/witchs-cauldron.webp" alt="Witch’s Cauldron pizza with dark blistered crust and melted cheese." width="720" height="480" loading="lazy">
+              <img src="assets/bone-witchs-cauldron-food.webp" alt="Concept image of a blackened-crust pizza with bubbling cheese and red and green hot peppers on a candlelit roadhouse table." width="720" height="480" loading="lazy">
               <span class="pizza-badge">THE HOUSE CURSE</span>
             </div>
             <div class="pizza-title"><h3>Witch’s Cauldron</h3><span>$24</span></div>
@@ -769,7 +761,7 @@
           </article>
           <article class="pizza-card" data-featured-id="headless-horseman">
             <div class="pizza-photo">
-              <img src="assets/headless-horseman.webp" alt="Headless Horseman pizza with sausage and bone-shaped cheese." width="720" height="480" loading="lazy">
+              <img src="assets/bone-headless-horseman-food.webp" alt="Concept image of sausage, smoked cheese, bone-shaped parmesan and red onion on a wood-fired pizza beside a Halloween lantern." width="720" height="480" loading="lazy">
               <span class="pizza-badge">A LOCAL LEGEND</span>
             </div>
             <div class="pizza-title"><h3>Headless Horseman</h3><span>$22</span></div>
@@ -778,7 +770,7 @@
           </article>
           <article class="pizza-card" data-featured-id="poltergeist-pepperoni">
             <div class="pizza-photo">
-              <img src="assets/poltergeist-pepperoni.webp" alt="A slice of pepperoni pizza lifted from the pie with long strands of melted cheese." width="720" height="480" loading="lazy">
+              <img src="assets/bone-poltergeist-pepperoni-food.webp" alt="Concept image of a pepperoni, garlic and basil pizza with a lifted slice trailing melted cheese in a haunted roadhouse." width="720" height="480" loading="lazy">
               <span class="pizza-badge">SPIRIT OF THE CLASSICS</span>
             </div>
             <div class="pizza-title"><h3>Poltergeist Pepperoni</h3><span>$20</span></div>
@@ -793,42 +785,50 @@
             class="text-link" data-menu-category="drinks" href="#full-menu-drinks">Something to sip?
             <span aria-hidden="true">↗</span></a>
         </div>
+        <p class="menu-art-note">AI-created concept food imagery. Illustrative plating; review artwork against any edited ingredients.</p>
         <section id="full-menu" class="static-menu fallback-content" aria-labelledby="static-menu-title">
           <h3 id="static-menu-title">The complete menu</h3>
           <p>Fictional menu. Prices are illustrative; nothing here places an order.</p>
         <section id="full-menu-pizzas" aria-label="Pizzas">
           <h3>Pizzas</h3>
           <div class="full-menu-items"><article class="full-menu-item" data-menu-id="witchs-cauldron">
+          <img class="full-menu-photo" src="assets/bone-witchs-cauldron-food.webp" alt="Concept image of a blackened-crust pizza with bubbling cheese and red and green hot peppers on a candlelit roadhouse table." width="720" height="480" loading="lazy">
           <div><h4>Witch’s Cauldron</h4><strong>$24</strong></div>
           <p>Blackened crust, mozzarella, ghost peppers, and truffle oil.</p>
           <div class="menu-tags"><span>VERY SPICY</span> <span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="headless-horseman">
+          <img class="full-menu-photo" src="assets/bone-headless-horseman-food.webp" alt="Concept image of sausage, smoked cheese, bone-shaped parmesan and red onion on a wood-fired pizza beside a Halloween lantern." width="720" height="480" loading="lazy">
           <div><h4>Headless Horseman</h4><strong>$22</strong></div>
           <p>Charred sausage, smoked gouda, bone-shaped parmesan, and red onion.</p>
           
         </article>
         <article class="full-menu-item" data-menu-id="poltergeist-pepperoni">
+          <img class="full-menu-photo" src="assets/bone-poltergeist-pepperoni-food.webp" alt="Concept image of a pepperoni, garlic and basil pizza with a lifted slice trailing melted cheese in a haunted roadhouse." width="720" height="480" loading="lazy">
           <div><h4>Poltergeist Pepperoni</h4><strong>$20</strong></div>
           <p>Cupped pepperoni, provolone, garlic confit, and fresh basil.</p>
           
         </article>
         <article class="full-menu-item" data-menu-id="cemetery-margherita">
+          <img class="full-menu-photo" src="assets/bone-cemetery-margherita-food.webp" alt="Concept image of Cemetery Margherita: San Marzano tomato, fresh mozzarella, basil, and black sea salt." width="720" height="480" loading="lazy">
           <div><h4>Cemetery Margherita</h4><strong>$19</strong></div>
           <p>San Marzano tomato, fresh mozzarella, basil, and black sea salt.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="black-lagoon-bianca">
+          <img class="full-menu-photo" src="assets/bone-black-lagoon-bianca-food.webp" alt="Concept image of Black Lagoon Bianca: Garlic béchamel, roasted mushrooms, truffle oil, and arugula." width="720" height="480" loading="lazy">
           <div><h4>Black Lagoon Bianca</h4><strong>$23</strong></div>
           <p>Garlic béchamel, roasted mushrooms, truffle oil, and arugula.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="devils-harvest">
+          <img class="full-menu-photo" src="assets/bone-devils-harvest-food.webp" alt="Concept image of Devil’s Harvest: Spicy nduja, roasted peppers, caramelized onions, and Calabrian honey." width="720" height="480" loading="lazy">
           <div><h4>Devil’s Harvest</h4><strong>$25</strong></div>
           <p>Spicy nduja, roasted peppers, caramelized onions, and Calabrian honey.</p>
           <div class="menu-tags"><span>SPICY</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="little-monster-cheese">
+          <img class="full-menu-photo" src="assets/bone-little-monster-cheese-food.webp" alt="Concept image of Little Monster Cheese: A smaller tomato-and-mozzarella pizza for a smaller appetite." width="720" height="480" loading="lazy">
           <div><h4>Little Monster Cheese</h4><strong>$10</strong></div>
           <p>A smaller tomato-and-mozzarella pizza for a smaller appetite.</p>
           <div class="menu-tags"><span>V</span> <span>KIDS</span></div>
@@ -837,36 +837,43 @@
         <section id="full-menu-bites" aria-label="Bites &amp; sides">
           <h3>Bites &amp; sides</h3>
           <div class="full-menu-items"><article class="full-menu-item" data-menu-id="crawlers-breadsticks">
+          <img class="full-menu-photo" src="assets/bone-crawlers-breadsticks-food.webp" alt="Concept image of Crawler’s Breadsticks: Garlic butter, parmesan, and a side of marinara." width="720" height="480" loading="lazy">
           <div><h4>Crawler’s Breadsticks</h4><strong>$12</strong></div>
           <p>Garlic butter, parmesan, and a side of marinara.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="pumpkin-arancini">
+          <img class="full-menu-photo" src="assets/bone-pumpkin-arancini-food.webp" alt="Concept image of Pumpkin Arancini: Crispy pumpkin risotto balls with sage and pecorino cream." width="720" height="480" loading="lazy">
           <div><h4>Pumpkin Arancini</h4><strong>$13</strong></div>
           <p>Crispy pumpkin risotto balls with sage and pecorino cream.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="crypt-caprese">
+          <img class="full-menu-photo" src="assets/bone-crypt-caprese-food.webp" alt="Concept image of Crypt Caprese: Heirloom tomatoes, burrata, basil, and aged balsamic." width="720" height="480" loading="lazy">
           <div><h4>Crypt Caprese</h4><strong>$14</strong></div>
           <p>Heirloom tomatoes, burrata, basil, and aged balsamic.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="funeral-fries">
+          <img class="full-menu-photo" src="assets/bone-funeral-fries-food.webp" alt="Concept image of Funeral Fries: Parmesan, herbs, and black garlic aioli." width="720" height="480" loading="lazy">
           <div><h4>Funeral Fries</h4><strong>$11</strong></div>
           <p>Parmesan, herbs, and black garlic aioli.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="bat-wing-wings">
+          <img class="full-menu-photo" src="assets/bone-bat-wing-wings-food.webp" alt="Concept image of Bat-Wing Wings: Chicken wings with hot sauce, garlic parmesan, or smoky bourbon glaze." width="720" height="480" loading="lazy">
           <div><h4>Bat-Wing Wings</h4><strong>$16</strong></div>
           <p>Chicken wings with hot sauce, garlic parmesan, or smoky bourbon glaze.</p>
           
         </article>
         <article class="full-menu-item" data-menu-id="graveyard-garlic-knots">
+          <img class="full-menu-photo" src="assets/bone-graveyard-garlic-knots-food.webp" alt="Concept image of Graveyard Garlic Knots: Warm dough knots with garlic butter, parsley, and parmesan." width="720" height="480" loading="lazy">
           <div><h4>Graveyard Garlic Knots</h4><strong>$9</strong></div>
           <p>Warm dough knots with garlic butter, parsley, and parmesan.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="inferno-mozzarella">
+          <img class="full-menu-photo" src="assets/bone-inferno-mozzarella-food.webp" alt="Concept image of Inferno Mozzarella: Fried mozzarella with a gently fiery Calabrian marinara." width="720" height="480" loading="lazy">
           <div><h4>Inferno Mozzarella</h4><strong>$12</strong></div>
           <p>Fried mozzarella with a gently fiery Calabrian marinara.</p>
           <div class="menu-tags"><span>V</span> <span>SPICY</span></div>
@@ -875,21 +882,25 @@
         <section id="full-menu-sweets" aria-label="Sweet endings">
           <h3>Sweet endings</h3>
           <div class="full-menu-items"><article class="full-menu-item" data-menu-id="graveyard-gelato">
+          <img class="full-menu-photo" src="assets/bone-graveyard-gelato-food.webp" alt="Concept image of Graveyard Gelato: Vanilla bean gelato, chocolate soil, and a tombstone cookie." width="720" height="480" loading="lazy">
           <div><h4>Graveyard Gelato</h4><strong>$9</strong></div>
           <p>Vanilla bean gelato, chocolate soil, and a tombstone cookie.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="seance-tiramisu">
+          <img class="full-menu-photo" src="assets/bone-seance-tiramisu-food.webp" alt="Concept image of Séance Tiramisu: Espresso-soaked sponge, mascarpone, and cocoa dust." width="720" height="480" loading="lazy">
           <div><h4>Séance Tiramisu</h4><strong>$10</strong></div>
           <p>Espresso-soaked sponge, mascarpone, and cocoa dust.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="black-candle-cheesecake">
+          <img class="full-menu-photo" src="assets/bone-black-candle-cheesecake-food.webp" alt="Concept image of Black Candle Cheesecake: Baked cheesecake, blackberry compote, and dark cocoa crumble." width="720" height="480" loading="lazy">
           <div><h4>Black Candle Cheesecake</h4><strong>$10</strong></div>
           <p>Baked cheesecake, blackberry compote, and dark cocoa crumble.</p>
           <div class="menu-tags"><span>V</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="afterlife-affogato">
+          <img class="full-menu-photo" src="assets/bone-afterlife-affogato-food.webp" alt="Concept image of Afterlife Affogato: Vanilla gelato drowned in hot espresso." width="720" height="480" loading="lazy">
           <div><h4>Afterlife Affogato</h4><strong>$8</strong></div>
           <p>Vanilla gelato drowned in hot espresso. A civilized haunting.</p>
           <div class="menu-tags"><span>V</span></div>
@@ -898,31 +909,37 @@
         <section id="full-menu-drinks" aria-label="Drinks">
           <h3>Drinks</h3>
           <div class="full-menu-items"><article class="full-menu-item" data-menu-id="wicked-orchard-cider">
+          <img class="full-menu-photo" src="assets/bone-wicked-orchard-cider-food.webp" alt="Concept image of Wicked Orchard Cider: Warm apple cider, cinnamon, and orange peel. Zero-proof drink." width="720" height="480" loading="lazy">
           <div><h4>Wicked Orchard Cider</h4><strong>$6</strong></div>
           <p>Warm apple cider, cinnamon, and orange peel.</p>
           <div class="menu-tags"><span>ZERO-PROOF</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="midnight-cola">
+          <img class="full-menu-photo" src="assets/bone-midnight-cola-food.webp" alt="Concept image of Midnight Cola: House cola with vanilla, cherry, and a twist of lime. Zero-proof drink." width="720" height="480" loading="lazy">
           <div><h4>Midnight Cola</h4><strong>$6</strong></div>
           <p>House cola with vanilla, cherry, and a twist of lime.</p>
           <div class="menu-tags"><span>ZERO-PROOF</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="little-ghost-cocoa">
+          <img class="full-menu-photo" src="assets/bone-little-ghost-cocoa-food.webp" alt="Concept image of Little Ghost Cocoa: Warm cocoa with a marshmallow ghost. Zero-proof drink." width="720" height="480" loading="lazy">
           <div><h4>Little Ghost Cocoa</h4><strong>$5</strong></div>
           <p>Warm cocoa with a marshmallow ghost. Friendly, obviously.</p>
           <div class="menu-tags"><span>ZERO-PROOF</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="ravens-negroni">
+          <img class="full-menu-photo" src="assets/bone-ravens-negroni-food.webp" alt="Concept image of Raven’s Negroni: Gin, Campari, sweet vermouth, and blood orange. Alcoholic drink, 21+." width="720" height="480" loading="lazy">
           <div><h4>Raven’s Negroni</h4><strong>$15</strong></div>
           <p>Gin, Campari, sweet vermouth, and blood orange.</p>
           <div class="menu-tags"><span>21+</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="the-last-rites">
+          <img class="full-menu-photo" src="assets/bone-the-last-rites-food.webp" alt="Concept image of The Last Rites: Bourbon, maple, lemon, and smoky bitters over a large cube. Alcoholic drink, 21+." width="720" height="480" loading="lazy">
           <div><h4>The Last Rites</h4><strong>$16</strong></div>
           <p>Bourbon, maple, lemon, and smoky bitters over a large cube.</p>
           <div class="menu-tags"><span>21+</span></div>
         </article>
         <article class="full-menu-item" data-menu-id="blood-orange-spritz">
+          <img class="full-menu-photo" src="assets/bone-blood-orange-spritz-food.webp" alt="Concept image of Blood Orange Spritz: Aperol, prosecco, blood orange, and soda. Alcoholic drink, 21+." width="720" height="480" loading="lazy">
           <div><h4>Blood Orange Spritz</h4><strong>$14</strong></div>
           <p>Aperol, prosecco, blood orange, and soda.</p>
           <div class="menu-tags"><span>21+</span></div>
@@ -933,8 +950,8 @@
       </div>
     </section>
     <section class="story-section section-pad wrap" id="story" aria-labelledby="story-title">
-      <div class="story-photo"><img src="assets/haunted-roadhouse.webp"
-          alt="A crooked Victorian pizzeria glowing with warm light, surrounded by jack-o’-lanterns and autumn woods." width="800"
+      <div class="story-photo"><img src="assets/bone-exterior-story.webp"
+          alt="Concept illustration of A lovingly crooked Victorian roadside restaurant at autumn dusk among rural woods, moss-green trim, amber windows, broad porch, small pumpkin lanterns, a pizza oven glowing through the side window." width="800"
           height="900" loading="lazy">
         <div class="photo-corner top-left"></div>
         <div class="photo-corner bottom-right"></div>
@@ -957,42 +974,42 @@
         <p>The family records what it remembers. The objects have declined to give statements. An imaginary counter collection; nothing here is for sale.</p>
       </div>
       <div class="oddities-grid"><article class="oddity-card" id="oddity-employee-of-the-month">
-        <div class="oddity-illustration"><img src="assets/oddity-ghost.svg" alt="Ink illustration of a small ceramic ghost wearing an employee award." width="480" height="320" loading="lazy"><span>SPECIMEN 01</span></div>
+        <div class="oddity-illustration"><img src="assets/bone-ghost-object.webp" alt="Concept image of A small ivory glazed ceramic ghost figurine wearing a plain employee award medallion, friendly resigned face; aged brass medallion with moss-green ribbon on a worn wood base.." width="480" height="320" loading="lazy"><span>SPECIMEN 01</span></div>
         <p class="oddity-material">Glazed ceramic · Outstanding attendance</p>
         <h3>The Employee of the Month</h3>
         <p class="oddity-copy">Awarded in 1958. Still on the counter. The family has stopped asking when its shift ends.</p>
         <details class="oddity-record"><summary aria-label="Counter record for The Employee of the Month">Counter record <span aria-hidden="true">+</span></summary><div><p><strong>Claimed origin</strong>Beside the till, every Monday.</p><p>The building says it came with the staff. The staff say it came with the building. Neither has signed the inventory sheet.</p><p class="oddity-fiction">Fictional object and provenance. No authenticity claim or purchase.</p></div></details>
       </article>
     <article class="oddity-card" id="oddity-unlisted-room-key">
-        <div class="oddity-illustration"><img src="assets/oddity-key.svg" alt="Ink illustration of an old brass key with a tag marked 13." width="480" height="320" loading="lazy"><span>SPECIMEN 02</span></div>
+        <div class="oddity-illustration"><img src="assets/bone-key-object.webp" alt="Concept image of One aged brass skeleton key with a weathered paper tag marked exactly &quot;13&quot;, faded green twine.." width="480" height="320" loading="lazy"><span>SPECIMEN 02</span></div>
         <p class="oddity-material">Brass · Floor plan pending</p>
         <h3>Key to the Unlisted Room</h3>
         <p class="oddity-copy">The tag says Room 13. The floor plan stops at 12. Maintenance has filed this as a numbering issue.</p>
         <details class="oddity-record"><summary aria-label="Counter record for Key to the Unlisted Room">Counter record <span aria-hidden="true">+</span></summary><div><p><strong>Claimed origin</strong>Front desk drawer, under “Do not file.”</p><p>Opens nothing we are currently advertising. A replacement lock has been ordered for a door we have not located.</p><p class="oddity-fiction">Fictional object and provenance. No authenticity claim or purchase.</p></div></details>
       </article>
     <article class="oddity-card" id="oddity-next-thursday-postcard">
-        <div class="oddity-illustration"><img src="assets/oddity-postcard.svg" alt="Illustrated postcard showing the haunted house beneath an autumn moon." width="480" height="320" loading="lazy"><span>SPECIMEN 03</span></div>
+        <div class="oddity-illustration"><img src="assets/bone-postcard-object.webp" alt="Concept image of One weathered illustrated postcard depicting a crooked Victorian roadside house in autumn woods beneath a moon." width="480" height="320" loading="lazy"><span>SPECIMEN 03</span></div>
         <p class="oddity-material">Printed card · Delivery disputed</p>
         <h3>Postcard from Next Thursday</h3>
         <p class="oddity-copy">A cheerful view of the house, signed by someone who has not arrived. Postage is your department.</p>
         <details class="oddity-record"><summary aria-label="Counter record for Postcard from Next Thursday">Counter record <span aria-hidden="true">+</span></summary><div><p><strong>Claimed origin</strong>The outgoing post tray.</p><p>The date keeps getting ahead of the postmark. We have asked the sender to allow three to five business days.</p><p class="oddity-fiction">Fictional object and provenance. No authenticity claim or purchase.</p></div></details>
       </article>
     <article class="oddity-card" id="oddity-pumpkin-visitor-badge">
-        <div class="oddity-illustration"><img src="assets/oddity-pin.svg" alt="Ink illustration of an enamel pumpkin pin with a visitor ribbon." width="480" height="320" loading="lazy"><span>SPECIMEN 04</span></div>
+        <div class="oddity-illustration"><img src="assets/bone-badge-object.webp" alt="Concept image of One orange jack-o-lantern enamel pin with a blank faded moss-green visitor ribbon and antique brass edges.." width="480" height="320" loading="lazy"><span>SPECIMEN 04</span></div>
         <p class="oddity-material">Enamel pin · Guest registration</p>
         <h3>The Pumpkin’s Visitor Badge</h3>
         <p class="oddity-copy">Issued to a pumpkin that requested a guided tour. It completed the feedback form. Mostly circles.</p>
         <details class="oddity-record"><summary aria-label="Counter record for The Pumpkin’s Visitor Badge">Counter record <span aria-hidden="true">+</span></summary><div><p><strong>Claimed origin</strong>Guest register, entry illegible.</p><p>Visitor Services would like its badge back. The pumpkin would like to speak to the person who carved it.</p><p class="oddity-fiction">Fictional object and provenance. No authenticity claim or purchase.</p></div></details>
       </article>
     <article class="oddity-card" id="oddity-unresolved-business-magnet">
-        <div class="oddity-illustration"><img src="assets/oddity-magnet.svg" alt="Illustrated souvenir magnet depicting the house, with a receipt attached." width="480" height="320" loading="lazy"><span>SPECIMEN 05</span></div>
+        <div class="oddity-illustration"><img src="assets/bone-magnet-object.webp" alt="Concept image of One crafted souvenir magnet depicting a crooked Victorian roadside house with a tiny pumpkin." width="480" height="320" loading="lazy"><span>SPECIMEN 05</span></div>
         <p class="oddity-material">Souvenir magnet · Strong attachment</p>
         <h3>Magnet with Unresolved Business</h3>
         <p class="oddity-copy">Keeps returning to the invoice it came from. Excellent hold. Poor closure.</p>
         <details class="oddity-record"><summary aria-label="Counter record for Magnet with Unresolved Business">Counter record <span aria-hidden="true">+</span></summary><div><p><strong>Claimed origin</strong>Gift-shop reorder, still marked “Returned.”</p><p>Removed from stock three times. Found on the purchase ledger four times. The discrepancy has been carried forward.</p><p class="oddity-fiction">Fictional object and provenance. No authenticity claim or purchase.</p></div></details>
       </article>
     <article class="oddity-card" id="oddity-raven-from-accounts">
-        <div class="oddity-illustration"><img src="assets/oddity-raven.svg" alt="Ink illustration of a black raven figurine perched on a small ledger." width="480" height="320" loading="lazy"><span>SPECIMEN 06</span></div>
+        <div class="oddity-illustration"><img src="assets/bone-raven-object.webp" alt="Concept image of One black painted-resin raven figurine perched on a small weathered moss-green accounting ledger on a wood shelf." width="480" height="320" loading="lazy"><span>SPECIMEN 06</span></div>
         <p class="oddity-material">Painted resin · Receipts retained</p>
         <h3>The Raven from Accounts</h3>
         <p class="oddity-copy">A small black raven guarding a very small ledger. Never promoted. Never off duty.</p>
@@ -1002,7 +1019,7 @@
     <section class="grounds-section" id="grounds" aria-labelledby="grounds-heading"><div class="wrap section-pad">
       <div class="section-intro"><div><p class="eyebrow accent">VISITOR SERVICES / DRAWING NO. 013</p><h2 id="grounds-heading">The grounds, according to the grounds.</h2></div><p>Find the house, follow the loop, or take the shorter return. All three are perfectly respectable plans.</p></div>
       <div class="grounds-layout">
-        <figure class="grounds-figure"><img src="assets/grounds-map.svg" width="760" height="560" alt="Imagined grounds with six numbered locations: house, counter, pumpkin trail, rest bench, shorter return, and entrance. Solid loop and dashed shorter return. Fictional; not to scale."><figcaption>Drawn from family memory. The house has declined to confirm.</figcaption></figure>
+        <figure class="grounds-figure"><img src="assets/bone-grounds-map.webp" width="760" height="560" alt="Imagined grounds with six numbered locations: house, counter, pumpkin trail, rest bench, shorter return, and entrance. Solid loop and dashed shorter return. Fictional; not to scale."><figcaption>Drawn from family memory. The house has declined to confirm.</figcaption></figure>
         <ol class="grounds-key"><li><span class="map-number">1</span><div><a class="text-link" data-attraction="pizzeria" data-map-location="1" href="#details-pizzeria">House &amp; pizzeria <span aria-hidden="true">↗</span></a><p>Supper, the extra place setting, and the imagined accessible restroom.</p><p class="map-stop-hint">About 60 minutes · Food purchased separately</p></div></li>
     <li><span class="map-number">2</span><div><a class="text-link" data-attraction="oddities" data-map-location="2" href="#details-oddities">Oddities counter <span aria-hidden="true">↗</span></a><p>Beside the dining room. Six objects; several unanswered questions.</p><p class="map-stop-hint">About 20 minutes · Free to browse</p></div></li>
     <li><span class="map-number">3</span><div><a class="text-link" data-attraction="hollow" data-map-location="3" href="#details-hollow">Pumpkin Hollow <span aria-hidden="true">↗</span></a><p>Follow the solid loop. Lanterns lead back toward the house.</p><p class="map-stop-hint">About 30 minutes · $12 per guest age 5+</p></div></li>
@@ -1116,7 +1133,7 @@
     </section>
   </main>
   <footer class="site-footer wrap">
-    <div class="footer-top"><a class="footer-brand" href="#">Bone Appétit<span>A LITTLE OFF THE BEATEN PATH. A LITTLE OFF, GENERALLY.</span></a>
+    <div class="footer-top"><a class="footer-brand" href="#"><img class="restaurant-logo footer-logo" src="assets/bone-appetit-logo.webp" alt="" width="72" height="72" loading="lazy">Bone Appétit<span>A LITTLE OFF THE BEATEN PATH. A LITTLE OFF, GENERALLY.</span></a>
       <nav aria-label="Footer navigation"><a href="#haunts">The haunts</a><a data-open-menu
           href="#full-menu">Full menu</a><a href="#oddities">The counter</a><a
           href="#grounds">Fictional map</a><a href="#access">Access & FAQs</a><button type="button"
@@ -1155,7 +1172,7 @@
     <div class="dialog-tools"><button class="close-button" type="button" data-close
         aria-label="Close attraction details">×</button></div>
     <div class="attraction-dialog-image"><img id="attraction-image"
-        src="assets/hero-haunted-pizza.webp" alt="" width="900" height="600"></div>
+        src="assets/bone-dining-room-scene.webp" alt="" width="900" height="600"></div>
     <div class="attraction-dialog-copy">
       <p class="eyebrow accent" id="attraction-kicker"></p>
       <h2 id="attraction-title"></h2>
@@ -1251,7 +1268,7 @@
         <li><time>4:40 pm</time><strong>Inspect the family inventory</strong><span>The oddities counter · Six fictional specimens · Browsing only</span></li>
         <li><time>5:00 pm</time><strong>Back to the land of the living</strong><span>Or stay a little longer. The grounds close at 10 pm.</span></li></ol>
             <aside class="field-note-reference">
-              <img src="assets/grounds-map.svg" width="760" height="560" alt="Six numbered locations on the fictional grounds; solid trail loop and dashed shorter return. Not to scale.">
+              <img src="assets/bone-grounds-map.webp" width="760" height="560" alt="Six numbered locations on the fictional grounds; solid trail loop and dashed shorter return. Not to scale.">
               <p class="field-note-map-caption">Fictional grounds · Not to scale</p>
               <ol class="field-note-map-key"><li><span>1</span>House &amp; pizzeria</li>
         <li><span>2</span>Oddities counter</li>

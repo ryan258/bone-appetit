@@ -9,7 +9,7 @@
   <meta name="description"
     content="{{META_DESCRIPTION}}">
   <title>{{PAGE_TITLE}}</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{LOGO_ASSET}}" type="image/webp">
   {{FONT_PRELOAD}}
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="properties.css">
@@ -31,15 +31,7 @@
   {{PROPERTY_SWITCHER}}
   <header class="site-header">
     <a class="brand" href="#">
-      <svg class="brand-mark" viewBox="0 0 60 66" aria-hidden="true">
-        <path
-          d="M11 28c-5-2-8-5-8-10C3 11 9 7 16 9 19-2 34-2 38 8c9-4 19 1 19 10 0 5-3 9-8 11v11c0 11-8 20-19 20S11 51 11 40Z"
-          fill="currentColor" />
-        <path d="M11 28h38M23 51v8m7-9v10m7-9v8" fill="none" stroke="#181c17" stroke-width="3" />
-        <ellipse cx="21" cy="37" rx="5" ry="6" fill="#181c17" />
-        <ellipse cx="39" cy="37" rx="5" ry="6" fill="#181c17" />
-        <path d="m30 41-4 6h8Z" fill="#181c17" />
-      </svg>
+      <img class="brand-mark restaurant-logo" src="{{LOGO_ASSET}}" alt="" width="80" height="80">
       <span class="brand-type">{{NAME}}<span>{{BRAND_TAGLINE}}</span></span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span
@@ -118,12 +110,13 @@
             class="text-link" data-menu-category="drinks" href="#full-menu-drinks">Something to sip?
             <span aria-hidden="true">↗</span></a>
         </div>
+        <p class="menu-art-note">AI-created concept food imagery. Illustrative plating; review artwork against any edited ingredients.</p>
         {{STATIC_MENU}}
       </div>
     </section>
     <section class="story-section section-pad wrap" id="story" aria-labelledby="story-title">
-      <div class="story-photo"><img src="{{HERO_ASSET}}"
-          alt="{{HERO_ALT}}" width="800"
+      <div class="story-photo"><img src="{{STORY_ASSET}}"
+          alt="{{STORY_ALT}}" width="800"
           height="900" loading="lazy">
         <div class="photo-corner top-left"></div>
         <div class="photo-corner bottom-right"></div>
@@ -206,7 +199,7 @@
     </section>
   </main>
   <footer class="site-footer wrap">
-    <div class="footer-top"><a class="footer-brand" href="#">{{NAME}}<span>{{FOOTER_TAGLINE}}</span></a>
+    <div class="footer-top"><a class="footer-brand" href="#"><img class="restaurant-logo footer-logo" src="{{LOGO_ASSET}}" alt="" width="72" height="72" loading="lazy">{{NAME}}<span>{{FOOTER_TAGLINE}}</span></a>
       <nav aria-label="Footer navigation"><a href="#haunts">The haunts</a><a data-open-menu
           href="#full-menu">Full menu</a><a href="#oddities">{{COLLECTION_NAV}}</a><a
           href="#grounds">Fictional map</a><a href="#access">Access & FAQs</a><button type="button"
