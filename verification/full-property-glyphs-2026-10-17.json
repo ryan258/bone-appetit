@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-17",
+  "scope": "Expand the four property libraries from seven page glyphs to complete 48-role libraries",
+  "counts": {
+    "properties": 4,
+    "glyphsPerProperty": 48,
+    "uniqueDrawings": 192,
+    "groupsPerProperty": 6,
+    "SVGFiles": 201,
+    "coverageManifests": 4,
+    "standalonePropertyCatalogs": 4
+  },
+  "coverage": {
+    "identity": 7,
+    "menu": 8,
+    "experiences": 9,
+    "visit": 12,
+    "actions": 8,
+    "house": 4
+  },
+  "manifestCounts": {
+    "bone-appetit": 48,
+    "rest-in-pizza": 48,
+    "grave-expectations": 48,
+    "boobies-lodge": 48
+  },
+  "passed": [
+    "npm run build",
+    "npm run check:glyphs",
+    "npm run check:generated",
+    "npm run check:website-workspace",
+    "git diff --check",
+    "201 SVG files parsed with Python XML parser",
+    "Four full property ZIPs and combined ZIP passed CRC checks",
+    "Static package includes all raw libraries and glyph source",
+    "All four final property overview sheets and combined preview visually inspected"
+  ],
+  "rasterVerification": {
+    "renderer": "Bundled sharp/librsvg",
+    "glyphsRendered": 192,
+    "uniqueRawRasterSHA256Values": 192,
+    "outsideCanvas": 0,
+    "method": "Render on padded -4 -4 32 32 viewBox at 192px; compare full raw raster SHA256 and check alpha > 40 bounds inside nominal 0..24 canvas. Corrected overflow and printer path issues before final successful pass."
+  },
+  "integration": [
+    "Every generated page embeds its full property-specific 48-symbol sprite.",
+    "Browser-global renderer executed in a VM matches Node rendering for each property.",
+    "Individual and collection website export markup retains all 48 symbols and the correct property ID.",
+    "Existing page slots retain their seven property-specific role choices; additional glyphs are available for reuse.",
+    "Each of the six collection-object types and every current menu category has a corresponding glyph role.",
+    "Renamed campaigns and legacy Bone reference snapshots retain the correct library."
+  ],
+  "graph": {
+    "rendererImpact": "HIGH: 12 impacted, 5 direct; preview and individual/collection download paths",
+    "newGlyphFiles": "Absent from current index; impact returned UNKNOWN and current source references were inspected."
+  },
+  "limitations": [
+    "No browser launched or browser layout pass run.",
+    "VM checks establish renderer/module agreement; sharp checks SVG drawing output outside a web browser.",
+    "No full suite, human assistive-technology audit or physical print validation.",
+    "Existing nine page placements use seven roles; the expanded reusable library is fully embedded but is not placed into every interface control.",
+    "No staging, commit, push, deployment or publication."
+  ],
+  "sourceSHA256": {
+    "property-glyphs.js": "2fd672f66a90ceb16d54f04fd9c420df73f02361b61688a3beb237c29ba4a495",
+    "scripts/build-glyphs.cjs": "ac2e8403322f5279735daf954bda386b6e3a90ce564b9b218208dad540f44152",
+    "tests/property-glyphs.cjs": "d5a1c36f68622d37590d712c062dc29520871cf9b76565db0dd71f7ffa221a09",
+    "index.html": "9f8c74bfd58d9226e1a6d5fb0222f499a4861ec52914b0ff0acd9f7da0fda778",
+    "rest-in-pizza.html": "6b2f78bc4af0716c5e39382115003a21ce7d1a40171b3ec24eec6c36184952e0",
+    "grave-expectations.html": "b97604e203589017bf0cd8cfae8eb4daecd948aacfe713b29d0cfd2af0da39da",
+    "boobies-lodge.html": "4141e8e8e378addcbca3059741157f3ae7d2b31c141eccf0db94ab4bea3cc3ce",
+    "README.md": "2f290419e934355fd97d0c8645925bb8c200b496bc2e2f48945b200560642c16",
+    "docs/architecture.md": "b1de5ccafb0ad773f39e6691b3ff018903d59b11764140a2445d31228593d9ac"
+  },
+  "archives": {
+    "bone-appetit-full-svg-glyph-library.zip": {
+      "files": 53,
+      "bytes": 34289,
+      "sha256": "e6585f2e81b29f96da687785bd30cd86a907480875d66eedf35e80747ebb52a5"
+    },
+    "rest-in-pizza-full-svg-glyph-library.zip": {
+      "files": 53,
+      "bytes": 34892,
+      "sha256": "0792d52eb2e60d775d2be1da4916740790a8d3da86f72fd51c59c4676fcc632b"
+    },
+    "grave-expectations-full-svg-glyph-library.zip": {
+      "files": 53,
+      "bytes": 34822,
+      "sha256": "691decfca9079a3a421776445271f59e6e04fd81b0280d3729c143d755650254"
+    },
+    "boobies-lodge-full-svg-glyph-library.zip": {
+      "files": 53,
+      "bytes": 34252,
+      "sha256": "5a7e2075189f8a8ede78cc2f559047734cac16ed646160f0d6709a91ee8cb507"
+    },
+    "all-four-full-svg-glyph-libraries.zip": {
+      "files": 213,
+      "bytes": 172934,
+      "sha256": "90dfea23a82d8c6dec83d5dd88644673e8a27def12f2913834f333bfc4bac534"
+    }
+  },
+  "artifactsDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/17/01a14aa4-9d03-78d2-bd9e-9781da7829ef/full-property-glyphs"
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-17",
+  "scope": "Four property-specific SVG glyph libraries and shared website integration",
+  "counts": {
+    "properties": 4,
+    "rolesPerProperty": 7,
+    "uniqueDrawings": 28,
+    "standaloneGlyphSVGs": 28,
+    "sprites": 4,
+    "overviewSVGs": 1
+  },
+  "passed": [
+    "npm run build",
+    "npm run check:glyphs",
+    "npm run check:generated",
+    "npm run check:websites",
+    "npm run check:website-workspace",
+    "npm run check:planner",
+    "Static package generated in /tmp/bone-glyph-static-package with glyph registry and catalog included",
+    "33 SVG files parsed as XML",
+    "Five SVG library archives created and CRC-checked",
+    "Vector overview rendered with sharp and visually inspected",
+    "git diff --check"
+  ],
+  "verificationDetails": [
+    "All glyph references are property-prefixed, resolve to local embedded symbols and use all seven roles.",
+    "Browser-global renderer executed in a JavaScript VM matches Node rendering for all four pages.",
+    "Individual and collection website generation preserves property identity after campaign renaming and retains the legacy Bone fallback."
+  ],
+  "graph": {
+    "indexRefreshedBy": "Ryan ran npx gitnexus analyze during this session",
+    "rendererImpact": "HIGH: 12 impacted symbols, 5 direct dependents; creator preview and individual/collection download flows",
+    "testFixtureImpact": "UNKNOWN for test file nodes; confirmed package script entrypoints and literal renderer dependency lists before updating fixtures"
+  },
+  "limitations": [
+    "No browser was launched or browser layout pass run in this session.",
+    "VM agreement checks JavaScript module integration, not browser SVG rendering.",
+    "Overview inspection uses librsvg through sharp, not a web browser.",
+    "No full suite, human assistive-technology audit or physical print validation.",
+    "Local and uncommitted; no staging, push, deployment or publication."
+  ],
+  "sha256": {
+    "property-glyphs.js": "f8fbcea524783125512ef56c8e077303507188052a5de70721a22032e23e1b76",
+    "scripts/build-glyphs.cjs": "a1ad395e09146f82f2e4b325f5941f162d98bc8365f14d0e182fd61cd331542f",
+    "tests/property-glyphs.cjs": "1e80c3b14abd289a10eb4e8f1820140c5a031f41367d92827d5f7652a0c6577c",
+    "website-renderer.js": "0210853c34b17259444c6e0c2508a98cdf3543d793908f03ac805c0ae18b42aa",
+    "index.template.html": "9ca71366805399aa324727fa2c07bf49a00a4404b0e5277a67210ac3e81049df",
+    "creator.html": "568a349046594e71459aa8e6649621a2d37afaf7e2b8bc2482c7eea211c4b623",
+    "scripts/package-site.cjs": "fddd8d911505d64f9d11b75c910ebb1a88281b3b38bc8ee85c9e4f570105bb92",
+    "index.html": "34dfdbd1d0feb06616d29a1e18dd3bec1c68e60ebf87b3015fbbb1b3f885d198",
+    "rest-in-pizza.html": "56ed07f1e9b1c9589f8d47b8e7067cc5eb2db15589e7b52ce2344f7673995ce1",
+    "grave-expectations.html": "f63715c269941fa623b7ef220a35408edd5ac1060efba2e04491573571400256",
+    "boobies-lodge.html": "b577f3de3156e2109de99b47cbca3b70053e9cd898172dc79d048f2558b45c6d"
+  },
+  "downloadsDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/17/01a14aa4-9d03-78d2-bd9e-9781da7829ef"
+}

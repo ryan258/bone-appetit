@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-17",
+  "scope": "Prudent integration of property glyphs into the four website designs, full creator previews and website exports",
+  "perProperty": {
+    "availableRoles": 48,
+    "placedRoles": 28,
+    "documentSVGUsePlacements": 39
+  },
+  "placements": [
+    "Four existing roadside facts, garden note, signature field-guide mark and day/night choices",
+    "Category filter buttons and corresponding static/no-JavaScript category headings",
+    "Three experience kickers",
+    "Six collection material labels",
+    "Four visitor facts: calendar, clock, ticket and location",
+    "Primary menu, drinks and planner actions",
+    "Accessibility glyph for access note",
+    "Individual property ghost in closing callout"
+  ],
+  "restraint": [
+    "No new glyphs in food-tag rows, navigation, FAQ controls, photographs or long-form copy.",
+    "All controls retain text labels; glyphs remain aria-hidden and non-focusable.",
+    "Supporting glyphs use 18px dimensions (16px for compact visitor facts), inherit theme text colors and are hidden in print.",
+    "Remaining 20 roles retained in each complete library without extra page placements."
+  ],
+  "passed": [
+    "npm run check:glyphs",
+    "npm run check:generated",
+    "npm run check:website-workspace",
+    "JavaScript syntax check for the focused browser test",
+    "Static packaging to /tmp/bone-glyph-integrated-package",
+    "Five UI-downloaded website ZIPs passed independent CRC, size, SHA-256 manifest and per-page glyph checks",
+    "All 16 captured desktop/phone screenshots visually inspected",
+    "git diff --check"
+  ],
+  "browser": {
+    "authorization": "Ryan selected A: one focused headless Chromium pass.",
+    "engine": "Chromium 153.0.8010.12",
+    "initialAttempt": "Sandbox blocked temporary localhost server before browser launch; retried with execution permission.",
+    "firstPassCompleted": [
+      "All four live sites at 1440, 768, 375 and 320 widths",
+      "Visible glyphs resolve locally and draw with nonzero bounds",
+      "Menu category controls and readable tag text",
+      "Planner save controls at all widths",
+      "No-JavaScript static menus and glyphs",
+      "Supporting glyphs hidden in print",
+      "Draft and named creator previews at desktop and phone sizes",
+      "Four individual UI downloads opened offline with correct glyph placements"
+    ],
+    "firstPassRemainingFailure": "Collection download timed out after 20 seconds. Cause not established.",
+    "targetedRetry": "Only collection UI download and four extracted offline pages were retried; passed without application changes.",
+    "retryDiagnostics": {
+      "chromium": "153.0.8010.12",
+      "scope": "collection retry only",
+      "properties": [],
+      "errors": [],
+      "external": [],
+      "failed": []
+    },
+    "isolation": "Temporary test campaigns and isolated browser contexts; owner browser-local campaigns were not accessed."
+  },
+  "archives": [
+    {
+      "archive": "bone-appetit.zip",
+      "pages": [
+        "index.html"
+      ],
+      "members": 67,
+      "bytes": 10671210,
+      "sha256": "d1f2ecb3a066c001d8584bfd9bd9877827bc7ad183a6cc4900653fb9e5bafe54",
+      "manifestHashes": "passed",
+      "CRC": "passed",
+      "glyphPlacements": "39 placements / 28 roles / full 48-symbol library per page"
+    },
+    {
+      "archive": "boobies-lodge.zip",
+      "pages": [
+        "index.html"
+      ],
+      "members": 58,
+      "bytes": 9114462,
+      "sha256": "7e61ba0940ecf59ff3ae0fc1c26f8d9541bd2bc41b7bf04f8defc6834aec6ebc",
+      "manifestHashes": "passed",
+      "CRC": "passed",
+      "glyphPlacements": "39 placements / 28 roles / full 48-symbol library per page"
+    },
+    {
+      "archive": "collection.zip",
+      "pages": [
+        "index.html",
+        "rest-in-pizza.html",
+        "grave-expectations.html",
+        "boobies-lodge.html"
+      ],
+      "members": 172,
+      "bytes": 35245682,
+      "sha256": "fadbbfd5da4a9518b78f1a16a0c509f616add8853e05b21c76bf4194fa747339",
+      "manifestHashes": "passed",
+      "CRC": "passed",
+      "glyphPlacements": "39 placements / 28 roles / full 48-symbol library per page"
+    },
+    {
+      "archive": "grave-expectations.zip",
+      "pages": [
+        "index.html"
+      ],
+      "members": 58,
+      "bytes": 8137824,
+      "sha256": "e3f4e9d0ab7e772ec66eb191646af0fc2ddf608a15c06db133c1d0b9823e9461",
+      "manifestHashes": "passed",
+      "CRC": "passed",
+      "glyphPlacements": "39 placements / 28 roles / full 48-symbol library per page"
+    },
+    {
+      "archive": "rest-in-pizza.zip",
+      "pages": [
+        "index.html"
+      ],
+      "members": 58,
+      "bytes": 8561799,
+      "sha256": "8b279ec886949c35becd320e92589371e6d8de04e0d5817847d18eeaa82a253b",
+      "manifestHashes": "passed",
+      "CRC": "passed",
+      "glyphPlacements": "39 placements / 28 roles / full 48-symbol library per page"
+    }
+  ],
+  "preservation": {
+    "glyphLibrarySourceUnchanged": true,
+    "unchangedByGitDiff": [
+      "app.js",
+      "site-data.json",
+      "property-data.json",
+      "visitor-sites.json",
+      "planner.js",
+      "field-notes.js",
+      "marketing-pack.js"
+    ]
+  },
+  "graph": {
+    "renderer": "HIGH impact, lower-bound: 12 impacted and 5 direct, with an unresolved receiver call site; current source references and preview/export paths checked.",
+    "appMenu": "LOW impact checked during planning; app.js ultimately required no edit."
+  },
+  "limitations": [
+    "Targeted checks only, no full suite.",
+    "Chromium only; no human assistive-technology audit or physical print validation.",
+    "The first collection timeout was not reproduced or explained.",
+    "Nothing staged, committed, pushed, published or deployed."
+  ],
+  "sha256": {
+    "website-renderer.js": "694d0c081cd60d32a37b11a2d19243ac2bc6d9f6c599e1e9551e153ec2a016cb",
+    "index.template.html": "caf7c17fbc9b54de9abba2698835f60c64bedbbca2e83c4cf1081337b9147bc6",
+    "styles.css": "88939c9890206d241809d4a19684fee94f89b704703741aac6771e1ed43cd1f1",
+    "index.html": "e52d4d9d66984c2b2faef6180c81b9edb9a191628d949fd9ac09d7e0d96c5cd6",
+    "rest-in-pizza.html": "cc5944e0edbbdeadcaee14620540df087faa8430b6b7e60d54d06fe51afb25ab",
+    "grave-expectations.html": "8b27c28e11fe6f58022d21e353d28436b089ec0ef2b18aabd796298feb3cdf04",
+    "boobies-lodge.html": "d634d0e874991a6e014bfc0752d6a74f9bca20c2136abfaae0232439cf4eec0d",
+    "tests/property-glyphs.cjs": "72b28bdd7916bba057072b33e1587c67500a794af5403740c5ba18bc6dd7b484",
+    "tests/glyph-integration-browser.cjs": "7e74d7a5eca98012665d7f16ef11687871df28f95e84fa3ebb14761a28875189",
+    "README.md": "5f2e39f1d980a4265f4e1eb6792d2299e84014b1fe33d183d50c401c072ff447",
+    "docs/architecture.md": "d57a92db307abf54e1cc57edf5623eac8c668f8e972dfa35ee8b79cfcbfcf0c2",
+    "package.json": "c755fac3a6ef4b21c0aa7924b2ab8366ebfd185208dfdb9135d76a40e4055248"
+  },
+  "artifactsDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/17/01a14aa4-9d03-78d2-bd9e-9781da7829ef/glyph-integration"
+}
