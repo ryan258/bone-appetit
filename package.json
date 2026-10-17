@@ -7,11 +7,11 @@
     "node": ">=22"
   },
   "scripts": {
-    "build": "node scripts/render-site.cjs",
+    "build": "node scripts/build-glyphs.cjs && node scripts/render-site.cjs",
     "build:pages": "node scripts/package-site.cjs _site",
     "validate": "node scripts/render-site.cjs --validate",
     "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace && npm run check:website-export && npm run check:website-collection && npm run check:themes",
-    "check:generated": "node scripts/render-site.cjs --check",
+    "check:generated": "node scripts/build-glyphs.cjs --check && node scripts/render-site.cjs --check",
     "check:validation": "node tests/content.cjs",
     "check:planner": "node tests/planner.cjs",
     "check:creative": "node tests/creative.cjs",
@@ -49,7 +49,10 @@
     "check:pizza-art-browser": "node tests/pizza-art-browser.cjs",
     "build:remaining-maps": "node scripts/render-remaining-maps.cjs",
     "check:remaining-art": "node tests/remaining-art.cjs",
-    "check:remaining-art-browser": "node tests/remaining-art-browser.cjs"
+    "check:remaining-art-browser": "node tests/remaining-art-browser.cjs",
+    "build:glyphs": "node scripts/build-glyphs.cjs",
+    "check:glyphs": "node scripts/build-glyphs.cjs --check && node tests/property-glyphs.cjs",
+    "check:glyph-integration-browser": "node tests/glyph-integration-browser.cjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"

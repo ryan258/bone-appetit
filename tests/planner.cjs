@@ -81,7 +81,7 @@ try {
   for (const asset of fs.readdirSync(path.join(__dirname, '../assets')).filter(file => /\.(svg|webp)$/.test(file))) {
     fs.copyFileSync(path.join(__dirname, '../assets', asset), path.join(temp, 'assets', asset));
   }
-  for (const file of ['index.html', 'index.template.html', 'site-data.json', 'visitor-sites.json', 'property-data.json', 'content.js', 'planner.js', 'scripts/render-site.cjs','website-renderer.js', 'field-notes.js', 'field-notes.css']) {
+  for (const file of ['index.html', 'index.template.html', 'site-data.json', 'visitor-sites.json', 'property-data.json', 'content.js', 'planner.js', 'scripts/render-site.cjs','website-renderer.js','property-glyphs.js', 'field-notes.js', 'field-notes.css']) {
     fs.copyFileSync(path.join(__dirname, '..', file), path.join(temp, file));
   }
   const target = path.join(temp, 'index.html');

@@ -96,19 +96,17 @@
           </div>
           <div class="intro-action">
             <p>{{MENU_INTRO}}</p><a class="button button-dark"
-              data-open-menu href="#full-menu">Explore the full menu <span
-                aria-hidden="true">↗</span></a>
+              data-open-menu href="#full-menu">Explore the full menu {{ICON_MENU}}</a>
           </div>
         </div>
         <div class="pizza-grid">
           {{FEATURED_PIZZAS}}
         </div>
         <div class="menu-bottom">
-          <p><svg class="icon">
-              <use href="#icon-leaf" />
+          <p><svg class="icon" aria-hidden="true" focusable="false">
+              <use href="#{{GLYPH_GARDEN}}" />
             </svg> {{MENU_NOTE}}</p><a
-            class="text-link" data-menu-category="drinks" href="#full-menu-drinks">Something to sip?
-            <span aria-hidden="true">↗</span></a>
+            class="text-link" data-menu-category="drinks" href="#full-menu-drinks">Something to sip? {{ICON_DRINKS}}</a>
         </div>
         <p class="menu-art-note">AI-created concept food imagery. Illustrative plating; review artwork against any edited ingredients.</p>
         {{STATIC_MENU}}
@@ -148,7 +146,7 @@
             {{MOOD_PICKER}}
             {{DEFAULT_MOOD}}
             <button class="button" type="button" data-open-planner data-planner-control>Build my
-              visit <span aria-hidden="true">↗</span></button>
+              visit {{ICON_PLAN}}</button>
             <p class="small-note" data-planner-control>A little planning goes a long way. Save your
               itinerary for later.</p>
             <p class="planner-fallback small-note">The interactive itinerary builder needs
@@ -156,8 +154,8 @@
               visitor guide on this page.</p>
           </div>
           <aside class="visitor-card" aria-labelledby="visitor-card-title">
-            <div class="visitor-card-top"><span>YOUR FIELD GUIDE</span><svg class="icon">
-                <use href="#icon-star" />
+            <div class="visitor-card-top"><span>YOUR FIELD GUIDE</span><svg class="icon" aria-hidden="true" focusable="false">
+                <use href="#{{GLYPH_SIGNATURE}}" />
               </svg></div>
             <h3 id="visitor-card-title">The essential<br>otherworldly details.</h3>
             {{VISITOR_FACTS}}<a class="text-link" href="#access">Good to know before you go <span
@@ -173,8 +171,8 @@
         <p class="eyebrow accent">{{ACCESS_EYEBROW}}</p>
         <h2 id="access-title">{{ACCESS_HEADING}}</h2>
         <p>{{ACCESS_INTRO}}</p>
-        <div class="access-note"><svg class="icon">
-            <use href="#icon-heart" />
+        <div class="access-note"><svg class="icon" aria-hidden="true" focusable="false">
+            <use href="#{{GLYPH_ACCESSIBILITY}}" />
           </svg>
           <p>{{ACCESS_NOTE}}</p>
         </div>
@@ -184,17 +182,11 @@
       </div>
     </section>
     <section class="last-call" aria-labelledby="last-call-title">
-      <div class="wrap"><svg class="last-ghost" viewBox="0 0 80 84" aria-hidden="true">
-          <path d="M12 76V32a28 28 0 0 1 56 0v44L54 66 40 76 26 66Z" fill="currentColor" />
-          <ellipse cx="30" cy="33" rx="4" ry="6" fill="#d9683e" />
-          <ellipse cx="50" cy="33" rx="4" ry="6" fill="#d9683e" />
-          <path d="M33 50q7 6 14 0" fill="none" stroke="#d9683e" stroke-width="3" />
-        </svg>
+      <div class="wrap"><svg class="last-ghost icon" viewBox="0 0 24 24" data-glyph-role="ghost" aria-hidden="true" focusable="false"><use href="#{{GLYPH_GHOST}}"/></svg>
         <p class="eyebrow">{{LAST_EYEBROW}}</p>
         <h2 id="last-call-title">{{LAST_HEADING}}</h2>
         <p>{{LAST_INTRO}}</p><button class="button button-dark" type="button"
-          data-open-planner data-planner-control>Let’s make a plan <span
-            aria-hidden="true">↗</span></button>
+          data-open-planner data-planner-control>Let’s make a plan {{ICON_PLAN}}</button>
       </div>
     </section>
   </main>
@@ -269,12 +261,11 @@
           </select>{{GUEST_FIELDS}}{{PLAN_STOPS}}</div>
         {{FIELD_NOTE_CARD}}
       </div>
-      <div class="planner-actions"><button class="button" type="submit">Save my plan <span
-            aria-hidden="true">↗</span></button><button class="text-link" type="button"
-          id="download-plan">Download itinerary <span aria-hidden="true">↓</span></button><button
-          class="text-link" type="button" id="print-plan">Print itinerary</button><button
+      <div class="planner-actions"><button class="button" type="submit">Save my plan {{ICON_SAVE}}</button><button class="text-link" type="button"
+          id="download-plan">Download itinerary {{ICON_DOWNLOAD}}</button><button
+          class="text-link" type="button" id="print-plan">Print itinerary {{ICON_PRINT}}</button><button
           class="text-link" type="button" id="download-field-notes">Download field
-          notes</button><button class="text-link" type="button" id="restore-plan" disabled>Restore
+          notes {{ICON_MAP}}</button><button class="text-link" type="button" id="restore-plan" disabled>Restore
           saved
           plan</button><button class="text-link reset-plan" type="button"
           id="reset-plan">Reset</button><button class="text-link" type="button" id="undo-reset"
@@ -290,33 +281,7 @@
     <p class="noscript-note">The complete menu, attraction details, and visitor information work
       without JavaScript. The interactive itinerary builder needs JavaScript.</p>
   </noscript>
-  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <symbol id="icon-star" viewBox="0 0 24 24">
-      <path d="m12 2 2.5 6.5L21 12l-6.5 2.5L12 22l-2.5-7.5L3 12l6.5-3.5Z" />
-    </symbol>
-    <symbol id="icon-moon" viewBox="0 0 24 24">
-      <path d="M20 15A9 9 0 0 1 9 3 9 9 0 1 0 20 15Z" />
-      <path d="m18 2 1 3 3 1-3 1-1 3-1-3-3-1 3-1Z" />
-    </symbol>
-    <symbol id="icon-sun" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="4" />
-      <path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2" />
-    </symbol>
-    <symbol id="icon-pizza" viewBox="0 0 24 24">
-      <path d="m4 4 7 18L22 6C15 2 9 1 4 4Zm1 4c5-2 10-1 15 1" />
-      <circle cx="10" cy="11" r="1" />
-      <circle cx="14" cy="14" r="1" />
-    </symbol>
-    <symbol id="icon-pumpkin" viewBox="0 0 24 24">
-      <path d="M12 6c-9-5-15 15 0 15S21 1 12 6Zm0 0c-5 0-5 15 0 15s5-15 0-15Zm0 0V4q0-3 4-2" />
-    </symbol>
-    <symbol id="icon-leaf" viewBox="0 0 24 24">
-      <path d="M4 20C-1 6 10 2 22 3c-1 11-7 19-18 17Zm0 0L17 8" />
-    </symbol>
-    <symbol id="icon-heart" viewBox="0 0 24 24">
-      <path d="M12 21 3 12C-4 3 7-2 12 6c5-8 16-3 9 6Z" />
-    </symbol>
-  </svg>
+  {{GLYPH_LIBRARY}}
 </body>
 
 </html>

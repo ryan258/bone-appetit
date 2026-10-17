@@ -203,6 +203,41 @@ legend {
   fill: none;
 }
 
+/* Small property cues stay beside text, outside photographs and long-form copy. */
+.property-glyph {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.glyph-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: inherit;
+}
+
+.glyph-label .property-glyph {
+  flex: 0 0 18px;
+}
+
+.visitor-card dt.glyph-label {
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.visitor-card dt.glyph-label .property-glyph {
+  width: 16px;
+  height: 16px;
+  flex-basis: 16px;
+}
+
+.button:has(> .property-glyph),
+.text-link:has(> .property-glyph) {
+  gap: 12px;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -3018,6 +3053,7 @@ main {
   }
 
   .skip-link,
+  .property-glyph,
   .dialog-tools,
   .site-header,
   .season-bar,

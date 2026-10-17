@@ -62,7 +62,7 @@ assert.ok(escaped.includes('&lt;img src=x onerror=alert(1)&gt;'));
 const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'bone-websites-unit-'));
 try {
   fs.mkdirSync(path.join(temporary, 'scripts')); fs.mkdirSync(path.join(temporary, 'assets'));
-  for (const file of ['scripts/render-site.cjs','website-renderer.js','index.template.html','site-data.json','property-data.json','visitor-sites.json','content.js','planner.js','field-notes.js','field-notes.css']) fs.copyFileSync(path.join(root, file), path.join(temporary, file));
+  for (const file of ['scripts/render-site.cjs','website-renderer.js','property-glyphs.js','index.template.html','site-data.json','property-data.json','visitor-sites.json','content.js','planner.js','field-notes.js','field-notes.css']) fs.copyFileSync(path.join(root, file), path.join(temporary, file));
   for (const asset of fs.readdirSync(path.join(root, 'assets')).filter(asset => /\.(svg|webp)$/.test(asset))) fs.copyFileSync(path.join(root, 'assets', asset), path.join(temporary, 'assets', asset));
   const script = path.join(temporary, 'scripts/render-site.cjs');
   assert.equal(spawnSync(process.execPath, [script]).status, 0);

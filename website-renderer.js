@@ -1,8 +1,8 @@
 /* One renderer for generated visitor pages and creator website previews. */
 (function(root, factory) {
-  if (typeof module === 'object' && module.exports) module.exports = factory(require('./planner.js'), require('./field-notes.js'));
-  else root.BoneWebsite = factory(root.BonePlanner, root.BoneFieldNotes);
-})(typeof globalThis === 'object' ? globalThis : this, function(plannerAPI, fieldNotes) {
+  if (typeof module === 'object' && module.exports) module.exports = factory(require('./planner.js'), require('./field-notes.js'), require('./property-glyphs.js'));
+  else root.BoneWebsite = factory(root.BonePlanner, root.BoneFieldNotes, root.BoneGlyphs);
+})(typeof globalThis === 'object' ? globalThis : this, function(plannerAPI, fieldNotes, glyphAPI) {
 'use strict';
 const { createPlanner } = plannerAPI;
 const ROUTES = Object.freeze({ 'bone-appetit': 'index.html', 'rest-in-pizza': 'rest-in-pizza.html', 'grave-expectations': 'grave-expectations.html', 'boobies-lodge': 'boobies-lodge.html' });
@@ -219,11 +219,17 @@ function render(data, template, options = {}) {
   const site = sites.find(site => site.id === (data.branding?.propertyId || 'bone-appetit'));
   if (!site) throw new TypeError('This restaurant needs a registered visitor website profile.');
   const copy = site.copy;
+  const glyphs = glyphAPI.library(data);
+  const icon = role => `<svg class="icon property-glyph" data-glyph-role="${role}" aria-hidden="true" focusable="false"><use href="#${glyphs[role].id}"/></svg>`;
+  const categoryRole = { pizzas: 'dining', bites: 'bites', sweets: 'dessert', drinks: 'drinks' };
+  const experienceRole = { pizzeria: 'dining', hollow: 'trail', oddities: 'collection' };
+  const objectRole = { 'employee-of-the-month': 'ghost', 'unlisted-room-key': 'key', 'next-thursday-postcard': 'postcard',
+    'pumpkin-visitor-badge': 'badge', 'unresolved-business-magnet': 'souvenir', 'raven-from-accounts': 'raven' };
   const copySlots = Object.fromEntries(Object.entries(copy).filter(([, value]) => typeof value === 'string').map(([key, value]) => [key, /HEADLINE|HEADING|SIGNOFF|ACCESS_NOTE/.test(key) ? rich(value) : escape(value)]));
   copySlots.META_DESCRIPTION = escape(copy.META_DESCRIPTION.replaceAll(site.name, data.name));
   copySlots.PAGE_TITLE = escape(copy.PAGE_TITLE.replaceAll(site.name, data.name));
   copySlots.STORY_PARAGRAPHS = copy.STORY_PARAGRAPHS.map(text => `<p>${escape(text)}</p>`).join('\n');
-  copySlots.GLANCE_ITEMS = copy.GLANCE_ITEMS.map((text, index) => `<span><svg class="icon" aria-hidden="true"><use href="#icon-${['pumpkin', data.branding && site.id !== 'rest-in-pizza' ? 'star' : 'pizza', 'moon', 'star'][index]}"/></svg>${escape(text)}</span>`).join('\n');
+  copySlots.GLANCE_ITEMS = copy.GLANCE_ITEMS.map((text, index) => `<span><svg class="icon" aria-hidden="true" focusable="false"><use href="#${glyphs[['season', 'dining', 'night', 'signature'][index]].id}"/></svg>${escape(text)}</span>`).join('\n');
   const navigation = options.standalone ? [{ ...site, href: 'index.html', shortName: data.name }] : sites;
   const switcher = footer => `<nav${footer ? '' : ' id="property-switcher"'} class="property-switcher${footer ? ' property-switcher-footer' : ''}" aria-label="${footer ? 'Restaurant properties in footer' : 'Explore restaurant properties'}"><span>CHOOSE YOUR HAUNT</span><ul>${navigation.map(property => `<li><a href="${escape(property.href)}" data-property-link="${escape(property.id)}"${property.id === site.id ? ' aria-current="page"' : ''}>${escape(property.shortName)}</a></li>`).join('')}</ul><p>${options.standalone ? 'Fictional restaurant · Your visit plan stays in this browser' : 'Four fictional restaurants · Each keeps its own saved visit plan'}</p></nav>`;
   const { rules } = p;
@@ -239,6 +245,9 @@ function render(data, template, options = {}) {
   if (typeof template !== 'string' || typeof mapSVG !== 'string' || typeof noteCSS !== 'string') throw new TypeError('The website template, map and field-note styles are required.');
   const slots = {
     ...copySlots,
+    GLYPH_LIBRARY: glyphAPI.sprite(data),
+    ...Object.fromEntries(Object.entries(glyphs).map(([role, glyph]) => ['GLYPH_' + role.toUpperCase(), glyph.id])),
+    ...Object.fromEntries(Object.keys(glyphs).map(role => ['ICON_' + role.toUpperCase(), icon(role)])),
     BODY_ATTRIBUTES: ` class="restaurant-theme theme-${escape(site.id)}${data.branding ? ` property-site property-${escape(site.id)}` : ''}"`,
     PROPERTY_SWITCHER: switcher(false),
     PROPERTY_SWITCHER_FOOTER: switcher(true),
@@ -265,7 +274,7 @@ function render(data, template, options = {}) {
   </div>
   <div class="oddities-grid">${data.oddities.map((item, index) => `<article class="oddity-card" id="oddity-${escape(item.id)}">
     <div class="oddity-illustration"><img src="assets/${escape(oddityArt(data, item).asset)}" alt="${escape(oddityArt(data, item).alt)}" width="480" height="320" loading="lazy"><span>SPECIMEN ${String(index + 1).padStart(2, '0')}</span></div>
-    <p class="oddity-material">${escape(item.material)}</p>
+    <p class="oddity-material glyph-label">${icon(objectRole[item.id])}${escape(item.material)}</p>
     <h3>${escape(item.name)}</h3>
     <p class="oddity-copy">${escape(item.copy)}</p>
     <details class="oddity-record"><summary aria-label="Counter record for ${escape(item.name)}">Counter record <span aria-hidden="true">+</span></summary><div><p><strong>Claimed origin</strong>${escape(item.origin)}</p><p>${escape(item.record)}</p><p class="oddity-fiction">Fictional object and provenance. No authenticity claim or purchase.</p></div></details>
@@ -287,7 +296,7 @@ function render(data, template, options = {}) {
     <span class="image-label">${escape(a.card.imageLabel)}</span>
   </div>
   <div class="haunt-copy">
-    <div class="card-kicker">${escape(a.card.kicker)} <span>${escape(a.card.intensity)}</span></div>
+    <div class="card-kicker"><b class="glyph-label">${icon(experienceRole[key])}${escape(a.card.kicker)}</b> <span>${escape(a.card.intensity)}</span></div>
     <h3>${escape(a.card.title)}</h3>
     <p>${escape(a.card.copy)}</p>
     <a class="text-link" data-attraction="${escape(key)}" href="#details-${escape(key)}">${escape(a.card.action)} <span aria-hidden="true">↗</span></a>
@@ -319,17 +328,17 @@ ${Object.entries(data.attractions).map(([key, a]) => `<article id="details-${esc
   <h3 id="static-menu-title">The complete menu</h3>
   <p>Fictional menu. Prices are illustrative; nothing here places an order.</p>
 ${Object.entries(data.menu).map(([key, items]) => `<section id="full-menu-${escape(key)}" aria-label="${escape(data.menuCategories[key])}">
-  <h3>${escape(data.menuCategories[key])}</h3>
+  <h3 class="glyph-label">${icon(categoryRole[key])}${escape(data.menuCategories[key])}</h3>
   <div class="full-menu-items">${items.map(item => menuItem(item, 'h4')).join('\n')}</div>
 </section>`).join('\n')}
   <p class="menu-disclaimer">${escape(data.disclosures.menu)}</p>
 </section>`,
     MENU_FILTERS: `<div class="menu-filters" role="group" aria-label="Filter menu by category">
-${Object.entries(data.menuCategories).map(([key, label], index) => `<button type="button" data-filter="${escape(key)}" aria-pressed="${index === 0}">${escape(label)}</button>`).join('\n')}
+${Object.entries(data.menuCategories).map(([key, label], index) => `<button class="glyph-label" type="button" data-filter="${escape(key)}" aria-pressed="${index === 0}">${icon(categoryRole[key])}${escape(label)}</button>`).join('\n')}
 </div>`,
     MOOD_PICKER: `<fieldset class="time-picker" data-planner-control>
   <legend>CHOOSE YOUR SIDE OF SUNSET</legend>
-  <div class="segmented">${Object.entries(data.moods).map(([key, mood]) => `<label><input type="radio" name="visit-mood" value="${escape(key)}"${key === 'day' ? ' checked' : ''}><span><svg class="icon"><use href="#icon-${key === 'day' ? 'sun' : 'moon'}"/></svg> ${escape(mood.label)}</span></label>`).join('\n')}</div>
+  <div class="segmented">${Object.entries(data.moods).map(([key, mood]) => `<label><input type="radio" name="visit-mood" value="${escape(key)}"${key === 'day' ? ' checked' : ''}><span><svg class="icon" aria-hidden="true" focusable="false"><use href="#${glyphs[key === 'day' ? 'day' : 'night'].id}"/></svg> ${escape(mood.label)}</span></label>`).join('\n')}</div>
 </fieldset>`,
     DEFAULT_MOOD: `<div class="mood-description" id="mood-description" aria-live="polite">
   <p class="eyebrow accent" id="mood-time">${escape(p.moodTime('day'))}</p>
@@ -338,10 +347,10 @@ ${Object.entries(data.menuCategories).map(([key, label], index) => `<button type
   <ul class="check-list" id="mood-features">${data.moods.day.features.map(text => `<li>${escape(p.copy(text))}</li>`).join('\n')}</ul>
 </div>`,
     VISITOR_FACTS: `<dl>
-  <div><dt>THE SEASON</dt><dd>${escape(p.seasonRange())}</dd></div>
-  <div><dt>WHEN TO WANDER</dt><dd>${escape(p.hoursLabel())}<br><span>${escape(p.closingLabel())}</span></dd></div>
-  <div><dt>THE COST OF CURIOSITY</dt><dd>${data.branding ? `House spaces and collection · Free to explore<br>Food and drinks priced separately<br><span>${escape(data.disclosures.admission)}</span>` : `Grounds &amp; oddities counter · Free<br>${escape(rules.stops.trail.title)} · ${p.money(rules.trailPrice)} per person<br><span>Under ${rules.freeUnderAge}s wander free with an adult.</span>`}</dd></div>
-  <div><dt>THE ADDRESS, ALLEGEDLY</dt><dd>${escape(data.address.street)}<br>${escape(data.address.district)}</dd></div>
+  <div><dt class="glyph-label">${icon('calendar')}<span>THE SEASON</span></dt><dd>${escape(p.seasonRange())}</dd></div>
+  <div><dt class="glyph-label">${icon('clock')}<span>WHEN TO WANDER</span></dt><dd>${escape(p.hoursLabel())}<br><span>${escape(p.closingLabel())}</span></dd></div>
+  <div><dt class="glyph-label">${icon('ticket')}<span>THE COST OF CURIOSITY</span></dt><dd>${data.branding ? `House spaces and collection · Free to explore<br>Food and drinks priced separately<br><span>${escape(data.disclosures.admission)}</span>` : `Grounds &amp; oddities counter · Free<br>${escape(rules.stops.trail.title)} · ${p.money(rules.trailPrice)} per person<br><span>Under ${rules.freeUnderAge}s wander free with an adult.</span>`}</dd></div>
+  <div><dt class="glyph-label">${icon('location')}<span>THE ADDRESS, ALLEGEDLY</span></dt><dd>${escape(data.address.street)}<br>${escape(data.address.district)}</dd></div>
 </dl>`,
     FAQ_ITEMS: data.faqs.map(faq => `<details${faq.open ? ' open' : ''}>
   <summary>${escape(faq.question)}<span aria-hidden="true">+</span></summary>

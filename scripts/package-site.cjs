@@ -27,6 +27,7 @@ const REQUIRED_FILES = [
   'marketing-workspace.js',
   'website-copy.js',
   'website-renderer.js',
+  'property-glyphs.js',
   'website-workspace.js',
   'website-export.js',
   'website-collection.js',
