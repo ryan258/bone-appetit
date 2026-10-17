@@ -107,6 +107,12 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 - **Headless-Chromium Lossless Maps**: Dedicated scripts (`scripts/render-*-map.cjs`) render exact pixel-perfect WebP schematic maps from vector SVGs without external dependencies.
 - **Archive Capacity Extension**: Shared ZIP builder accommodates up to 256 files (64 MiB total payload) with strict path safety, CRC verification, and complete offline HTML/CSS resource closure.
 
+### Milestone 15: Property SVG Glyph Libraries & Semantic Visual Accents
+- **Comprehensive Vector Glyph Registry**: `property-glyphs.js` defines 48 distinct semantic roles across six categories (identity, food & drink, experiences, visitor information, actions, and house details) with custom vector drawings per property (192 unique drawings).
+- **Embedded Document Placements**: The shared renderer integrates 28 selected roles across 39 strategic document locations (category buttons/headings, experience kickers, collection specimen labels, visitor facts, planner actions, access guidance, and closing callout).
+- **Accessible, Print-Safe Presentation**: All glyphs remain decorative (`aria-hidden`), preserve full text labels, inherit theme text colors, and automatically hide in print media.
+- **Automated Catalog & Sprite Build Pipeline**: `scripts/build-glyphs.cjs` generates individual SVGs, combined sprites, visual overview vectors, SHA-256 manifests, and browsable HTML catalogs under `assets/glyphs/`.
+
 ---
 
 ## 3. Current System Status
@@ -125,6 +131,7 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 | Scoped Restaurant Visual Themes | Verified v1.0 | `npm run check:themes` |
 | Restaurant Logos & Food Artwork | Verified v1.0 | `npm run check:restaurant-art` |
 | Full Restaurant Stock Artwork | Verified v1.0 | `npm run check:lodge-art` / `check:pizza-art` / `check:remaining-art` |
+| Property SVG Glyph Libraries | Verified v1.0 | `npm run check:glyphs` / `scripts/build-glyphs.cjs --check` |
 | GitHub Pages Staging Pipeline | Verified v1.0 | `npm run build:pages` / `.github/workflows/deploy.yml` |
 | Python Preview Launcher | Verified v1.0 | `npm run check:preview` |
 | End-to-End Headless Browser Suite | Verified v1.0 | Playwright / Chromium (153.0.8010.12) |

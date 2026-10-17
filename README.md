@@ -57,6 +57,38 @@ npm run check:themes-browser
 
 The source check verifies all four theme identities and current WebP art across live rendering, legacy campaigns, individual/collection exports and marketing documents. The separate browser pass checks live desktop/tablet/phone layouts, sampled text contrast, interactions, legacy creator previews, WebP marketing preview and matching offline website exports. It does not establish accessibility conformance or cover every browser.
 
+## Full property SVG glyph libraries
+
+Each property has **48 original SVG glyphs**, for **192 distinct drawings** across the four properties. The shared role contract covers the current restaurant content and reusable interface needs; every property supplies its own drawing for each role.
+
+| Group | Glyphs per property | Coverage |
+| --- | ---: | --- |
+| Identity & atmosphere | 7 | Season, dining, night, signature, garden, day and welcome |
+| Food & drinks | 8 | Menu, bites, dessert, drinks, vegetarian, spicy, alcohol and zero-proof |
+| Experiences & collection | 9 | Trail, collection, story and all six collection-object types |
+| Visitor information | 12 | Location, hours, calendar, ticket, parking, access, restroom, weather, map, phone, email and camera |
+| Actions & navigation | 8 | Plan, save, download, print, share, information, close and direction |
+| House details | 4 | Oven, grill, coffee and music |
+
+Bone Appétit uses woodland, porch and family-ledger motifs; Rest in Pizza uses kitchen, oven, gingham and neighborhood-pizzeria motifs; Grave Expectations uses estate, silver-service and ancestral motifs; BooBies Lodge uses timber, smokehouse, mountain and game-night motifs. IDs and drawings are unique across all four libraries. All glyphs use a 24 × 24 viewBox and rounded 1.5-unit strokes.
+
+Start at the [library catalog](assets/glyphs/index.html). Each property has a self-contained folder with 48 individual SVG files, a complete `sprite.svg`, a visual `overview.svg`, a browsable `index.html` with individual download links, and a `manifest.json` listing role coverage and file checksums:
+
+- [Bone Appétit](assets/glyphs/bone-appetit/index.html)
+- [Rest in Pizza](assets/glyphs/rest-in-pizza/index.html)
+- [Grave Expectations](assets/glyphs/grave-expectations/index.html)
+- [BooBies Lodge](assets/glyphs/boobies-lodge/index.html)
+
+`property-glyphs.js` is the source of truth. Its six explicit groups require the full 48-role contract for every property. `scripts/build-glyphs.cjs` generates the reusable libraries; `npm run build` rebuilds them and all four visitor pages. `npm run build:glyphs` rebuilds only the reusable files. Generated-file checks detect missing, changed and unexpected library files.
+
+Visitor pages, full creator website previews and individual/collection website exports embed the complete matching 48-symbol library. Each property now uses 28 selected roles across 39 SVG placements in the complete document, including the static/no-JavaScript menu and dialogs. Category filters and static category headings use matching food glyphs; experience kickers, collection material labels, four visitor facts and primary planner actions receive small supporting cues. The access note uses its accessibility glyph, and the closing illustration uses its own property ghost. Text labels remain intact. Navigation, FAQ controls, food-tag rows, photographs and long-form copy stay uncluttered; the remaining 20 roles are available for reusable artwork or future needs. New supporting glyphs are hidden in print. Property selection follows stable IDs, so renaming a campaign or opening an older Bone campaign keeps its own library. The static site package includes the raw catalogs and glyph source. A glyph in the library does not assert a service or facility; visitor copy remains authoritative.
+
+```sh
+npm run check:glyphs
+```
+
+The focused check verifies all 48 roles, unique drawings and IDs, generated drift, manifest hashes, portable catalog links, all 39 placements and their 28 selected roles, browser-global/Node renderer agreement, legacy Bone fallback, renamed campaigns and individual/collection export markup. Browser-global agreement runs in a JavaScript VM and does not establish browser layout or assistive-technology acceptance.
+
 ## Custom logos and food artwork
 
 Each restaurant now has its own transparent WebP emblem paired with a live, editable restaurant name. Bone Appétit has a skull chef; Rest in Pizza has a pizza-serving ghost; Grave Expectations has a crowned bull-skull crest; BooBies Lodge has an owl-and-pines lodge emblem. The same marks appear in website headers, footers and favicons, creator property cards and campaign previews, and embedded marketing documents.
@@ -352,6 +384,14 @@ Everything describes a fictional destination. The address, history, prices, hour
 This is a permanent 2026 fictional concept, not a live seasonal booking service. After the season, the planner explicitly identifies its dates as archived rather than implying a future visit.
 
 ## Verification
+
+### Property SVG glyph libraries — October 17, 2026
+
+The project now includes 48 original vector glyphs per property (192 distinct drawings across the four destinations) defined in `property-glyphs.js`. Drawings use a 24 × 24 viewBox with 1.5-unit rounded strokes, organized into six groups: identity & atmosphere, food & drinks, experiences & collection, visitor information, actions & navigation, and house details. Each property provides a unique visual interpretation (woodland/porch for Bone Appétit, kitchen/gingham for Rest in Pizza, silver-service/estate for Grave Expectations, and timber/smokehouse for BooBies Lodge).
+
+Twenty-eight roles are placed across 39 locations in the generated websites, creator previews, and offline exports. All glyphs are decorative (`aria-hidden="true"`, non-focusable), preserve visible text labels, inherit theme text colors, and hide in print stylesheets. The remaining 20 roles remain in each property library for future needs. `scripts/build-glyphs.cjs` builds standalone SVGs, sprites, manifests, visual vector overviews, and browsable HTML catalogs in `assets/glyphs/`.
+
+Targeted `npm run check:glyphs`, `npm run check:generated`, and `npm run check:website-workspace` passed. The authorized headless pass `npm run check:glyph-integration-browser` verified all live widths (1440/768/375/320px), non-zero rendering bounds, draft/named creator previews, and offline extracted website exports with zero network errors. See [the glyph verification record](verification/full-property-glyphs-2026-10-17.json) and [integration verification record](verification/glyph-integration-2026-10-17.json).
 
 ### Bone Appétit and Grave Expectations fully stocked imagery — October 16, 2026
 
