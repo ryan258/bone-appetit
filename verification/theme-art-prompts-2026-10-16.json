@@ -1,0 +1,30 @@
+{
+  "tool": "Built-in image_gen",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "transparentBackground": false,
+  "sourceDirectory": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6",
+  "conversion": "PNG to RGB WebP, Pillow quality 86/method 6; no visual edits or crop. Existing artwork retained.",
+  "art": [
+    {
+      "property": "rest-in-pizza",
+      "source": "exec-7841a537-ad95-48a9-a250-a0a99d4e966b.png",
+      "output": "assets/rest-in-pizza-theme.webp",
+      "prompt": "Use case: illustration-story. Asset type: wide restaurant website hero illustration, landscape 1536x1024. Create a richly detailed, witty retro 1960s Italian-American neighborhood pizza parlor on Halloween evening, fictional Rest in Pizza. Brick storefront, glowing wood-fired oven visible through arched window, red-and-ivory striped awning, tomato-red booths, checkered tile glimpses, pizza on a peel, friendly sheet-ghost pizzaiolo tossing dough, pumpkins and a tiny cheerful skeleton waiting for takeout. Style: hand-painted midcentury restaurant advertising, screen-printed gouache with warm paper grain, chunky confident shapes, warm ivory, tomato red, olive and charcoal. Inviting bustling comic atmosphere, not frightening, composition centered architectural illustration with clear focal silhouette, no frame or large empty margins, wide cinematic scene. No readable text, no logos, no watermark, no gore. This is a distinct pizza-parlor illustration, not a website mockup."
+    },
+    {
+      "property": "grave-expectations",
+      "source": "exec-92225e53-883c-4714-839b-b86cbdac6fc8.png",
+      "output": "assets/grave-expectations-theme.webp",
+      "prompt": "Use case: illustration-story. Asset type: wide upscale steakhouse website hero illustration, landscape 1536x1024. Create a sumptuously detailed candlelit Gothic ancestral steakhouse dining room on Halloween, fictional Grave Expectations Chop House. A beautifully set dark walnut table, luxurious steak supper on porcelain, cloche, wine decanter, antique brass candlesticks, oxblood velvet banquettes, towering arched windows and gilded portraits of stern ancestors. A discreet translucent ghost maître d' and one mysteriously occupied empty chair add elegant dry comedy. Style: painterly editorial oil illustration with chiaroscuro, realistic materials, rich black, burgundy, warm gold and parchment highlights, fine brush texture, sophisticated restraint. Wide cinematic composition, atmospheric depth, focal table warmly lit with visible food, architecture in shadow, no excessive empty space, no frame. No readable text, logos, watermark or gore. This is a luxury restaurant illustration, not a website mockup."
+    },
+    {
+      "property": "boobies-lodge",
+      "source": "exec-3ff5ebaf-b14e-408b-8489-bd8d3b0a2fae.png",
+      "output": "assets/boobies-lodge-theme.webp",
+      "prompt": "Use case: illustration-story. Asset type: wide restaurant website hero illustration, landscape 1536x1024. Create a detailed humorous Halloween timber sports lodge taproom, fictional BooBies Lodge, a cheeky adult 21+ lumberjack hospitality parody. Warm amber bar lights, heavy timber rafters, pine-green walls, plaid booth cushions, antler chandeliers with tiny friendly ghosts hanging from them, frosty beer mugs and an impressive platter of smoked ribs in foreground, multiple small screens showing abstract silly monster sports silhouettes without any branding. Two clearly adult cheerful women bartenders in campy red plaid tied shirts and denim shorts, friendly vintage pin-up hospitality attitude, fully clothed, natural adult proportions, no sexual action. One comically solemn moose head wears a little witch hat. Style: expressive vintage national-park travel-poster painting meets cozy bar illustration, textured gouache, pine green, amber, burnt orange, cream, woodgrain, bold diagonal rafters and warm social energy. Wide cinematic environmental composition with people secondary to venue/food, no frame. No readable text, no logos, no watermark, no nudity, no gore. Not a website mockup."
+    }
+  ]
+}

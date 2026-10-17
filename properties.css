@@ -231,3 +231,742 @@
     display: block;
   }
 }
+
+/* Each restaurant has its own visual language; shared interaction markup stays stable. */
+.restaurant-theme :is(.hero, .site-header, .menu-section, .visit-section, .site-footer) {
+  overflow-wrap: anywhere;
+}
+
+/* Bone Appétit — lantern light, faded paper, and roadside family hospitality. */
+.theme-bone-appetit {
+  --orange: #f3ae70;
+  --panel: #252b21;
+}
+
+.theme-bone-appetit .haunt-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.theme-bone-appetit .haunt-copy {
+  padding: 25px;
+}
+
+.theme-bone-appetit .button {
+  border-radius: 6px;
+}
+
+.theme-bone-appetit .story-photo {
+  box-shadow: 12px 14px 0 #0d140d60;
+}
+
+.theme-bone-appetit .visitor-card {
+  border-radius: 10px;
+  border-style: dashed;
+}
+
+/* Rest in Pizza — tomato-red signage, warm cream, gingham and takeout-box edges. */
+.theme-rest-in-pizza {
+  --ink: #fff4dc;
+  --deep: #eee0bf;
+  --panel: #f8e9cb;
+  --bone: #30251e;
+  --paper: #8c2824;
+  --muted: #65513f;
+  --orange: #9c3026;
+  --rust: #87281f;
+  --line: #ba9b78;
+  color-scheme: light;
+}
+
+.theme-rest-in-pizza .site-header {
+  background: #fff4dcf7;
+  border-bottom: 3px solid var(--orange);
+}
+
+.theme-rest-in-pizza .brand-type {
+  font-style: italic;
+  letter-spacing: -.06em;
+}
+
+.theme-rest-in-pizza .hero {
+  background: #fff4dc;
+  padding-block: 48px;
+  border-bottom: 14px solid var(--orange);
+  gap: 42px;
+}
+
+.theme-rest-in-pizza .hero-content {
+  padding-block: 26px 70px;
+}
+
+.theme-rest-in-pizza .hero h1 {
+  font-size: clamp(52px, 5.3vw, 80px);
+  font-style: italic;
+  line-height: 1.02;
+  text-shadow: none;
+}
+
+.theme-rest-in-pizza .hero-image {
+  border: 10px solid #fffaf0;
+  border-radius: 180px 180px 12px 12px;
+  outline: 2px solid #9c3026;
+  box-shadow: 10px 12px 0 #ba9b784d;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  transform: rotate(2deg);
+}
+
+.theme-rest-in-pizza .hero-description {
+  color: #574332;
+}
+
+.theme-rest-in-pizza .button {
+  border-radius: 999px;
+  box-shadow: 0 3px 0 #51221b;
+}
+
+.theme-rest-in-pizza .haunted-seal {
+  background: #fff4dc;
+  color: #8c2824;
+  border-color: #8c2824;
+  right: 5%;
+  bottom: 70px;
+}
+
+.theme-rest-in-pizza .haunt-grid {
+  gap: 22px;
+}
+
+.theme-rest-in-pizza .haunt-card {
+  border: 2px solid #9c3026;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fffaf0;
+}
+
+.theme-rest-in-pizza .haunt-copy {
+  padding: 24px;
+}
+
+.theme-rest-in-pizza .image-label {
+  color: #fff4dc;
+}
+
+.theme-rest-in-pizza .menu-section {
+  border-block: 12px solid #fff4dc;
+  outline: 2px solid #9c3026;
+}
+
+.theme-rest-in-pizza .menu-section::before {
+  opacity: .07;
+  background-image: repeating-conic-gradient(#fff4dc 0% 25%, transparent 0% 50%);
+  background-size: 32px 32px;
+}
+
+.theme-rest-in-pizza .menu-section :is(.eyebrow, em, .intro-action, .pizza-card p, .food-note) {
+  color: #fff0cd;
+}
+
+.theme-rest-in-pizza .pizza-card {
+  padding: 20px;
+  border: 1px dashed #e6bb97;
+  border-radius: 10px;
+}
+
+.theme-rest-in-pizza .story-photo {
+  border: 2px solid #9c3026;
+  background: #fffaf0;
+  box-shadow: 8px 8px 0 #cbb087;
+}
+
+.theme-rest-in-pizza .story-photo > img {
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+
+.theme-rest-in-pizza .story-photo > p {
+  color: #65513f;
+}
+
+.theme-rest-in-pizza .visit-section {
+  background: #e8e4c8;
+  border-color: #aaa67d;
+}
+
+.theme-rest-in-pizza :is(.time-picker legend, .check-list li, .fiction-note, .footer-bottom, .grounds-disclosure) {
+  color: var(--muted);
+}
+
+.theme-rest-in-pizza .segmented {
+  background: #fffaf0;
+  border-color: #9c3026;
+}
+
+.theme-rest-in-pizza .segmented input:checked + span {
+  background: #9c3026;
+  color: #fff4dc;
+}
+
+.theme-rest-in-pizza .visitor-card dt {
+  color: #f6d2ae;
+}
+
+.theme-rest-in-pizza .site-footer {
+  background: #66231f;
+  color: #fff4dc;
+  --muted: #f3d9b7;
+}
+
+.theme-rest-in-pizza .site-footer :is(.footer-brand span, .footer-bottom) {
+  color: #f3d9b7;
+}
+
+.theme-rest-in-pizza .site-footer .property-switcher a[aria-current] {
+  background: #fff4dc;
+  color: #66231f;
+}
+
+.theme-rest-in-pizza .last-call {
+  background: #eee0bf;
+}
+
+.theme-rest-in-pizza .menu-filters button:hover:not([aria-pressed=true]) {
+  background: #e9d5b5;
+}
+
+/* Grave Expectations — an oxblood-and-gold estate, with a cinematic dining room. */
+.theme-grave-expectations {
+  --ink: #110f13;
+  --deep: #0b090d;
+  --panel: #221820;
+  --bone: #f4ead7;
+  --paper: #25191e;
+  --muted: #c3afa6;
+  --orange: #e6c489;
+  --rust: #b28255;
+  --line: #665045;
+  --serif: Georgia, 'Times New Roman', serif;
+}
+
+.theme-grave-expectations .site-header {
+  background: #110f13f5;
+  border-bottom: 1px solid #b3925e;
+}
+
+.theme-grave-expectations .brand-type {
+  font-variant: small-caps;
+  letter-spacing: .025em;
+}
+
+.theme-grave-expectations .hero {
+  display: block;
+  min-height: 740px;
+  padding-inline: max(40px, calc((100% - 1280px) / 2));
+  background: #110f13;
+}
+
+.theme-grave-expectations .hero-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: 60% 50%;
+  z-index: -3;
+}
+
+.theme-grave-expectations .hero-shade {
+  display: block;
+  background: linear-gradient(90deg, #0c090df5 0%, #100b10d9 34%, #100b1050 76%), linear-gradient(0deg, #110f13, transparent 45%);
+}
+
+.theme-grave-expectations .hero-content {
+  padding-block: 110px 150px;
+  max-width: 670px;
+}
+
+.theme-grave-expectations .hero h1 {
+  font-size: clamp(52px, 5.4vw, 82px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+.theme-grave-expectations .button {
+  border-radius: 0;
+  border: 1px solid #e6c489;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.theme-grave-expectations .haunted-seal {
+  transform: none;
+  border-radius: 4px;
+  border: 1px solid #e6c489;
+  color: #f4ead7;
+  background: #110f13c9;
+}
+
+.theme-grave-expectations :is(.menu-section, .roadside-strip, .visitor-card) {
+  color: var(--bone);
+}
+
+.theme-grave-expectations .menu-section {
+  border-block: 4px double #a18358;
+}
+
+.theme-grave-expectations .menu-section :is(.eyebrow, em, .food-note) {
+  color: #e6c489;
+}
+
+.theme-grave-expectations .menu-section :is(.intro-action, .pizza-card p) {
+  color: #d2bdb0;
+}
+
+.theme-grave-expectations .button-dark {
+  background: #e6c489;
+  color: #110f13;
+}
+
+.theme-grave-expectations .pizza-card {
+  padding: 24px;
+  border: 1px solid #665045;
+  background: #160f15;
+}
+
+.theme-grave-expectations .haunt-card {
+  border-top: 2px solid #a18358;
+  padding-top: 12px;
+}
+
+.theme-grave-expectations .story-photo {
+  order: 2;
+  transform: none;
+  border: 5px double #a18358;
+  padding: 12px;
+  background: #110f13;
+  margin: 0;
+}
+
+.theme-grave-expectations .story-photo > img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.theme-grave-expectations .story-copy {
+  order: 1;
+}
+
+.theme-grave-expectations .story-stamp {
+  border-radius: 0;
+  right: -18px;
+  transform: none;
+}
+
+.theme-grave-expectations :is(.visit-section, .last-call) {
+  background: #21151e;
+  border-color: #665045;
+}
+
+.theme-grave-expectations .visitor-card dt {
+  color: #d3b783;
+}
+
+.theme-grave-expectations .segmented {
+  background: #110f13;
+  border-color: #665045;
+}
+
+.theme-grave-expectations .segmented input:checked + span {
+  background: #e6c489;
+  color: #110f13;
+}
+
+/* BooBies Lodge — plaid, timber, amber tap handles and bold sports-page type. */
+.theme-boobies-lodge {
+  --ink: #142824;
+  --deep: #0b1d1a;
+  --panel: #203a32;
+  --bone: #fff1d1;
+  --paper: #ead2a3;
+  --muted: #c0caba;
+  --orange: #ffb54f;
+  --rust: #ca713c;
+  --line: #57715c;
+  --serif: 'Barlow Condensed', Impact, sans-serif;
+}
+
+.theme-boobies-lodge .site-header {
+  background: #142824f7;
+  border-bottom: 4px solid #b37339;
+}
+
+.theme-boobies-lodge :is(.brand-type, .hero h1, h2, .haunt-copy h3, .pizza-title h3) {
+  text-transform: uppercase;
+  letter-spacing: .025em;
+}
+
+.theme-boobies-lodge .hero {
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  background: repeating-linear-gradient(92deg, #182b24 0 80px, #1b2e26 80px 82px);
+  padding-right: 0;
+  border-bottom: 6px solid #b37339;
+}
+
+.theme-boobies-lodge .hero h1 {
+  font-size: clamp(65px, 7.1vw, 110px);
+  line-height: .95;
+}
+
+.theme-boobies-lodge .hero-image {
+  height: 100%;
+  object-fit: cover;
+  object-position: 42% center;
+  clip-path: polygon(6% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.theme-boobies-lodge .hero-description {
+  color: #e0e6ce;
+}
+
+.theme-boobies-lodge .button {
+  border-radius: 2px;
+  border: 2px solid #ffcf81;
+  box-shadow: 4px 4px 0 #050f0d;
+  font: 700 16px/1.4 var(--label);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.theme-boobies-lodge .haunted-seal {
+  background: #142824;
+  color: #ffcf81;
+  border: 3px solid #ffb54f;
+  bottom: 45px;
+  right: 35px;
+}
+
+.theme-boobies-lodge .haunt-card {
+  background: #203a32;
+  border-bottom: 5px solid #b37339;
+}
+
+.theme-boobies-lodge .haunt-copy {
+  padding: 25px;
+}
+
+.theme-boobies-lodge .menu-section {
+  border-block: 8px solid #a85332;
+}
+
+.theme-boobies-lodge .pizza-card {
+  padding: 20px;
+  background: #f5dfb8;
+  border: 2px solid #977543;
+  box-shadow: 5px 5px 0 #b18e5d;
+}
+
+.theme-boobies-lodge .story-photo {
+  transform: rotate(1deg);
+  border: 10px solid #795231;
+  background: #142824;
+  box-shadow: 8px 8px 0 #0b1d1a;
+}
+
+.theme-boobies-lodge .story-photo > img {
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+
+.theme-boobies-lodge .visit-section {
+  background: repeating-linear-gradient(0deg, #24382e 0 3px, #263a30 3px 6px);
+  border-block: 4px solid #795231;
+}
+
+.theme-boobies-lodge .visitor-card {
+  border: 3px solid #795231;
+  border-radius: 0;
+  box-shadow: 7px 7px 0 #0b1d1a;
+}
+
+.theme-boobies-lodge .last-call {
+  background: #203a32;
+}
+
+/* Common small-screen and print constraints preserve controls and readable fallbacks. */
+@media (max-width: 980px) {
+  .theme-rest-in-pizza .hero-image {
+    aspect-ratio: 3 / 2;
+    max-height: 380px;
+    border-radius: 90px 90px 10px 10px;
+    transform: none;
+  }
+
+  .theme-rest-in-pizza .hero-content {
+    padding-block: 30px 70px;
+  }
+
+  .theme-grave-expectations .hero-content {
+    padding-block: 80px 100px;
+  }
+
+  .theme-boobies-lodge .hero {
+    grid-template-columns: minmax(0, 1fr);
+    padding-inline: 40px;
+  }
+
+  .theme-boobies-lodge .hero-image {
+    height: 340px;
+    max-height: none;
+    clip-path: none;
+    border-bottom: 4px solid #b37339;
+  }
+}
+
+@media (max-width: 720px) {
+  .theme-rest-in-pizza .hero {
+    padding-block: 25px;
+  }
+
+  .theme-rest-in-pizza .hero h1 {
+    font-size: clamp(40px, 11.5vw, 64px);
+  }
+
+  .theme-rest-in-pizza .hero-image {
+    max-height: 300px;
+    border-width: 6px;
+  }
+
+  .theme-grave-expectations .hero {
+    min-height: 660px;
+    padding-inline: 24px;
+  }
+
+  .theme-grave-expectations .hero-image {
+    max-height: none;
+    object-position: 65% center;
+  }
+
+  .theme-grave-expectations .hero h1 {
+    font-size: clamp(46px, 12vw, 64px);
+  }
+
+  .theme-boobies-lodge .hero {
+    padding-inline: 24px;
+  }
+
+  .theme-boobies-lodge .hero h1 {
+    font-size: clamp(60px, 15vw, 88px);
+  }
+
+  .theme-boobies-lodge .hero-image {
+    height: 270px;
+  }
+}
+
+@media print {
+  .restaurant-theme .hero {
+    display: block;
+    background: white;
+    min-height: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  .restaurant-theme .hero-content {
+    padding: 0;
+  }
+
+  .restaurant-theme .hero h1 {
+    font-size: 34px;
+    color: black;
+  }
+
+  .restaurant-theme .hero-image {
+    display: none;
+  }
+}
+
+/* Contrast corrections for inherited components on the new light/dark surfaces. */
+.theme-rest-in-pizza .last-call {
+  color: #30251e;
+}
+
+.theme-rest-in-pizza .last-call em {
+  color: #9c3026;
+}
+
+:is(.theme-grave-expectations, .theme-boobies-lodge) .last-call {
+  color: var(--bone);
+}
+
+:is(.theme-grave-expectations, .theme-boobies-lodge) .last-call em {
+  color: var(--orange);
+}
+
+.theme-rest-in-pizza :is(.grounds-section, .access-note p) {
+  background-color: #eee0bf;
+  color: #65513f;
+}
+
+.theme-rest-in-pizza .menu-tags span {
+  background: #eee0bf;
+  color: #65513f;
+}
+
+.theme-rest-in-pizza :is(.visitor-card dd span, .visitor-card .concept-notice, .oddity-illustration > span) {
+  color: #f5d4b0;
+}
+
+.theme-grave-expectations :is(.visitor-card dd span, .visitor-card .concept-notice, .oddity-illustration > span) {
+  color: #d4b99c;
+}
+
+.theme-grave-expectations .grounds-section {
+  background: #1b141b;
+}
+
+.theme-boobies-lodge .grounds-section {
+  background: #203a32;
+}
+
+@media (max-width: 980px) {
+  .theme-rest-in-pizza .main-nav {
+    background: #fff4dc;
+    border-color: #ba9b78;
+  }
+}
+
+.theme-boobies-lodge :is(.visitor-card dt, .visitor-card dd span, .visitor-card .concept-notice, .oddity-illustration > span) {
+  color: #46523e;
+}
+
+.theme-rest-in-pizza :is(.hero-footnote, .hero-caption) {
+  color: #65513f;
+}
+
+/* Custom emblems pair with live names so creator edits remain accurate. */
+.restaurant-theme .brand-mark.restaurant-logo {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  flex: 0 0 76px;
+}
+.restaurant-theme .footer-logo {
+  float: left;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin-right: 16px;
+}
+.restaurant-theme .menu-art-note {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: inherit;
+}
+@media (max-width: 600px) {
+  .restaurant-theme .brand-mark.restaurant-logo {
+    width: 56px;
+    height: 56px;
+    flex-basis: 56px;
+  }
+  .restaurant-theme .brand { gap: 10px; min-width: 0; max-width: calc(100% - 80px); }
+  .restaurant-theme .brand-type { white-space: normal; overflow-wrap: anywhere; }
+}
+
+.theme-grave-expectations .season-bar {
+  background: #d9bf91;
+  color: #1b1117;
+}
+
+.theme-grave-expectations .pizza-badge {
+  background: #e6c489;
+  color: #110f13;
+}
+
+.theme-grave-expectations .menu-tags span {
+  background: #3c3037;
+  color: #f4ead7;
+}
+
+/* The lodge's complete menu has individual food/drink photographs. */
+.theme-boobies-lodge .full-menu-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+.theme-boobies-lodge .oddity-illustration img { aspect-ratio: 3 / 2; object-fit: cover; }
+.restaurant-theme.theme-boobies-lodge .oddity-illustration > span {
+  background: #f5dfb6;
+  color: #172e27;
+  padding: 6px 8px;
+  border-radius: 2px;
+}
+@media print {
+  .theme-boobies-lodge .full-menu-photo { display: none; }
+}
+
+/* Rest in Pizza's complete menu keeps its own cream-and-tomato treatment. */
+.theme-rest-in-pizza .full-menu-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.theme-rest-in-pizza .oddity-illustration img { aspect-ratio: 3 / 2; object-fit: cover; }
+.restaurant-theme.theme-rest-in-pizza .oddity-illustration > span {
+  background: #fff3db;
+  color: #71372c;
+  padding: 6px 8px;
+  border-radius: 3px;
+}
+@media print {
+  .theme-rest-in-pizza .full-menu-photo { display: none; }
+}
+
+/* The roadside house and chop house now illustrate their complete menus too. */
+:is(.theme-bone-appetit, .theme-grave-expectations) .full-menu-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+}
+.theme-bone-appetit .full-menu-photo { border-radius: 8px; }
+.theme-grave-expectations .full-menu-photo { border-radius: 0; }
+:is(.theme-bone-appetit, .theme-grave-expectations) .oddity-illustration img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+.restaurant-theme.theme-bone-appetit .oddity-illustration > span {
+  background: #f1e5cc;
+  color: #192318;
+  padding: 6px 8px;
+  border-radius: 2px;
+}
+.restaurant-theme.theme-grave-expectations .oddity-illustration > span {
+  background: #f4ead7;
+  color: #34252e;
+  padding: 6px 8px;
+  border: 1px solid #aa9064;
+}
+@media print {
+  :is(.theme-bone-appetit, .theme-grave-expectations) .full-menu-photo { display: none; }
+}

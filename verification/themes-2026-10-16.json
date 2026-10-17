@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-16",
+  "recordedAt": "2026-10-17T01:34:01.445079+00:00",
+  "scope": "Four distinct restaurant website themes, three generated WebP hero illustrations, and coherent creator/website-export/marketing artwork. No publishing.",
+  "runtime": {
+    "node": "v22.22.3",
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12"
+  },
+  "checksPassedDuringIncrement": [
+    "npm run build",
+    "npm run check:themes",
+    "npm run check:properties",
+    "npm run check:marketing",
+    "npm run check:website-collection",
+    "npm run check:website-export",
+    "Five visitor/creator HTML pages: nesting, unique IDs, local references",
+    "Twelve edited/new JavaScript files: syntax"
+  ],
+  "finalBrowserCheck": "npm run check:themes-browser",
+  "browserScope": [
+    "Four distinct body palette, hero layout and headline-font fingerprints",
+    "1440/768/375px reflow on all four live sites",
+    "Local hero/story/card art and fonts load",
+    "Sampled text contrast for season, caption/footnote, menu badges/tags/copy, visitor facts/disclosures, access, map and last-call text",
+    "Mobile navigation, all menu categories, house detail dialogs and planner saving",
+    "Old SVG-reference campaigns render current WebP heroes in compact/full creator previews",
+    "Correct WebP MIME and decodable marketing poster artwork",
+    "Fresh collection ZIP extracted offline with matching four live themes and loaded artwork",
+    "Fresh standalone pizza ZIP extracted offline with matching live theme"
+  ],
+  "browserPageErrors": [],
+  "browserExternalRequests": [],
+  "browserFailedResources": [],
+  "visualInspection": [
+    "Four desktop homepages",
+    "Mobile pizza and lodge",
+    "Representative menu/story/visit/access captures",
+    "Final steakhouse menu badges"
+  ],
+  "correctionsDuringWork": [
+    "Darkened lodge small print for contrast on warmer paper",
+    "Corrected light-theme caption/footnote colors and steakhouse season-bar colors",
+    "Corrected steakhouse menu badge/tag colors after visual review",
+    "Existing browser assertions now compare semantic headline text instead of CSS-uppercase innerText; old property-art assertions expect shared WebP resolver"
+  ],
+  "gitnexus": {
+    "repository": "/Users/ryanjohnson/Projects/nonsense/bone-appetit",
+    "head": "2d6cb106d4163a279ad14a309777c0ab725c1e2a",
+    "riskReportedBeforeEdits": {
+      "sharedRenderer": "HIGH: 5 direct callers, 3 affected processes",
+      "nodeRenderAdapter": "HIGH: 5 direct callers, 3 processes",
+      "creatorPreview": "HIGH: 2 direct callers, 4 processes",
+      "creatorPropertyCards": "LOW",
+      "marketingAssetsAndPack": "LOW",
+      "websiteExportPrepare": "MEDIUM"
+    },
+    "ambiguity": "Function filter resolved renderer/property-export ambiguity. UNKNOWN test/new-helper results corroborated with local runner calls; not treated as graph clearance.",
+    "indexRefreshed": false,
+    "commitGateRun": false
+  },
+  "art": {
+    "tool": "Built-in image_gen",
+    "promptRecord": "verification/theme-art-prompts-2026-10-16.json",
+    "generated": [
+      {
+        "propertyId": "rest-in-pizza",
+        "path": "assets/rest-in-pizza-theme.webp",
+        "format": "WEBP",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 489514,
+        "sha256": "543b6ed7317a057dc31590f9a639a397b720bb87777fa8b9c03413fadbd3160b"
+      },
+      {
+        "propertyId": "grave-expectations",
+        "path": "assets/grave-expectations-theme.webp",
+        "format": "WEBP",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 309820,
+        "sha256": "d28499c1ae881f89257de7fd20648bd636a49881a2d5e9d7e360b7b74b91670e"
+      },
+      {
+        "propertyId": "boobies-lodge",
+        "path": "assets/boobies-lodge-theme.webp",
+        "format": "WEBP",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 461756,
+        "sha256": "80e4395640809982a94e93d6911f115c7e00a828d68570287e72a7962c80043c"
+      }
+    ],
+    "originalArtRetained": true,
+    "conversion": "Pillow RGB WebP quality 86, method 6, no crop or visual edit"
+  },
+  "limitations": [
+    "No full suite or historical broad browser rerun",
+    "Other browser engines, human screen-reader/dictation, full accessibility audit and physical print unverified",
+    "Sampled contrast checks do not prove accessibility conformance",
+    "Marketing piece layout remains its existing document design; hero artwork follows the property",
+    "Previously downloaded ZIPs keep their old design; export again for current themes"
+  ],
+  "artifacts": {
+    "retainedDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/restaurant-themes",
+    "browserTemporaryDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-themes-browser-D27Baw"
+  },
+  "preservation": {
+    "baselineFiles": 118,
+    "changedBaselineFiles": [
+      "properties.css",
+      "rest-in-pizza.html",
+      "index.html",
+      "boobies-lodge.html",
+      "marketing-pack.js",
+      "grave-expectations.html",
+      "README.md",
+      "creator.js",
+      "package.json",
+      "website-export.js",
+      "website-renderer.js",
+      "tests/properties-browser.cjs",
+      "tests/website-collection-browser.cjs",
+      "tests/website-export-browser.cjs",
+      "tests/properties.cjs",
+      "tests/website-workspace-browser.cjs",
+      "scripts/render-site.cjs"
+    ],
+    "addedFilesBeforeRecord": [
+      "tests/themes-browser.cjs",
+      "tests/themes.cjs",
+      "verification/theme-art-prompts-2026-10-16.json",
+      "assets/rest-in-pizza-theme.webp",
+      "assets/grave-expectations-theme.webp",
+      "assets/boobies-lodge-theme.webp"
+    ],
+    "deletedBaselineFiles": [],
+    "preservedCoreFiles": [
+      "site-data.json",
+      "property-data.json",
+      "visitor-sites.json",
+      "index.template.html",
+      "styles.css",
+      "app.js",
+      "content.js",
+      "planner.js",
+      "creator-model.js",
+      "property-catalog.js",
+      "field-notes.js",
+      "field-notes.css",
+      "website-copy.js",
+      "website-collection.js",
+      "collection-workspace.js",
+      "website-workspace.js",
+      "marketing-workspace.js",
+      "scripts/package-site.cjs",
+      "package-lock.json",
+      "Preview.command",
+      "preview.py"
+    ],
+    "allOriginalArtFontsAndEarlierVerificationRecordsPreserved": true,
+    "gitActions": "No staging, commit, push, deployment or publication."
+  },
+  "sourceSha256": {
+    "Preview.command": "2b85bcc31c5ac974c59648707e8e78fa7ba0979511b88a996aea71ed40616cf8",
+    "README.md": "fb3935e25408c690db429a38d3ffa38954d7d9150c1dec11a4928880d5b83566",
+    "app.js": "fb4eef6e50320ff6ff19b0fde24616978f4b2dbb667231075da7d813eb3c6f41",
+    "assets/boobies-lodge-theme.webp": "80e4395640809982a94e93d6911f115c7e00a828d68570287e72a7962c80043c",
+    "assets/grave-expectations-theme.webp": "d28499c1ae881f89257de7fd20648bd636a49881a2d5e9d7e360b7b74b91670e",
+    "assets/rest-in-pizza-theme.webp": "543b6ed7317a057dc31590f9a639a397b720bb87777fa8b9c03413fadbd3160b",
+    "boobies-lodge.html": "9303311c8bf6aa8b18ca581165655f797452ac093eccf069eece3e6bf944f9cd",
+    "collection-workspace.js": "8a07b2eb5d4a3d0cb19cfa4c9ba1cf30e27960e56102d1b5270d8f98d69a0a2e",
+    "content.js": "44602e3338b16c266c39208108ab4fc93280828b142e7d65e09566d6636bce46",
+    "creator-model.js": "23c647e04713734c25496f6609e94386998522322796f88b306b4e2b8640e8d8",
+    "creator.js": "4d08ec52d9c4cf0e81b1de9265eae2c9d0ed80600b26f0cd635f03d379b72ebb",
+    "field-notes.css": "d0e9d41775cd29273546e8e7c9b129fb8e4fb44e240925cfc3bb8deead73c827",
+    "field-notes.js": "2bc71e611d0873f70e4e8468cf60402df80d144dd73a2e187cfcf28540819e13",
+    "grave-expectations.html": "11906a9b7e416a8a2be6c79e0ac5cb47e7176ce236ad13025e69641e5756b202",
+    "index.html": "7ce18842381719e0d89ef3599f131558dcd0f5547cf1a6b64700d7e977662e44",
+    "index.template.html": "ffb316ca1ca560a0df46e5453b7b36121e52b01c592c1ef55886a538045c8474",
+    "marketing-pack.js": "4506c7ff16e4048da63b4bb0d3283b26268f723b849c691ce011d84017c3659a",
+    "marketing-workspace.js": "192f846376790febba36f4016b9db89be67e77ea96d8e67b492827f1396d0e31",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "package.json": "bd407b1972e82355556c871029c1442659ac3352f1d50e831303a2d64594f2fc",
+    "planner.js": "a71f5dcf4c8fc27f1111673decac2d15a0aef84e5b2836f0c50441a9cea94f72",
+    "preview.py": "73967d53bb89d24cfb3f116dcbb6a6a5a3f30ad1e34d01c0c5ba0cc035486216",
+    "properties.css": "b9ad3221b8dcf86dca9cc2cc119e57d45f8aad04eee96e6b2289f2f0bd6a8304",
+    "property-catalog.js": "b2a729649c66a0ca83a8552f4fc586510298ff31e7f0dd4db727adef3f804cc8",
+    "property-data.json": "8285754f3928f10009ac024604a69e9382261295ce16fe666308b3817b3789b8",
+    "rest-in-pizza.html": "25f11639c97fdfd353913f0fb3cbfecc7a04a9b18a6c8e6ece6fcfeaec606148",
+    "scripts/package-site.cjs": "27672b3207083366e5c6dc7480900a7c7e0d8598845c55f02f4f6498073dc4ef",
+    "scripts/render-site.cjs": "b0fe5ebedef79db20a2844fb664f2eb79849392b1c7724b99a17a20e01adc8e4",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "styles.css": "26e99621f78883beae915af6517e938feeae1e71e98c1084d9562a0f74654848",
+    "tests/properties-browser.cjs": "c834c0187759d32d7c792156aca129de271dc20c996c2164b5585a21829113c4",
+    "tests/properties.cjs": "2c7125f5e90a22821935f64647c2130583f992a19fb900c0fc682d13fab4ed98",
+    "tests/themes-browser.cjs": "a4ff5c15f5180d03fdfac98e80b98d3009c994f1617adcd90cf288ceaa1eaf48",
+    "tests/themes.cjs": "42c81a6d2f184b865441ad2548b1586238318fae78f4b840a7c5d2fa53429390",
+    "tests/website-collection-browser.cjs": "10dd209ac55959052120ceb5c12e4207fac10e99a706f89560714c1db1a9bad5",
+    "tests/website-export-browser.cjs": "53c1f1fa722630c8df4be4df4de7f016018ed73b7a20d4462da25306f321c85a",
+    "tests/website-workspace-browser.cjs": "e1862f2e9fa8f1602791f72621da225e8e1e58f968cc58ad3b933a5874c33515",
+    "verification/theme-art-prompts-2026-10-16.json": "bd3e4478053c9f80e5e92c1ad6a1340d9518669ceb3ac782286eed43fb8b1eaf",
+    "visitor-sites.json": "5973a1b04ef95ce0c8dc669b6445a8e15f597467fb1754bb4520f41b194bbdc0",
+    "website-collection.js": "0da0fd70c9578cbd4d8d4b5c17c9b8f3869419b0a70368b540cbf9a0904e010c",
+    "website-copy.js": "bad8425ab269e41901fbdd5450b94f90395a9a5ad976cf77e7c83e490cf678ca",
+    "website-export.js": "8fa32ca0182830ad4446afbc5ec9d9d594dad91d263831d5fc85ae94a062325b",
+    "website-renderer.js": "7d7ba0860a1754b5c8a6bb80efd3561a178c94808656c7a7a5aba207f452edb9",
+    "website-workspace.js": "7ed49e08505c720e98dd7bc97c400cd6c977372864b70a0fa428126a339081d2"
+  }
+}
