@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-16",
+  "recordedAt": "2026-10-17T00:00:54.295920+00:00",
+  "scope": "Complete standalone public website ZIP exports for each edited restaurant, preserving existing designs and parody. No deployment or publication.",
+  "runtime": {
+    "node": "v22.22.3",
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12"
+  },
+  "checksPassed": [
+    "npm run check:website-export",
+    "npm run check:website-workspace",
+    "npm run check:websites",
+    "npm run check:generated",
+    "npm run check:website-export-browser",
+    "Creator HTML nesting, unique IDs, local references and anchors",
+    "Six changed/new JavaScript files and Python archive-helper syntax"
+  ],
+  "unitScope": [
+    "All four complete property packages",
+    "Public edited content and escaped HTML",
+    "No campaign names, working briefs, other campaigns, creator pages or saved plans",
+    "All referenced artwork, scripts, styles, fonts and licenses",
+    "Frozen record and resource snapshots; no mutation",
+    "Valid draft/named source selection and dates; invalid prices, missing/empty resources rejected",
+    "Content-derived storage keys separate from originals and changed exports",
+    "Independent Python CRC, hash, size, path and HTML/CSS closure checks",
+    "Normal four-page rendering remains byte-identical"
+  ],
+  "browserScope": [
+    "Eight draft/named creator ZIP downloads with matching hero/menu/story source",
+    "Export leaves saved and draft content unchanged and original visitor-key sentinels intact",
+    "All four extracted file:// websites work offline with local fonts/art",
+    "Menu categories, direct detail hashes/reloads and attraction dialogs",
+    "Planner saves/reload plus text and self-contained illustrated itinerary downloads",
+    "All four complete no-JavaScript menus/details",
+    "375px standalone and creator reflow",
+    "Four standalone sites under one temporary static host with independent saved plans",
+    "Invalid price rejection, failed-font resource retry",
+    "An edit during resource loading cancels the old download",
+    "Missing export script disables export, keeps editing and resumes after reload"
+  ],
+  "browserPageErrors": [],
+  "browserExternalRequests": [],
+  "finalFileResourceFailures": [],
+  "correctionsDuringWork": [
+    "Allowed the fixed index.template.html input through the otherwise strict safe-resource path validation",
+    "Corrected independent CSS URL parsing to handle nested references inside data-URI artwork",
+    "Omitted the cross-origin font preload only in standalone exports after a file:// failure; original CSS/font bytes retained"
+  ],
+  "visualInspection": [
+    "Offline steakhouse desktop",
+    "Offline lodge at 375px"
+  ],
+  "limitations": [
+    "No full suite or previous broad browser passes",
+    "No other browser engines, human VoiceOver/dictation, print or production hosting checks",
+    "Direct-file storage varies by browser; HTTP hosting and itinerary downloads are documented",
+    "Manifest is an integrity aid, not a signature or content approval",
+    "Retained archives are automated test fixtures; owner browser-local campaigns were not read or exported"
+  ],
+  "artifacts": {
+    "retainedDirectory": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/website-exports",
+    "browserTemporaryDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-website-export-browser-ujrQWl",
+    "unitTemporaryDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-website-export-unit-cVajHN"
+  },
+  "preservation": {
+    "baselineFileCount": 96,
+    "changedBaselineFiles": [
+      "website-workspace.js",
+      "README.md",
+      "package.json",
+      "creator.html",
+      "website-renderer.js",
+      "index.template.html",
+      "tests/helpers/server.cjs"
+    ],
+    "addedFilesBeforeRecord": [
+      "roadmap.md",
+      "website-export.js",
+      "tests/website-export-browser.cjs",
+      "tests/website-export.cjs",
+      "docs/architecture.md",
+      "tests/helpers/website-archive.py"
+    ],
+    "deletedBaselineFiles": [],
+    "preservedCoreFiles": [
+      "index.html",
+      "rest-in-pizza.html",
+      "grave-expectations.html",
+      "boobies-lodge.html",
+      "site-data.json",
+      "property-data.json",
+      "visitor-sites.json",
+      "styles.css",
+      "properties.css",
+      "field-notes.css",
+      "content.js",
+      "planner.js",
+      "field-notes.js",
+      "app.js",
+      "creator-model.js",
+      "creator.js",
+      "creator.css",
+      "website-copy.js",
+      "marketing-pack.js",
+      "marketing-workspace.js",
+      "property-catalog.js",
+      "package-lock.json",
+      "Preview.command",
+      "preview.py"
+    ],
+    "allExistingAssetsPreserved": true,
+    "allEarlierVerificationRecordsPreserved": true,
+    "gitMetadataPresent": true,
+    "gitCommitsPresent": false,
+    "gitActions": "No staging, commits, push, deployment or publication.",
+    "unrelatedAdditionsObservedAndLeftUntouched": [
+      "roadmap.md",
+      "docs/architecture.md"
+    ],
+    "authoredNewFiles": [
+      "website-export.js",
+      "tests/website-export.cjs",
+      "tests/website-export-browser.cjs",
+      "tests/helpers/website-archive.py",
+      "verification/website-export-2026-10-16.json"
+    ]
+  },
+  "sourceSha256": {
+    "Preview.command": "2b85bcc31c5ac974c59648707e8e78fa7ba0979511b88a996aea71ed40616cf8",
+    "README.md": "445f0c7e3d6b4515ec2105c8b3d815bd43520a4cc2cbf04f19a9ec4bd608e693",
+    "app.js": "fb4eef6e50320ff6ff19b0fde24616978f4b2dbb667231075da7d813eb3c6f41",
+    "boobies-lodge.html": "14198b94a1dd492866a6be20e92de9f9e5a4d8c3048f937e3d1e8c50371401c6",
+    "content.js": "44602e3338b16c266c39208108ab4fc93280828b142e7d65e09566d6636bce46",
+    "creator-model.js": "23c647e04713734c25496f6609e94386998522322796f88b306b4e2b8640e8d8",
+    "creator.css": "66d9876d0caad897a3ed9156c4b29c6f2b6908d7f1f079f91be5b43251e1834b",
+    "creator.html": "a1d05022528899d4cf866a570dfe966e704fa19d9517e94ce6c3b1f421fef88b",
+    "creator.js": "38809776c06d20aa9110b1745b6db75979ae2d4b6658d0a89bbc42ed3f1e41ef",
+    "docs/architecture.md": "aa632cace5b923a4d089a96b4ce5700c208000c32e149c3d6e61db58821b24d3",
+    "field-notes.css": "d0e9d41775cd29273546e8e7c9b129fb8e4fb44e240925cfc3bb8deead73c827",
+    "field-notes.js": "2bc71e611d0873f70e4e8468cf60402df80d144dd73a2e187cfcf28540819e13",
+    "grave-expectations.html": "6c26dc5f06a1105165f62870e4a51fb5b08417a6ae827cb08b62c192d1593778",
+    "index.html": "df47d0a296d8f9b3d49c333108dceab91e6e01fd1f192dbcc364ecc938dcd27f",
+    "index.template.html": "ffb316ca1ca560a0df46e5453b7b36121e52b01c592c1ef55886a538045c8474",
+    "marketing-pack.js": "30c06e56a828280290b6cc8bf10af2ee9ec44a516c68ed9edf6aa9dd5c456060",
+    "marketing-workspace.js": "192f846376790febba36f4016b9db89be67e77ea96d8e67b492827f1396d0e31",
+    "package-lock.json": "a79db91ec17146e3cb1e38998adf8caf502ab8415a1cc4322db841743f40533d",
+    "package.json": "be1da15de219728fae3d0575de87f6d3d0322dc94989c546214982a9dc7c1ccf",
+    "planner.js": "a71f5dcf4c8fc27f1111673decac2d15a0aef84e5b2836f0c50441a9cea94f72",
+    "preview.py": "73967d53bb89d24cfb3f116dcbb6a6a5a3f30ad1e34d01c0c5ba0cc035486216",
+    "properties.css": "87f2e80ea05170521fdf18cbbdf5b0ba92cf41860513eb0e5a819192540232b5",
+    "property-catalog.js": "b2a729649c66a0ca83a8552f4fc586510298ff31e7f0dd4db727adef3f804cc8",
+    "property-data.json": "8285754f3928f10009ac024604a69e9382261295ce16fe666308b3817b3789b8",
+    "rest-in-pizza.html": "4d9227332a1de045d40a33ab4036cf44357a75c935b7f6ca12318688205d6c48",
+    "roadmap.md": "2e234743c2e9da1a26710e97934a60d649b5cd0c8e159ae3a53fd95ca9c48686",
+    "site-data.json": "aef5e0bbc8ee5b4f03f1476feacabcf50200d562cda02537983690d292c248f8",
+    "styles.css": "26e99621f78883beae915af6517e938feeae1e71e98c1084d9562a0f74654848",
+    "tests/helpers/server.cjs": "60d6f6c7522ed1c143684abb1fe2bca556c400cd98ac0c384d266438cc37c352",
+    "tests/helpers/website-archive.py": "dd327112ee7836d4d25e3367fac8c07d3c166a8258376aa8034198d5901d1e01",
+    "tests/website-export-browser.cjs": "969ade35bb59e81260fb4a2d27e78da7492c8912f6150186b9d531f3e0e63ce7",
+    "tests/website-export.cjs": "85162e9c811d13bd1f1a72e528af7bc64078ffa0cdecb431b986438a557622e0",
+    "visitor-sites.json": "5973a1b04ef95ce0c8dc669b6445a8e15f597467fb1754bb4520f41b194bbdc0",
+    "website-copy.js": "bad8425ab269e41901fbdd5450b94f90395a9a5ad976cf77e7c83e490cf678ca",
+    "website-export.js": "08867341585bb12609051dc4feefa2fd765b5ba86f340c044a3e181b2c3c0723",
+    "website-renderer.js": "5a52ba009c21c0b68820568a36f3d7819598da51ca85bd4456864019390bd62f",
+    "website-workspace.js": "7ed49e08505c720e98dd7bc97c400cd6c977372864b70a0fa428126a339081d2"
+  }
+}
