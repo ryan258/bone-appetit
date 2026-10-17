@@ -57,6 +57,47 @@ npm run check:themes-browser
 
 The source check verifies all four theme identities and current WebP art across live rendering, legacy campaigns, individual/collection exports and marketing documents. The separate browser pass checks live desktop/tablet/phone layouts, sampled text contrast, interactions, legacy creator previews, WebP marketing preview and matching offline website exports. It does not establish accessibility conformance or cover every browser.
 
+## WebP material backgrounds
+
+All four sites have their own decorative material: weathered moss-green porch timber for Bone Appétit, cream plaster with red gingham for Rest in Pizza, oxblood damask for Grave Expectations, and smoked pine with green-and-amber plaid for BooBies Lodge. These sit behind the main content, menu texture, visit section and closing band. The pizza parlor and lodge also use their material behind the existing hero artwork. Color washes keep the materials quiet behind text; cards, dialogs and form surfaces retain their solid backgrounds. Print and forced-color modes remove the decorative images.
+
+Each material has a 1280×853 desktop WebP and a 768×512 phone WebP under `assets/`; CSS selects the phone image at widths up to 720px. The desktop files total **530,810 bytes**, about **56% less** than the first WebP encodes; the phone files total **157,472 bytes**, about **87% less**. Both sizes were resized directly from the original generated PNGs with Lanczos resampling, then encoded at WebP quality 72/70 with method 6. The original generated PNGs remain available at the paths in [the prompt record](verification/background-prompts-2026-10-17.json); [the optimization record](verification/background-optimization-2026-10-17.json) lists exact output sizes and settings.
+
+`backgroundAsset(data, mobile)` follows the stable property ID, with the original Bone fallback. The shared renderer supplies local URLs through CSS custom properties, and `artAssets` includes both sizes. Full creator website previews and fresh individual/collection website ZIPs therefore use the same backgrounds; an individual ZIP carries only its own two material files. Existing exported ZIPs need to be downloaded again to receive the new assets. This optimization covers these four new materials.
+
+The focused browser check is separate from the full test suite:
+
+```sh
+node tests/background-art-browser.cjs
+```
+
+## Optimized WebP image library
+
+The remaining **134 WebPs** have been processed for web delivery, reducing their total from **34.25 MB to 20.41 MB** (40.4%, or 13.84 MB saved; decimal units). All 134 candidates were checked; 133 files were replaced, while the Rest in Pizza hero retained its existing encoding because its candidate did not meet both the size and quality gates. The eight responsive background files described above are separate from these totals.
+
+Menu photographs and heroes retain their existing resolution for larger displays. Transparent logos are now 512×512; object portraits are at most 960px wide, experience scenes at most 1200px, and story exteriors at most 1280px. Resizing preserves the complete composition without cropping. Source PNGs were used for 127 files, including four original food/hero PNGs retained in `assets/`. Three older atmospheric images use their archived WebP as the available input. The four maps were losslessly repacked and verified pixel for pixel at their original dimensions. Logo alpha was checked against the resized source before delivery.
+
+Every replacement must be smaller and decode correctly. Lossy encoding starts at quality 76–82 depending on use, then increases quality for any candidate below a 32 dB PSNR error threshold. That threshold is an encoder check, not a guarantee of perceptual quality; representative logos, food, scenes and object portraits were also visually compared. Filenames remain stable across the visitor sites, creator, marketing and website exports. Download fresh exports to receive the optimized images.
+
+[The optimization record](verification/webp-library-optimization-2026-10-17.json) records each file's source, dimensions, sizes, hashes and encoding settings, plus the path to a verified archive of all 134 files before this pass. Earlier artwork-generation records retain their historical values. Targeted source checks cover WebP decoding, transparent logos, map detail, marketing embedding, static packaging and individual/collection ZIP integrity. This image-only pass does not include a new browser run or a full test suite.
+
+## Annual Miss BooBies Lodge USA competition
+
+The lodge page includes a prominent annual-competition promotion, a studio feature, a champion spotlight, six expandable contestant profiles, a bikini-round gallery area, and completed U.S. results. This is an invented **2026 U.S. edition**, dated October 10 in an imagined Denver host lodge. Claire Bennett (Savannah) is the champion; Lucia Vega (Las Vegas) and Nia Brooks (Asheville) are the runners-up. Lena Park (Portland), Sienna Reyes (Austin) and Brooke Callahan (Denver) receive individual honors. All contestants are fictional adults ages 27–33; names, locations, event details and results are explicitly identified as fiction on the page.
+
+Six coordinated professional studio portraits and a crown/stage feature were generated with the built-in image tool, then delivered as seven local WebPs. Portraits are 768×1152; the feature is 1280×853. [The prompt/source record](verification/miss-lodge-usa-prompts-2026-10-17.json) includes the generated PNG paths, final dimensions, sizes and hashes. Portraits have native download links; profiles, results and gallery navigation work without JavaScript.
+
+**Bikini-round photographs remain undelivered.** The image service rejected all six requested adult swimwear photographs with a sexual-content moderation result. The gallery therefore shows six explicit **Photography pending** panels, with contestant names and profile links. It contains no broken image references, substituted uniform portraits or photo-download controls. [The undelivered-photo record](verification/miss-lodge-swimwear-2026-10-17.json) preserves the brief and outcome. When images are available, map their local filenames by contestant ID in `SWIMWEAR_ART` in `website-renderer.js` and rebuild; the renderer replaces the pending panels and automatically includes delivered files in exports.
+
+`LODGE_COMPETITION` owns the current presentation edition independently of saved campaign/menu snapshots. The feature appears only when the property ID is `boobies-lodge`, including older saved campaigns, full creator website previews, and fresh individual/collection website ZIPs. The other three restaurants do not render this content or include these images in their individual exports. This pass covers the U.S. edition; the previous year's international competition remains future work.
+
+```sh
+node tests/lodge-competition.cjs
+node tests/lodge-competition-browser.cjs
+```
+
+The source check covers adult/profile/result integrity, explicit pending photography, property isolation, Node/browser renderer parity, legacy draft/named exports, missing-resource rejection and archive integrity. The separate focused Chromium pass covers responsive layout, keyboard/native profiles, navigation, portrait downloads, no-JavaScript content, representative contrast, print/forced colors, creator previews and offline exports. These checks are separate from a full suite or human accessibility acceptance.
+
 ## Full property SVG glyph libraries
 
 Each property has **48 original SVG glyphs**, for **192 distinct drawings** across the four properties. The shared role contract covers the current restaurant content and reusable interface needs; every property supplies its own drawing for each role.

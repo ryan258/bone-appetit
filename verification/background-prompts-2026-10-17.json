@@ -1,0 +1,29 @@
+{
+  "generator": "Built-in image_gen tool",
+  "assets": [
+    {
+      "id": "bone-appetit",
+      "file": "bone-porch-background.webp",
+      "prompt": "Use case: stylized-concept. Asset type: decorative full-width website background, landscape 1536x1024. Create an original cinematic material backdrop for a cozy haunted roadside pizzeria. Straight-on close view of an old Victorian porch wall, weathered dark moss-green painted timber boards, rubbed paint, subtle brown woodgrain, delicate cobwebs in the upper corners, a few dry copper autumn leaves at the bottom edge, very faint warm amber lantern spill from off frame. Mostly uninterrupted textured timber with quiet center for website content. Authentic tactile photographic materials, handcrafted Halloween Americana, softly lit dark olive and charcoal, restrained contrast, no room perspective, no people, no food, no writing, no logos, no watermark, no frame. Opaque image. This is a material background, not a website mockup.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-83fa9a9e-6eca-47e6-b3a9-1b0af3556d83.png"
+    },
+    {
+      "id": "rest-in-pizza",
+      "file": "rest-gingham-background.webp",
+      "prompt": "Use case: stylized-concept. Asset type: decorative full-width website background, landscape 1536x1024. Create an original tactile material backdrop for a retro neighborhood Halloween pizzeria. Straight-on close view of warm ivory cream limewash plaster, subtle aged paper texture, narrow tomato-red and cream gingham cloth strips running vertically along the far left and right edges, small soft woven irregularities and a touch of flour dust in bottom corners. Cream plaster occupies the middle 75 percent, quiet center for website content. Nostalgic Italian-American pizza parlor warmth, sophisticated photographic material study, gentle diffuse light, no room perspective, no food, no people, no writing, no logos, no watermark, no frame. Opaque image. This is a material background, not a website mockup.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-9a4fa8e6-0a42-4941-baf2-81b112368770.png"
+    },
+    {
+      "id": "grave-expectations",
+      "file": "grave-damask-background.webp",
+      "prompt": "Use case: stylized-concept. Asset type: decorative full-width website background, landscape 1536x1024. Create an original tactile material backdrop for an ancestral haunted luxury steakhouse. Straight-on close view of deeply shaded oxblood burgundy damask wallpaper, elegant repeating botanical damask motifs woven into aged silk, restrained antique-gold thread details, almost-black walnut trim only at the far left and right edges. Large quiet center, small scale repeating pattern, muted low contrast so text panels can sit over it. Cinematic photographic material study with dim candlelight grazing from off frame, rich real cloth fibers, dignified subtly gothic Halloween atmosphere. No actual candles, no people, no food, no skulls, no writing, no logos, no watermark, no frame. Opaque image. This is a material background, not a website mockup.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-5ac0a611-0574-4c52-b420-83a627701df4.png"
+    },
+    {
+      "id": "boobies-lodge",
+      "file": "lodge-timber-background.webp",
+      "prompt": "Use case: stylized-concept. Asset type: decorative full-width website background, landscape 1536x1024. Create an original tactile material backdrop for a cheeky haunted timber sports lodge. Straight-on close view of old smoked knotty-pine wall boards, warm dark honey brown timber grain, fine nail holes, a thin worn forest-green and amber buffalo-plaid cloth border at the far left and right edges. Quiet uninterrupted timber in the center for website content. Rich physical wood texture, cozy smokehouse and autumn camp-lodge mood, dim amber light from off frame, photographic realism and restrained contrast. No room perspective, no people, no food, no trophies, no writing, no logos, no watermark, no frame. Opaque image. This is a material background, not a website mockup.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-4f374f7b-29f0-4e95-9ed9-641e4cbb4b01.png"
+    }
+  ]
+}

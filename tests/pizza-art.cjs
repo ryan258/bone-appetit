@@ -25,7 +25,7 @@ async function run() {
   for (const key of Object.keys(data.attractions)) assert.ok(art.attractionArt(data, key).asset.endsWith('.webp'));
   const paths = collection.prepare(model, records, options).paths;
   const assets = Object.fromEntries(paths.map(file => [file, read(file)]));
-  const pizzaAssets = [...new Set([art.heroAsset(data), ...art.artAssets(data)])]; assert.equal(pizzaAssets.length, 31);
+  const pizzaAssets = [...new Set([art.heroAsset(data), ...art.artAssets(data)])]; assert.equal(pizzaAssets.length, 33);
   for (const asset of pizzaAssets) {
     const bytes = Buffer.from(read('assets/' + asset));
     assert.ok(asset.endsWith('.webp')); assert.equal(bytes.toString('ascii', 0, 4), 'RIFF'); assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
@@ -75,7 +75,7 @@ async function run() {
   }
   for (const page of renderAll()) assert.equal(page.html, fs.readFileSync(path.join(__dirname, '..', page.filename), 'utf8'));
   assert.equal(JSON.stringify(records), before, 'No save/reference mutation.');
-  console.log('Pizza artwork checks passed: 18 menu images, three experience scenes, six collection objects, separate story exterior, map route pixels, 31 WebP assets, unchanged legacy sources/admission, missing-asset rejection, four marketing selections, 256/257 ZIP boundary and independent draft/named/collection ZIP closure.');
+  console.log('Pizza artwork checks passed: 18 menu images, three experience scenes, six collection objects, separate story exterior, map route pixels, responsive backgrounds and 33 WebP assets, unchanged legacy sources/admission, missing-asset rejection, four marketing selections, 256/257 ZIP boundary and independent draft/named/collection ZIP closure.');
   console.log('Artifacts: ' + output);
 }
 run().catch(error => { console.error(error); process.exitCode = 1; });

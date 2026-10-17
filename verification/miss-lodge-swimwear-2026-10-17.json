@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-17",
+  "scope": "User-requested bikini competition photography",
+  "status": "UNDELIVERED",
+  "generator": "Built-in image_gen",
+  "assets": [
+    {
+      "id": "claire-bennett",
+      "file": "lodge-miss-usa-2026-claire-bennett-swimwear.webp",
+      "prompt": "Use case: identity-preserve. Input image: identity reference for Claire Bennett, a newly invented fictional adult woman aged 28. Create a new professional full-length event photograph of the same adult contestant in the swimwear round of a fictional U.S. beauty pageant. Preserve her recognizable face, adult age, skin tone, hair color and hairstyle from the supplied portrait. Wardrobe: an opaque forest-green two-piece bikini in a conventional full-coverage cut, with simple black stage sandals. Scene: a polished dark timber stage with a charcoal curtain, soft amber spotlights, subtle green-and-gold pageant lighting, and no audience visible. Pose: natural upright front-facing standing pose with relaxed arms, friendly poised smile, eye-level camera, balanced full-body composition showing head and feet with breathing room, no cropping. High-fidelity professional event photography, realistic skin and hair, softbox-style flattering key light, gentle rim light, sharp facial focus and natural proportions. Tasteful public swimwear competition coverage. No lettering, logos, watermark, sash, crown, extra people, costume props or suggestive posing.",
+      "reference": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-ea392cf4-612d-4923-88f9-13384c6aa9ec.png",
+      "status": "blocked",
+      "deliveredAsset": null,
+      "toolOutcome": "image_gen rejected the request at input moderation with category sexual. No bikini-round image was produced."
+    },
+    {
+      "id": "lucia-vega",
+      "file": "lodge-miss-usa-2026-lucia-vega-swimwear.webp",
+      "prompt": "Use case: identity-preserve. Input image: identity reference for Lucia Vega, a newly invented fictional adult woman aged 29. Create a new professional full-length event photograph of the same adult contestant in the swimwear round of a fictional U.S. beauty pageant. Preserve her recognizable face, adult age, skin tone, hair color and hairstyle from the supplied portrait. Wardrobe: an opaque forest-green two-piece bikini in a conventional full-coverage cut, with simple black stage sandals. Scene: a polished dark timber stage with a charcoal curtain, soft amber spotlights, subtle green-and-gold pageant lighting, and no audience visible. Pose: natural upright front-facing standing pose with relaxed arms, friendly poised smile, eye-level camera, balanced full-body composition showing head and feet with breathing room, no cropping. High-fidelity professional event photography, realistic skin and hair, softbox-style flattering key light, gentle rim light, sharp facial focus and natural proportions. Tasteful public swimwear competition coverage. No lettering, logos, watermark, sash, crown, extra people, costume props or suggestive posing.",
+      "reference": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-6349b84f-0aa6-4118-b3a5-f1816af07a46.png",
+      "status": "blocked",
+      "deliveredAsset": null,
+      "toolOutcome": "image_gen rejected the request at input moderation with category sexual. No bikini-round image was produced."
+    },
+    {
+      "id": "nia-brooks",
+      "file": "lodge-miss-usa-2026-nia-brooks-swimwear.webp",
+      "prompt": "Use case: identity-preserve. Input image: identity reference for Nia Brooks, a newly invented fictional adult woman aged 30. Create a new professional full-length event photograph of the same adult contestant in the swimwear round of a fictional U.S. beauty pageant. Preserve her recognizable face, adult age, skin tone, hair color and hairstyle from the supplied portrait. Wardrobe: an opaque forest-green two-piece bikini in a conventional full-coverage cut, with simple black stage sandals. Scene: a polished dark timber stage with a charcoal curtain, soft amber spotlights, subtle green-and-gold pageant lighting, and no audience visible. Pose: natural upright front-facing standing pose with relaxed arms, friendly poised smile, eye-level camera, balanced full-body composition showing head and feet with breathing room, no cropping. High-fidelity professional event photography, realistic skin and hair, softbox-style flattering key light, gentle rim light, sharp facial focus and natural proportions. Tasteful public swimwear competition coverage. No lettering, logos, watermark, sash, crown, extra people, costume props or suggestive posing.",
+      "reference": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-2f243382-9a7c-4a2a-aa86-c20bb1b50878.png",
+      "status": "blocked",
+      "deliveredAsset": null,
+      "toolOutcome": "image_gen rejected the request at input moderation with category sexual. No bikini-round image was produced."
+    },
+    {
+      "id": "lena-park",
+      "file": "lodge-miss-usa-2026-lena-park-swimwear.webp",
+      "prompt": "Use case: identity-preserve. Input image: identity reference for Lena Park, a newly invented fictional adult woman aged 27. Create a new professional full-length event photograph of the same adult contestant in the swimwear round of a fictional U.S. beauty pageant. Preserve her recognizable face, adult age, skin tone, hair color and hairstyle from the supplied portrait. Wardrobe: an opaque forest-green two-piece bikini in a conventional full-coverage cut, with simple black stage sandals. Scene: a polished dark timber stage with a charcoal curtain, soft amber spotlights, subtle green-and-gold pageant lighting, and no audience visible. Pose: natural upright front-facing standing pose with relaxed arms, friendly poised smile, eye-level camera, balanced full-body composition showing head and feet with breathing room, no cropping. High-fidelity professional event photography, realistic skin and hair, softbox-style flattering key light, gentle rim light, sharp facial focus and natural proportions. Tasteful public swimwear competition coverage. No lettering, logos, watermark, sash, crown, extra people, costume props or suggestive posing.",
+      "reference": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-087b2324-cdcd-4623-a547-675c67e5d682.png",
+      "status": "blocked",
+      "deliveredAsset": null,
+      "toolOutcome": "image_gen rejected the request at input moderation with category sexual. No bikini-round image was produced."
+    },
+    {
+      "id": "sienna-reyes",
+      "file": "lodge-miss-usa-2026-sienna-reyes-swimwear.webp",
+      "prompt": "Use case: identity-preserve. Input image: identity reference for Sienna Reyes, a newly invented fictional adult woman aged 32. Create a new professional full-length event photograph of the same adult contestant in the swimwear round of a fictional U.S. beauty pageant. Preserve her recognizable face, adult age, skin tone, hair color and hairstyle from the supplied portrait. Wardrobe: an opaque forest-green two-piece bikini in a conventional full-coverage cut, with simple black stage sandals. Scene: a polished dark timber stage with a charcoal curtain, soft amber spotlights, subtle green-and-gold pageant lighting, and no audience visible. Pose: natural upright front-facing standing pose with relaxed arms, friendly poised smile, eye-level camera, balanced full-body composition showing head and feet with breathing room, no cropping. High-fidelity professional event photography, realistic skin and hair, softbox-style flattering key light, gentle rim light, sharp facial focus and natural proportions. Tasteful public swimwear competition coverage. No lettering, logos, watermark, sash, crown, extra people, costume props or suggestive posing.",
+      "reference": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-e19cdfe9-ca7e-4937-847a-5531faac7dce.png",
+      "status": "blocked",
+      "deliveredAsset": null,
+      "toolOutcome": "image_gen rejected the request at input moderation with category sexual. No bikini-round image was produced."
+    },
+    {
+      "id": "brooke-callahan",
+      "file": "lodge-miss-usa-2026-brooke-callahan-swimwear.webp",
+      "prompt": "Use case: identity-preserve. Input image: identity reference for Brooke Callahan, a newly invented fictional adult woman aged 33. Create a new professional full-length event photograph of the same adult contestant in the swimwear round of a fictional U.S. beauty pageant. Preserve her recognizable face, adult age, skin tone, hair color and hairstyle from the supplied portrait. Wardrobe: an opaque forest-green two-piece bikini in a conventional full-coverage cut, with simple black stage sandals. Scene: a polished dark timber stage with a charcoal curtain, soft amber spotlights, subtle green-and-gold pageant lighting, and no audience visible. Pose: natural upright front-facing standing pose with relaxed arms, friendly poised smile, eye-level camera, balanced full-body composition showing head and feet with breathing room, no cropping. High-fidelity professional event photography, realistic skin and hair, softbox-style flattering key light, gentle rim light, sharp facial focus and natural proportions. Tasteful public swimwear competition coverage. No lettering, logos, watermark, sash, crown, extra people, costume props or suggestive posing.",
+      "reference": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-bbc9127c-7591-426f-b8a7-9062cd27aa7f.png",
+      "status": "blocked",
+      "deliveredAsset": null,
+      "toolOutcome": "image_gen rejected the request at input moderation with category sexual. No bikini-round image was produced."
+    }
+  ],
+  "implementation": "Six photography-pending panels remain visible. SWIMWEAR_ART is empty; no missing or substituted photo is referenced."
+}

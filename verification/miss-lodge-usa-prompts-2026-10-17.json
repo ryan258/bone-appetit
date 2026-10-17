@@ -1,0 +1,120 @@
+{
+  "generator": "Built-in image_gen",
+  "edition": "Fictional 2026 U.S. edition",
+  "assets": [
+    {
+      "id": "claire-bennett",
+      "name": "Claire Bennett",
+      "age": 28,
+      "city": "Savannah",
+      "state": "Georgia",
+      "appearance": "an exceptionally attractive clearly adult 28-year-old woman with fair warm skin, long honey-blonde waves parted to one side, hazel eyes, a bright poised smile, athletic curvy build",
+      "file": "lodge-miss-usa-2026-claire-bennett.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-fidelity professional studio portrait for an invented restaurant staff annual awards campaign. Portrait orientation 1024x1536. Subject: an exceptionally attractive clearly adult 28-year-old woman with fair warm skin, long honey-blonde waves parted to one side, hazel eyes, a bright poised smile. A newly invented adult model, visibly late twenties or thirties, photographed alone. Wardrobe: a fully buttoned long-sleeved tailored forest-green-and-amber plaid collared shirt, buttoned through the collarbone, tucked neatly into full-length tailored black trousers, understated gold stud earrings and a tiny pumpkin enamel lapel pin. Composition: standing portrait from head to upper thighs with room above hair, direct friendly eye contact and a natural poised smile, arms relaxed at sides. Set: professional charcoal seamless studio backdrop with very subtle softly blurred amber lights at far edges. Lighting: large softbox key and gentle fill, warm amber rim light; premium editorial portrait photography, natural skin texture, lifelike eyes and hair, sophisticated restrained makeup, realistic camera optics, crisp facial focus. Polished, beautiful, confident, warm professional staff campaign. No lettering, logos, watermarks, crown, sash or other people. Preserve mature adult appearance and fully clothed professional wardrobe.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-ea392cf4-612d-4923-88f9-13384c6aa9ec.png",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 63956,
+      "sha256": "deb6a2a224d5e0a172538f37f4fb74624cfcb43fed437858a677350f66bf77d1"
+    },
+    {
+      "id": "lucia-vega",
+      "name": "Lucia Vega",
+      "age": 29,
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "appearance": "an exceptionally attractive clearly adult 29-year-old Latina woman with warm olive skin, long glossy chestnut hair, brown eyes, sculpted cheekbones, a confident warm smile, athletic curvy build",
+      "file": "lodge-miss-usa-2026-lucia-vega.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-fidelity professional studio portrait for an invented restaurant staff annual awards campaign. Portrait orientation 1024x1536. Subject: an exceptionally attractive clearly adult 29-year-old Latina woman with warm olive skin, long glossy chestnut hair, brown eyes, sculpted cheekbones, a confident warm smile. A newly invented adult model, visibly late twenties or thirties, photographed alone. Wardrobe: a fully buttoned long-sleeved tailored forest-green-and-amber plaid collared shirt, buttoned through the collarbone, tucked neatly into full-length tailored black trousers, understated gold stud earrings and a tiny pumpkin enamel lapel pin. Composition: standing portrait from head to upper thighs with room above hair, direct friendly eye contact and a natural poised smile, arms relaxed at sides. Set: professional charcoal seamless studio backdrop with very subtle softly blurred amber lights at far edges. Lighting: large softbox key and gentle fill, warm amber rim light; premium editorial portrait photography, natural skin texture, lifelike eyes and hair, sophisticated restrained makeup, realistic camera optics, crisp facial focus. Polished, beautiful, confident, warm professional staff campaign. No lettering, logos, watermarks, crown, sash or other people. Preserve mature adult appearance and fully clothed professional wardrobe.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-6349b84f-0aa6-4118-b3a5-f1816af07a46.png",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 58530,
+      "sha256": "1df29a8e9ba04b592e7f3d5fd4edcbb5d5f7785c06469ecd0ba2544867b89edb"
+    },
+    {
+      "id": "nia-brooks",
+      "name": "Nia Brooks",
+      "age": 30,
+      "city": "Asheville",
+      "state": "North Carolina",
+      "appearance": "an exceptionally attractive clearly adult 30-year-old Black woman with deep brown skin, shoulder-length defined natural curls, dark brown eyes, radiant confident smile, athletic hourglass build",
+      "file": "lodge-miss-usa-2026-nia-brooks.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-fidelity professional studio portrait for an invented restaurant staff annual awards campaign. Portrait orientation 1024x1536. Subject: an exceptionally attractive clearly adult 30-year-old Black woman with deep brown skin, shoulder-length defined natural curls, dark brown eyes, radiant confident smile. A newly invented adult model, visibly late twenties or thirties, photographed alone. Wardrobe: a fully buttoned long-sleeved tailored forest-green-and-amber plaid collared shirt, buttoned through the collarbone, tucked neatly into full-length tailored black trousers, understated gold stud earrings and a tiny pumpkin enamel lapel pin. Composition: standing portrait from head to upper thighs with room above hair, direct friendly eye contact and a natural poised smile, arms relaxed at sides. Set: professional charcoal seamless studio backdrop with very subtle softly blurred amber lights at far edges. Lighting: large softbox key and gentle fill, warm amber rim light; premium editorial portrait photography, natural skin texture, lifelike eyes and hair, sophisticated restrained makeup, realistic camera optics, crisp facial focus. Polished, beautiful, confident, warm professional staff campaign. No lettering, logos, watermarks, crown, sash or other people. Preserve mature adult appearance and fully clothed professional wardrobe.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-2f243382-9a7c-4a2a-aa86-c20bb1b50878.png",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 59862,
+      "sha256": "efd65866bcd1edb2e91c6047eeacdb089d39bd39f32764cca1c1fa8cee04d38f"
+    },
+    {
+      "id": "lena-park",
+      "name": "Lena Park",
+      "age": 27,
+      "city": "Portland",
+      "state": "Oregon",
+      "appearance": "an exceptionally attractive clearly adult 27-year-old East Asian woman with light-medium warm skin, sleek straight black shoulder-length hair, dark brown eyes, joyful self-assured smile, elegant athletic build",
+      "file": "lodge-miss-usa-2026-lena-park.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-fidelity professional studio portrait for an invented restaurant staff annual awards campaign. Portrait orientation 1024x1536. Subject: an exceptionally attractive clearly adult 27-year-old East Asian woman with light-medium warm skin, sleek straight black shoulder-length hair, dark brown eyes, joyful self-assured smile. A newly invented adult model, visibly late twenties or thirties, photographed alone. Wardrobe: a fully buttoned long-sleeved tailored forest-green-and-amber plaid collared shirt, buttoned through the collarbone, tucked neatly into full-length tailored black trousers, understated gold stud earrings and a tiny pumpkin enamel lapel pin. Composition: standing portrait from head to upper thighs with room above hair, direct friendly eye contact and a natural poised smile, arms relaxed at sides. Set: professional charcoal seamless studio backdrop with very subtle softly blurred amber lights at far edges. Lighting: large softbox key and gentle fill, warm amber rim light; premium editorial portrait photography, natural skin texture, lifelike eyes and hair, sophisticated restrained makeup, realistic camera optics, crisp facial focus. Polished, beautiful, confident, warm professional staff campaign. No lettering, logos, watermarks, crown, sash or other people. Preserve mature adult appearance and fully clothed professional wardrobe.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-087b2324-cdcd-4623-a547-675c67e5d682.png",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 48076,
+      "sha256": "9f91296a2f7e8289f139d453254e3a79959dd1e69dc7b4836bb864d6818f4788"
+    },
+    {
+      "id": "sienna-reyes",
+      "name": "Sienna Reyes",
+      "age": 32,
+      "city": "Austin",
+      "state": "Texas",
+      "appearance": "an exceptionally attractive clearly adult 32-year-old Mexican-American woman with medium bronze skin, long dark auburn hair in a polished loose braid over one shoulder, brown eyes, a lively confident smile, athletic curvy build",
+      "file": "lodge-miss-usa-2026-sienna-reyes.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-fidelity professional studio portrait for an invented restaurant staff annual awards campaign. Portrait orientation 1024x1536. Subject: an exceptionally attractive clearly adult 32-year-old Mexican-American woman with medium bronze skin, long dark auburn hair in a polished loose braid over one shoulder, brown eyes, a lively confident smile. A newly invented adult model, visibly late twenties or thirties, photographed alone. Wardrobe: a fully buttoned long-sleeved tailored forest-green-and-amber plaid collared shirt, buttoned through the collarbone, tucked neatly into full-length tailored black trousers, understated gold stud earrings and a tiny pumpkin enamel lapel pin. Composition: standing portrait from head to upper thighs with room above hair, direct friendly eye contact and a natural poised smile, arms relaxed at sides. Set: professional charcoal seamless studio backdrop with very subtle softly blurred amber lights at far edges. Lighting: large softbox key and gentle fill, warm amber rim light; premium editorial portrait photography, natural skin texture, lifelike eyes and hair, sophisticated restrained makeup, realistic camera optics, crisp facial focus. Polished, beautiful, confident, warm professional staff campaign. No lettering, logos, watermarks, crown, sash or other people. Preserve mature adult appearance and fully clothed professional wardrobe.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-e19cdfe9-ca7e-4937-847a-5531faac7dce.png",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 62344,
+      "sha256": "fe907058a8679fb2acb6a85d3f700372f45551e21efea6da846554244cc08b94"
+    },
+    {
+      "id": "brooke-callahan",
+      "name": "Brooke Callahan",
+      "age": 33,
+      "city": "Denver",
+      "state": "Colorado",
+      "appearance": "an exceptionally attractive clearly adult 33-year-old woman with fair freckled skin, copper-red shoulder-length waves, green eyes, a relaxed confident smile, strong athletic build",
+      "file": "lodge-miss-usa-2026-brooke-callahan.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-fidelity professional studio portrait for an invented restaurant staff annual awards campaign. Portrait orientation 1024x1536. Subject: an exceptionally attractive clearly adult 33-year-old woman with fair freckled skin, copper-red shoulder-length waves, green eyes, a relaxed confident smile. A newly invented adult model, visibly late twenties or thirties, photographed alone. Wardrobe: a fully buttoned long-sleeved tailored forest-green-and-amber plaid collared shirt, buttoned through the collarbone, tucked neatly into full-length tailored black trousers, understated gold stud earrings and a tiny pumpkin enamel lapel pin. Composition: standing portrait from head to upper thighs with room above hair, direct friendly eye contact and a natural poised smile, arms relaxed at sides. Set: professional charcoal seamless studio backdrop with very subtle softly blurred amber lights at far edges. Lighting: large softbox key and gentle fill, warm amber rim light; premium editorial portrait photography, natural skin texture, lifelike eyes and hair, sophisticated restrained makeup, realistic camera optics, crisp facial focus. Polished, beautiful, confident, warm professional staff campaign. No lettering, logos, watermarks, crown, sash or other people. Preserve mature adult appearance and fully clothed professional wardrobe.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-bbc9127c-7591-426f-b8a7-9062cd27aa7f.png",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 53470,
+      "sha256": "0ce8885fd61bfa02b2f43a6e6f498efed871d9728831b1cb4fa0bd201a40ea5a"
+    },
+    {
+      "id": "crown-stage",
+      "file": "lodge-miss-usa-2026-crown-stage.webp",
+      "prompt": "Use case: product-mockup. Asset type: premium photographic website feature banner, wide landscape 1536x1024, for an invented adult waitress beauty competition called Miss BooBies Lodge USA, staged studio campaign. A beautiful small antique-gold pageant crown with amber gemstones displayed on a dark forest-green velvet cushion atop a short polished walnut plinth, a folded forest-green satin sash without any lettering draped beside it. Warm theatrical amber spotlights and very subtle smoky atmosphere, out-of-focus dark timber lodge stage with elegant black velvet curtains and tiny tasteful Halloween pumpkin lanterns at far edges. Professional high-end product photography, highly detailed metal and velvet, realistic lens and controlled studio lighting, rich charcoal and deep pine green shadows, cinematic elegant autumn glamour, confident campy sports lodge personality. Composition: crown and cushion concentrated in right half, left half dark quiet negative space for HTML headline overlay, no words or lettering anywhere, no humans, no watermark, no logos, no skulls, no food. Full-bleed opaque image, not a website screenshot.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14aff-47f9-7b93-bf0d-9aff191b09c0/exec-ec15ff8e-575f-4ac7-a36e-282897fb4359.png",
+      "dimensions": [
+        1280,
+        853
+      ],
+      "bytes": 95856,
+      "sha256": "aee353f05085091db78e21073073a793aaffe8c0ae74c7b6bf033cdf19e66298"
+    }
+  ]
+}

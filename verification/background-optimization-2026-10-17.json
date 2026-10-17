@@ -1,0 +1,77 @@
+{
+  "method": "Pillow WebP method=6, Lanczos resize directly from original generated PNG; metadata omitted; responsive CSS switches at 720 CSS px",
+  "assets": [
+    {
+      "property": "bone-appetit",
+      "originalBytes": 291268,
+      "desktop": {
+        "file": "assets/bone-porch-background.webp",
+        "width": 1280,
+        "height": 853,
+        "quality": 72,
+        "bytes": 129902
+      },
+      "mobile": {
+        "file": "assets/bone-porch-background-mobile.webp",
+        "width": 768,
+        "height": 512,
+        "quality": 70,
+        "bytes": 40518
+      }
+    },
+    {
+      "property": "rest-in-pizza",
+      "originalBytes": 286042,
+      "desktop": {
+        "file": "assets/rest-gingham-background.webp",
+        "width": 1280,
+        "height": 853,
+        "quality": 72,
+        "bytes": 113128
+      },
+      "mobile": {
+        "file": "assets/rest-gingham-background-mobile.webp",
+        "width": 768,
+        "height": 512,
+        "quality": 70,
+        "bytes": 23518
+      }
+    },
+    {
+      "property": "grave-expectations",
+      "originalBytes": 222702,
+      "desktop": {
+        "file": "assets/grave-damask-background.webp",
+        "width": 1280,
+        "height": 853,
+        "quality": 72,
+        "bytes": 97030
+      },
+      "mobile": {
+        "file": "assets/grave-damask-background-mobile.webp",
+        "width": 768,
+        "height": 512,
+        "quality": 70,
+        "bytes": 31216
+      }
+    },
+    {
+      "property": "boobies-lodge",
+      "originalBytes": 402708,
+      "desktop": {
+        "file": "assets/lodge-timber-background.webp",
+        "width": 1280,
+        "height": 853,
+        "quality": 72,
+        "bytes": 190750
+      },
+      "mobile": {
+        "file": "assets/lodge-timber-background-mobile.webp",
+        "width": 768,
+        "height": 512,
+        "quality": 70,
+        "bytes": 62220
+      }
+    }
+  ]
+}

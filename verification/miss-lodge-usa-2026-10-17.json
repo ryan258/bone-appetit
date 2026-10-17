@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-17",
+  "status": "IMPLEMENTED_WITH_UNDELIVERED_BIKINI_PHOTOGRAPHY",
+  "scope": "Fictional annual 2026 U.S. Miss BooBies Lodge competition; international edition deferred as requested.",
+  "features": [
+    "Prominent annual promotion",
+    "Crown/stage feature",
+    "Champion spotlight",
+    "Six fictional adult contestants ages 27\u201333 with native expandable profiles",
+    "Six clearly marked pending bikini-photo panels",
+    "Champion, two runners-up and three special awards",
+    "Native studio portrait downloads",
+    "Legacy creator previews and portable website exports"
+  ],
+  "deliveredArtwork": {
+    "images": 7,
+    "bytes": 442094,
+    "tool": "Built-in image_gen",
+    "promptRecord": "verification/miss-lodge-usa-prompts-2026-10-17.json"
+  },
+  "undeliveredArtwork": {
+    "images": 6,
+    "type": "Bikini-competition photographs",
+    "reason": "All six built-in image_gen requests were rejected by input moderation in category sexual. No such photo was generated or substituted.",
+    "record": "verification/miss-lodge-swimwear-2026-10-17.json"
+  },
+  "preEditGraph": {
+    "render": {
+      "risk": "HIGH",
+      "impacted": 12,
+      "direct": 5,
+      "processes": 4,
+      "boundary": "One unresolved render call site; source callers inspected."
+    },
+    "artAssets": {
+      "risk": "HIGH",
+      "impacted": 15,
+      "direct": 3,
+      "processes": 4
+    },
+    "lodgeArtTest": "UNKNOWN; direct run() invocation and package entrypoint confirmed."
+  },
+  "verification": {
+    "source": [
+      {
+        "check": "competition",
+        "exitCode": 0
+      },
+      {
+        "check": "lodge-art",
+        "exitCode": 0
+      },
+      {
+        "check": "glyph-integration",
+        "exitCode": 0
+      },
+      {
+        "check": "generated",
+        "exitCode": 0
+      },
+      {
+        "check": "diff-final",
+        "exitCode": 0
+      }
+    ],
+    "browser": {
+      "chromium": "153.0.8010.12",
+      "widths": [
+        1440,
+        768,
+        375,
+        320
+      ],
+      "contestants": 6,
+      "pendingSwimwearPhotos": 6,
+      "assets": 7,
+      "creatorPreviews": 2,
+      "exports": 3,
+      "contrastResults": [
+        {
+          "width": 1440,
+          "samples": [
+            {
+              "selector": ".miss-kicker",
+              "ratio": 8.81,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-lodge-teaser strong",
+              "ratio": 8.81,
+              "threshold": 3
+            },
+            {
+              "selector": ".miss-fiction",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-champion .miss-location",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-photo-label",
+              "ratio": 12.43,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-award",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-contestant-copy > p:last-of-type",
+              "ratio": 12.07,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-profile summary",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-round-note",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-swimwear-card figcaption > span",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results caption",
+              "ratio": 11.3,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results tbody th",
+              "ratio": 7.51,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results td span",
+              "ratio": 7.78,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-annual-note > p",
+              "ratio": 11.71,
+              "threshold": 4.5
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "samples": [
+            {
+              "selector": ".miss-kicker",
+              "ratio": 8.81,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-lodge-teaser strong",
+              "ratio": 8.81,
+              "threshold": 3
+            },
+            {
+              "selector": ".miss-fiction",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-champion .miss-location",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-photo-label",
+              "ratio": 12.43,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-award",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-contestant-copy > p:last-of-type",
+              "ratio": 12.07,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-profile summary",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-round-note",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-swimwear-card figcaption > span",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results caption",
+              "ratio": 11.3,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results tbody th",
+              "ratio": 7.51,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results td span",
+              "ratio": 7.78,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-annual-note > p",
+              "ratio": 11.71,
+              "threshold": 4.5
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "samples": [
+            {
+              "selector": ".miss-kicker",
+              "ratio": 8.81,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-lodge-teaser strong",
+              "ratio": 8.81,
+              "threshold": 3
+            },
+            {
+              "selector": ".miss-fiction",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-champion .miss-location",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-photo-label",
+              "ratio": 12.43,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-award",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-contestant-copy > p:last-of-type",
+              "ratio": 12.07,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-profile summary",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-round-note",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-swimwear-card figcaption > span",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results caption",
+              "ratio": 11.3,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results tbody th",
+              "ratio": 7.51,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results td span",
+              "ratio": 7.78,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-annual-note > p",
+              "ratio": 11.71,
+              "threshold": 4.5
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "samples": [
+            {
+              "selector": ".miss-kicker",
+              "ratio": 8.81,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-lodge-teaser strong",
+              "ratio": 8.81,
+              "threshold": 3
+            },
+            {
+              "selector": ".miss-fiction",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-champion .miss-location",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-photo-label",
+              "ratio": 12.43,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-award",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-contestant-copy > p:last-of-type",
+              "ratio": 12.07,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-profile summary",
+              "ratio": 9.33,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-round-note",
+              "ratio": 11.71,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-swimwear-card figcaption > span",
+              "ratio": 9.66,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results caption",
+              "ratio": 11.3,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results tbody th",
+              "ratio": 7.51,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-results td span",
+              "ratio": 7.78,
+              "threshold": 4.5
+            },
+            {
+              "selector": ".miss-annual-note > p",
+              "ratio": 11.71,
+              "threshold": 4.5
+            }
+          ]
+        }
+      ],
+      "errors": [],
+      "external": [],
+      "failed": [],
+      "cancelled": []
+    },
+    "artifacts": "/Users/ryanjohnson/.codex/visualizations/2026/10/17/01a14aff-47f9-7b93-bf0d-9aff191b09c0/miss-lodge",
+    "visualReview": [
+      "Studio portraits and crown feature",
+      "Desktop competition hero and portrait gallery",
+      "Phone competition hero"
+    ],
+    "repairs": [
+      "Empty template-slot indentation caused generated trailing whitespace; template corrected.",
+      "Test image decoding now eagerly loads the offscreen competition images.",
+      "Collection download is verified in a fresh isolated session; earlier long-session attempts had a fetch failure.",
+      "Test records ERR_ABORTED navigation cancellations separately from unexpected resource failures."
+    ]
+  },
+  "limitations": [
+    "Bikini photos remain undelivered.",
+    "Targeted checks only; not a full suite, cross-browser audit or human assistive-technology acceptance.",
+    "Screenshots hide the sticky site header and skip link for section closeups; responsive and keyboard assertions use the unmodified page."
+  ],
+  "delivery": "Local/uncommitted; no staging, commit, push, deploy or publication."
+}

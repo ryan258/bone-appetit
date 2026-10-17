@@ -113,6 +113,22 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 - **Accessible, Print-Safe Presentation**: All glyphs remain decorative (`aria-hidden`), preserve full text labels, inherit theme text colors, and automatically hide in print media.
 - **Automated Catalog & Sprite Build Pipeline**: `scripts/build-glyphs.cjs` generates individual SVGs, combined sprites, visual overview vectors, SHA-256 manifests, and browsable HTML catalogs under `assets/glyphs/`.
 
+### Milestone 16: Annual Miss BooBies Lodge USA Showcase
+- **Property-Scoped Presentation Event**: `website-renderer.js` introduces `LODGE_COMPETITION` as an isolated presentation edition for `boobies-lodge`, completely independent of saved campaign/menu snapshots.
+- **2026 U.S. National Final**: Features an invented October 10 Denver host lodge final, a 2026 U.S. champion (Claire Bennett of Savannah), two runners-up, three special award honorees, and full results table.
+- **Fictional Adult Integrity & Explicit Moderation Handling**: Six fictional adult profiles (ages 27–33) with native `<details>` biographies and dedicated studio portraits (768×1152 WebP). Undelivered bikini-round artwork due to content moderation is rendered transparently as explicit "Photography pending" panels without broken links or missing resources.
+- **Isolated Resource Closure**: Seven local WebP assets are bundled strictly when exporting or previewing BooBies Lodge; the other three properties do not include competition assets.
+
+### Milestone 17: Responsive Decorative Material Backgrounds
+- **Per-Property Texture Materials**: Distinct responsive WebP material pairs (1280×853 desktop, 768×512 mobile under 720px) for each restaurant identity: moss-green porch timber (Bone Appétit), cream plaster & red gingham (Rest in Pizza), oxblood damask (Grave Expectations), and smoked pine with plaid (BooBies Lodge).
+- **CSS Variable Injection & High-Contrast Safety**: Body inline custom properties (`--house-background-large`, `--house-background-small`) driven by `backgroundAsset()` in the renderer. Materials are subdued beneath semi-transparent washes, keep cards/dialogs opaque, and automatically remove background images under print and forced-colors media.
+- **Export Closure**: Both desktop and mobile background WebPs are tracked in `artAssets`, ensuring single-property and collection website ZIP exports package only their own required background textures.
+
+### Milestone 18: WebP Asset Library Optimization
+- **High-Performance Compression Pass**: Systematic lossy and lossless re-encoding of 134 library WebP images using Lanczos resizing, optimized quality targets (76–82), and method 6 compression, saving 13.84 MB (40.4% total library reduction from 34.25 MB to 20.41 MB).
+- **Verified Geometric Constraints**: Transparent logos standardized at 512×512 with verified alpha channels; object portraits capped at 960px width, experience scenes at 1200px, and story exteriors at 1280px.
+- **Quality & Decoder Verification**: PSNR error gates (≥32 dB) and Chromium image decoding validation ensure zero visual artifacts, identical schematic map pixels, and intact MIME types across standalone, preview, and ZIP export channels. Detailed logs preserved in `verification/webp-library-optimization-2026-10-17.json`.
+
 ---
 
 ## 3. Current System Status
@@ -132,6 +148,9 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 | Restaurant Logos & Food Artwork | Verified v1.0 | `npm run check:restaurant-art` |
 | Full Restaurant Stock Artwork | Verified v1.0 | `npm run check:lodge-art` / `check:pizza-art` / `check:remaining-art` |
 | Property SVG Glyph Libraries | Verified v1.0 | `npm run check:glyphs` / `scripts/build-glyphs.cjs --check` |
+| Miss BooBies Lodge USA 2026 | Verified v1.0 | `node tests/lodge-competition.cjs` / `node tests/lodge-competition-browser.cjs` |
+| Decorative Material Backgrounds | Verified v1.0 | `node tests/background-art-browser.cjs` |
+| Optimized WebP Image Library | Verified v1.0 | `verification/webp-library-optimization-2026-10-17.json` |
 | GitHub Pages Staging Pipeline | Verified v1.0 | `npm run build:pages` / `.github/workflows/deploy.yml` |
 | Python Preview Launcher | Verified v1.0 | `npm run check:preview` |
 | End-to-End Headless Browser Suite | Verified v1.0 | Playwright / Chromium (153.0.8010.12) |

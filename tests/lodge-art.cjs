@@ -25,7 +25,7 @@ async function run() {
   for (const key of Object.keys(data.attractions)) assert.ok(art.attractionArt(data, key).asset.endsWith('.webp'));
   const paths = collection.prepare(model, records, options).paths;
   const assets = Object.fromEntries(paths.map(file => [file, read(file)]));
-  const lodgeAssets = [...new Set([art.heroAsset(data), ...art.artAssets(data)])]; assert.equal(lodgeAssets.length, 31);
+  const lodgeAssets = [...new Set([art.heroAsset(data), ...art.artAssets(data)])]; assert.equal(lodgeAssets.length, 40);
   for (const asset of lodgeAssets) {
     const bytes = Buffer.from(read('assets/' + asset));
     assert.ok(asset.endsWith('.webp')); assert.equal(bytes.toString('ascii', 0, 4), 'RIFF'); assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
@@ -65,7 +65,7 @@ async function run() {
   }
   for (const page of renderAll()) assert.equal(page.html, fs.readFileSync(path.join(__dirname, '..', page.filename), 'utf8'));
   assert.equal(JSON.stringify(records), before, 'No save/reference mutation.');
-  console.log('Lodge artwork checks passed: 18 menu images, three experience scenes, six collection objects, separate story exterior, map route pixels, 31 WebP assets, unchanged legacy sources/admission, missing-asset rejection, four marketing selections and independent draft/named/collection ZIP closure.');
+  console.log('Lodge artwork checks passed: 18 menu images, three experience scenes, six collection objects, separate story exterior, map route pixels, responsive backgrounds, competition and 40 WebP assets, unchanged legacy sources/admission, missing-asset rejection, four marketing selections and independent draft/named/collection ZIP closure.');
   console.log('Artifacts: ' + output);
 }
 run().catch(error => { console.error(error); process.exitCode = 1; });

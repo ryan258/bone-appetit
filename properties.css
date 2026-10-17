@@ -698,6 +698,86 @@
   background: #203a32;
 }
 
+/* One local WebP material per house. The renderer supplies the URL so individual
+   exports carry only their own background; sandbox previews resolve it via base.
+   Opaque card/form surfaces stay above the decorative, non-interactive layers. */
+.restaurant-theme {
+  --house-background: var(--house-background-large);
+  --house-wash: #181c17d9;
+  --house-band-wash: #121611e6;
+  --house-call-wash: #d9683ef2;
+  background-image: linear-gradient(var(--house-wash), var(--house-wash)), var(--house-background);
+  background-size: auto, 1536px auto;
+  background-position: center top;
+}
+
+.theme-rest-in-pizza {
+  --house-wash: #fff4dce8;
+  --house-band-wash: #eee0bfe8;
+  --house-call-wash: #eee0bfe8;
+}
+
+.theme-grave-expectations {
+  --house-wash: #110f13c9;
+  --house-band-wash: #21151ed9;
+  --house-call-wash: #21151ed9;
+}
+
+.theme-boobies-lodge {
+  --house-wash: #142824db;
+  --house-band-wash: #203a32e3;
+  --house-call-wash: #203a32e3;
+}
+
+.restaurant-theme :is(.visit-section, .last-call) {
+  background-image: linear-gradient(var(--house-band-wash), var(--house-band-wash)), var(--house-background);
+  background-size: auto, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.restaurant-theme .last-call {
+  background-image: linear-gradient(var(--house-call-wash), var(--house-call-wash)), var(--house-background);
+}
+
+@media (max-width: 720px) {
+  .restaurant-theme {
+    --house-background: var(--house-background-small);
+    background-size: auto, 768px auto;
+  }
+}
+
+.restaurant-theme .menu-section::before {
+  background-image: var(--house-background);
+  background-size: cover;
+  background-position: center;
+  opacity: .08;
+}
+
+.theme-rest-in-pizza .hero,
+.theme-boobies-lodge .hero {
+  background-image: linear-gradient(var(--house-wash), var(--house-wash)), var(--house-background);
+  background-size: auto, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (forced-colors: active) {
+  .restaurant-theme,
+  .restaurant-theme :is(.hero, .visit-section, .last-call),
+  .restaurant-theme .menu-section::before {
+    background-image: none;
+  }
+}
+
+@media print {
+  .restaurant-theme,
+  .restaurant-theme :is(.hero, .visit-section, .last-call),
+  .restaurant-theme .menu-section::before {
+    background-image: none !important;
+  }
+}
+
 /* Common small-screen and print constraints preserve controls and readable fallbacks. */
 @media (max-width: 980px) {
   .theme-rest-in-pizza .hero-image {
@@ -969,4 +1049,147 @@
 }
 @media print {
   :is(.theme-bone-appetit, .theme-grave-expectations) .full-menu-photo { display: none; }
+}
+
+/* Miss BooBies Lodge USA: annual studio book and completed national results. */
+.miss-lodge-teaser {
+  background: #ffb54f;
+  color: #142824;
+  border-bottom: 4px solid #8f5829;
+  padding-block: 24px;
+}
+.miss-lodge-teaser > .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.miss-lodge-teaser p { margin: 0; }
+.miss-kicker { display: block; font: 700 12px/1.5 var(--label); letter-spacing: .12em; }
+.miss-lodge-teaser strong { display: block; font: 700 clamp(24px, 2.5vw, 34px)/1.2 var(--serif); }
+.miss-lodge-teaser .button { flex-shrink: 0; background: #142824; color: #fff1d1; border-color: #142824; box-shadow: none; }
+.miss-lodge { color: #fff1d1; background: #10231f; border-block: 1px solid #9c794c; }
+.miss-lodge h3 { font-size: clamp(36px, 4.2vw, 58px); line-height: 1.06; letter-spacing: -.015em; }
+.miss-lodge em { color: #ffcf81; font-style: normal; }
+.miss-lodge p { line-height: 1.75; }
+.miss-lodge .eyebrow { color: #ffcf81; }
+.miss-lodge-hero { position: relative; isolation: isolate; overflow: hidden; background: #0c1916; }
+.miss-lodge-stage { position: absolute; width: 100%; height: 100%; inset: 0; object-fit: cover; object-position: 70% center; z-index: -2; }
+.miss-lodge-hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, #0c1916fa 0%, #0c1916ed 32%, #0c191678 60%, #0c19161a 100%); z-index: -1; }
+.miss-lodge-hero-copy { padding-block: 92px; }
+.miss-lodge-hero-copy > :not(.miss-actions) { max-width: 570px; }
+.miss-lodge-hero h2 { font-size: clamp(62px, 7vw, 106px); line-height: .95; text-transform: uppercase; letter-spacing: .01em; margin: 20px 0; }
+.miss-lodge .miss-deck { font: 700 25px/1.3 var(--label); color: #ffcf81; }
+.miss-lodge-hero-copy > p:not(.eyebrow, .miss-deck) { color: #e0e6d8; margin-top: 22px; }
+.miss-actions { display: flex; gap: 18px 28px; align-items: center; flex-wrap: wrap; margin-top: 32px; }
+.miss-event-meta { font-size: 12px; }
+.miss-lodge-inner { padding-bottom: 88px; }
+.miss-lodge .miss-fiction { font-size: 12px; color: #d4ddcc; padding: 22px 0; border-bottom: 1px solid #57715c; margin: 0 0 60px; }
+.miss-champion { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); background: #1a332c; border: 1px solid #9c794c; }
+.miss-champion-photo { position: relative; min-width: 0; }
+.miss-champion-photo > img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.miss-photo-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 12px 18px; background: #0c1916; color: #ffcf81; font: 700 12px/1.5 var(--label); letter-spacing: .1em; }
+.miss-champion-copy { padding: clamp(28px, 5vw, 72px); align-self: center; }
+.miss-champion h3 span { display: block; font: 700 18px/1.5 var(--label); color: #ffcf81; margin-top: 12px; letter-spacing: .04em; }
+.miss-lodge .miss-location { color: #d4ddcc; font-size: 13px; margin-top: 10px; }
+.miss-champion-copy > p:not(.eyebrow, .miss-location) { margin-top: 24px; }
+.miss-lodge blockquote { margin: 28px 0; border-left: 3px solid #ffb54f; padding: 0 0 0 22px; font: 700 25px/1.35 var(--label); color: #ffcf81; }
+.miss-lodge cite { display: block; margin-top: 12px; font: 400 12px/1.7 var(--sans); color: #d4ddcc; }
+.miss-gallery-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; align-items: end; margin: 84px 0 35px; scroll-margin-top: calc(var(--header-offset, 112px) + 24px); }
+.miss-gallery-heading > p { max-width: 510px; color: #d4ddcc; }
+.miss-contestant-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 26px; align-items: start; }
+.miss-contestant { min-width: 0; background: #1a332c; border: 1px solid #57715c; scroll-margin-top: calc(var(--header-offset, 112px) + 24px); }
+.miss-portrait { position: relative; }
+.miss-portrait > img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; }
+.miss-contestant-copy { padding: 25px; }
+.miss-lodge .miss-award { color: #ffcf81; font: 700 13px/1.5 var(--label); text-transform: uppercase; letter-spacing: .07em; }
+.miss-contestant h4 { font: 700 clamp(30px, 3vw, 38px)/1.1 var(--serif); margin-top: 10px; }
+.miss-contestant-copy > p:not(.miss-award, .miss-location) { font-size: 14px; margin-top: 14px; }
+.miss-profile { margin-top: 22px; border-top: 1px solid #57715c; }
+.miss-profile > summary { padding: 16px 0; color: #ffcf81; cursor: pointer; font-weight: 600; font-size: 14px; min-height: 48px; }
+.miss-profile > summary span { float: right; }
+.miss-profile[open] > summary span { transform: rotate(45deg); }
+.miss-profile > div { font-size: 14px; color: #e0e6d8; }
+.miss-profile p + p { margin-top: 18px; }
+.miss-profile dl { margin: 24px 0; }
+.miss-profile dl > div { padding: 12px 0; border-bottom: 1px solid #57715c; }
+.miss-profile dt { font: 700 12px/1.5 var(--label); color: #ffcf81; text-transform: uppercase; letter-spacing: .07em; }
+.miss-profile dd { margin: 5px 0 0; }
+.miss-profile blockquote { font-size: 22px; padding-left: 16px; }
+.miss-profile .text-link { font-size: 12px; min-height: 44px; }
+.miss-profile .text-link + .text-link { display: flex; margin-top: 10px; }
+.miss-swimwear { scroll-margin-top: calc(var(--header-offset, 112px) + 24px); }
+.miss-lodge .miss-round-note { font-size: 12px; color: #d4ddcc; margin: -12px 0 28px; }
+.miss-swimwear-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px 26px; }
+.miss-swimwear-card { min-width: 0; margin: 0; background: #1a332c; border: 1px solid #57715c; scroll-margin-top: calc(var(--header-offset, 112px) + 24px); }
+.miss-swimwear-card > img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: contain; background: #121916; }
+.miss-photo-pending { aspect-ratio: 2 / 3; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 25px; background: repeating-linear-gradient(45deg, #162c25 0 25px, #193129 25px 50px); border-bottom: 1px solid #57715c; }
+.miss-photo-pending > strong { font-size: clamp(32px, 4vw, 48px); color: #ffcf81; margin-block: 22px; }
+.miss-photo-pending p { color: #d4ddcc; font-size: 14px; }
+.miss-swimwear-card figcaption { padding: 22px; }
+.miss-swimwear-card strong { font: 700 30px/1.2 var(--serif); }
+.miss-swimwear-card figcaption > span { display: block; margin-top: 6px; color: #d4ddcc; font-size: 13px; }
+.miss-swimwear-card .text-link { font-size: 12px; margin-top: 12px; min-height: 44px; }
+.miss-results { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 60px; padding-block: 75px; margin-top: 75px; border-block: 1px solid #9c794c; scroll-margin-top: calc(var(--header-offset, 112px) + 24px); }
+.miss-results > div > p:not(.eyebrow) { color: #d4ddcc; margin-top: 24px; }
+.miss-results .miss-results-note { font-size: 12px; }
+.miss-results-table { min-width: 0; }
+.miss-results table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.miss-results caption { text-align: left; font: 700 17px/1.5 var(--label); color: #ffcf81; padding-bottom: 18px; }
+.miss-results th, .miss-results td { border-bottom: 1px solid #57715c; text-align: left; padding: 17px 12px; vertical-align: top; }
+.miss-results thead th { font: 700 12px/1.5 var(--label); color: #d4ddcc; text-transform: uppercase; }
+.miss-results tbody th { width: 42%; font-weight: 600; }
+.miss-results td a { text-decoration: underline; text-underline-offset: 4px; font-weight: 600; }
+.miss-results td span { display: block; color: #d4ddcc; font-size: 12px; margin-top: 5px; }
+.miss-winning-row { background: #294238; }
+.miss-winning-row th { color: #ffcf81; }
+.miss-annual-note { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 55px; padding-top: 65px; align-items: center; }
+.miss-annual-note h3 { font-size: clamp(30px, 3vw, 42px); }
+.miss-annual-note > p { color: #d4ddcc; }
+.miss-annual-note > a { grid-column: 2; justify-self: start; }
+.miss-lodge a:focus-visible, .miss-profile > summary:focus-visible { outline: 3px solid #ffcf81; outline-offset: 6px; }
+@media (max-width: 980px) {
+  .miss-lodge-teaser > .wrap { align-items: flex-start; flex-direction: column; }
+  .miss-contestant-grid, .miss-swimwear-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .miss-champion { grid-template-columns: 1fr 1fr; }
+  .miss-champion-copy { padding: 30px; }
+  .miss-results { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 600px) {
+  .miss-lodge-teaser .button { width: 100%; font-size: 14px; justify-content: center; }
+  .miss-lodge-hero-copy { padding-block: 220px 45px; }
+  .miss-lodge-stage { height: 360px; object-position: right top; }
+  .miss-lodge-hero::before { background: linear-gradient(0deg, #0c1916 0%, #0c1916 55%, #0c1916b3 70%, #0c191622 100%); }
+  .miss-lodge-hero h2 { font-size: clamp(48px, 14vw, 76px); }
+  .miss-lodge .miss-deck { font-size: 22px; }
+  .miss-lodge-hero-copy > p { font-size: 14px; }
+  .miss-actions { align-items: stretch; flex-direction: column; }
+  .miss-actions > a { justify-content: center; min-height: 48px; }
+  .miss-lodge .miss-fiction { margin-bottom: 36px; }
+  .miss-champion { grid-template-columns: 1fr; }
+  .miss-champion-photo > img { height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+  .miss-champion-copy { padding: 28px 22px; }
+  .miss-gallery-heading { grid-template-columns: 1fr; gap: 22px; margin-top: 54px; }
+  .miss-contestant-grid, .miss-swimwear-grid { grid-template-columns: 1fr; }
+  .miss-contestant-copy { padding: 24px; }
+  .miss-results { margin-top: 50px; padding-block: 45px; }
+  .miss-results table { font-size: 13px; }
+  .miss-results th, .miss-results td { padding: 16px 8px; overflow-wrap: anywhere; }
+  .miss-annual-note { grid-template-columns: 1fr; gap: 24px; padding-top: 45px; }
+  .miss-annual-note > a { grid-column: 1; }
+}
+@media (forced-colors: active) {
+  .miss-lodge-hero::before { background: Canvas; }
+  .miss-lodge-stage { display: none; }
+  .miss-lodge, .miss-champion, .miss-contestant, .miss-winning-row, .miss-lodge-teaser, .miss-photo-pending { background: Canvas; color: CanvasText; }
+  .miss-lodge :is(.eyebrow, em, .miss-location, .miss-award, blockquote, cite, summary, caption) { color: CanvasText; }
+}
+@media print {
+  .miss-lodge-teaser, .miss-lodge-stage, .miss-actions, .miss-portrait, .miss-champion-photo, .miss-swimwear-card > img, .miss-photo-pending { display: none !important; }
+  .miss-lodge, .miss-champion, .miss-contestant, .miss-winning-row { background: white; color: black; border-color: #777; }
+  .miss-lodge-hero-copy { padding-block: 24px; }
+  .miss-lodge-hero::before { display: none; }
+  .miss-lodge :is(p, em, .eyebrow, .miss-location, .miss-award, blockquote, cite, summary, caption, td span) { color: black !important; }
+  .miss-lodge :is(h2, h3) { font-size: 28px; }
+  .miss-champion, .miss-gallery-heading, .miss-results, .miss-annual-note { display: block; }
+  .miss-contestant-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+  .miss-swimwear-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .miss-contestant { break-inside: avoid; }
+  .miss-champion-copy { padding: 20px; }
+  .miss-lodge .miss-fiction, .miss-gallery-heading, .miss-results, .miss-annual-note { margin-block: 25px; padding-block: 15px; }
 }

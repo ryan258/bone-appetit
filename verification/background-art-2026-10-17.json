@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-17",
+  "scope": "Four new restaurant material backgrounds with responsive WebP delivery; existing food/hero/scene library was inventoried but not recompressed.",
+  "generation": "Built-in image_gen; prompt set in background-prompts-2026-10-17.json",
+  "preEditImpact": {
+    "render": {
+      "risk": "HIGH",
+      "impacted": 12,
+      "direct": 5,
+      "processes": 4,
+      "note": "One unresolved render call site; source callers inspected."
+    },
+    "artAssets": {
+      "risk": "HIGH",
+      "impacted": 15,
+      "direct": 3,
+      "processes": 4
+    },
+    "testEntrypoints": "UNKNOWN; confirmed package script and direct run() entrypoints in source."
+  },
+  "verification": {
+    "source": [
+      "node tests/lodge-art.cjs",
+      "node tests/pizza-art.cjs",
+      "node tests/remaining-art.cjs",
+      "npm run check:generated",
+      "npm run check:themes",
+      "git diff --check"
+    ],
+    "browser": {
+      "command": "node tests/background-art-browser.cjs",
+      "authorization": "User selected A: one focused headless pass.",
+      "widths": [
+        1440,
+        375
+      ],
+      "properties": 4,
+      "creatorPreviews": 8,
+      "offlineIndividualSites": 4,
+      "offlineCollectionSites": 4,
+      "zipIntegrityChecks": 5,
+      "print": true,
+      "forcedColors": true,
+      "pageErrors": 0,
+      "failedResources": 0,
+      "externalRequests": 0,
+      "artifacts": "/Users/ryanjohnson/.codex/visualizations/2026/10/17/01a14aff-47f9-7b93-bf0d-9aff191b09c0/background-pass",
+      "repairs": [
+        "Initial sandbox rejected localhost binding; retry with local-server permission succeeded.",
+        "Test filename filter was corrected to include -background-mobile.webp."
+      ]
+    },
+    "contrast": {
+      "samples": 56,
+      "failures": 0,
+      "method": "96x64 decoded background grid composited with captured uniform CSS color washes, representative text styles.",
+      "artifact": "sampled-contrast.json"
+    }
+  },
+  "limitations": [
+    "Targeted checks only; no full suite or accessibility audit.",
+    "Chromium only; no human assistive-technology acceptance."
+  ],
+  "delivery": "Local working tree; no staging, commit, push, deploy or publication."
+}

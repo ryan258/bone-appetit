@@ -19,7 +19,7 @@ async function run() {
   const options = { sites: loadSites(), sourceState: 'draft', generatedAt: '2026-10-16T23:00:00.000Z' };
   const before = JSON.stringify(records), assets = Object.fromEntries(collection.prepare(model, records, options).paths.map(file => [file, read(file)]));
   assert.equal(records[0].reference.branding, undefined, 'Bone uses the original campaign schema.');
-  for (const [index, count, assetCount] of [[0, 24, 37], [2, 18, 31]]) {
+  for (const [index, count, assetCount] of [[0, 24, 39], [2, 18, 33]]) {
     const record = records[index], data = record.reference, id = data.branding?.propertyId || 'bone-appetit';
     const registry = art.RESTAURANT_ART[id], items = Object.values(data.menu).flat();
     assert.equal(items.length, count); assert.deepEqual(Object.keys(registry.food).sort(), items.map(i => i.id).sort());
@@ -67,7 +67,7 @@ async function run() {
   assert.equal(integrity.status, 0, integrity.stderr);
   for (const page of renderAll()) assert.equal(page.html, fs.readFileSync(path.join(root, page.filename), 'utf8'));
   assert.equal(JSON.stringify(records), before, 'Original campaigns and references remain unchanged.');
-  console.log('Remaining restaurant art checks passed: 42 menu images, six experiences, 12 objects, two story exteriors/maps, 68 WebPs, legacy sources, missing-resource rejection, marketing embedding and five independent website ZIP integrity/resource checks.');
+  console.log('Remaining restaurant art checks passed: 42 menu images, six experiences, 12 objects, two story exteriors/maps, responsive backgrounds and 72 WebPs, legacy sources, missing-resource rejection, marketing embedding and five independent website ZIP integrity/resource checks.');
   console.log('Artifacts: ' + output);
 }
 run().catch(error => { console.error(error); process.exitCode = 1; });

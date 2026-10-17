@@ -1,0 +1,3310 @@
+{
+  "date": "2026-10-17",
+  "method": "Pillow WebP method=6; Lanczos resizing; no crop; mapped original PNGs preferred. Replacements must be smaller and decode successfully. Lossy candidates below 32 dB PSNR retry at higher quality; larger or low-scoring candidates retain the original.",
+  "qualityLimit": "PSNR is an encoder error gate, not proof of perceptual quality. Representative comparisons are reviewed separately.",
+  "originalArchive": "/Users/ryanjohnson/.codex/visualizations/2026/10/17/01a14aff-47f9-7b93-bf0d-9aff191b09c0/webp-optimization/original-webps.zip",
+  "files": [
+    {
+      "file": "assets/bone-afterlife-affogato-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-4467e3f0-071b-4d6c-bf68-9d8f67667846.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 225426,
+      "afterBytes": 148342,
+      "savedBytes": 77084,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.42,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "59b03d40369d4a7bf1ab00e50c6bbc001bab48dd040f6da5313731cebad8c5aa",
+      "afterSha256": "a89cd9ea42fab2c97fa6eead2ba0ebe0310f3662e6896edc281028cf02be4420"
+    },
+    {
+      "file": "assets/bone-appetit-logo.webp",
+      "kind": "logo",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d20898f5-330a-49d7-8c21-0c9746e091b7.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 364368,
+      "afterBytes": 88960,
+      "savedBytes": 275408,
+      "beforeDimensions": [
+        1254,
+        1254
+      ],
+      "afterDimensions": [
+        512,
+        512
+      ],
+      "quality": 90,
+      "minimumPsnrDb": 32.34,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": true,
+      "beforeSha256": "24953a0571238b8beef403223d0f1812ee021d5586d872cc96843f97491a691b",
+      "afterSha256": "79ef851eb90d1ce144aed066cb1f71d16eae570f8be47e19f42373d0a82027b9"
+    },
+    {
+      "file": "assets/bone-badge-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-23b77c19-f922-45f6-8d6d-697dea0d967f.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 197792,
+      "afterBytes": 71224,
+      "savedBytes": 126568,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.62,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "d29dda367a9451035ad756c226e1023ae234571d1a9aeaad27f84deb15481223",
+      "afterSha256": "e4fbbc766001da8e4322942e29aa6b6cb0c48facd600513f61c8bfe2916e90f5"
+    },
+    {
+      "file": "assets/bone-bat-wing-wings-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-4c66045f-a4e7-47ed-82d9-8b38c913ec6b.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 259996,
+      "afterBytes": 174804,
+      "savedBytes": 85192,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.49,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "0b5ef7f2aa33486355e68a5e62c16795d66a22741aba969b34808493f90ecf7d",
+      "afterSha256": "3c9d80f0ab3a19f0ff6a49bb65186a2f286251618e0f076f0e503f1b59d50c6d"
+    },
+    {
+      "file": "assets/bone-black-candle-cheesecake-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0ef97fa3-2df0-4ae9-8c89-79329509a5f0.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 230550,
+      "afterBytes": 155748,
+      "savedBytes": 74802,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.67,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "9f69663a2508900036aebf487c396eafc355b2e5d12315ddb83c5c4a4b51096d",
+      "afterSha256": "57b661fb9e67da4943243798f395d192e1eb0acf2c0ee30df5d4969ee5c3b044"
+    },
+    {
+      "file": "assets/bone-black-lagoon-bianca-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d706340f-cfba-4eaf-a963-0f38aee726d9.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 265748,
+      "afterBytes": 174114,
+      "savedBytes": 91634,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.86,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "d206807fad6805023b70dbe7c0df692cafec58ba49ace855a3fa8fcde3a0a297",
+      "afterSha256": "0a94d4487f80c453550c23d2cd4165c9f30cde0a51c872cea1d74b538aa66835"
+    },
+    {
+      "file": "assets/bone-blood-orange-spritz-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0c18faf6-0eff-4da7-af67-b2f52fcd1f16.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 243352,
+      "afterBytes": 160620,
+      "savedBytes": 82732,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.63,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a38be010558b2be1da88551cc6c54f67eca6fb7b1e681cf2a794abaf4736b2dc",
+      "afterSha256": "1c1b23e0c6ab3bf1fd084e2086804f154c1c8a1c9263a01ef0898b21a7ed52cc"
+    },
+    {
+      "file": "assets/bone-cemetery-margherita-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-29f5afd1-b99f-4af2-aef4-7e21f21f818e.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 284938,
+      "afterBytes": 187116,
+      "savedBytes": 97822,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.19,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "3b37ec5e58679e597cc16e1304b3031c6e089ea698808a86a5d9eba5413efe7c",
+      "afterSha256": "288f0817f959806ea8584437279f8c4e61f83c5280e69472e349df36fc87fff6"
+    },
+    {
+      "file": "assets/bone-crawlers-breadsticks-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-88c95ff0-e7b2-48af-89cb-b215b4521232.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 275892,
+      "afterBytes": 180888,
+      "savedBytes": 95004,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.44,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b2cbca4da027ef35f00aeba35a56cce917ac8cced8c673f9936e232d0d2462f0",
+      "afterSha256": "a1e912e4c0565e7811c0ee60e6222f2973d721a630d8466cc853a150621f099e"
+    },
+    {
+      "file": "assets/bone-crypt-caprese-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5d9e2ae3-1748-477d-998d-0d63258edf55.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 263778,
+      "afterBytes": 178570,
+      "savedBytes": 85208,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.76,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "0a1f65b9d876f905fc1dd07f5e06bb355fd587348dad04c8ab992daa4832eabc",
+      "afterSha256": "e87d23ac58233b3d936b602c58f122c67dd4b294a0039617c1384fe6cb0d3aa2"
+    },
+    {
+      "file": "assets/bone-devils-harvest-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-277d6065-e322-4ab8-bfcc-8f9643a6a142.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 267428,
+      "afterBytes": 178536,
+      "savedBytes": 88892,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.61,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b6b695978c72be84aa211236f63dec312df703c3af3b7eabce3ef1e116777c2a",
+      "afterSha256": "73a62ac83aa71539aa4dce6ea07db274b43d5645151ee5f8b8571a62dabd7146"
+    },
+    {
+      "file": "assets/bone-dining-room-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ad0bee00-bdd3-4d42-9afe-4ccdcd3b1a9b.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 342642,
+      "afterBytes": 168732,
+      "savedBytes": 173910,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.23,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "3a7af16f203ebfdf52ba2b1b5272f1c2299f76ac271dc5e6922d49528b37dbe3",
+      "afterSha256": "e80d1f96a13e9d0606ed57364644416ca4e0e7f8794298e7cefb20fa595f0afb"
+    },
+    {
+      "file": "assets/bone-exterior-story.webp",
+      "kind": "story",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-cebb55a5-37c8-4c93-984f-20b52c48ae43.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 426572,
+      "afterBytes": 227286,
+      "savedBytes": 199286,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1280,
+        853
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.33,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a7fc7acff2c959a2494c3f9ecace5120d5dd176ce65eab7598828c4b06910f03",
+      "afterSha256": "9d437b0541bbe40aa92620b15979ccd9f7a2283bbaee55ff3a21f9d98cec9138"
+    },
+    {
+      "file": "assets/bone-funeral-fries-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-2d000f7e-81dd-4146-ade9-310eb30de960.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 263400,
+      "afterBytes": 172338,
+      "savedBytes": 91062,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.9,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "9b2a0c0cf2c48a8147c43d45717c24222fb6efa445ee4ac18d19436cd07138a2",
+      "afterSha256": "688035af70b640933a2ac77f8b4e2bdfd646d3467de4f97c0c94deb895f5cdf5"
+    },
+    {
+      "file": "assets/bone-ghost-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f94fd227-71bf-46b7-ac24-147f90243558.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 207916,
+      "afterBytes": 73886,
+      "savedBytes": 134030,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.24,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "f8ca4a71bc352aa6bdf543f9304acd71738517da93cd6f45fba5c35d91a06d70",
+      "afterSha256": "1978c5a4c8f5be78ab79d1bb872054915c6a43636ec200961120b94f960495fd"
+    },
+    {
+      "file": "assets/bone-graveyard-garlic-knots-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-a57916f2-dffa-4f6e-9030-2f75dfd8c37c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 285342,
+      "afterBytes": 186614,
+      "savedBytes": 98728,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.21,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b9ed40c9510ebbbb4d26ee0302be667e33c9724a9c2ba6bcdc9141a44d192592",
+      "afterSha256": "435a740757623423cb98e1ad088a7563ee17382a40182565ab926c65b2678a75"
+    },
+    {
+      "file": "assets/bone-graveyard-gelato-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3a14338c-d2cc-447c-a060-d6a54579400a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 247618,
+      "afterBytes": 166176,
+      "savedBytes": 81442,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.19,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "2bc0ae1cac9c4797117135e7a32cd6b302b2cd969c2455cfd739909a640c9e30",
+      "afterSha256": "b24cdf356c17b2b2577ee287ba7146d70bef58144359a6f2e8e2c4b95c9f9368"
+    },
+    {
+      "file": "assets/bone-grounds-map.webp",
+      "kind": "map",
+      "source": "assets/bone-grounds-map.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 31488,
+      "afterBytes": 31084,
+      "savedBytes": 404,
+      "beforeDimensions": [
+        760,
+        560
+      ],
+      "afterDimensions": [
+        760,
+        560
+      ],
+      "quality": null,
+      "minimumPsnrDb": null,
+      "changed": true,
+      "losslessMap": true,
+      "alphaVerified": false,
+      "beforeSha256": "af682358e95dc0ac9329aad0cd4a50a8815c257e5f64177c0b2f207310d7134f",
+      "afterSha256": "37542b043642b0cbdaac5c3409773573fe156dd24b8952e204c1ad250aed1866"
+    },
+    {
+      "file": "assets/bone-headless-horseman-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-537edaf3-3638-48c0-a939-44b00ee90ab3.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 402808,
+      "afterBytes": 243776,
+      "savedBytes": 159032,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.36,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "efc58549482ff37c1686023abbf3c29d91f712a41aff752933225326d4666a1e",
+      "afterSha256": "df9b4e61149e53e401bed71aacba7b1537e78ec2eca9b216848873de9c3bc093"
+    },
+    {
+      "file": "assets/bone-inferno-mozzarella-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-fecbb0e9-40ec-4c85-98bb-4facce12308f.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 256312,
+      "afterBytes": 170052,
+      "savedBytes": 86260,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.81,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "5c8149585c19ab35369d8ebebed6e2893a49f9881551f4f3fbdf603d0849c976",
+      "afterSha256": "5be0620410267271c1d27185ee22488d98254647e290df62d6d0f86712995aa6"
+    },
+    {
+      "file": "assets/bone-key-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8c3d4ff2-9670-48e4-b06f-77b11341960f.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 255914,
+      "afterBytes": 91528,
+      "savedBytes": 164386,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.21,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "7d6ed4b10a44e4586a91b368f6acf93e3a67ef42c943b13b9d6d8f03dde48f9c",
+      "afterSha256": "e8e6286f7b5018df5e6e4e76f4a37b9186fc7b192ddeddcfdcf4098a6e4f3941"
+    },
+    {
+      "file": "assets/bone-little-ghost-cocoa-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7651c510-0ec6-4490-ab17-2c9fb1f69062.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 242866,
+      "afterBytes": 158348,
+      "savedBytes": 84518,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.15,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "28dde9d9853a4cf927cec528920839d8315572d158cbb32acd909f27adc9a440",
+      "afterSha256": "908a5bcad9252487c6c682795931edee36bf81657a9dd6572f9ce6b80ed1ec1f"
+    },
+    {
+      "file": "assets/bone-little-monster-cheese-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-976159fd-b02c-48eb-9278-4e6488fe038c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 251876,
+      "afterBytes": 165484,
+      "savedBytes": 86392,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.97,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "ecbfb172eaca8e9d336f37051865296c7bb7a5b48ff48bf9222bb7e911f19295",
+      "afterSha256": "5d4f4851acd11afd6cd97e5eab78be92aced05ef04834c164b5a2592fc9f3b88"
+    },
+    {
+      "file": "assets/bone-magnet-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-90e5aebb-1a7d-4a9e-9199-4ab4e1c76044.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 203954,
+      "afterBytes": 73202,
+      "savedBytes": 130752,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.32,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "ce965359185c546efabbb2b74bd592bc83c2e24a80b415698dc31ec6b4fe0d15",
+      "afterSha256": "d96f4be4dee99c3985a4fcda76cb27916e041cad2a45cfeb53bba7a362fa1f5e"
+    },
+    {
+      "file": "assets/bone-midnight-cola-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7f9d1ecd-f3f1-4d25-9380-4d397d140eb8.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 234564,
+      "afterBytes": 154806,
+      "savedBytes": 79758,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.01,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "778c61f75c17cc77ca904533029481c793cf0e267864c2b3dc730c817f912332",
+      "afterSha256": "da9232734110043577192bfb4668d09e0c0b9510bb2dba05f17ec81f5e9c2630"
+    },
+    {
+      "file": "assets/bone-poltergeist-pepperoni-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6ee76ade-679a-4a8c-a6a1-dfe2dbae24af.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 351948,
+      "afterBytes": 214544,
+      "savedBytes": 137404,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.6,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "2d2993cb9932e120917f9bd46f4194f6b030788b6d23340128c646d513cad377",
+      "afterSha256": "a7b1e2dbff0cb2ab8afc0b8ced827c06dfbff6be056fea895b3054ce35f529c7"
+    },
+    {
+      "file": "assets/bone-postcard-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-72588dbc-9416-4664-b10d-d6311be254d3.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 308518,
+      "afterBytes": 100438,
+      "savedBytes": 208080,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.91,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "0cd7e91777a9efe5f94a087262a466a74a5f20f375a0c5d83d907887fdf89b59",
+      "afterSha256": "6b6a0f50b027a0965b87a784fd918ace4a92e94a1a05836bf11a044800c63b40"
+    },
+    {
+      "file": "assets/bone-pumpkin-arancini-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3d58cf86-18c3-456a-9c65-c2a8a0f1eeef.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 274640,
+      "afterBytes": 181198,
+      "savedBytes": 93442,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.7,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "be5c6c53ade197d9a29e86d649bff79d6e65ebc56ddb35bd897cfd39a171de07",
+      "afterSha256": "c5584661e41e76599e262f46008ece8ed0358e954ac9eb0578239b228b078063"
+    },
+    {
+      "file": "assets/bone-raven-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-062dd02c-e206-42c8-9f11-f22d82046795.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 241994,
+      "afterBytes": 85252,
+      "savedBytes": 156742,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.42,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a0779273064eed5959321abe0490d5be05489980f5a6c1d4575a86dc253047b2",
+      "afterSha256": "1c5cb8e7f2ab0e94981f713b6ea9bf0d3c0c1ffb81c9ee281abfc17e9cd321fd"
+    },
+    {
+      "file": "assets/bone-ravens-negroni-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f89b6098-51ac-40a3-b59a-875fde333d70.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 245588,
+      "afterBytes": 162718,
+      "savedBytes": 82870,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.91,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c1a2f58f034b8f6b2835d394beaf92e9ecdea4e4b66c4490a95b61e2f3705ac0",
+      "afterSha256": "1c7abe14489dec0cce7904ed93505397320c8c2c1ef0f2af37645532011f5374"
+    },
+    {
+      "file": "assets/bone-seance-tiramisu-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f9936562-6cde-4ba5-8a4d-43d77473b31c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 263438,
+      "afterBytes": 176268,
+      "savedBytes": 87170,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.69,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "82ddfa9e17805da94bd62a157da324b5a089f71e53043a95231cd57d6bd9b042",
+      "afterSha256": "4e77049fd9b9b099bc5a2b5b4bd5de69a5601b9b4033a0d2f07a3d9b5c98fd45"
+    },
+    {
+      "file": "assets/bone-the-last-rites-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e264ef3e-3b60-467f-9ee3-291b94b8ca7d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 217680,
+      "afterBytes": 142358,
+      "savedBytes": 75322,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.23,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e9607b09944b02ead8e4a6c863e7c68cab53e89183abced00792878f7e24fbff",
+      "afterSha256": "5be0a5696db48c30593701b8d6481af36871819a8f8efdf619bf94e1a35cc7e0"
+    },
+    {
+      "file": "assets/bone-wicked-orchard-cider-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8e7bcfee-4268-4a8d-b114-2b678638317a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 239778,
+      "afterBytes": 159978,
+      "savedBytes": 79800,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.17,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "1c8e5093e7ebeec1a77d4ed60dc26e6375313b32feb1f0adc2326e44ef348b54",
+      "afterSha256": "f1b429efc78a61a0b5bb1eaabcc7513bafdfde66d782fdf1783bdf5fb6272f7f"
+    },
+    {
+      "file": "assets/bone-witchs-cauldron-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c14830c2-2de2-4ba2-8024-7cc991586dad.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 349312,
+      "afterBytes": 212716,
+      "savedBytes": 136596,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.12,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "929255be6573e47ba38137dea30e4f5f952041343d7e3b5e88908d47c2c2e016",
+      "afterSha256": "8695e9a4e58d83f6a758feb6b56bfbfa48a33a34bf848d05317f52e73a49410c"
+    },
+    {
+      "file": "assets/boobies-lodge-logo.webp",
+      "kind": "logo",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e61ce16b-4f56-44cf-8d71-4d5ce36ded3f.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 297106,
+      "afterBytes": 81838,
+      "savedBytes": 215268,
+      "beforeDimensions": [
+        1254,
+        1254
+      ],
+      "afterDimensions": [
+        512,
+        512
+      ],
+      "quality": 86,
+      "minimumPsnrDb": 32.4,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": true,
+      "beforeSha256": "00d756edf64e5f79a6c5dc06a5d6d6a65a82f11445cb64a18b804a78392e7a41",
+      "afterSha256": "ff19736740425d7114c40dafe45684db016ed517de8826bae13ea7fa2ac156d6"
+    },
+    {
+      "file": "assets/boobies-lodge-theme.webp",
+      "kind": "hero",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3ff5ebaf-b14e-408b-8489-bd8d3b0a2fae.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 461756,
+      "afterBytes": 425712,
+      "savedBytes": 36044,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 84,
+      "minimumPsnrDb": 32.53,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "80e4395640809982a94e93d6911f115c7e00a828d68570287e72a7962c80043c",
+      "afterSha256": "df36a1f2cf699c83cba1b12e3b3cc518ffd8682113b705ebb073e8e686f85e40"
+    },
+    {
+      "file": "assets/grave-ancestral-cabinet-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c1eba3c6-52d6-4e5c-957c-33dcacf0f68c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 272844,
+      "afterBytes": 135164,
+      "savedBytes": 137680,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 33.63,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b391f5b81216d9b9c688a94052924642612b9db4f3cd8deb7db07a09a03a23ae",
+      "afterSha256": "bd2f5a216a164bed5273dbb2b8771dd1e3addbbdea793be33403f6891793d8d8"
+    },
+    {
+      "file": "assets/grave-ancestral-onion-soup-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b3d1a19a-09de-4bb8-8348-e677cb31258f.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 227000,
+      "afterBytes": 147482,
+      "savedBytes": 79518,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.75,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e7ccc32ce2308da551aa6a07bbae2dc20ade115b25f93b481a21a5ad58a2a75a",
+      "afterSha256": "f3a4ee8a9da6eff952e357c7d6b85b5024e4ba0ac0bb9322ac043c3273d1921b"
+    },
+    {
+      "file": "assets/grave-badge-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-fddea31c-bd03-4735-9aa7-51ae1ad598f2.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 211588,
+      "afterBytes": 81608,
+      "savedBytes": 129980,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.31,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e970b5dda1479155c17d9b4ed289bfeb59ffba2c3a06143926a4f99fd322c3bc",
+      "afterSha256": "40304ecd2ba4663bf9174331f3fbcbcfc5c95956a570aff1dcf1f7cf0bcc6fbc"
+    },
+    {
+      "file": "assets/grave-black-tie-forest-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-302b16d6-5cc3-484d-be49-6f9bd741eaf1.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 207978,
+      "afterBytes": 140592,
+      "savedBytes": 67386,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 36.29,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "ccd1220764bef23ea9e27d911b78abee0e07f5fe8cfae47c59871c4452c39a57",
+      "afterSha256": "251813327597e720c828ebf071ffbc89c20c83a4161a68d67ced1c9000463801"
+    },
+    {
+      "file": "assets/grave-bloodline-fizz-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6d176ba0-2a4f-47b3-ae38-5523196a33a8.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 230106,
+      "afterBytes": 153328,
+      "savedBytes": 76778,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.46,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "baf685ee1d1db040b025bb1c7e5bbe2336314463237a24cdee3f5fdd55daa0d2",
+      "afterSha256": "4905571b65b4910fdee604a61c5d6cf82d5c050ff78e958681f3ececf14d9b9c"
+    },
+    {
+      "file": "assets/grave-buried-bone-marrow-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b8a9da26-9265-485d-8fd8-1c2ecf6fd48d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 253118,
+      "afterBytes": 167388,
+      "savedBytes": 85730,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.08,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "83de6db5e6f3638ba7b72c0c3d7299effe9a3376ac52e3070aa494afa15cb88c",
+      "afterSha256": "4943c632df26b25011a8f92de7c570a578147d31c174175edeebec9d29a5f186"
+    },
+    {
+      "file": "assets/grave-creme-brulee-bequest-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f81a5b68-084a-4bcd-bc47-c9cdb91a3b35.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 190810,
+      "afterBytes": 126446,
+      "savedBytes": 64364,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 36.37,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "0b5b183ff3cf09e0540bd3729ec834b0263d2ebd45270c39a6092df450678ee2",
+      "afterSha256": "1a9c44fc0eee5bf5a15ec3d5d5b7bbd693aa6a834876f7542f3c45fceea7aef9"
+    },
+    {
+      "file": "assets/grave-dining-room-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c59f73a9-666d-41a1-859a-aba594835319.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 281722,
+      "afterBytes": 143422,
+      "savedBytes": 138300,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 33.17,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "eb24292aae94e57132364a99c1733b6d8cae00f187f96e55d751e76ac0d44e78",
+      "afterSha256": "77bf7d47f42b427b30e24f9b498bac380d5a7e45e68472087975336480bd05f2"
+    },
+    {
+      "file": "assets/grave-estate-tartare-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e10cf428-bbcc-4812-af39-bbe7b38b415d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 231806,
+      "afterBytes": 152320,
+      "savedBytes": 79486,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.54,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "f3dd0b3c46f2cf8b742f89bcce36ed5777ab52208ab4d8e904eae790bd7bb7cf",
+      "afterSha256": "819a858109be1e39343027352f9f6c0da412ea30b490b8517e38595fa7b8a688"
+    },
+    {
+      "file": "assets/grave-expectations-logo.webp",
+      "kind": "logo",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-98a25149-a5a6-4cfd-b14b-b7d5245cc7c9.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 424334,
+      "afterBytes": 74604,
+      "savedBytes": 349730,
+      "beforeDimensions": [
+        1254,
+        1254
+      ],
+      "afterDimensions": [
+        512,
+        512
+      ],
+      "quality": 82,
+      "minimumPsnrDb": 32.6,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": true,
+      "beforeSha256": "bfd585774596db40913dcf75616815704150ad420610e88435e17ba2aaed2dc4",
+      "afterSha256": "2eb6a43e8ca9b0b6858968cc3e084bf3887b44c7b16adf9a85a6509a0e9514c5"
+    },
+    {
+      "file": "assets/grave-expectations-theme.webp",
+      "kind": "hero",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-92225e53-883c-4714-839b-b86cbdac6fc8.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 309820,
+      "afterBytes": 241962,
+      "savedBytes": 67858,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 80,
+      "minimumPsnrDb": 34.71,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "d28499c1ae881f89257de7fd20648bd636a49881a2d5e9d7e360b7b74b91670e",
+      "afterSha256": "d74030dc454773460ec1700e877a209f042f77b55c0db021809abe3289cf3b95"
+    },
+    {
+      "file": "assets/grave-exterior-story.webp",
+      "kind": "story",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b6b027cc-1165-4a3f-b6fd-84352bf5dac2.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 384450,
+      "afterBytes": 210322,
+      "savedBytes": 174128,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1280,
+        853
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.54,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "89135b4c347dfa69b16c1f3e74c1ff88f4a7f9d68acfb76ff413b92faad07476",
+      "afterSha256": "9ad2c87d1cad302930c978e3a31210d0a01c66cd8bf23d0f4e0a61dea4f80ead"
+    },
+    {
+      "file": "assets/grave-filet-of-the-deceased-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5f18ddc4-5c58-4fee-acb2-7f56c95be9d1.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 293884,
+      "afterBytes": 178236,
+      "savedBytes": 115648,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.77,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "6ad5a8c1587c0aa7a8699b1f9b32c5b0ec0beff5b2cb67000300f2e9e4ac55cb",
+      "afterSha256": "8f2893344be1f9288116c6bf346e02fa0da6e1302111ed8220a39ad261d318af"
+    },
+    {
+      "file": "assets/grave-ghost-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-86ddf695-1355-4397-a5d4-7451be28c534.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 179500,
+      "afterBytes": 64576,
+      "savedBytes": 114924,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.21,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "bc0d86e2f04d265529322aff92fcb0a03f5e5e11ced0525786f43df714fbf60a",
+      "afterSha256": "17648b609f9972c100e66a5930706ed9239f28710e74dfcb39b4c63dd5cbf68e"
+    },
+    {
+      "file": "assets/grave-grounds-map.webp",
+      "kind": "map",
+      "source": "assets/grave-grounds-map.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 19352,
+      "afterBytes": 19234,
+      "savedBytes": 118,
+      "beforeDimensions": [
+        960,
+        960
+      ],
+      "afterDimensions": [
+        960,
+        960
+      ],
+      "quality": null,
+      "minimumPsnrDb": null,
+      "changed": true,
+      "losslessMap": true,
+      "alphaVerified": false,
+      "beforeSha256": "b760bc3bf6327e4aa2b35d9775644e5b115aef14a4693db57da4caa94b7027eb",
+      "afterSha256": "178e9983a70ffa0c426b0cb7358dcba9f3f7c1a15edb8e55305eb9c97fb7dbe9"
+    },
+    {
+      "file": "assets/grave-heirloom-wedge-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-1245494b-6437-45b5-ae9a-51b87f07fc75.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 213566,
+      "afterBytes": 140172,
+      "savedBytes": 73394,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.89,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "11dabad8bfe2214a8f4ca2c5cd3ba0c0898b26fe34574e8957ac74fa26d17269",
+      "afterSha256": "90c7bc36ab00482d8dd0ca9ae8594b09d60726d6fb2e4d38195e4a4182116165"
+    },
+    {
+      "file": "assets/grave-house-red-in-trust-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6d8c967f-35f3-488f-a1b0-cfee33c7fc44.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 199336,
+      "afterBytes": 131888,
+      "savedBytes": 67448,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 36.3,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "54a26a3de5cb7129bb31bb4c3cff96076264c9a9261b3a9e8c7787514d45819d",
+      "afterSha256": "544425aaf71a64dcf9148471e2c8b65a3266e000a756b088f446b618cd5bdb07"
+    },
+    {
+      "file": "assets/grave-key-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5bc16bc2-fba5-45cc-9cdc-28b18b86ebb0.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 221688,
+      "afterBytes": 81502,
+      "savedBytes": 140186,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.21,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "be157b949ddcdf6eed5e2b8dc310c762bfb74a8e2ce721f762fbe7c3acbddb4e",
+      "afterSha256": "8295d2195dd1bd1e53cc076566f113c8b789a76ad9a9edc71348f8ff01835131"
+    },
+    {
+      "file": "assets/grave-lamb-of-the-last-testament-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5d6ed877-32a0-40f2-ba61-ab6da80e3a97.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 218908,
+      "afterBytes": 144712,
+      "savedBytes": 74196,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.86,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "da095c8513395e206fc45b9c45264a13dcfff725de83bd215ccd021aa7c3d998",
+      "afterSha256": "cb5d0e7d24235a38badcb1074ba3942bdae3543e1d95784a38a568e42777736e"
+    },
+    {
+      "file": "assets/grave-magnet-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-01fb747c-8f85-4ba1-9e37-be3cbc494ae6.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 256234,
+      "afterBytes": 96634,
+      "savedBytes": 159600,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 33.7,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a06fb535f57ef338df4500522bf8a1b11210908f76bea6e2fb0a47ab05e0650f",
+      "afterSha256": "5b576eb9477203f02595320f018b6a7530fea27b9f83e1c8b0e55c68c53a6d8f"
+    },
+    {
+      "file": "assets/grave-mourning-terrace-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-be5f04e9-3734-4552-b237-197a023dd459.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 328602,
+      "afterBytes": 160752,
+      "savedBytes": 167850,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.9,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "04d240984385170b1907c8120ea7c83c25a4f0aa94eb3f467d017bbecaf94af9",
+      "afterSha256": "12472b76959dc722573815fc03cc5f1fd08943adea62b44adccb76183bd8a6ef"
+    },
+    {
+      "file": "assets/grave-mushroom-mausoleum-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3ce74295-408d-4074-9e30-4eee74e87a02.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 226376,
+      "afterBytes": 153972,
+      "savedBytes": 72404,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.84,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "303a64a65796558b363d771086d45ba8a565aaca11124c2be46733b77b545b39",
+      "afterSha256": "7de69523eb05d760f1a5355f7d1c3b9822c21a4299f80239012d2b4bcadbaeb0"
+    },
+    {
+      "file": "assets/grave-old-money-fashioned-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f74d6fd4-e3fe-45a9-9971-36e37d8992d4.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 221494,
+      "afterBytes": 142778,
+      "savedBytes": 78716,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.33,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "ecae887304152bb0eb783eb2e7ea4712aa418b5bc953f856f4c8628412700e00",
+      "afterSha256": "febfbf65484e0a33d871569ca79b0c15137ddb835e5637217e26acd322e3d861"
+    },
+    {
+      "file": "assets/grave-porterhouse-for-the-executors-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d6e920ec-43e9-44d1-b7d5-339f9a0f212a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 338016,
+      "afterBytes": 234262,
+      "savedBytes": 103754,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.95,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "41c282612da8bc569b1e6d8c89c0f41d6b2f7ab95b80b0ece9b87d03ede16eaf",
+      "afterSha256": "f762321e8dcca020728ea05d07ac6776ddb5d2f54c8556d3b3edb0c84e3655fd"
+    },
+    {
+      "file": "assets/grave-postcard-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-da8118f1-21e1-44ed-8d34-2ac70c575659.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 285712,
+      "afterBytes": 98468,
+      "savedBytes": 187244,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.92,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b2d13df9f08c518716a93a774d181913adab273cf279292917b004d854574c12",
+      "afterSha256": "efcc18baa806a1d65a1632c2c75f6b3b10ea459a23f4924a402b04172c467f74"
+    },
+    {
+      "file": "assets/grave-raven-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e4d21bc1-2175-46b6-8118-5efe8acd3acd.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 228104,
+      "afterBytes": 83898,
+      "savedBytes": 144206,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.02,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e2fb4322f9eb1de2f528baf992c59b222f5fc41c6cc7f13b5f1d2128d8fb49cc",
+      "afterSha256": "78a810ebf1e20a8eb9fa4c658addf6b1a82bc5af9eb610b19ae938a7c7639cfa"
+    },
+    {
+      "file": "assets/grave-ribeye-in-perpetuity-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7d7c20be-41b7-4262-b320-b215b54fdc36.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 280982,
+      "afterBytes": 173522,
+      "savedBytes": 107460,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.83,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "9561c53ba7193500a7c91aa8779ba0380272587904c6ef769f79a401e862e7de",
+      "afterSha256": "f8c8a5539d25d844782a4a8ee659f4e1f9f12053cb3d60e39ae9a6ef41882a30"
+    },
+    {
+      "file": "assets/grave-the-cheese-executor-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5b2fa2d5-343c-4778-8b25-b5ed4bca0a5c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 205130,
+      "afterBytes": 133024,
+      "savedBytes": 72106,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.98,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c6c5c94d3914f5620551ec801c902c56889d3a714674d25c65d74806556ec40b",
+      "afterSha256": "283689041e3ded6b3816f9f6b45d374c8a33cb661429a6d13598d5f0dc8d49b4"
+    },
+    {
+      "file": "assets/grave-the-designated-heir-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f3927713-dafc-49b3-88b6-46315b1e221a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 223128,
+      "afterBytes": 148664,
+      "savedBytes": 74464,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.71,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "8b0d70a294670b8e090a489e1b281c3a069f520544a55c4adb6ee2eb902450bb",
+      "afterSha256": "08c2a42cce583f1aeac1d22c152579456517534382ac42848730098ba50e8073"
+    },
+    {
+      "file": "assets/grave-the-heir-apparent-strip-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-912101ff-ad2f-4de8-92a9-322fcdd3111c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 238478,
+      "afterBytes": 161218,
+      "savedBytes": 77260,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.55,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "2f0488cc2908ed0dd8d8fe989317f4d91f13e6891d03f3edeedded965db31ef0",
+      "afterSha256": "1973bbdb883b65601c9041880a64505d08314afdb9007299af007b3ead890d9a"
+    },
+    {
+      "file": "assets/grave-widows-martini-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0d8d6bec-bb5e-4826-bee0-5b237bbbade5.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 177476,
+      "afterBytes": 119408,
+      "savedBytes": 58068,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 36.62,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e020da3497f0cf1958a066d901db84cda8504326650b610c6f319381badcc70f",
+      "afterSha256": "6c3458d51832f0090fea958c87416cd4f577ab0d623e245465dd8ea588f9d082"
+    },
+    {
+      "file": "assets/haunted-roadhouse.webp",
+      "kind": "hero",
+      "source": "assets/haunted-roadhouse.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 311442,
+      "afterBytes": 212164,
+      "savedBytes": 99278,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 80,
+      "minimumPsnrDb": 37.33,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "d6bfef3a57a5412fd227d4dac0748b37e330caba940736f4cf489f651c5bc0f3",
+      "afterSha256": "a0874aebb062d8e99f1f49bb572f86c4c6cfc5ccd3797aae94dd3c044882917b"
+    },
+    {
+      "file": "assets/headless-horseman.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/headless-horseman.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 125154,
+      "afterBytes": 99704,
+      "savedBytes": 25450,
+      "beforeDimensions": [
+        1000,
+        667
+      ],
+      "afterDimensions": [
+        1000,
+        667
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.65,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "be4e5daa339541c77058c4666587047e2e3d1558ccd9c11d6c2ce0f115ca0f82",
+      "afterSha256": "290f86f5dcd822837179ced94a990c09a542d4ca94249fc8754ee7e6953b5d41"
+    },
+    {
+      "file": "assets/hero-haunted-pizza.webp",
+      "kind": "hero",
+      "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/hero-haunted-pizza.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 62928,
+      "afterBytes": 57982,
+      "savedBytes": 4946,
+      "beforeDimensions": [
+        1000,
+        667
+      ],
+      "afterDimensions": [
+        1000,
+        667
+      ],
+      "quality": 80,
+      "minimumPsnrDb": 36.66,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "1e8c4de1d5b8824cff9d49b9d0f0fc7464085339da341656060c3adbb3d1aac7",
+      "afterSha256": "39f642d3ff4abb32f924ebd5c14f61ff2779daca0cb86fe35c2a2a2613d5225c"
+    },
+    {
+      "file": "assets/lodge-afterlife-garden-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3aeb1f9e-8801-4928-9d1f-832200d9d909.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 355438,
+      "afterBytes": 206538,
+      "savedBytes": 148900,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 82,
+      "minimumPsnrDb": 32.49,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "5c59f4e6b22d157b03c31b4d4aac370c0f57e5abb60ffffdba1793e838d1db20",
+      "afterSha256": "297b68f18d919d8c6e90c38436eccf1fe8abb84d1d0d0653ed618ae16bdc58d3"
+    },
+    {
+      "file": "assets/lodge-banshee-ginger-fizz-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-2a8a3053-591c-4165-a1b3-6f8ac6228aad.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 239434,
+      "afterBytes": 154532,
+      "savedBytes": 84902,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.55,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a0f4219f64df225b0603a8362600a0ae99039ce38deef09e7337467cd117370a",
+      "afterSha256": "cc39169ed2e0fcad7f83136c5e32ee0f8ea647d0ba2b30509a94fcb555f5cfca"
+    },
+    {
+      "file": "assets/lodge-boo-bites-wings-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5660df51-ed9a-4452-9c80-40df34fa2391.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 283246,
+      "afterBytes": 184662,
+      "savedBytes": 98584,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.97,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c331e8dcb9bccf4b07d34a70e95f10e466fd9e963f8f99a0e61a2f77a5c83f46",
+      "afterSha256": "32e4cfe7c7ab4245306afa61f21ddbd7c936ff5beaf7eff39cae86b44e1d308b"
+    },
+    {
+      "file": "assets/lodge-brownie-points-afterlife-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f2d57227-c70c-4757-a14f-16be8c8fbbd9.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 236328,
+      "afterBytes": 159476,
+      "savedBytes": 76852,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.95,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "dfa03c5440e4bf5887e3fd75c8fb313926e6c20c02fd9113632af66b3c508d3d",
+      "afterSha256": "167e473ebd22ba1f97db97a45267284b421536ba7e5030c0ebc0e8b2b582cbb5"
+    },
+    {
+      "file": "assets/lodge-cellar-key-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-a0671c42-f63d-431f-8da7-ce14e0db1e8d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 164756,
+      "afterBytes": 57386,
+      "savedBytes": 107370,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.58,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a79b698a785d01020aab65f3b25e639ee05fb98ad60412a2ea801901d068b1cc",
+      "afterSha256": "0109be55392db4d2f1252aed60743b2fbe5f46c8abf8c7cd895518ea7d9a284e"
+    },
+    {
+      "file": "assets/lodge-cheesecake-after-dark-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0366b2f6-a763-4bba-ac16-cc2699714c4c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 270074,
+      "afterBytes": 187160,
+      "savedBytes": 82914,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.37,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a99a310b1ebbcc5d4a65a9f936fb2b94430c829c5bbf992dd9d83cfdce02cd20",
+      "afterSha256": "398b1170e174e045f6e488b908faf4fc56cd870c811f261f0949854dc92c2da1"
+    },
+    {
+      "file": "assets/lodge-cold-shoulder-lager-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-158d61ec-e4cb-4328-91ca-822fb7108ef2.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 269412,
+      "afterBytes": 178370,
+      "savedBytes": 91042,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.01,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "970b60748f21811af5ee9e53d229270a4e5296ce5218fe1e761461d585de5aa8",
+      "afterSha256": "dda7a478ae43e340f1dd60430ffd4ef2733093f42d5b23ddfeeaa5cfb6c25667"
+    },
+    {
+      "file": "assets/lodge-deadwood-smash-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-99001389-90f1-4a08-8e4a-a8917877ed29.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 270966,
+      "afterBytes": 177634,
+      "savedBytes": 93332,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.22,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "8ea3c228aa47c96c3e110b79e2628b8b28630f026650640ecfb335c20085e07f",
+      "afterSha256": "bc897ba9f417b7c73e1e3edd3dbb548c7d72afb3e9ed027b6921a2ea64fd95e6"
+    },
+    {
+      "file": "assets/lodge-designated-monster-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8c79a371-802f-4d41-bb28-ef9236b0b78b.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 264388,
+      "afterBytes": 176382,
+      "savedBytes": 88006,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.68,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c3e60d54e8b2229a12ea433269a0e7851a73656fb0eb84a7cca2f0f1dd07cfc5",
+      "afterSha256": "70806d941957ce3370d060e7496d6226e75cba9adc6fcf70ab2a44972f194fac"
+    },
+    {
+      "file": "assets/lodge-double-dare-rack-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-4fe99ebb-88bb-4e89-8f4b-449e04db528a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 392300,
+      "afterBytes": 245358,
+      "savedBytes": 146942,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.09,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "1c2ecc5f1c4563f552ec18604d6112746ebb184413c758423af8b8d0d60552b2",
+      "afterSha256": "6f54da82ee54f863d5883b1b487c293e935eec0edd1206288b9cebfc6d5aeb46"
+    },
+    {
+      "file": "assets/lodge-exterior-story.webp",
+      "kind": "story",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7d01ebff-deb5-4a07-95c9-2bd40718e948.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 512428,
+      "afterBytes": 380210,
+      "savedBytes": 132218,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1280,
+        853
+      ],
+      "quality": 86,
+      "minimumPsnrDb": 32.05,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e6c97ea6f4316ff6469e6889ba9efdb42f436045b7daa01b651a970fe0aaadb4",
+      "afterSha256": "290afc1e184cc71979af68b5d83233cd7b4b6f993225fdaf8e2673b3cc80c5a4"
+    },
+    {
+      "file": "assets/lodge-former-manager-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-9d2671d9-bda6-4c0a-bd5e-85c0b0b1cf81.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 141330,
+      "afterBytes": 49612,
+      "savedBytes": 91718,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 36.36,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "97c1204f7588ccd8a23ad492fda9e7e468b18d1238f84abc91953f8aabf1097c",
+      "afterSha256": "43a507a59f0c1d6edbcc301e198cdefa1a2aeb3d103ab23b7aae9d900587c944"
+    },
+    {
+      "file": "assets/lodge-grounds-map.webp",
+      "kind": "map",
+      "source": "assets/lodge-grounds-map.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 19424,
+      "afterBytes": 19294,
+      "savedBytes": 130,
+      "beforeDimensions": [
+        960,
+        960
+      ],
+      "afterDimensions": [
+        960,
+        960
+      ],
+      "quality": null,
+      "minimumPsnrDb": null,
+      "changed": true,
+      "losslessMap": true,
+      "alphaVerified": false,
+      "beforeSha256": "8654c15eea303ff4756bd76b01a3d81c22968388b94ac05a5881964dbf247c59",
+      "afterSha256": "68b0feb904bcc091c544ffe29e87d17f8facb1ffc2aa07550c5b823fd10a0a23"
+    },
+    {
+      "file": "assets/lodge-haunted-hoops-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0c17321b-649b-47af-a1d5-af5d5d7005a6.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 355722,
+      "afterBytes": 235662,
+      "savedBytes": 120060,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 32.45,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "68b3d086235dd8c2f0a31a7aafb8901241a1455abab0014e665d18075d3c9a48",
+      "afterSha256": "b575448f394cb666726a50dbc4866afb932b4d74f7b73f8fc4f9f996c010220d"
+    },
+    {
+      "file": "assets/lodge-hot-ghoul-chicken-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c6171b64-a04d-42c0-afb1-0814bef4f04a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 265914,
+      "afterBytes": 176962,
+      "savedBytes": 88952,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.92,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c899b388d6552293bf72578606e05ec0addd10e9f0a46874f4f9fd4a9f6cb8f4",
+      "afterSha256": "a765d622b0137513094dfd5f24150bb84bf1f8b07c3bd0d28cfd88030677c540"
+    },
+    {
+      "file": "assets/lodge-loaded-lumberjacks-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-60f9667e-9df3-4f4b-b15f-8a25b508a5d1.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 334668,
+      "afterBytes": 221146,
+      "savedBytes": 113522,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.18,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "87649cd5541e231f023aec57d664656cdb6b7ac9812e78739ac1a7570289f29a",
+      "afterSha256": "978da3f0cf78431ee109be6ba7cbd68b8df3f40af5aadd79a84b6eeb4122ad46"
+    },
+    {
+      "file": "assets/lodge-lumberjack-o-lantern-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e1b2baf7-5231-48ba-8b7b-3210c7e9cff6.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 250466,
+      "afterBytes": 167356,
+      "savedBytes": 83110,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.42,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "578ca874c9e1df08dd147283c261488817924b667c582e9562f03f34e614e5e2",
+      "afterSha256": "ddeedac01bdf68a36a608844705a27f3603809ebba5cecaf07d62c5053961003"
+    },
+    {
+      "file": "assets/lodge-main-event-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8833ca92-2182-4a7b-81de-e966ad7bafc5.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 328210,
+      "afterBytes": 168878,
+      "savedBytes": 159332,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.34,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a6140209d2d94a285d212402ee8427d3363c75b988e22b974358f05ac5f8e631",
+      "afterSha256": "17bbf85c0ebe54adeb0ea2b24921a6504311f52a9e3bcaf6e882b40cf3e484aa"
+    },
+    {
+      "file": "assets/lodge-nachos-of-the-living-dead-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-02503e82-4426-4b5a-b2da-35873ad8c84d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 297962,
+      "afterBytes": 196898,
+      "savedBytes": 101064,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.66,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "6f77f3fb3d5c7f070ce5421bcf5dea2ca424ce7074ae9ed487791a1ae86d3f57",
+      "afterSha256": "7a5a7ec3aae8f8b2737f267ff3feafa91f76ef3349f9ac3414e549ed667a3e2a"
+    },
+    {
+      "file": "assets/lodge-previous-owner-postcard-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-02eea304-7bd1-4407-8fde-6c212b84942c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 294874,
+      "afterBytes": 91966,
+      "savedBytes": 202908,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.91,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "1f8a09b13262ab8e07b19ac703cd36d6f750be7aaa30d74192127fc60aa290f9",
+      "afterSha256": "e5a65d086bccf399e0148caeae4bb83d008ccd3c5a04708372e4f0dbf0907e20"
+    },
+    {
+      "file": "assets/lodge-pumpkin-badge-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7fbaa0ab-dbee-4b24-9cb0-b1b889f9f5c3.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 162652,
+      "afterBytes": 60842,
+      "savedBytes": 101810,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.38,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "8124cf44a6ca24a13637791631efc6d728dbc7a99e9e153fd78389f4ec828a9f",
+      "afterSha256": "ec1156079e25c7d39e39bf573429f13540d6f00e5746cb1aa7ab25d5719a3920"
+    },
+    {
+      "file": "assets/lodge-pumpkin-spice-sinner-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-aaaa9c75-3d59-41db-b776-25be3329b96d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 294432,
+      "afterBytes": 190162,
+      "savedBytes": 104270,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.65,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "8a0bfafc8ae80b8ffd57fc224d115effe41871dde838bb9df8e8685af485c08a",
+      "afterSha256": "8a551a886b07c366d6aec63a6ff1ff18d060ee22375b11bc8c390c98f7909cff"
+    },
+    {
+      "file": "assets/lodge-raven-accounts-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-76f91cd8-6cd1-4fa3-a4d1-51e50d191ac8.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 171194,
+      "afterBytes": 61170,
+      "savedBytes": 110024,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.59,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "0f03e7b75c344baf4ca4f0b03a12a9ddbb13db66337298224849538a5da2b320",
+      "afterSha256": "e44c7e9b9d117d372e09b187dceb6a77f5c68cd5f2a6a8892fcb7cb243d9a247"
+    },
+    {
+      "file": "assets/lodge-resting-beach-face-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5ab2d80f-004d-4559-be8b-626ab0b7211c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 217988,
+      "afterBytes": 141598,
+      "savedBytes": 76390,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.01,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e47fa6f6fc3204fcd120b5b751afd7faa4aa8249eea791d7a1d75b12927d5511",
+      "afterSha256": "38a256d410444831675474c6cd5fa51e213538847425bfee14c19e819386c393"
+    },
+    {
+      "file": "assets/lodge-resting-witch-burger-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b5fa6683-4dd6-4469-bd2c-6d496ee1a80a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 241122,
+      "afterBytes": 159518,
+      "savedBytes": 81604,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.02,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "9c6786cc4e337a92e569fc4552b5b753949fc3b438c418aff0077cdcba231271",
+      "afterSha256": "e4a10ff1a722009a32d283c606c8766d3891e549bd699ec7dc4697639f574b8d"
+    },
+    {
+      "file": "assets/lodge-the-great-rack-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-edd10e13-1e78-4cf9-9098-c5a1a53475fc.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 388560,
+      "afterBytes": 239730,
+      "savedBytes": 148830,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.58,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "2dcb8ecb99bca6222d163938e43ef0feb9da2da7dfab65fb3b953eaf28b3e96c",
+      "afterSha256": "ac282d8d354ad25a0ca150a9c880b8cfc3f34c4a5502b9be0cf0d4d8358bccbc"
+    },
+    {
+      "file": "assets/lodge-the-veggie-vixen-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0ebf299e-c439-4641-b25e-f606643225b5.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 253996,
+      "afterBytes": 166948,
+      "savedBytes": 87048,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.52,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "ab9f3364d76c802295b6dc8cbf1bd72aeb6a1a5a071bcb8e7955660e6f8e2612",
+      "afterSha256": "d3c5e0f85fa0a97083cf22fe608a0f1de4a9b9fd29405aee2d8ccf7969343181"
+    },
+    {
+      "file": "assets/lodge-trophy-crypt-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f031db88-ccce-4e70-b1c7-0b447fcd317a.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 326988,
+      "afterBytes": 160546,
+      "savedBytes": 166442,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.64,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "6b3423be57eb618284f76c780e7cd8837164d92f4a6a266cfc456d5f7c92aa9e",
+      "afterSha256": "32555d2dc6e6cd1324b08c5ab5d22ee937f754f5a3141eb7744a7f4452062592"
+    },
+    {
+      "file": "assets/lodge-unsettled-tab-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5795cb2b-3a7a-4472-90e1-fccb07b30fba.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 195146,
+      "afterBytes": 69114,
+      "savedBytes": 126032,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.16,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "9e0e947eacf61b325b1c293fc9e51a75dde927cb7aa545eaa61c4ca30ccb0ae3",
+      "afterSha256": "cb6620ec74bf1bb3b3766264ecce84a8b42d7ce89d027cad5f8fde7a7da715ff"
+    },
+    {
+      "file": "assets/oddities-cabinet.webp",
+      "kind": "scene",
+      "source": "assets/oddities-cabinet.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 171206,
+      "afterBytes": 128158,
+      "savedBytes": 43048,
+      "beforeDimensions": [
+        1100,
+        733
+      ],
+      "afterDimensions": [
+        1100,
+        733
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 36.54,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a2b1d688019dfd9f9291ac51b79700c3d04552df7fcc049bd9a703135de36e53",
+      "afterSha256": "d13d83c85df7f0b154b2b2ce6f2be7387631a7d8a039ff6577109cb40792b60f"
+    },
+    {
+      "file": "assets/poltergeist-pepperoni.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/poltergeist-pepperoni.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 86782,
+      "afterBytes": 69036,
+      "savedBytes": 17746,
+      "beforeDimensions": [
+        1000,
+        667
+      ],
+      "afterDimensions": [
+        1000,
+        667
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.65,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b2bc6706620ce05a98e9a3f0b9af1ebc225f8dcb907f99cafc4baeff1eb0ada6",
+      "afterSha256": "4254650e4155793da9b528869767c3395682adebd0cc3a6c284a7b80ba51f579"
+    },
+    {
+      "file": "assets/pumpkin-hollow.webp",
+      "kind": "scene",
+      "source": "assets/pumpkin-hollow.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 207056,
+      "afterBytes": 153468,
+      "savedBytes": 53588,
+      "beforeDimensions": [
+        1100,
+        733
+      ],
+      "afterDimensions": [
+        1100,
+        733
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.38,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "07c0f3719d9c44330c45dd94d1aead3628e1c0ac062c1a314f9955053e40cd7e",
+      "afterSha256": "942248a254f07e3ca73656539b91bd5e8a067be27cd3846d2abdc06834cae6ca"
+    },
+    {
+      "file": "assets/rest-blood-orange-soda-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-51c07fd5-6479-4829-92cf-678b8476bcaf.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 216742,
+      "afterBytes": 141446,
+      "savedBytes": 75296,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.73,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "fd6e651d9a1b879ace10d896a4cbbfc30b93d75bd1031a0af5a64ee9712b34a4",
+      "afterSha256": "6134519b4d6597634a7a4973f422ddcdb7dadf108fdfc73619a793a8c3e6f9c2"
+    },
+    {
+      "file": "assets/rest-burial-burrata-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-fa2e8f6a-927e-4944-8c27-ec9400ef90be.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 289064,
+      "afterBytes": 188162,
+      "savedBytes": 100902,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.3,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "2b88500fb13f384de9bc665f399e2719b2476a7bbc1d2ef3a944674e11e79d92",
+      "afterSha256": "3b823c5d10ce5d2c802dfdfadfb1b0c3aa2c06cf81046772744d201782dd4dc4"
+    },
+    {
+      "file": "assets/rest-cellar-key-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-806cf4b3-54dd-49f6-9486-2f8b6774831d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 162104,
+      "afterBytes": 58324,
+      "savedBytes": 103780,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 35.9,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "b32ab3593e2f582f0f3cf8788ca1c279e43067b8a6a28f33c7b750f8a57fc2c9",
+      "afterSha256": "e0c1b8324fc6f6d762297e2aaa893c624f91ec9c4a049c9465b7bef024673f5d"
+    },
+    {
+      "file": "assets/rest-crypt-caesar-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-900b3d7b-d49c-40a5-bd2c-d726becddcc3.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 235310,
+      "afterBytes": 155716,
+      "savedBytes": 79594,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.24,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c2b59b116a8fcf201695386a1fd480a9d5ca22a18ff6d2b988f93f9467a9aa9e",
+      "afterSha256": "8359ba32ba5c82f0bae3b42c0dd552ec1ab0452c938631921da24143626f23d4"
+    },
+    {
+      "file": "assets/rest-dead-and-buried-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-29d0580f-ed4c-4319-9417-f2de8f680ac2.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 382558,
+      "afterBytes": 233138,
+      "savedBytes": 149420,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.13,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "33d3fb61adc143ef2410d2c333d10917e67f9dbc550be6ac2288dd2b6ce3b705",
+      "afterSha256": "84128bdc991c4a1bae0084ab6c4f82a1a5febfaf93a11e02fee9e25daf749c51"
+    },
+    {
+      "file": "assets/rest-dead-mans-draft-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6ad3215d-c77e-4965-afe7-f23dede798b3.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 230240,
+      "afterBytes": 149414,
+      "savedBytes": 80826,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.15,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "4528755e0d3eba335bad5732ee1448569360bb50f6f91e2bd5663c132b079d28",
+      "afterSha256": "3e53d8850e85cf9911ecac9333667901f5ac42c6d4f783b9295e50ac8162da69"
+    },
+    {
+      "file": "assets/rest-dearly-departed-cannoli-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6c1f6b49-8cce-4375-ac74-525bebe1f8e6.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 223866,
+      "afterBytes": 146174,
+      "savedBytes": 77692,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.37,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "cbdb83b3adbc9e391e6219f0b3f16c6979459fe23ff60477f1d316647863edae",
+      "afterSha256": "cf5a155696c008e4822084b528685f3cbd0eff7ed65f33027354d6af3b264ef8"
+    },
+    {
+      "file": "assets/rest-exterior-story.webp",
+      "kind": "story",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-077af748-40eb-48fe-845d-6366505841f1.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 441542,
+      "afterBytes": 327210,
+      "savedBytes": 114332,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1280,
+        853
+      ],
+      "quality": 86,
+      "minimumPsnrDb": 32.38,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "1303d63acc3b6ec1a6289945e608252713ca3296af1677ce2c038f2cd878869b",
+      "afterSha256": "66b9fb08b1c0087a65a7277f26aaf811eb7c64d810c10e0f728e6f52b85c6298"
+    },
+    {
+      "file": "assets/rest-former-manager-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-66dd8b8a-cc86-4cbd-8c83-7ba4e5086287.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 123198,
+      "afterBytes": 45958,
+      "savedBytes": 77240,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 37.55,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "6b1e69263e1e5a2d829025c073a3918f69be61806e61c36bf53e5e7be926c1ea",
+      "afterSha256": "0f3140def0743af6bfe46f2e9e98792f76ac125b7cf411487e371c70b3d74a9a"
+    },
+    {
+      "file": "assets/rest-graveyard-meatballs-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-aae7969b-7f5f-47d3-b241-37c20b11c772.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 257010,
+      "afterBytes": 170142,
+      "savedBytes": 86868,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.67,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c342f65cc18f023965c4ecdaaa71a8fb6ffa07d657bc3320d5feaf36597dc3e2",
+      "afterSha256": "56b5a17a364fdd0a7ccfcad12bdda8034a430bd132edca893273cc7f675725d5"
+    },
+    {
+      "file": "assets/rest-grounds-map.webp",
+      "kind": "map",
+      "source": "assets/rest-grounds-map.webp",
+      "sourceKind": "archived WebP (no mapped PNG)",
+      "beforeBytes": 19388,
+      "afterBytes": 19314,
+      "savedBytes": 74,
+      "beforeDimensions": [
+        960,
+        960
+      ],
+      "afterDimensions": [
+        960,
+        960
+      ],
+      "quality": null,
+      "minimumPsnrDb": null,
+      "changed": true,
+      "losslessMap": true,
+      "alphaVerified": false,
+      "beforeSha256": "f8502978fe45173ef0a938b45a8ee3c3c737011cdbecc2a0c78f31d8fb54cb56",
+      "afterSha256": "d1972c874f34db31ce7dfbbfd1e687e5de48471da322717f1ac22930f98191fa"
+    },
+    {
+      "file": "assets/rest-haunted-sundae-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-eb388091-fd49-41ec-ab88-bef07bda8ece.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 241100,
+      "afterBytes": 162162,
+      "savedBytes": 78938,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.38,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "611eb4017aa7715228060b425200984dfb4faa26025c1224ad35d2e214117c55",
+      "afterSha256": "99a89bab10ed246d0d3b7aeaa495bbeb3a8a59baeaa25282c610145fdd9171f4"
+    },
+    {
+      "file": "assets/rest-in-pizza-logo.webp",
+      "kind": "logo",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ffc8e555-f20f-4fc7-9335-dc59dad3f789.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 249320,
+      "afterBytes": 57826,
+      "savedBytes": 191494,
+      "beforeDimensions": [
+        1254,
+        1254
+      ],
+      "afterDimensions": [
+        512,
+        512
+      ],
+      "quality": 82,
+      "minimumPsnrDb": 33.1,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": true,
+      "beforeSha256": "2789e11d5666a1c6cd5e8e45ae1615df0874d9c0693e0b3c09f57f711c527d16",
+      "afterSha256": "f791151f55ee318622ad5977e2872b3b092214edda317050393b0ee285f7b2dd"
+    },
+    {
+      "file": "assets/rest-in-pizza-theme.webp",
+      "kind": "hero",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7841a537-ad95-48a9-a250-a0a99d4e966b.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 489514,
+      "afterBytes": 489514,
+      "savedBytes": 0,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": null,
+      "minimumPsnrDb": null,
+      "changed": false,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "543b6ed7317a057dc31590f9a639a397b720bb87777fa8b9c03413fadbd3160b",
+      "afterSha256": "543b6ed7317a057dc31590f9a639a397b720bb87777fa8b9c03413fadbd3160b"
+    },
+    {
+      "file": "assets/rest-last-call-negroni-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-9a3b4990-0c97-4a9f-bc26-3c3f85b39d1c.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 235802,
+      "afterBytes": 157274,
+      "savedBytes": 78528,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.26,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "df4e198bca49e20f2243efbbb616aa5431362f2972c3fc0b53b1d588321a622c",
+      "afterSha256": "aec3f106f3e8be29b743583802b26678fd6a9b8eb5af4aa79c2cd46fb7461bdc"
+    },
+    {
+      "file": "assets/rest-last-rites-garlic-knots-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-caf1ce0b-9f21-4828-8957-364b6d64b198.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 321388,
+      "afterBytes": 213600,
+      "savedBytes": 107788,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.74,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "39dbafb830eee462e8f514c1924601b9fd6c38c910113ff89f98de703c883ca3",
+      "afterSha256": "c03aef13ac6320b2d31b7a5de3820430875fb1fa40fc65970fe577aa62e20863"
+    },
+    {
+      "file": "assets/rest-little-boo-cheese-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-456223af-7969-4789-960b-7148839fce3b.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 215220,
+      "afterBytes": 141278,
+      "savedBytes": 73942,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 35.81,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "0e124c830813f40617d270ad06d3b87d614a10b7f33e55ea1642988d010027ea",
+      "afterSha256": "99d5945e6869cf4e63279758f1062f9029626011be33a2b82790637c1e48497c"
+    },
+    {
+      "file": "assets/rest-little-ghost-cocoa-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3179ec10-4157-4010-9539-8b0cbfddd0a2.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 183906,
+      "afterBytes": 121320,
+      "savedBytes": 62586,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 36.86,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "97fe46b348a1e4cfdfbb120876e1463d51e6b44bc9fea27294988b2ffc0189c9",
+      "afterSha256": "5c4ed5329fe05c9589bad52fb34adbbe67a10ef09fc3067a668f99a763622170"
+    },
+    {
+      "file": "assets/rest-lost-found-crypt-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-1c232856-f28d-403a-823e-fd9619c14980.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 222658,
+      "afterBytes": 108790,
+      "savedBytes": 113868,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.72,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "bccf26a340f5b789397be47217373c810f183d2f86d82a0e0c909b80c8b86d01",
+      "afterSha256": "6a9cc9d14af8b6f5e2cf734b2e028d9923495cfc065fbf9d74ae601a629abd84"
+    },
+    {
+      "file": "assets/rest-margherita-morticia-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6e4922cb-de7b-4037-8465-97ad4212c3b0.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 330962,
+      "afterBytes": 200598,
+      "savedBytes": 130364,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.02,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "8ee5f881a96da9fbf8ce7e7af416799943121e34dbd1c885030b76ee186126bb",
+      "afterSha256": "07d7f77b32054ae157da5a52d66bbe55cb4f8bb892aecdf7114823162430c817"
+    },
+    {
+      "file": "assets/rest-mushroom-afterlife-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d8e8bd10-e692-4dbd-92e8-bab7717d8266.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 291034,
+      "afterBytes": 192438,
+      "savedBytes": 98596,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.67,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "9430dda554d116564b34f493d84e9cf63a7f190a84719bb28a569374fdba57da",
+      "afterSha256": "e5b593769ec372d05680b7c3843e0b02a1f6785466f97d27f24af6db8e5a7bdc"
+    },
+    {
+      "file": "assets/rest-previous-owner-postcard-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ea2277a1-4413-440a-93c4-1e7b30c3604d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 292102,
+      "afterBytes": 96054,
+      "savedBytes": 196048,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 32.52,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "c8ea917192f34325b12d335dc43f8de59803d091864c1c7cca222e97c0a150c1",
+      "afterSha256": "5f52da7cc03f54badc4cbd792d5ab457c7420f285dab552ef4ad3f3ca34c7c79"
+    },
+    {
+      "file": "assets/rest-proofing-room-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-54c33ea9-0998-4f4b-8d53-d861225c1ace.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 283354,
+      "afterBytes": 148146,
+      "savedBytes": 135208,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 33.79,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "46523e3f40ab6ed1300baec4e1a09718855620a40a8675766b022edd92e063b0",
+      "afterSha256": "d996664558c1c90a0058ba9b78885763c7987cad8fca2b0211d636cedc1aa8e3"
+    },
+    {
+      "file": "assets/rest-pumpkin-badge-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-92c0e641-c440-4666-9ad6-c4876df2b918.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 175040,
+      "afterBytes": 63822,
+      "savedBytes": 111218,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.69,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "349e9ac45fb533239a3f31ffc3bb9f52800c98cb56694f5dd7eae460121b2a5d",
+      "afterSha256": "705cc06d428ef930bef286aba9284ad5a83732c961e8e4fe2469769f921884c5"
+    },
+    {
+      "file": "assets/rest-raven-accounts-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0e1affb6-16ec-4fc1-a6aa-af3406be9c81.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 166166,
+      "afterBytes": 60376,
+      "savedBytes": 105790,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 36.64,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "e7887133c8d56fac6192372f41c35deb760b3a87a1f1e990f2f0283be89d28e6",
+      "afterSha256": "13b3c4e9677cae7db47b54b7721888414935af268c7f26580da0e26b0ddea312"
+    },
+    {
+      "file": "assets/rest-rising-garden-scene.webp",
+      "kind": "scene",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f767603c-32dd-449b-a0d6-2978e9af9e6d.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 442012,
+      "afterBytes": 297098,
+      "savedBytes": 144914,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1200,
+        800
+      ],
+      "quality": 86,
+      "minimumPsnrDb": 32.34,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "a50c6be565c45aee4363f5f177e0a34d40eee01c5b9af1bc61f98e1afe6df3ac",
+      "afterSha256": "eaa363fc1cc4a9d9f4f1f4527553fdc5f0c1ad71fa1371500ec9c5e8df924574"
+    },
+    {
+      "file": "assets/rest-sausage-seance-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ecdd8513-a5ba-47a9-a287-34517d782361.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 371886,
+      "afterBytes": 247926,
+      "savedBytes": 123960,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.48,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "ff122c4c9348b055b9275a5ebf83b4c688de6e28b1eb541cf209d0a17da8eb3f",
+      "afterSha256": "4a653aed0f2a883c063004afa117bfab1ddfad2f72509382368e15cf06deaa83"
+    },
+    {
+      "file": "assets/rest-the-exorcist-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7e0db381-f346-47b9-bbe9-353d5794a38f.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 282980,
+      "afterBytes": 188866,
+      "savedBytes": 94114,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.12,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "5aa84084bc117aa7fcd6b011343d8cd014d7e87ce4b510d930e689ce374dd8a4",
+      "afterSha256": "62f4d3e35a79cf494e74f06874031521d27311332fb6d153d5ef745244989ab2"
+    },
+    {
+      "file": "assets/rest-tiramisu-mortem-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-08362027-642f-4b33-9008-91c4d03596b3.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 256322,
+      "afterBytes": 168902,
+      "savedBytes": 87420,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 34.93,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "69d50c1f902195e701395899d8b55be044b31a698c3494930f85fa971ef1919c",
+      "afterSha256": "d98489aac4947405f3530b3a1a8f06afeb1ed8f8126c57bb22bbce6dc37d59ce"
+    },
+    {
+      "file": "assets/rest-unsettled-tab-object.webp",
+      "kind": "object",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3d58c258-e282-4aad-90bb-5f5853f54716.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 176270,
+      "afterBytes": 66760,
+      "savedBytes": 109510,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        960,
+        640
+      ],
+      "quality": 78,
+      "minimumPsnrDb": 34.76,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "cfaf7aa8c05dc6bce38d87e3ebfedb11c7a5a9592bb7cce08f4151445463bfab",
+      "afterSha256": "5bf547b1d746a64098f0269e8b22a3fa90f4ced14e0a60df7276c8ad711f0162"
+    },
+    {
+      "file": "assets/rest-wake-up-espresso-food.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-50ba544c-1dc0-40bf-87a2-5aaee39c69c6.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 200134,
+      "afterBytes": 129554,
+      "savedBytes": 70580,
+      "beforeDimensions": [
+        1536,
+        1024
+      ],
+      "afterDimensions": [
+        1536,
+        1024
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 36.73,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "71ba36a372f7b900377508d65ef21648dd50f70da76d93e34ccd48ec8565b20e",
+      "afterSha256": "62c879bce8a52911294f5bfa5cc96c5f7dcb9d6f5639a7bb79a56e0dd88140f7"
+    },
+    {
+      "file": "assets/witchs-cauldron.webp",
+      "kind": "food",
+      "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/witchs-cauldron.png",
+      "sourceKind": "original PNG",
+      "beforeBytes": 115696,
+      "afterBytes": 92250,
+      "savedBytes": 23446,
+      "beforeDimensions": [
+        1000,
+        667
+      ],
+      "afterDimensions": [
+        1000,
+        667
+      ],
+      "quality": 76,
+      "minimumPsnrDb": 33.95,
+      "changed": true,
+      "losslessMap": false,
+      "alphaVerified": false,
+      "beforeSha256": "65428043b5c950afce9426463fec6ac1ae475dc47aa9c19ecbcd8e44f0a91373",
+      "afterSha256": "98cab8979aa2e972ae74f7940727e4c45bc581dc641a76c1e3873950d41e3fc4"
+    }
+  ],
+  "totalBeforeBytes": 34253714,
+  "totalAfterBytes": 20411986,
+  "changedFiles": 133,
+  "verification": {
+    "checks": [
+      {
+        "check": "restaurant-art",
+        "exitCode": 0
+      },
+      {
+        "check": "lodge-art",
+        "exitCode": 0
+      },
+      {
+        "check": "pizza-art",
+        "exitCode": 0
+      },
+      {
+        "check": "remaining-art",
+        "exitCode": 0
+      },
+      {
+        "check": "generated",
+        "exitCode": 0
+      },
+      {
+        "check": "diff",
+        "exitCode": 0
+      }
+    ],
+    "appliedHashesAndDecoding": 134,
+    "pixelIdenticalMaps": 4,
+    "alphaVerifiedLogos": 4,
+    "representativeVisualComparisons": [
+      "logos-comparison.jpg",
+      "food-comparison.jpg",
+      "scenes-comparison.jpg"
+    ],
+    "currentPropertyImageBytes": [
+      {
+        "property": "bone-appetit",
+        "images": 39,
+        "beforeBytes": 9885560,
+        "afterBytes": 5881914
+      },
+      {
+        "property": "rest-in-pizza",
+        "images": 33,
+        "beforeBytes": 8144838,
+        "afterBytes": 5083948
+      },
+      {
+        "property": "grave-expectations",
+        "images": 33,
+        "beforeBytes": 7709788,
+        "afterBytes": 4369804
+      },
+      {
+        "property": "boobies-lodge",
+        "images": 33,
+        "beforeBytes": 8811250,
+        "afterBytes": 5445630
+      }
+    ],
+    "limits": [
+      "Targeted source/export checks only.",
+      "No fresh browser pass or full suite.",
+      "PSNR is an encoder error gate, not proof of perceptual quality."
+    ],
+    "preEditGraph": {
+      "artAssets": {
+        "risk": "HIGH",
+        "impacted": 15,
+        "direct": 3,
+        "processes": 4
+      },
+      "heroAsset": {
+        "risk": "CRITICAL",
+        "impacted": 29,
+        "direct": 7,
+        "processes": 11,
+        "note": "Lower bound; source callers also inspected."
+      }
+    },
+    "delivery": "Local asset replacements and documentation only; no staging, commit, push, deploy or publication."
+  }
+}

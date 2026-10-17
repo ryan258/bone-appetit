@@ -16,6 +16,18 @@ const HERO_ART = Object.freeze({
 const heroAsset = data => HERO_ART[data.branding?.propertyId]?.asset || data.branding?.hero || 'haunted-roadhouse.webp';
 const heroAlt = data => HERO_ART[data.branding?.propertyId]?.alt || data.branding?.heroAlt || 'A crooked Victorian pizzeria glowing with warm light, surrounded by jack-o’-lanterns and autumn woods.';
 
+// Decorative materials follow property identity even in older saved campaigns.
+const BACKGROUND_ART = Object.freeze({
+  'bone-appetit': 'bone-porch-background.webp',
+  'rest-in-pizza': 'rest-gingham-background.webp',
+  'grave-expectations': 'grave-damask-background.webp',
+  'boobies-lodge': 'lodge-timber-background.webp'
+});
+const backgroundAsset = (data, mobile = false) => {
+  const asset = BACKGROUND_ART[data.branding?.propertyId] || BACKGROUND_ART['bone-appetit'];
+  return mobile ? asset.replace('.webp', '-mobile.webp') : asset;
+};
+
 // Stable property/dish IDs let old saves use the current artwork without migrations.
 const RESTAURANT_ART = Object.freeze({
   'bone-appetit': { logo: 'bone-appetit-logo.webp', food: {
@@ -184,7 +196,52 @@ const attractionArt = (data, key) => {
   const a = data.attractions[key];
   return propertyArt(data)?.attractions?.[key] || key === 'pizzeria' && foodArt(data, data.featured[0]?.id) || { asset: imageFile(a.image), alt: a.card.alt };
 };
-const artAssets = data => [...new Set([logoAsset(data), storyArt(data).asset, mapAsset(data), ...Object.values(data.menu).flat().flatMap(item => foodArt(data, item.id) ? [foodArt(data, item.id).asset] : []), ...data.oddities.map(item => oddityArt(data, item).asset), ...data.featured.map(feature => featuredArt(data, feature).asset), ...Object.keys(data.attractions).map(key => attractionArt(data, key).asset)])];
+// A presentation edition, independent of saved campaign/menu snapshots.
+const LODGE_COMPETITION = Object.freeze({
+  id: 'miss-lodge-usa-2026', title: 'Miss BooBies Lodge USA', year: 2026,
+  date: '2026-10-10', dateLabel: 'October 10, 2026', host: 'Denver, Colorado',
+  hero: 'lodge-miss-usa-2026-crown-stage.webp',
+  contestants: Object.freeze([
+    { id: 'claire-bennett', name: 'Claire Bennett', age: 28, city: 'Savannah', state: 'Georgia', years: 4, place: 1, award: '2026 U.S. champion',
+      line: 'Southern charm. National spotlight.',
+      bio: 'Claire arrived from Savannah with a suitcase full of green satin and a calm she insists is entirely natural. Four years of busy lodge nights have given her a warm welcome, immaculate timing, and an unshakable smile.',
+      stage: 'Her final walk paired old-Hollywood waves with the house plaid. She dedicated the crown to the closing-shift crew who helped rehearse her entrance between table resets.',
+      quote: 'Give me a full room, a good playlist, and a reason to dress up.', favorite: 'The Great Rack', ritual: 'One last mirror check. One very deep breath.' },
+    { id: 'lucia-vega', name: 'Lucia Vega', age: 29, city: 'Las Vegas', state: 'Nevada', years: 5, place: 2, award: 'First runner-up',
+      line: 'A little Vegas. A lot of presence.',
+      bio: 'Lucia brings five years of Las Vegas lodge energy to the stage. Her signature is polished glamour with a conspiratorial grin: the sort that makes even a Tuesday feel like an occasion.',
+      stage: 'Her studio session leaned into clean lines, warm light, and a poised over-the-shoulder turn. In the final, she made the biggest room of the year feel like her own corner booth.',
+      quote: 'If the lights are on, give them something to remember.', favorite: 'Resting Witch Burger', ritual: 'A pep talk with the entire dressing room.' },
+    { id: 'nia-brooks', name: 'Nia Brooks', age: 30, city: 'Asheville', state: 'North Carolina', years: 3, place: 3, award: 'Second runner-up',
+      line: 'Mountain-town warmth. Main-stage confidence.',
+      bio: 'Nia is Asheville’s resident playlist curator and unofficial team photographer. Three seasons at the lodge have made her the person new staff seek out before their first Saturday night.',
+      stage: 'Natural curls, a bright smile, and a beautifully unhurried stage walk gave her final an easy confidence. Her favorite moment was hearing her hometown table cheer before the music even started.',
+      quote: 'The best entrance is the one where you feel like yourself.', favorite: 'Loaded Lumberjacks', ritual: 'One favorite song, all the way through.' },
+    { id: 'lena-park', name: 'Lena Park', age: 27, city: 'Portland', state: 'Oregon', years: 2, place: null, award: 'Miss Congeniality',
+      line: 'Quiet poise. Loud dressing-room applause.',
+      bio: 'Lena came from Portland with two years of lodge service and an emergency kit that somehow covered everyone else’s emergencies. She calls her style understated, then arrives looking impossibly composed.',
+      stage: 'Her portrait session favored a direct gaze and a relaxed, clean silhouette. The other finalists selected her for Miss Congeniality after a week of shared rehearsals and borrowed hairpins.',
+      quote: 'There is room for everybody to have a good night.', favorite: 'The Veggie Vixen', ritual: 'Check on the person standing next to me.' },
+    { id: 'sienna-reyes', name: 'Sienna Reyes', age: 32, city: 'Austin', state: 'Texas', years: 6, place: null, award: 'Crowd Favorite',
+      line: 'Austin attitude. An unmistakable smile.',
+      bio: 'Sienna has spent six years turning busy Austin lodge nights into something people tell their friends about. Off shift, she hunts for live music and insists the best outfit always allows for dancing.',
+      stage: 'Her loose braid and easy grin carried the same energy from studio to stage. The fictional audience ballot named her Crowd Favorite; her home lodge is still taking the credit.',
+      quote: 'A little sparkle is practically a uniform requirement.', favorite: 'Boo Bites Wings', ritual: 'A tiny dance before stepping into the light.' },
+    { id: 'brooke-callahan', name: 'Brooke Callahan', age: 33, city: 'Denver', state: 'Colorado', years: 4, place: null, award: 'Stage Presence Award',
+      line: 'Home-town lights. High-altitude confidence.',
+      bio: 'Brooke represented the host city with four years of Denver lodge experience and a wonderfully dry sense of humor. She is happiest after a long trail walk, preferably with a very short route to supper.',
+      stage: 'Copper waves, warm freckles, and a strong, relaxed stance made her studio set instantly recognizable. Her confident final walk earned the Stage Presence Award on home ground.',
+      quote: 'Stand tall. Smile like you know where the good seats are.', favorite: 'Deadwood Smash', ritual: 'Shoulders back. Find one friendly face.' }
+  ].map(Object.freeze))
+});
+const hasCompetition = data => data.branding?.propertyId === 'boobies-lodge';
+const contestantAsset = person => `lodge-miss-usa-2026-${person.id}.webp`;
+// Add delivered bikini-round files here; empty entries render explicit pending
+// panels rather than broken images or substituted studio portraits.
+const SWIMWEAR_ART = Object.freeze({});
+const swimwearAsset = person => SWIMWEAR_ART[person.id] || null;
+const competitionAssets = data => hasCompetition(data) ? [LODGE_COMPETITION.hero, ...LODGE_COMPETITION.contestants.flatMap(person => [contestantAsset(person), swimwearAsset(person)].filter(Boolean))] : [];
+const artAssets = data => [...new Set([...competitionAssets(data), backgroundAsset(data), backgroundAsset(data, true), logoAsset(data), storyArt(data).asset, mapAsset(data), ...Object.values(data.menu).flat().flatMap(item => foodArt(data, item.id) ? [foodArt(data, item.id).asset] : []), ...data.oddities.map(item => oddityArt(data, item).asset), ...data.featured.map(feature => featuredArt(data, feature).asset), ...Object.keys(data.attractions).map(key => attractionArt(data, key).asset)])];
 
 const escape = value => String(value).replace(/[&<>"']/g, c => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -212,6 +269,62 @@ function validateSites(registry) {
 }
 const rich = value => escape(value).replace(/\*([^*]+)\*/g, '<em>$1</em>').replaceAll('\n', '<br>');
 const imageFile = image => image.endsWith('.svg') ? image : image + '.webp';
+
+function competitionTeaser(data) {
+  if (!hasCompetition(data)) return '';
+  return `<aside class="miss-lodge-teaser" aria-label="Annual Miss BooBies Lodge competition"><div class="wrap">
+  <p><span class="miss-kicker">THE ANNUAL U.S. SHOWCASE · STUDIO PORTRAITS, BIKINI ROUND & RESULTS</span><strong>Six lodges. One crown. Plenty of spirit.</strong></p>
+  <a class="button" href="#miss-lodge">Meet Miss BooBies Lodge USA <span aria-hidden="true">↘</span></a>
+</div></aside>`;
+}
+
+function renderCompetition(data) {
+  if (!hasCompetition(data)) return '';
+  const event = LODGE_COMPETITION, winner = event.contestants.find(person => person.place === 1);
+  const portrait = (person, extra = '') => `<img ${extra} src="assets/${contestantAsset(person)}" alt="AI-created studio portrait of ${escape(person.name)}, a fictional ${person.age}-year-old adult contestant, in the green-and-amber lodge uniform." width="768" height="1152" loading="lazy" decoding="async">`;
+  return `<section class="miss-lodge" id="miss-lodge" aria-labelledby="miss-lodge-title">
+  <div class="miss-lodge-hero">
+    <img class="miss-lodge-stage" src="assets/${event.hero}" alt="A gold pageant crown on forest-green velvet, staged beneath amber studio lights." width="1280" height="853" loading="lazy">
+    <div class="wrap miss-lodge-hero-copy"><p class="eyebrow">THE ANNUAL U.S. COMPETITION · ${event.year}</p>
+      <h2 id="miss-lodge-title">Miss BooBies<br><em>Lodge USA.</em></h2>
+      <p class="miss-deck">House plaid. Studio lights. A little national attention.</p>
+      <p>Once a year, standout waitresses from our imagined U.S. lodges step out from behind the bar and into the spotlight. Meet this year’s six finalists, explore the studio book and bikini competition, and discover who took home the crown.</p>
+      <div class="miss-actions"><a class="button" href="#miss-lodge-contestants">Meet the contestants</a><a class="text-link" href="#miss-lodge-swimwear">The bikini round <span aria-hidden="true">↓</span></a><a class="text-link" href="#miss-lodge-results">See the results <span aria-hidden="true">↓</span></a></div>
+      <p class="miss-event-meta"><time datetime="${event.date}">${event.dateLabel}</time> · ${event.host} · U.S. final complete</p>
+    </div>
+  </div>
+  <div class="wrap miss-lodge-inner">
+    <p class="miss-fiction">Fictional 2026 U.S. edition · All contestants are invented adults ages 27–33. Portraits are AI-created studio concepts; names, lodge locations, event details, and results are fictional.</p>
+    <article class="miss-champion" aria-labelledby="miss-champion-title">
+      <div class="miss-champion-photo">${portrait(winner)}<span class="miss-photo-label">THE 2026 U.S. CHAMPION</span></div>
+      <div class="miss-champion-copy"><p class="eyebrow">THE CROWN GOES TO SAVANNAH</p><h3 id="miss-champion-title">${winner.name}<span>Miss BooBies Lodge USA ${event.year}</span></h3>
+        <p class="miss-location">${winner.city}, ${winner.state} · Age ${winner.age}</p>
+        <p>Warmth, polish, and a smile that held the whole room. Claire Bennett takes the U.S. title after a final night of house-plaid glamour, stage walks, and considerably more cheering than the trophy crypt usually permits.</p>
+        <blockquote>“${escape(winner.quote)}”<cite>— ${winner.name}</cite></blockquote>
+        <a class="text-link" href="#contestant-${winner.id}">Meet our champion <span aria-hidden="true">↓</span></a>
+      </div>
+    </article>
+    <div class="miss-gallery-heading" id="miss-lodge-contestants"><div><p class="eyebrow">THE NATIONAL FINALISTS</p><h3>Meet the women<br><em>behind the plaid.</em></h3></div><p>Six U.S. lodges. Six distinct personalities. One coordinated studio book. Open a profile for the hometown story, the stage moment, and the shift favorite.</p></div>
+    <div class="miss-contestant-grid">${event.contestants.map((person, index) => `<article class="miss-contestant" id="contestant-${person.id}" aria-labelledby="contestant-name-${person.id}">
+      <div class="miss-portrait">${portrait(person)}<span class="miss-photo-label">NO. ${String(index + 1).padStart(2, '0')} · ${escape(person.city.toUpperCase())}</span></div>
+      <div class="miss-contestant-copy"><p class="miss-award">${escape(person.award)}</p><h4 id="contestant-name-${person.id}">${escape(person.name)}</h4><p class="miss-location">${escape(person.city)}, ${escape(person.state)} · ${person.age}</p><p>${escape(person.line)}</p>
+      <details class="miss-profile"><summary>Meet ${escape(person.name.split(' ')[0])}<span aria-hidden="true"> +</span></summary><div><p>${escape(person.bio)}</p><p>${escape(person.stage)}</p>
+        <dl><div><dt>At the lodge</dt><dd>${person.years} years</dd></div><div><dt>Shift favorite</dt><dd>${escape(person.favorite)}</dd></div><div><dt>Before the spotlight</dt><dd>${escape(person.ritual)}</dd></div></dl>
+        <blockquote>“${escape(person.quote)}”</blockquote><a class="text-link" href="#swimwear-${person.id}">${escape(person.name.split(' ')[0])}’s bikini-round gallery</a><a class="text-link" href="assets/${contestantAsset(person)}" download>Download studio portrait</a></div></details></div>
+    </article>`).join('\n')}</div>
+    <section class="miss-swimwear" id="miss-lodge-swimwear" aria-labelledby="miss-swimwear-title">
+      <div class="miss-gallery-heading"><div><p class="eyebrow">THE BIKINI COMPETITION</p><h3 id="miss-swimwear-title">A turn<br><em>in the spotlight.</em></h3></div><p>A dedicated competition gallery for all six finalists, with every contestant linked back to her studio profile and hometown story.</p></div>
+      <p class="miss-round-note">Bikini-round photographs are not yet available. Each finalist’s place in the ${event.year} U.S. gallery is reserved below.</p>
+      <div class="miss-swimwear-grid">${event.contestants.map(person => `<figure id="swimwear-${person.id}" class="miss-swimwear-card">${swimwearAsset(person) ? `<img src="assets/${swimwearAsset(person)}" alt="Bikini-competition photograph of ${escape(person.name)}, fictional adult age ${person.age}." width="768" height="1152" loading="lazy" decoding="async">` : `<div class="miss-photo-pending"><span class="eyebrow">BIKINI ROUND · ${event.year}</span><strong>Photography<br>pending.</strong><p>${escape(person.name)}<br>${escape(person.city)}, ${escape(person.state)}</p></div>`}<figcaption><a href="#contestant-${person.id}"><strong>${escape(person.name)}</strong></a><span>${escape(person.city)}, ${escape(person.state)} · Age ${person.age}</span>${swimwearAsset(person) ? `<a class="text-link" href="assets/${swimwearAsset(person)}" download>Download competition photo</a>` : `<a class="text-link" href="#contestant-${person.id}">Meet ${escape(person.name.split(' ')[0])}</a>`}</figcaption></figure>`).join('\n')}</div>
+    </section>
+    <section class="miss-results" id="miss-lodge-results" aria-labelledby="miss-results-title">
+      <div><p class="eyebrow">THE FINAL CALL</p><h3 id="miss-results-title">A crown.<br><em>A very full trophy shelf.</em></h3><p>The ${event.year} U.S. final is complete. The national title and two runner-up positions are listed first; the other finalists receive their individual honors below.</p><p class="miss-results-note">This is a fictional results archive. There is no live voting, entry submission, or ticket sale.</p></div>
+      <div class="miss-results-table"><table><caption>Miss BooBies Lodge USA ${event.year} · Final results</caption><thead><tr><th scope="col">Result</th><th scope="col">Contestant / U.S. lodge</th></tr></thead><tbody>${event.contestants.map(person => `<tr${person.place === 1 ? ' class="miss-winning-row"' : ''}><th scope="row">${escape(person.award)}</th><td><a href="#contestant-${person.id}">${escape(person.name)}</a><span>${escape(person.city)}, ${escape(person.state)}</span></td></tr>`).join('')}</tbody></table></div>
+    </section>
+    <div class="miss-annual-note"><div><p class="eyebrow">ONE NIGHT, EVERY YEAR</p><h3>Same house spirit.<br>A new turn in the spotlight.</h3></div><p>The U.S. showcase returns each autumn, bringing together finalists from across the imagined lodge family. Until the next curtain call, meet the class of ${event.year} and give your hometown finalist her flowers.</p><a class="text-link" href="#miss-lodge-contestants">Back to the studio book <span aria-hidden="true">↑</span></a></div>
+  </div>
+</section>`;
+}
 
 function render(data, template, options = {}) {
   const p = createPlanner(data);
@@ -248,12 +361,14 @@ function render(data, template, options = {}) {
     GLYPH_LIBRARY: glyphAPI.sprite(data),
     ...Object.fromEntries(Object.entries(glyphs).map(([role, glyph]) => ['GLYPH_' + role.toUpperCase(), glyph.id])),
     ...Object.fromEntries(Object.keys(glyphs).map(role => ['ICON_' + role.toUpperCase(), icon(role)])),
-    BODY_ATTRIBUTES: ` class="restaurant-theme theme-${escape(site.id)}${data.branding ? ` property-site property-${escape(site.id)}` : ''}"`,
+    BODY_ATTRIBUTES: ` class="restaurant-theme theme-${escape(site.id)}${data.branding ? ` property-site property-${escape(site.id)}` : ''}" style="--house-background-large: url('assets/${backgroundAsset(data)}'); --house-background-small: url('assets/${backgroundAsset(data, true)}')"`,
     PROPERTY_SWITCHER: switcher(false),
     PROPERTY_SWITCHER_FOOTER: switcher(true),
     FONT_PRELOAD: options.standalone || options.collection ? '' : '<link rel="preload" href="assets/fonts/fraunces-700.ttf" as="font" type="font/ttf" crossorigin>',
     CREATOR_LINK: options.standalone || options.collection ? '' : '<a href="creator.html">Creator workspace</a>',
     COLLECTION_NAV: data.branding ? 'The collection' : 'The counter',
+    COMPETITION_TEASER: competitionTeaser(data),
+    LODGE_COMPETITION: renderCompetition(data),
     LOGO_ASSET: `assets/${escape(logoAsset(data))}`,
     HERO_ASSET: `assets/${escape(heroAsset(data))}`,
     HERO_ALT: escape(heroAlt(data)),
@@ -378,5 +493,5 @@ ${p.stopKeys.map(key => `<label><input type="checkbox" name="${escape(key)}" che
   });
 }
 
-return { render, validateSites, ROUTES, HERO_ART, heroAsset, heroAlt, RESTAURANT_ART, logoAsset, foodArt, featuredArt, storyArt, mapAsset, oddityArt, attractionArt, artAssets };
+return { render, validateSites, ROUTES, HERO_ART, heroAsset, heroAlt, BACKGROUND_ART, backgroundAsset, RESTAURANT_ART, logoAsset, foodArt, featuredArt, storyArt, mapAsset, oddityArt, attractionArt, artAssets, LODGE_COMPETITION, SWIMWEAR_ART, competitionAssets };
 });
