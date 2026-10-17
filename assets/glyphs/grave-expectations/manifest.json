@@ -1,0 +1,529 @@
+{
+  "format": "property-svg-glyph-library",
+  "version": 2,
+  "propertyId": "grave-expectations",
+  "name": "Grave Expectations",
+  "count": 48,
+  "viewBox": "0 0 24 24",
+  "strokeWidth": 1.5,
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & atmosphere",
+      "roles": [
+        "season",
+        "dining",
+        "night",
+        "signature",
+        "garden",
+        "day",
+        "welcome"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "Food & drinks",
+      "roles": [
+        "menu",
+        "bites",
+        "dessert",
+        "drinks",
+        "vegetarian",
+        "spicy",
+        "alcohol",
+        "zeroProof"
+      ]
+    },
+    {
+      "id": "experiences",
+      "label": "Experiences & collection",
+      "roles": [
+        "trail",
+        "collection",
+        "story",
+        "ghost",
+        "key",
+        "postcard",
+        "badge",
+        "souvenir",
+        "raven"
+      ]
+    },
+    {
+      "id": "visit",
+      "label": "Visitor information",
+      "roles": [
+        "location",
+        "clock",
+        "calendar",
+        "ticket",
+        "parking",
+        "accessibility",
+        "restroom",
+        "weather",
+        "map",
+        "phone",
+        "email",
+        "camera"
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Actions & navigation",
+      "roles": [
+        "plan",
+        "save",
+        "download",
+        "print",
+        "share",
+        "info",
+        "close",
+        "arrow"
+      ]
+    },
+    {
+      "id": "house",
+      "label": "House details",
+      "roles": [
+        "oven",
+        "grill",
+        "coffee",
+        "music"
+      ]
+    }
+  ],
+  "glyphs": [
+    {
+      "role": "season",
+      "group": "identity",
+      "id": "grave-expectations-candelabrum",
+      "name": "candelabrum",
+      "label": "Estate candelabrum",
+      "file": "candelabrum.svg",
+      "sha256": "2daed15b7785d48531852cc21731fddeedcac4c75db4cded5fd6cac37471125c"
+    },
+    {
+      "role": "dining",
+      "group": "identity",
+      "id": "grave-expectations-silver-cloche",
+      "name": "silver-cloche",
+      "label": "Silver service",
+      "file": "silver-cloche.svg",
+      "sha256": "d902e6587b69128e026c629201d4d77451737c724ac6beed195c638dd8b5a282"
+    },
+    {
+      "role": "night",
+      "group": "identity",
+      "id": "grave-expectations-moonlit-goblet",
+      "name": "moonlit-goblet",
+      "label": "Moonlit nightcap",
+      "file": "moonlit-goblet.svg",
+      "sha256": "241c14158c6ca06f1fe4fff6807eab353838806f3108792334c8b30da8d9944c"
+    },
+    {
+      "role": "signature",
+      "group": "identity",
+      "id": "grave-expectations-estate-crest",
+      "name": "estate-crest",
+      "label": "House crest",
+      "file": "estate-crest.svg",
+      "sha256": "873e97a4f6c6d9b78d464eaff05542dbdfbfec9eccc17d1c165bb568cf1ee47a"
+    },
+    {
+      "role": "garden",
+      "group": "identity",
+      "id": "grave-expectations-terrace-rose",
+      "name": "terrace-rose",
+      "label": "Mourning terrace rose",
+      "file": "terrace-rose.svg",
+      "sha256": "93d84f2194ea7f35505eb0dd0184968b2651b438ab8efecf6764cc5fbc376ba5"
+    },
+    {
+      "role": "day",
+      "group": "identity",
+      "id": "grave-expectations-estate-window",
+      "name": "estate-window",
+      "label": "Daylight through the estate",
+      "file": "estate-window.svg",
+      "sha256": "44771622fa10dd8cbc384db2ae595cf88d6df64ad13c7e060ef5186f83bb520b"
+    },
+    {
+      "role": "welcome",
+      "group": "identity",
+      "id": "grave-expectations-heart-place-setting",
+      "name": "heart-place-setting",
+      "label": "A place at the table",
+      "file": "heart-place-setting.svg",
+      "sha256": "65f0c80c151d1b47e03f288f4e41b7221b9123bec101e07a215367fbccbd0844"
+    },
+    {
+      "role": "menu",
+      "group": "menu",
+      "id": "grave-expectations-estate-bill-of-fare",
+      "name": "estate-bill-of-fare",
+      "label": "Estate bill of fare",
+      "file": "estate-bill-of-fare.svg",
+      "sha256": "7192eb0ac33c0b1c7fed9dbcc7eb94800e32c7b15c6645916405a5ece50f5503"
+    },
+    {
+      "role": "bites",
+      "group": "menu",
+      "id": "grave-expectations-silver-starter",
+      "name": "silver-starter",
+      "label": "Silver starter fork",
+      "file": "silver-starter.svg",
+      "sha256": "4eadd1e262b8ad55076c00e325c23d560a16b3f053ddb61f37ce29c9585797d1"
+    },
+    {
+      "role": "dessert",
+      "group": "menu",
+      "id": "grave-expectations-brulee-dish",
+      "name": "brulee-dish",
+      "label": "Creme brulee dish",
+      "file": "brulee-dish.svg",
+      "sha256": "90d7497dd576b14cd206e241353df8d78b4e390a5f339c31db15637366bf12ed"
+    },
+    {
+      "role": "drinks",
+      "group": "menu",
+      "id": "grave-expectations-estate-decanter",
+      "name": "estate-decanter",
+      "label": "Estate decanter",
+      "file": "estate-decanter.svg",
+      "sha256": "19cc4bbe97b4293d50d123076149583e792fe7007179a553231160eb33dff3c2"
+    },
+    {
+      "role": "vegetarian",
+      "group": "menu",
+      "id": "grave-expectations-estate-mushroom",
+      "name": "estate-mushroom",
+      "label": "Estate mushroom",
+      "file": "estate-mushroom.svg",
+      "sha256": "ed5bf11f3e9015dfcdaf10fa18c0292206d566bdf0ba03a236e2050165b5e1be"
+    },
+    {
+      "role": "spicy",
+      "group": "menu",
+      "id": "grave-expectations-pepper-mill",
+      "name": "pepper-mill",
+      "label": "Estate pepper mill",
+      "file": "pepper-mill.svg",
+      "sha256": "1bc8341d44b64a6c15938c353c7d4783c1c7d5e47c54e275147678540221c890"
+    },
+    {
+      "role": "alcohol",
+      "group": "menu",
+      "id": "grave-expectations-cellar-bottle",
+      "name": "cellar-bottle",
+      "label": "Ancestral cellar bottle",
+      "file": "cellar-bottle.svg",
+      "sha256": "790d10624890d1584a4327a3e82f5e3ceda07a8691363a4fe4062662dd19ff39"
+    },
+    {
+      "role": "zeroProof",
+      "group": "menu",
+      "id": "grave-expectations-civil-refreshment",
+      "name": "civil-refreshment",
+      "label": "Civil refreshment",
+      "file": "civil-refreshment.svg",
+      "sha256": "81a1090b8da9d37b88026519691ea5bd7005487258ba320f627481c07be724c2"
+    },
+    {
+      "role": "trail",
+      "group": "experiences",
+      "id": "grave-expectations-terrace-balustrade",
+      "name": "terrace-balustrade",
+      "label": "Mourning terrace",
+      "file": "terrace-balustrade.svg",
+      "sha256": "23aa34ff2058a1a9b9a0c81ff2aa894314a216c384db87fd9ab70147cfda46b5"
+    },
+    {
+      "role": "collection",
+      "group": "experiences",
+      "id": "grave-expectations-ancestral-cabinet",
+      "name": "ancestral-cabinet",
+      "label": "Ancestral cabinet",
+      "file": "ancestral-cabinet.svg",
+      "sha256": "798e14e9d1b800315db78d040a0ffbb7ba6a4d311e825eaf48c342bfb22b2b4f"
+    },
+    {
+      "role": "story",
+      "group": "experiences",
+      "id": "grave-expectations-estate-deed",
+      "name": "estate-deed",
+      "label": "Estate deed",
+      "file": "estate-deed.svg",
+      "sha256": "678dc30db1df08b4ee6871251e002cc2ba60a7c6e5b216c44b1e543380c901ad"
+    },
+    {
+      "role": "ghost",
+      "group": "experiences",
+      "id": "grave-expectations-maitre-d-ghost",
+      "name": "maitre-d-ghost",
+      "label": "Maitre d ghost",
+      "file": "maitre-d-ghost.svg",
+      "sha256": "433b142b9a194e235ecca85e9cc3bd0042e6813b3d1d7ad893a0e53b1e249547"
+    },
+    {
+      "role": "key",
+      "group": "experiences",
+      "id": "grave-expectations-estate-cellar-key",
+      "name": "estate-cellar-key",
+      "label": "Estate cellar key",
+      "file": "estate-cellar-key.svg",
+      "sha256": "187e83fe341c0bac9bf8ce08069b767e523929026a123b80f6217b7a406a97e2"
+    },
+    {
+      "role": "postcard",
+      "group": "experiences",
+      "id": "grave-expectations-estate-correspondence",
+      "name": "estate-correspondence",
+      "label": "Estate correspondence",
+      "file": "estate-correspondence.svg",
+      "sha256": "f75b2b2e20e0510e092727faeb92308c84222a40f161313c5898caa85381b363"
+    },
+    {
+      "role": "badge",
+      "group": "experiences",
+      "id": "grave-expectations-estate-rosette",
+      "name": "estate-rosette",
+      "label": "Estate staff rosette",
+      "file": "estate-rosette.svg",
+      "sha256": "c77e972ee1524e825010bd09b38706345469a2a4badb4ffa6a413a232bbc8637"
+    },
+    {
+      "role": "souvenir",
+      "group": "experiences",
+      "id": "grave-expectations-estate-seal",
+      "name": "estate-seal",
+      "label": "Estate souvenir seal",
+      "file": "estate-seal.svg",
+      "sha256": "e21d9fcbbcce8dece293fd314df62eaf85b66ec2d432a8a0a246620d12a8efd3"
+    },
+    {
+      "role": "raven",
+      "group": "experiences",
+      "id": "grave-expectations-executor-raven",
+      "name": "executor-raven",
+      "label": "Executors raven",
+      "file": "executor-raven.svg",
+      "sha256": "580cb1362facee9367aa0d940518efaba1ebfaedbd9cd7503013ae1b4deb384f"
+    },
+    {
+      "role": "location",
+      "group": "visit",
+      "id": "grave-expectations-estate-gate-pin",
+      "name": "estate-gate-pin",
+      "label": "Estate gate marker",
+      "file": "estate-gate-pin.svg",
+      "sha256": "45c957b12b38867262fec2b785071da35c064106e1dc47c7873f842d4d577344"
+    },
+    {
+      "role": "clock",
+      "group": "visit",
+      "id": "grave-expectations-ancestral-clock",
+      "name": "ancestral-clock",
+      "label": "Ancestral clock",
+      "file": "ancestral-clock.svg",
+      "sha256": "fbce1e2c7f50071ef714ad4fbe04c3757d8b9f47f312a287f54276298abd65a9"
+    },
+    {
+      "role": "calendar",
+      "group": "visit",
+      "id": "grave-expectations-estate-engagements",
+      "name": "estate-engagements",
+      "label": "Estate engagements",
+      "file": "estate-engagements.svg",
+      "sha256": "ba1656d67fae7552ee387ac9c92d07c9d1dd18f6fd8ea0b98c96ad90fe30a904"
+    },
+    {
+      "role": "ticket",
+      "group": "visit",
+      "id": "grave-expectations-estate-admission",
+      "name": "estate-admission",
+      "label": "Estate admission",
+      "file": "estate-admission.svg",
+      "sha256": "e648e8f87965ee7cab8101daeda2fd7a1257c6efb75844b59fbd86699123e83f"
+    },
+    {
+      "role": "parking",
+      "group": "visit",
+      "id": "grave-expectations-estate-valet",
+      "name": "estate-valet",
+      "label": "Estate parking",
+      "file": "estate-valet.svg",
+      "sha256": "d0f4ad7a6bbcfa5f00e6920f3643c336ef8520ae50679326a406c6299d518b0e"
+    },
+    {
+      "role": "accessibility",
+      "group": "visit",
+      "id": "grave-expectations-estate-access",
+      "name": "estate-access",
+      "label": "Estate access",
+      "file": "estate-access.svg",
+      "sha256": "4be114c229a1c67a3c41f86b9e1c40f68e82c6dd2f9edc493e4867e3d6f3b98c"
+    },
+    {
+      "role": "restroom",
+      "group": "visit",
+      "id": "grave-expectations-estate-powder-room",
+      "name": "estate-powder-room",
+      "label": "Estate powder room",
+      "file": "estate-powder-room.svg",
+      "sha256": "7ab96a588c88d25a40d934bdf2b2a776e3a03f80c0be762d86e8f6004071be5b"
+    },
+    {
+      "role": "weather",
+      "group": "visit",
+      "id": "grave-expectations-terrace-umbrella",
+      "name": "terrace-umbrella",
+      "label": "Terrace umbrella",
+      "file": "terrace-umbrella.svg",
+      "sha256": "1a9a0996f880d2f93b873a586dc6bf24827e790db71eec38edddb4cb39a7ee1f"
+    },
+    {
+      "role": "map",
+      "group": "visit",
+      "id": "grave-expectations-estate-survey",
+      "name": "estate-survey",
+      "label": "Estate survey map",
+      "file": "estate-survey.svg",
+      "sha256": "ddaca07767282be3201e37f6dc49bb911d5820dbe727cca958036f6748fe77f1"
+    },
+    {
+      "role": "phone",
+      "group": "visit",
+      "id": "grave-expectations-estate-handset",
+      "name": "estate-handset",
+      "label": "Estate telephone",
+      "file": "estate-handset.svg",
+      "sha256": "fc7f0c335fb30c8b972a2b8e163068ab2d0b40206fc2d2a43eecd3025fd94ef1"
+    },
+    {
+      "role": "email",
+      "group": "visit",
+      "id": "grave-expectations-wax-sealed-envelope",
+      "name": "wax-sealed-envelope",
+      "label": "Wax sealed letter",
+      "file": "wax-sealed-envelope.svg",
+      "sha256": "7e6d6fd3c2486154e5937daf31a2189283e090b31940a9b330691222ee2597a6"
+    },
+    {
+      "role": "camera",
+      "group": "visit",
+      "id": "grave-expectations-estate-camera",
+      "name": "estate-camera",
+      "label": "Estate portrait camera",
+      "file": "estate-camera.svg",
+      "sha256": "64670e49dc60ed89e6804dd2428e1f524cb1e9a806c1b2da44736656305bad16"
+    },
+    {
+      "role": "plan",
+      "group": "actions",
+      "id": "grave-expectations-engagement-ledger",
+      "name": "engagement-ledger",
+      "label": "Engagement ledger",
+      "file": "engagement-ledger.svg",
+      "sha256": "24709a6c362338d1ca1f54f511fc98378790d92b2bbade99276deaa1de1be2f7"
+    },
+    {
+      "role": "save",
+      "group": "actions",
+      "id": "grave-expectations-estate-bookmark",
+      "name": "estate-bookmark",
+      "label": "Estate bookmark",
+      "file": "estate-bookmark.svg",
+      "sha256": "76d42ea2a13bc8148769ef78ec76434ef55bf2a9d254b4d9619d81b65bc953b7"
+    },
+    {
+      "role": "download",
+      "group": "actions",
+      "id": "grave-expectations-estate-tray-download",
+      "name": "estate-tray-download",
+      "label": "Download to silver tray",
+      "file": "estate-tray-download.svg",
+      "sha256": "7b709cb51e64cc4e8453636e7507b7bf59f9e67dae07d8af507cab24ed715763"
+    },
+    {
+      "role": "print",
+      "group": "actions",
+      "id": "grave-expectations-estate-printing-press",
+      "name": "estate-printing-press",
+      "label": "Estate printing press",
+      "file": "estate-printing-press.svg",
+      "sha256": "c017a33e416eb385fd1068a7d66966dab7cccb75ae55c13f3b6beec56c30dcea"
+    },
+    {
+      "role": "share",
+      "group": "actions",
+      "id": "grave-expectations-estate-dispatch",
+      "name": "estate-dispatch",
+      "label": "Estate dispatch",
+      "file": "estate-dispatch.svg",
+      "sha256": "896635c6a78d9ce8b7eccdb996753d4c7d8daece83ca7e0e628d3b72c0393352"
+    },
+    {
+      "role": "info",
+      "group": "actions",
+      "id": "grave-expectations-estate-monogram-info",
+      "name": "estate-monogram-info",
+      "label": "Estate information",
+      "file": "estate-monogram-info.svg",
+      "sha256": "e52898559e1ad5620ff7d9286a7b9662d71f8383781ddc5f5755f76b55bcd1ac"
+    },
+    {
+      "role": "close",
+      "group": "actions",
+      "id": "grave-expectations-estate-saltire",
+      "name": "estate-saltire",
+      "label": "Close estate panel",
+      "file": "estate-saltire.svg",
+      "sha256": "2f60deafe533977a94bb2d0662f9f065b2268f6bc223f6df7dbade919288e618"
+    },
+    {
+      "role": "arrow",
+      "group": "actions",
+      "id": "grave-expectations-estate-direction",
+      "name": "estate-direction",
+      "label": "Estate direction",
+      "file": "estate-direction.svg",
+      "sha256": "cd526d1567d71211e4cd9397a6805836465b7f40c4b038ea4aec15df24432840"
+    },
+    {
+      "role": "oven",
+      "group": "house",
+      "id": "grave-expectations-estate-range",
+      "name": "estate-range",
+      "label": "Estate kitchen range",
+      "file": "estate-range.svg",
+      "sha256": "b2ac0f65515781bda5d5de13f72771ab1e65c65b028bf967e5a0024b8b9113e6"
+    },
+    {
+      "role": "grill",
+      "group": "house",
+      "id": "grave-expectations-steak-grill",
+      "name": "steak-grill",
+      "label": "Estate steak grill",
+      "file": "steak-grill.svg",
+      "sha256": "72d0e6e9fc5723a0de2619968427233c720b50622ea5f3fd4fd6699cbec4e637"
+    },
+    {
+      "role": "coffee",
+      "group": "house",
+      "id": "grave-expectations-demitasse",
+      "name": "demitasse",
+      "label": "Estate demitasse",
+      "file": "demitasse.svg",
+      "sha256": "66c062bf223058ee2306bde21cf3cac75ac566d3e732ca641f2cec3565da760c"
+    },
+    {
+      "role": "music",
+      "group": "house",
+      "id": "grave-expectations-estate-gramophone",
+      "name": "estate-gramophone",
+      "label": "Estate gramophone",
+      "file": "estate-gramophone.svg",
+      "sha256": "710b10a3db4c301d9d4c34829218f078310f8ff3aeb97b8f21c29e8e5a5f78cf"
+    }
+  ]
+}

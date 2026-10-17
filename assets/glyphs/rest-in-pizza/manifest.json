@@ -1,0 +1,529 @@
+{
+  "format": "property-svg-glyph-library",
+  "version": 2,
+  "propertyId": "rest-in-pizza",
+  "name": "Rest in Pizza",
+  "count": 48,
+  "viewBox": "0 0 24 24",
+  "strokeWidth": 1.5,
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & atmosphere",
+      "roles": [
+        "season",
+        "dining",
+        "night",
+        "signature",
+        "garden",
+        "day",
+        "welcome"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "Food & drinks",
+      "roles": [
+        "menu",
+        "bites",
+        "dessert",
+        "drinks",
+        "vegetarian",
+        "spicy",
+        "alcohol",
+        "zeroProof"
+      ]
+    },
+    {
+      "id": "experiences",
+      "label": "Experiences & collection",
+      "roles": [
+        "trail",
+        "collection",
+        "story",
+        "ghost",
+        "key",
+        "postcard",
+        "badge",
+        "souvenir",
+        "raven"
+      ]
+    },
+    {
+      "id": "visit",
+      "label": "Visitor information",
+      "roles": [
+        "location",
+        "clock",
+        "calendar",
+        "ticket",
+        "parking",
+        "accessibility",
+        "restroom",
+        "weather",
+        "map",
+        "phone",
+        "email",
+        "camera"
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Actions & navigation",
+      "roles": [
+        "plan",
+        "save",
+        "download",
+        "print",
+        "share",
+        "info",
+        "close",
+        "arrow"
+      ]
+    },
+    {
+      "id": "house",
+      "label": "House details",
+      "roles": [
+        "oven",
+        "grill",
+        "coffee",
+        "music"
+      ]
+    }
+  ],
+  "glyphs": [
+    {
+      "role": "season",
+      "group": "identity",
+      "id": "rest-in-pizza-haunted-oven",
+      "name": "haunted-oven",
+      "label": "Haunted brick oven",
+      "file": "haunted-oven.svg",
+      "sha256": "c2c9afc598daf1abab1a91195df8849212c892ca4880f164b31462ed18f59c31"
+    },
+    {
+      "role": "dining",
+      "group": "identity",
+      "id": "rest-in-pizza-pizza-peel",
+      "name": "pizza-peel",
+      "label": "Pizza on a peel",
+      "file": "pizza-peel.svg",
+      "sha256": "2fa572c91ee3e42005bbd84911a73aa190bb1d4e767b6731fd99a1d7dd1376d2"
+    },
+    {
+      "role": "night",
+      "group": "identity",
+      "id": "rest-in-pizza-night-shift-ghost",
+      "name": "night-shift-ghost",
+      "label": "Night shift ghost",
+      "file": "night-shift-ghost.svg",
+      "sha256": "f4521f4de2f351b12b21dd42549fa1fd36d115ab39d0afa0aea269fbc62a57df"
+    },
+    {
+      "role": "signature",
+      "group": "identity",
+      "id": "rest-in-pizza-pizza-rosette",
+      "name": "pizza-rosette",
+      "label": "Pizzeria rosette",
+      "file": "pizza-rosette.svg",
+      "sha256": "8f7fa8efa3fe2653a6bffed99d6c25e648d46729225a99788c3d063bfa2bbdbb"
+    },
+    {
+      "role": "garden",
+      "group": "identity",
+      "id": "rest-in-pizza-basil-pot",
+      "name": "basil-pot",
+      "label": "Courtyard basil",
+      "file": "basil-pot.svg",
+      "sha256": "d576033ad36f54eaa19a07a7ec6ff453b094463d183a38978974e0daadbc9c36"
+    },
+    {
+      "role": "day",
+      "group": "identity",
+      "id": "rest-in-pizza-awning-sun",
+      "name": "awning-sun",
+      "label": "Morning at the pizzeria",
+      "file": "awning-sun.svg",
+      "sha256": "ed8fa85fccc2e72a7689ac45e729a32b1438f0312046f850d5f5e4f34bf40f77"
+    },
+    {
+      "role": "welcome",
+      "group": "identity",
+      "id": "rest-in-pizza-oven-mitt-heart",
+      "name": "oven-mitt-heart",
+      "label": "Made with hospitality",
+      "file": "oven-mitt-heart.svg",
+      "sha256": "3eb1f3e474d88c73ddcc2a6b0cae7f12a43c09dcd55cc489315a890129f65201"
+    },
+    {
+      "role": "menu",
+      "group": "menu",
+      "id": "rest-in-pizza-gingham-menu",
+      "name": "gingham-menu",
+      "label": "Pizzeria menu",
+      "file": "gingham-menu.svg",
+      "sha256": "e9933908a8a8b4e3b8dea2f88daad68f6566f3f5ffc6a54ff5331203d63328ea"
+    },
+    {
+      "role": "bites",
+      "group": "menu",
+      "id": "rest-in-pizza-garlic-knot",
+      "name": "garlic-knot",
+      "label": "Garlic knot",
+      "file": "garlic-knot.svg",
+      "sha256": "2cc1bea041ebb745eb8f468769d523bfc4099906e3802102b9d58e57ac829e2d"
+    },
+    {
+      "role": "dessert",
+      "group": "menu",
+      "id": "rest-in-pizza-cannoli",
+      "name": "cannoli",
+      "label": "Dearly departed cannoli",
+      "file": "cannoli.svg",
+      "sha256": "fc388ee2b9d6661c59d916a1eb928194642232b97754886ecdf3be9d973cdb48"
+    },
+    {
+      "role": "drinks",
+      "group": "menu",
+      "id": "rest-in-pizza-soda-fountain",
+      "name": "soda-fountain",
+      "label": "Blood orange soda",
+      "file": "soda-fountain.svg",
+      "sha256": "bfec098cb7b8abb7f3260672a70cffdeca12dc601dccbfcf223d330f7c1dca26"
+    },
+    {
+      "role": "vegetarian",
+      "group": "menu",
+      "id": "rest-in-pizza-basil-pizza",
+      "name": "basil-pizza",
+      "label": "Basil pizza",
+      "file": "basil-pizza.svg",
+      "sha256": "4a7899baeebc4c6a1536e74a26d0ebcdf952805c2984ab8a361fb95eba45b689"
+    },
+    {
+      "role": "spicy",
+      "group": "menu",
+      "id": "rest-in-pizza-calabrian-pepper",
+      "name": "calabrian-pepper",
+      "label": "Calabrian pepper",
+      "file": "calabrian-pepper.svg",
+      "sha256": "3a4faa2506007589cde6599d73d8ae4bc1d856008f0dc42a148de0a55ad66074"
+    },
+    {
+      "role": "alcohol",
+      "group": "menu",
+      "id": "rest-in-pizza-pizza-lager",
+      "name": "pizza-lager",
+      "label": "Dead mans draft",
+      "file": "pizza-lager.svg",
+      "sha256": "a1dd7f5a09fbd3888854d9ea54747c8ee1b5164304ff6698c90d8923b07cd9f5"
+    },
+    {
+      "role": "zeroProof",
+      "group": "menu",
+      "id": "rest-in-pizza-citrus-soda",
+      "name": "citrus-soda",
+      "label": "Soft landing soda",
+      "file": "citrus-soda.svg",
+      "sha256": "eecab4b817db856b060c4e847cec37046b9478fded259bdca3469a52c41d7c6b"
+    },
+    {
+      "role": "trail",
+      "group": "experiences",
+      "id": "rest-in-pizza-rising-garden-gate",
+      "name": "rising-garden-gate",
+      "label": "Rising garden gate",
+      "file": "rising-garden-gate.svg",
+      "sha256": "3d082145dbc1198dd3cb7e1ab98b42d26c6d1fbb14159141da0ec92753320f7a"
+    },
+    {
+      "role": "collection",
+      "group": "experiences",
+      "id": "rest-in-pizza-lost-found-drawer",
+      "name": "lost-found-drawer",
+      "label": "Lost and found drawer",
+      "file": "lost-found-drawer.svg",
+      "sha256": "e87de9930b3297e247e26b526a58ce6974b437113117e0a59f17db29b90bbe36"
+    },
+    {
+      "role": "story",
+      "group": "experiences",
+      "id": "rest-in-pizza-founder-portrait",
+      "name": "founder-portrait",
+      "label": "Founders portrait",
+      "file": "founder-portrait.svg",
+      "sha256": "1e654c20126eff3187ec608a5e60406095ff0cbce4b063b2f0a22869f4ffd191"
+    },
+    {
+      "role": "ghost",
+      "group": "experiences",
+      "id": "rest-in-pizza-former-manager",
+      "name": "former-manager",
+      "label": "Former manager ghost",
+      "file": "former-manager.svg",
+      "sha256": "87153d4cc14d748e6ff90ee1149ef823c51af97f7d9df5d2b4fca00be04be62d"
+    },
+    {
+      "role": "key",
+      "group": "experiences",
+      "id": "rest-in-pizza-cellar-tag-key",
+      "name": "cellar-tag-key",
+      "label": "Cellar key tag",
+      "file": "cellar-tag-key.svg",
+      "sha256": "317bc63f3d13c95075a16736a894e44e52c40fce4c5d136e6403cfc60b63439a"
+    },
+    {
+      "role": "postcard",
+      "group": "experiences",
+      "id": "rest-in-pizza-previous-owner-card",
+      "name": "previous-owner-card",
+      "label": "Previous owners card",
+      "file": "previous-owner-card.svg",
+      "sha256": "f8a72f8f63751aa521e323665a0c579248e277615cbc9f856c978b32bb5902eb"
+    },
+    {
+      "role": "badge",
+      "group": "experiences",
+      "id": "rest-in-pizza-staff-pumpkin",
+      "name": "staff-pumpkin",
+      "label": "Pumpkin staff badge",
+      "file": "staff-pumpkin.svg",
+      "sha256": "65ce558fbb4a590a9b1d1352803e8cd844e4b2678fa96316eeac7fd4cf970d76"
+    },
+    {
+      "role": "souvenir",
+      "group": "experiences",
+      "id": "rest-in-pizza-unsettled-receipt",
+      "name": "unsettled-receipt",
+      "label": "Unsettled tab",
+      "file": "unsettled-receipt.svg",
+      "sha256": "137cae26e70e1be72088c26e7c6c53c11f64a796ec033e5791e469e691728ef5"
+    },
+    {
+      "role": "raven",
+      "group": "experiences",
+      "id": "rest-in-pizza-receipt-raven",
+      "name": "receipt-raven",
+      "label": "Raven with receipt",
+      "file": "receipt-raven.svg",
+      "sha256": "531425ab3c22538ca43d552e7bf506d0888dbf94a87ffb88a8ce4680d48c77b8"
+    },
+    {
+      "role": "location",
+      "group": "visit",
+      "id": "rest-in-pizza-awning-pin",
+      "name": "awning-pin",
+      "label": "Pizzeria location",
+      "file": "awning-pin.svg",
+      "sha256": "1d5ecf52a9f70b4997ddf0ad8571f2121d2c0e514698a1047d9f961e34feaee7"
+    },
+    {
+      "role": "clock",
+      "group": "visit",
+      "id": "rest-in-pizza-kitchen-timer",
+      "name": "kitchen-timer",
+      "label": "Kitchen timer",
+      "file": "kitchen-timer.svg",
+      "sha256": "4b4888296a3ee56acea42ee043765809485010a6b8709122e20e5b5f6d837ba9"
+    },
+    {
+      "role": "calendar",
+      "group": "visit",
+      "id": "rest-in-pizza-delivery-calendar",
+      "name": "delivery-calendar",
+      "label": "Pizzeria calendar",
+      "file": "delivery-calendar.svg",
+      "sha256": "49b3302b73030330b6dfef02ce749923530b3af810c8ddb2cc8842f3f80e6bb2"
+    },
+    {
+      "role": "ticket",
+      "group": "visit",
+      "id": "rest-in-pizza-pizza-stub",
+      "name": "pizza-stub",
+      "label": "Pizzeria ticket",
+      "file": "pizza-stub.svg",
+      "sha256": "20c85547fdf3e171c0f1201ccc3fafad4e0178ee2123dbb38cde05012b28ca79"
+    },
+    {
+      "role": "parking",
+      "group": "visit",
+      "id": "rest-in-pizza-delivery-parking",
+      "name": "delivery-parking",
+      "label": "Pizzeria parking",
+      "file": "delivery-parking.svg",
+      "sha256": "5aba5251e2597f21ed3ac7ab9057672cdeee010fb67d2a58c5c4a8f017052aef"
+    },
+    {
+      "role": "accessibility",
+      "group": "visit",
+      "id": "rest-in-pizza-courtyard-access",
+      "name": "courtyard-access",
+      "label": "Courtyard access",
+      "file": "courtyard-access.svg",
+      "sha256": "8f9f15dbcc7111b3e5c7cc7baff7f668743ee93f9b7b453e559ff70cbe5893ab"
+    },
+    {
+      "role": "restroom",
+      "group": "visit",
+      "id": "rest-in-pizza-pizzeria-washroom",
+      "name": "pizzeria-washroom",
+      "label": "Pizzeria washroom",
+      "file": "pizzeria-washroom.svg",
+      "sha256": "94a465867e80cf2f6e14e27feb37c7f8c727a1c68c71447b975701565ceb4806"
+    },
+    {
+      "role": "weather",
+      "group": "visit",
+      "id": "rest-in-pizza-rainy-awning",
+      "name": "rainy-awning",
+      "label": "Rainy day awning",
+      "file": "rainy-awning.svg",
+      "sha256": "74240765c2304d5c54d6aaba4a87e8ec3ff321bcd5e12d03692564608b2cef96"
+    },
+    {
+      "role": "map",
+      "group": "visit",
+      "id": "rest-in-pizza-parlor-floorplan",
+      "name": "parlor-floorplan",
+      "label": "Pizzeria floor plan",
+      "file": "parlor-floorplan.svg",
+      "sha256": "ff98b4b59d2d6beb949b7af1cba633bba599b885f51455b0233ac56e5efa0541"
+    },
+    {
+      "role": "phone",
+      "group": "visit",
+      "id": "rest-in-pizza-pizza-phone",
+      "name": "pizza-phone",
+      "label": "Pizzeria phone",
+      "file": "pizza-phone.svg",
+      "sha256": "50c26954c471eee78529f41a4229a1546f758437a0ebeee9d690aebfa5f4a04a"
+    },
+    {
+      "role": "email",
+      "group": "visit",
+      "id": "rest-in-pizza-order-envelope",
+      "name": "order-envelope",
+      "label": "Pizzeria envelope",
+      "file": "order-envelope.svg",
+      "sha256": "0304152c1baa5fba91dce332fa7478296633a65f532d7776a6e278f5de0d74f8"
+    },
+    {
+      "role": "camera",
+      "group": "visit",
+      "id": "rest-in-pizza-photo-booth",
+      "name": "photo-booth",
+      "label": "Pizzeria photo booth",
+      "file": "photo-booth.svg",
+      "sha256": "f2686e10b5d13238b13bc0bcc988b29d3fd20b7508e9d073a784909b3accc7dc"
+    },
+    {
+      "role": "plan",
+      "group": "actions",
+      "id": "rest-in-pizza-order-pad",
+      "name": "order-pad",
+      "label": "Pizzeria visit pad",
+      "file": "order-pad.svg",
+      "sha256": "7f0e183c1dfde43a5dad2927ebfa0191d9e297b7f93cd6cdefb3331524773976"
+    },
+    {
+      "role": "save",
+      "group": "actions",
+      "id": "rest-in-pizza-recipe-bookmark",
+      "name": "recipe-bookmark",
+      "label": "Save the recipe",
+      "file": "recipe-bookmark.svg",
+      "sha256": "00a62e607e230c45b332a600d43d5a3e7555d5d0e4bf9cb4015ddad7f51436b5"
+    },
+    {
+      "role": "download",
+      "group": "actions",
+      "id": "rest-in-pizza-takeaway-download",
+      "name": "takeaway-download",
+      "label": "Takeaway download",
+      "file": "takeaway-download.svg",
+      "sha256": "9f903a3470bb9496f7b3d3696c6a689e8ad81227b03f8b0b18236a76f06d04e1"
+    },
+    {
+      "role": "print",
+      "group": "actions",
+      "id": "rest-in-pizza-receipt-printer",
+      "name": "receipt-printer",
+      "label": "Receipt printer",
+      "file": "receipt-printer.svg",
+      "sha256": "540dd695616995c509828677cb40df4e121b77139bbef4e72ed5ef507dc3b981"
+    },
+    {
+      "role": "share",
+      "group": "actions",
+      "id": "rest-in-pizza-pass-the-slice",
+      "name": "pass-the-slice",
+      "label": "Pass the slice",
+      "file": "pass-the-slice.svg",
+      "sha256": "60ac43d4947fda03bed1469f7403b2f614c808e861e5bf701695445ce61bc9e8"
+    },
+    {
+      "role": "info",
+      "group": "actions",
+      "id": "rest-in-pizza-chalkboard-info",
+      "name": "chalkboard-info",
+      "label": "Chalkboard information",
+      "file": "chalkboard-info.svg",
+      "sha256": "6d5ccf65d6f67df87947d0361b266ac9c4503a995c1ea2d84fae572a8c646379"
+    },
+    {
+      "role": "close",
+      "group": "actions",
+      "id": "rest-in-pizza-peel-cross",
+      "name": "peel-cross",
+      "label": "Close pizzeria panel",
+      "file": "peel-cross.svg",
+      "sha256": "1e363dfbffc8a0fdf936e007320305ee0657c0b2f66669b801c0c2e5b2b23b04"
+    },
+    {
+      "role": "arrow",
+      "group": "actions",
+      "id": "rest-in-pizza-delivery-arrow",
+      "name": "delivery-arrow",
+      "label": "Pizzeria direction",
+      "file": "delivery-arrow.svg",
+      "sha256": "f4052c36a6a44df4b3415ed3b6dd11b534c8f927a6270d649fb32cd3f6daa67d"
+    },
+    {
+      "role": "oven",
+      "group": "house",
+      "id": "rest-in-pizza-brick-dome",
+      "name": "brick-dome",
+      "label": "Brick dome oven",
+      "file": "brick-dome.svg",
+      "sha256": "ad2a52b1c81aa0fa5bfa7aaba3407b01ec75c0b7e7a4830e5a61308b70487d4d"
+    },
+    {
+      "role": "grill",
+      "group": "house",
+      "id": "rest-in-pizza-pizza-oven-grate",
+      "name": "pizza-oven-grate",
+      "label": "Pizzeria oven grate",
+      "file": "pizza-oven-grate.svg",
+      "sha256": "1adab8bf7d7fd30b78b63a3dc306394c1dda4827eec14f8c82ba7c79dadbc59f"
+    },
+    {
+      "role": "coffee",
+      "group": "house",
+      "id": "rest-in-pizza-espresso-cup",
+      "name": "espresso-cup",
+      "label": "Wake up espresso",
+      "file": "espresso-cup.svg",
+      "sha256": "f17a487cdadbab2cdcec6395fa5d0748e0906a7333dce20b2698893f74bd8da2"
+    },
+    {
+      "role": "music",
+      "group": "house",
+      "id": "rest-in-pizza-jukebox",
+      "name": "jukebox",
+      "label": "Pizzeria jukebox",
+      "file": "jukebox.svg",
+      "sha256": "08dd41b18a67dec3116b22914e32d56c29bcaf898abccf11e04034c8e5f205f8"
+    }
+  ]
+}

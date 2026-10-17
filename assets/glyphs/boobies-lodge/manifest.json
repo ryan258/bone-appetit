@@ -1,0 +1,529 @@
+{
+  "format": "property-svg-glyph-library",
+  "version": 2,
+  "propertyId": "boobies-lodge",
+  "name": "BooBies Lodge",
+  "count": 48,
+  "viewBox": "0 0 24 24",
+  "strokeWidth": 1.5,
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & atmosphere",
+      "roles": [
+        "season",
+        "dining",
+        "night",
+        "signature",
+        "garden",
+        "day",
+        "welcome"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "Food & drinks",
+      "roles": [
+        "menu",
+        "bites",
+        "dessert",
+        "drinks",
+        "vegetarian",
+        "spicy",
+        "alcohol",
+        "zeroProof"
+      ]
+    },
+    {
+      "id": "experiences",
+      "label": "Experiences & collection",
+      "roles": [
+        "trail",
+        "collection",
+        "story",
+        "ghost",
+        "key",
+        "postcard",
+        "badge",
+        "souvenir",
+        "raven"
+      ]
+    },
+    {
+      "id": "visit",
+      "label": "Visitor information",
+      "roles": [
+        "location",
+        "clock",
+        "calendar",
+        "ticket",
+        "parking",
+        "accessibility",
+        "restroom",
+        "weather",
+        "map",
+        "phone",
+        "email",
+        "camera"
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Actions & navigation",
+      "roles": [
+        "plan",
+        "save",
+        "download",
+        "print",
+        "share",
+        "info",
+        "close",
+        "arrow"
+      ]
+    },
+    {
+      "id": "house",
+      "label": "House details",
+      "roles": [
+        "oven",
+        "grill",
+        "coffee",
+        "music"
+      ]
+    }
+  ],
+  "glyphs": [
+    {
+      "role": "season",
+      "group": "identity",
+      "id": "boobies-lodge-antler-pumpkin",
+      "name": "antler-pumpkin",
+      "label": "Antler pumpkin",
+      "file": "antler-pumpkin.svg",
+      "sha256": "e41c4384bb81c6975600ed3a7c3043357ed7ff83b8060ab7fa85d8e18a2a15ee"
+    },
+    {
+      "role": "dining",
+      "group": "identity",
+      "id": "boobies-lodge-smoked-rack",
+      "name": "smoked-rack",
+      "label": "Smoked rib rack",
+      "file": "smoked-rack.svg",
+      "sha256": "81576257bd5f200fd93756eb5cec33100c9b03ad313d976e8b9549eb01fd295e"
+    },
+    {
+      "role": "night",
+      "group": "identity",
+      "id": "boobies-lodge-monster-scoreboard",
+      "name": "monster-scoreboard",
+      "label": "Monster game night",
+      "file": "monster-scoreboard.svg",
+      "sha256": "39dd182df9bdbe9b56a9fe123d8b4105e99ef0caf1d3c3d0ab2b9ae7a475aba9"
+    },
+    {
+      "role": "signature",
+      "group": "identity",
+      "id": "boobies-lodge-timber-lodge",
+      "name": "timber-lodge",
+      "label": "Timber lodge",
+      "file": "timber-lodge.svg",
+      "sha256": "702f60174003aa0641a5084b344b0d321d084717c8a7b485fb87c9b440dafef4"
+    },
+    {
+      "role": "garden",
+      "group": "identity",
+      "id": "boobies-lodge-lodge-pine",
+      "name": "lodge-pine",
+      "label": "Lodge pine",
+      "file": "lodge-pine.svg",
+      "sha256": "7ce247451a96c4c1c12bbb6db0de9ed9dc7f210fc26b40a82c79fcc5621b6010"
+    },
+    {
+      "role": "day",
+      "group": "identity",
+      "id": "boobies-lodge-ridge-sunrise",
+      "name": "ridge-sunrise",
+      "label": "Sunrise over the ridge",
+      "file": "ridge-sunrise.svg",
+      "sha256": "4a3d8f7e43e7deb33be19fb930f14291a255acb51bff18eb33c212ff488c9fe1"
+    },
+    {
+      "role": "welcome",
+      "group": "identity",
+      "id": "boobies-lodge-cheers-heart",
+      "name": "cheers-heart",
+      "label": "Lodge hospitality",
+      "file": "cheers-heart.svg",
+      "sha256": "c1f72165d812ceb90bb944ec2162bb42fd7b224074e8a6b48afece376ee4e190"
+    },
+    {
+      "role": "menu",
+      "group": "menu",
+      "id": "boobies-lodge-timber-menu",
+      "name": "timber-menu",
+      "label": "Timber menu board",
+      "file": "timber-menu.svg",
+      "sha256": "bd8bc6ff050c27b65f0ac23c96d232f9ebbe52cc732d121329a9e2c74bb9096b"
+    },
+    {
+      "role": "bites",
+      "group": "menu",
+      "id": "boobies-lodge-loaded-nachos",
+      "name": "loaded-nachos",
+      "label": "Loaded nachos",
+      "file": "loaded-nachos.svg",
+      "sha256": "5d84dd22cc28182b9091e369e0545d2058adbb6a9b138a273c51578fe10fd39d"
+    },
+    {
+      "role": "dessert",
+      "group": "menu",
+      "id": "boobies-lodge-lodge-brownie",
+      "name": "lodge-brownie",
+      "label": "Afterlife brownie",
+      "file": "lodge-brownie.svg",
+      "sha256": "8bdebcb2045074b39e5077064c19bfc2379f67f3fe8fb1d76dd30961c454f73e"
+    },
+    {
+      "role": "drinks",
+      "group": "menu",
+      "id": "boobies-lodge-frosty-lodge-mug",
+      "name": "frosty-lodge-mug",
+      "label": "Frosty lodge mug",
+      "file": "frosty-lodge-mug.svg",
+      "sha256": "62bfdfa3f5432a098c1f26d923979d6d65255777e72b99b4dddd12e63504cc63"
+    },
+    {
+      "role": "vegetarian",
+      "group": "menu",
+      "id": "boobies-lodge-lodge-veggie-burger",
+      "name": "lodge-veggie-burger",
+      "label": "Lodge veggie burger",
+      "file": "lodge-veggie-burger.svg",
+      "sha256": "02edb57c76170c4b7c08e6f7adf2f0ecf322ac634491c93b79c2f59be72379a1"
+    },
+    {
+      "role": "spicy",
+      "group": "menu",
+      "id": "boobies-lodge-smokehouse-heat",
+      "name": "smokehouse-heat",
+      "label": "Smokehouse heat",
+      "file": "smokehouse-heat.svg",
+      "sha256": "77a45a2730825f2685e92b999b1f4bf0fc89d9c21b3892405b71820e5d459d23"
+    },
+    {
+      "role": "alcohol",
+      "group": "menu",
+      "id": "boobies-lodge-cold-draft-tap",
+      "name": "cold-draft-tap",
+      "label": "Cold draft tap",
+      "file": "cold-draft-tap.svg",
+      "sha256": "a7ecb95dd8f27bf7cd6583e193020adcb0058b73c2c20450e0faf70c04cf7334"
+    },
+    {
+      "role": "zeroProof",
+      "group": "menu",
+      "id": "boobies-lodge-designated-monster",
+      "name": "designated-monster",
+      "label": "Designated monster soda",
+      "file": "designated-monster.svg",
+      "sha256": "856e5a590b4ba4e8b24225d44390b6f8cb32874b35f7ba31e3951bc51a4f2423"
+    },
+    {
+      "role": "trail",
+      "group": "experiences",
+      "id": "boobies-lodge-beer-garden-trail",
+      "name": "beer-garden-trail",
+      "label": "Beer garden trail",
+      "file": "beer-garden-trail.svg",
+      "sha256": "e4873d943e4226190cbdf89a4489829ee8fd30d2f20ae83a4aa4d2ef9d7cd3e9"
+    },
+    {
+      "role": "collection",
+      "group": "experiences",
+      "id": "boobies-lodge-trophy-case",
+      "name": "trophy-case",
+      "label": "Trophy crypt case",
+      "file": "trophy-case.svg",
+      "sha256": "5a72dd8472a75eb07cd222d7aa4c687a8bee5a554e622cfe5e1314f576637ac7"
+    },
+    {
+      "role": "story",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-logbook",
+      "name": "lodge-logbook",
+      "label": "Lodge logbook",
+      "file": "lodge-logbook.svg",
+      "sha256": "a2fa5b2b3c90aeb0f612649520c14ff9489188faa3db58494ec419af75092686"
+    },
+    {
+      "role": "ghost",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-host-ghost",
+      "name": "lodge-host-ghost",
+      "label": "Lodge host ghost",
+      "file": "lodge-host-ghost.svg",
+      "sha256": "53417410e38992d7adabded78e7cce8bda2dc11beaf8c0070f586f558afef1af"
+    },
+    {
+      "role": "key",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-cellar-key",
+      "name": "lodge-cellar-key",
+      "label": "Lodge cellar key",
+      "file": "lodge-cellar-key.svg",
+      "sha256": "756d8bdeb4d30536110a6359e61dfde629547cb6e7348263e167aa6878f652f6"
+    },
+    {
+      "role": "postcard",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-postcard",
+      "name": "lodge-postcard",
+      "label": "Lodge postcard",
+      "file": "lodge-postcard.svg",
+      "sha256": "65b84e1f0e72f1b0f4305426decb9bc355bd607a9b2a71464ef5c4c82d74f1de"
+    },
+    {
+      "role": "badge",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-pumpkin-pin",
+      "name": "lodge-pumpkin-pin",
+      "label": "Lodge pumpkin pin",
+      "file": "lodge-pumpkin-pin.svg",
+      "sha256": "c5a922ebe1f744fa926748438024660661187a1907cdc766039ed7a09b5d0f15"
+    },
+    {
+      "role": "souvenir",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-tab-magnet",
+      "name": "lodge-tab-magnet",
+      "label": "Lodge tab magnet",
+      "file": "lodge-tab-magnet.svg",
+      "sha256": "9b84e21061ff93cb2929bd95e8471ee82c6377588b49126aa4c07589615180e1"
+    },
+    {
+      "role": "raven",
+      "group": "experiences",
+      "id": "boobies-lodge-lodge-scorekeeper",
+      "name": "lodge-scorekeeper",
+      "label": "Lodge scorekeeper raven",
+      "file": "lodge-scorekeeper.svg",
+      "sha256": "038a4c3d7e855c563eb820ec4a7839a87d349d678d1d6bc52adfe71dee5eb1ce"
+    },
+    {
+      "role": "location",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-trail-marker",
+      "name": "lodge-trail-marker",
+      "label": "Lodge trail marker",
+      "file": "lodge-trail-marker.svg",
+      "sha256": "c5a46ac44a2460b2cebdc18fcd9f152f821cc88713dd48a6fd4293dedd168dd6"
+    },
+    {
+      "role": "clock",
+      "group": "visit",
+      "id": "boobies-lodge-scoreboard-clock",
+      "name": "scoreboard-clock",
+      "label": "Scoreboard clock",
+      "file": "scoreboard-clock.svg",
+      "sha256": "f84209bf58d21bde22f70142fc1e61905e092fdc6ac70f6db5a8934d2ca2637c"
+    },
+    {
+      "role": "calendar",
+      "group": "visit",
+      "id": "boobies-lodge-game-day-calendar",
+      "name": "game-day-calendar",
+      "label": "Game day calendar",
+      "file": "game-day-calendar.svg",
+      "sha256": "e52da9348d9ea16935290eb16534871872aac2403ad9bc7c76ff490801597eb0"
+    },
+    {
+      "role": "ticket",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-game-ticket",
+      "name": "lodge-game-ticket",
+      "label": "Lodge game ticket",
+      "file": "lodge-game-ticket.svg",
+      "sha256": "6e805353dcb9e4f7945c84b6034b3ef8ac3ee4efa9bba6f90750fe86b3fcdfb0"
+    },
+    {
+      "role": "parking",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-parking-post",
+      "name": "lodge-parking-post",
+      "label": "Lodge parking post",
+      "file": "lodge-parking-post.svg",
+      "sha256": "0a8f307fe349c07d23108c202723a93eb0ac94d418c38daae842191818a5b757"
+    },
+    {
+      "role": "accessibility",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-level-access",
+      "name": "lodge-level-access",
+      "label": "Lodge level access",
+      "file": "lodge-level-access.svg",
+      "sha256": "3a6ae0c286f0f8c9e8af52031fd5c5fe8ecb5614582f4bada633b678159b836d"
+    },
+    {
+      "role": "restroom",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-washroom",
+      "name": "lodge-washroom",
+      "label": "Lodge washroom",
+      "file": "lodge-washroom.svg",
+      "sha256": "98fc2ca8fa44ecbd5289b1d49809d4a1a7e19c60cac2a9a19af50240887638cd"
+    },
+    {
+      "role": "weather",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-storm",
+      "name": "lodge-storm",
+      "label": "Lodge storm",
+      "file": "lodge-storm.svg",
+      "sha256": "977e4f782d8bbcab093fc698cfcce877bcad03c39fdf87781915312df922f7b8"
+    },
+    {
+      "role": "map",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-trail-map",
+      "name": "lodge-trail-map",
+      "label": "Lodge trail map",
+      "file": "lodge-trail-map.svg",
+      "sha256": "4898e29ba90dc2cdf14f97b9cd4ff74344bd93cf2dbd3fba4c01427c02dddfae"
+    },
+    {
+      "role": "phone",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-radio-phone",
+      "name": "lodge-radio-phone",
+      "label": "Lodge radio phone",
+      "file": "lodge-radio-phone.svg",
+      "sha256": "95197fdb5abd40992abf06894bd2c703dd00c515d7624ec2f4ee3216698653bf"
+    },
+    {
+      "role": "email",
+      "group": "visit",
+      "id": "boobies-lodge-lodge-mailbag",
+      "name": "lodge-mailbag",
+      "label": "Lodge message",
+      "file": "lodge-mailbag.svg",
+      "sha256": "25cb7a328f56a6104d364ce4a977c267050ac2c38b2e3ba57b8c9f019b50dbc2"
+    },
+    {
+      "role": "camera",
+      "group": "visit",
+      "id": "boobies-lodge-trophy-camera",
+      "name": "trophy-camera",
+      "label": "Trophy camera",
+      "file": "trophy-camera.svg",
+      "sha256": "4e87c2a9c5974422370290a20029daeb089a85aeffe2fcbe02c8bb23ad97125b"
+    },
+    {
+      "role": "plan",
+      "group": "actions",
+      "id": "boobies-lodge-game-plan",
+      "name": "game-plan",
+      "label": "Lodge game plan",
+      "file": "game-plan.svg",
+      "sha256": "d7d0d794fa95ed7fc7d977486af2a09e256e49162f36883402601627a1f7e5b2"
+    },
+    {
+      "role": "save",
+      "group": "actions",
+      "id": "boobies-lodge-lodge-save-tag",
+      "name": "lodge-save-tag",
+      "label": "Save the lodge plan",
+      "file": "lodge-save-tag.svg",
+      "sha256": "aa91d2169c847c9285e1748fbf283a4dc3edf9321f642ef7c8c84f6a5899e68e"
+    },
+    {
+      "role": "download",
+      "group": "actions",
+      "id": "boobies-lodge-lodge-crate-download",
+      "name": "lodge-crate-download",
+      "label": "Download to lodge crate",
+      "file": "lodge-crate-download.svg",
+      "sha256": "aaf40b261d7ebffa7384a4ca09b7a4024accd593da5ec9a124d3ef75a3484102"
+    },
+    {
+      "role": "print",
+      "group": "actions",
+      "id": "boobies-lodge-lodge-ticket-printer",
+      "name": "lodge-ticket-printer",
+      "label": "Lodge ticket printer",
+      "file": "lodge-ticket-printer.svg",
+      "sha256": "77008773d21118ae75bfee9a2104a6dc3db9956c7bcb0680ec1023081f818d89"
+    },
+    {
+      "role": "share",
+      "group": "actions",
+      "id": "boobies-lodge-lodge-pass",
+      "name": "lodge-pass",
+      "label": "Pass along the plan",
+      "file": "lodge-pass.svg",
+      "sha256": "f77dd9945159f5c438dfba2161aab6c2bf677d639b1f9351f5b638af6baa79be"
+    },
+    {
+      "role": "info",
+      "group": "actions",
+      "id": "boobies-lodge-lodge-noticeboard",
+      "name": "lodge-noticeboard",
+      "label": "Lodge noticeboard",
+      "file": "lodge-noticeboard.svg",
+      "sha256": "ece42162e151699f631b294094296f3d84468df29ad59a0d45eda535efbfe2b3"
+    },
+    {
+      "role": "close",
+      "group": "actions",
+      "id": "boobies-lodge-crossed-timbers-close",
+      "name": "crossed-timbers-close",
+      "label": "Close lodge panel",
+      "file": "crossed-timbers-close.svg",
+      "sha256": "2107a9cc00e8ed4e9ef148b2f3a03868376642c8ca8096f233a508412f0b3709"
+    },
+    {
+      "role": "arrow",
+      "group": "actions",
+      "id": "boobies-lodge-trail-sign-arrow",
+      "name": "trail-sign-arrow",
+      "label": "Lodge direction",
+      "file": "trail-sign-arrow.svg",
+      "sha256": "557043e9a380f38c79d0e43cfe940e158137ca216b9010c8261401de81f320a7"
+    },
+    {
+      "role": "oven",
+      "group": "house",
+      "id": "boobies-lodge-lodge-smoker",
+      "name": "lodge-smoker",
+      "label": "Lodge smoker",
+      "file": "lodge-smoker.svg",
+      "sha256": "1cea9471d35634d60304625d46f875418f7bd15bddae9bb8125a53e11f3e391b"
+    },
+    {
+      "role": "grill",
+      "group": "house",
+      "id": "boobies-lodge-smokehouse-barbecue",
+      "name": "smokehouse-barbecue",
+      "label": "Smokehouse barbecue",
+      "file": "smokehouse-barbecue.svg",
+      "sha256": "6d186c6120e56cc5ba37e67200705904c0462b4658ca7748a729b3215b6adc15"
+    },
+    {
+      "role": "coffee",
+      "group": "house",
+      "id": "boobies-lodge-camp-mug",
+      "name": "camp-mug",
+      "label": "Lodge camp coffee",
+      "file": "camp-mug.svg",
+      "sha256": "b44f0d915848144a673d740e20fabbfdd634fe337ee885c278eb29b6be73e558"
+    },
+    {
+      "role": "music",
+      "group": "house",
+      "id": "boobies-lodge-lodge-speaker",
+      "name": "lodge-speaker",
+      "label": "Lodge speaker",
+      "file": "lodge-speaker.svg",
+      "sha256": "2c381a043d2c8eccf1d9b544709d2dd5bf582402687a49a7ec862bd56ef29563"
+    }
+  ]
+}

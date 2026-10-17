@@ -1,0 +1,529 @@
+{
+  "format": "property-svg-glyph-library",
+  "version": 2,
+  "propertyId": "bone-appetit",
+  "name": "Bone Appétit",
+  "count": 48,
+  "viewBox": "0 0 24 24",
+  "strokeWidth": 1.5,
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & atmosphere",
+      "roles": [
+        "season",
+        "dining",
+        "night",
+        "signature",
+        "garden",
+        "day",
+        "welcome"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "Food & drinks",
+      "roles": [
+        "menu",
+        "bites",
+        "dessert",
+        "drinks",
+        "vegetarian",
+        "spicy",
+        "alcohol",
+        "zeroProof"
+      ]
+    },
+    {
+      "id": "experiences",
+      "label": "Experiences & collection",
+      "roles": [
+        "trail",
+        "collection",
+        "story",
+        "ghost",
+        "key",
+        "postcard",
+        "badge",
+        "souvenir",
+        "raven"
+      ]
+    },
+    {
+      "id": "visit",
+      "label": "Visitor information",
+      "roles": [
+        "location",
+        "clock",
+        "calendar",
+        "ticket",
+        "parking",
+        "accessibility",
+        "restroom",
+        "weather",
+        "map",
+        "phone",
+        "email",
+        "camera"
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Actions & navigation",
+      "roles": [
+        "plan",
+        "save",
+        "download",
+        "print",
+        "share",
+        "info",
+        "close",
+        "arrow"
+      ]
+    },
+    {
+      "id": "house",
+      "label": "House details",
+      "roles": [
+        "oven",
+        "grill",
+        "coffee",
+        "music"
+      ]
+    }
+  ],
+  "glyphs": [
+    {
+      "role": "season",
+      "group": "identity",
+      "id": "bone-appetit-porch-lantern",
+      "name": "porch-lantern",
+      "label": "Porch lantern",
+      "file": "porch-lantern.svg",
+      "sha256": "573d5309f4115a9bb7fef7454c06a696c8fac16b0fb0346f93dd0a712a985c7a"
+    },
+    {
+      "role": "dining",
+      "group": "identity",
+      "id": "bone-appetit-bone-slice",
+      "name": "bone-slice",
+      "label": "Bone crust pizza",
+      "file": "bone-slice.svg",
+      "sha256": "208cd557dbe18243b248c68b323effd7830f632fc53e660316f1cd1703749f6c"
+    },
+    {
+      "role": "night",
+      "group": "identity",
+      "id": "bone-appetit-woodland-moon",
+      "name": "woodland-moon",
+      "label": "Moon over the hollow",
+      "file": "woodland-moon.svg",
+      "sha256": "4bff2285d843ec859e1955da232d86823c61dc7d4209897b71e762ce1a09204f"
+    },
+    {
+      "role": "signature",
+      "group": "identity",
+      "id": "bone-appetit-crooked-roadhouse",
+      "name": "crooked-roadhouse",
+      "label": "Crooked roadhouse",
+      "file": "crooked-roadhouse.svg",
+      "sha256": "ac29b9f00d4a89011c348d4b2182f967e59eddb2e2ff61673a29408ddc703249"
+    },
+    {
+      "role": "garden",
+      "group": "identity",
+      "id": "bone-appetit-oak-sprig",
+      "name": "oak-sprig",
+      "label": "Oak sprig",
+      "file": "oak-sprig.svg",
+      "sha256": "669ee0710f0efa6b19bf065d6e7ff2bbd29d10964045bfeddb9ccc82b45ad071"
+    },
+    {
+      "role": "day",
+      "group": "identity",
+      "id": "bone-appetit-roadside-sunrise",
+      "name": "roadside-sunrise",
+      "label": "Roadside sunrise",
+      "file": "roadside-sunrise.svg",
+      "sha256": "a26d4324fb1eda9d230e418c7d0ad896b7a21753a442855d8091424199f20268"
+    },
+    {
+      "role": "welcome",
+      "group": "identity",
+      "id": "bone-appetit-patchwork-heart",
+      "name": "patchwork-heart",
+      "label": "Patchwork hospitality",
+      "file": "patchwork-heart.svg",
+      "sha256": "e0b61c42d127915b408e8a595d0e966228c3aa8b1d57ad79860c498da8750e8c"
+    },
+    {
+      "role": "menu",
+      "group": "menu",
+      "id": "bone-appetit-roadhouse-menu",
+      "name": "roadhouse-menu",
+      "label": "Roadhouse menu",
+      "file": "roadhouse-menu.svg",
+      "sha256": "afa07e8fd0d5431f5f0f190cd015789e3e64b8523c9ac7d6a4d5c5dbb6d3c54c"
+    },
+    {
+      "role": "bites",
+      "group": "menu",
+      "id": "bone-appetit-bone-breadsticks",
+      "name": "bone-breadsticks",
+      "label": "Bone breadsticks",
+      "file": "bone-breadsticks.svg",
+      "sha256": "667c42df530e920069160bd75564e726efefb54806e93a377b2e8bda43eb3131"
+    },
+    {
+      "role": "dessert",
+      "group": "menu",
+      "id": "bone-appetit-graveyard-gelato",
+      "name": "graveyard-gelato",
+      "label": "Graveyard gelato",
+      "file": "graveyard-gelato.svg",
+      "sha256": "3c838583550645cda54cdc60b124d44c3932d9b73b25be256d9bc464d5278053"
+    },
+    {
+      "role": "drinks",
+      "group": "menu",
+      "id": "bone-appetit-orchard-mug",
+      "name": "orchard-mug",
+      "label": "Orchard mug",
+      "file": "orchard-mug.svg",
+      "sha256": "d30aa95d329897e875434fe1e42284ce2ab364637c2440b6d55c13031509c412"
+    },
+    {
+      "role": "vegetarian",
+      "group": "menu",
+      "id": "bone-appetit-harvest-carrot",
+      "name": "harvest-carrot",
+      "label": "Harvest carrot",
+      "file": "harvest-carrot.svg",
+      "sha256": "b81b8778dad58ed02599f3c0bbd6c389a791984a4b8f926d780dc52eaace0baa"
+    },
+    {
+      "role": "spicy",
+      "group": "menu",
+      "id": "bone-appetit-lantern-chili",
+      "name": "lantern-chili",
+      "label": "Lantern chili",
+      "file": "lantern-chili.svg",
+      "sha256": "ccc7a1b7605fc7fc350817e82fe04bd4ddc4a1a7f585a16f4378d21065d9acb4"
+    },
+    {
+      "role": "alcohol",
+      "group": "menu",
+      "id": "bone-appetit-roadhouse-bottle",
+      "name": "roadhouse-bottle",
+      "label": "Roadhouse spirits",
+      "file": "roadhouse-bottle.svg",
+      "sha256": "2c2b19c784ebe73501955128313a7be880499dd67b6e8b93e759386541cc171c"
+    },
+    {
+      "role": "zeroProof",
+      "group": "menu",
+      "id": "bone-appetit-apple-fizz",
+      "name": "apple-fizz",
+      "label": "Apple fizz",
+      "file": "apple-fizz.svg",
+      "sha256": "7744207f4feff1a6257bee9a681534c1b92925a3dae421dde7896e27ede165c3"
+    },
+    {
+      "role": "trail",
+      "group": "experiences",
+      "id": "bone-appetit-lantern-trail",
+      "name": "lantern-trail",
+      "label": "Lantern trail",
+      "file": "lantern-trail.svg",
+      "sha256": "78873b26fa6d7e3457d30fa0047b736efb27b3214cfdbc8120f9bdfec9e9860a"
+    },
+    {
+      "role": "collection",
+      "group": "experiences",
+      "id": "bone-appetit-curiosity-cabinet",
+      "name": "curiosity-cabinet",
+      "label": "Curiosity cabinet",
+      "file": "curiosity-cabinet.svg",
+      "sha256": "36a321dad06f2d4fb3b90b814266a31875747468edc0dc740b4df739dbb15a95"
+    },
+    {
+      "role": "story",
+      "group": "experiences",
+      "id": "bone-appetit-family-ledger",
+      "name": "family-ledger",
+      "label": "Family ledger",
+      "file": "family-ledger.svg",
+      "sha256": "1155e6c6ca23b6050242053b12fec001cd5921dbe051f86de109c67dd4f586ad"
+    },
+    {
+      "role": "ghost",
+      "group": "experiences",
+      "id": "bone-appetit-medallion-ghost",
+      "name": "medallion-ghost",
+      "label": "Medallion ghost",
+      "file": "medallion-ghost.svg",
+      "sha256": "2d8249488137ff35e7e41e3210529dce7be78f52e237f8764968d10d1ba49373"
+    },
+    {
+      "role": "key",
+      "group": "experiences",
+      "id": "bone-appetit-tagged-skeleton-key",
+      "name": "tagged-skeleton-key",
+      "label": "Tagged skeleton key",
+      "file": "tagged-skeleton-key.svg",
+      "sha256": "5bfaac4b843edbfde4e6bdad4a54aea7f8e9e43976f6eff3c53965a9a3fd68ef"
+    },
+    {
+      "role": "postcard",
+      "group": "experiences",
+      "id": "bone-appetit-tomorrow-postcard",
+      "name": "tomorrow-postcard",
+      "label": "Tomorrow postcard",
+      "file": "tomorrow-postcard.svg",
+      "sha256": "3ac50a7e9ecfc46494fc39dc4117010c92ce0e98975605f2494279b7912790af"
+    },
+    {
+      "role": "badge",
+      "group": "experiences",
+      "id": "bone-appetit-pumpkin-ribbon",
+      "name": "pumpkin-ribbon",
+      "label": "Pumpkin ribbon",
+      "file": "pumpkin-ribbon.svg",
+      "sha256": "febcc86e96b6749fc743ee1f8def6b897bb2acc137832d9254c5e1753d9d3353"
+    },
+    {
+      "role": "souvenir",
+      "group": "experiences",
+      "id": "bone-appetit-haunted-house-magnet",
+      "name": "haunted-house-magnet",
+      "label": "Haunted house magnet",
+      "file": "haunted-house-magnet.svg",
+      "sha256": "e8bd1102fb9748c40523ed4e5d2e354998130a10966a858f3e14051f40c88a43"
+    },
+    {
+      "role": "raven",
+      "group": "experiences",
+      "id": "bone-appetit-ledger-raven",
+      "name": "ledger-raven",
+      "label": "Ledger raven",
+      "file": "ledger-raven.svg",
+      "sha256": "fe046eb3b157a4e415df629f9ecbefe70f104691879430a5fe535368b29886af"
+    },
+    {
+      "role": "location",
+      "group": "visit",
+      "id": "bone-appetit-wicked-lane-pin",
+      "name": "wicked-lane-pin",
+      "label": "Wicked Lane marker",
+      "file": "wicked-lane-pin.svg",
+      "sha256": "0e1be0c91f770235f28d1f8c03fbb6e8c7f772e9e8056ae65a6364437ebddd56"
+    },
+    {
+      "role": "clock",
+      "group": "visit",
+      "id": "bone-appetit-mantel-clock",
+      "name": "mantel-clock",
+      "label": "Mantel clock",
+      "file": "mantel-clock.svg",
+      "sha256": "70a32137c483da4930add2eb8cfeb7a1be8730f00b014fa8b2ad5a3461fd69e1"
+    },
+    {
+      "role": "calendar",
+      "group": "visit",
+      "id": "bone-appetit-autumn-calendar",
+      "name": "autumn-calendar",
+      "label": "Autumn calendar",
+      "file": "autumn-calendar.svg",
+      "sha256": "098aa29795a80999202f8ca2380c1df098810fcc4d639943a586b1dc20b41b59"
+    },
+    {
+      "role": "ticket",
+      "group": "visit",
+      "id": "bone-appetit-lantern-ticket",
+      "name": "lantern-ticket",
+      "label": "Lantern ticket",
+      "file": "lantern-ticket.svg",
+      "sha256": "9203083eddd6dd188a403f9a3f7a01022b1e8688e587f89daf2c75506a7cf448"
+    },
+    {
+      "role": "parking",
+      "group": "visit",
+      "id": "bone-appetit-roadside-parking",
+      "name": "roadside-parking",
+      "label": "Roadside parking",
+      "file": "roadside-parking.svg",
+      "sha256": "45fa1ab039a76b18ade578e07e782555eff69a7aa922cdf896fcdd3ac459826e"
+    },
+    {
+      "role": "accessibility",
+      "group": "visit",
+      "id": "bone-appetit-open-path-access",
+      "name": "open-path-access",
+      "label": "Open path access",
+      "file": "open-path-access.svg",
+      "sha256": "9dbc1bf2b2714fb5ab6dba457b44220da46e64b719aa67e11738a4eacf82d3cb"
+    },
+    {
+      "role": "restroom",
+      "group": "visit",
+      "id": "bone-appetit-porch-restroom",
+      "name": "porch-restroom",
+      "label": "Porch restroom",
+      "file": "porch-restroom.svg",
+      "sha256": "3f9523a0e2f7a2af5f4a67ad6d3ada567638b940418d9c6176127167a652e57e"
+    },
+    {
+      "role": "weather",
+      "group": "visit",
+      "id": "bone-appetit-wicked-weather",
+      "name": "wicked-weather",
+      "label": "Wicked weather",
+      "file": "wicked-weather.svg",
+      "sha256": "051af52c4e7f15fa03c13f59df1fd87d0f52b1490a40dfe0e4d1cc5be5f482bb"
+    },
+    {
+      "role": "map",
+      "group": "visit",
+      "id": "bone-appetit-hollow-foldout",
+      "name": "hollow-foldout",
+      "label": "Hollow foldout map",
+      "file": "hollow-foldout.svg",
+      "sha256": "91a89a14d5cd88f136f291a98dda9c8bbbaa31d0129db9b11e9c52ac3026f8b3"
+    },
+    {
+      "role": "phone",
+      "group": "visit",
+      "id": "bone-appetit-parlor-telephone",
+      "name": "parlor-telephone",
+      "label": "Parlor telephone",
+      "file": "parlor-telephone.svg",
+      "sha256": "5850c72b6946f5456975a8cbfff21e662f9a7aba5e0d972bb7189b5400b7a185"
+    },
+    {
+      "role": "email",
+      "group": "visit",
+      "id": "bone-appetit-sealed-house-letter",
+      "name": "sealed-house-letter",
+      "label": "Sealed house letter",
+      "file": "sealed-house-letter.svg",
+      "sha256": "d4b75ac3c0ace0aa5da4c4ee0492b9afb9718facaf169d66ecd3413342e360ab"
+    },
+    {
+      "role": "camera",
+      "group": "visit",
+      "id": "bone-appetit-roadtrip-camera",
+      "name": "roadtrip-camera",
+      "label": "Roadtrip camera",
+      "file": "roadtrip-camera.svg",
+      "sha256": "19ad2ecf2c3bb71e46ed8b86c5686127e20a501f6dd72939a0e0ab269ede3a27"
+    },
+    {
+      "role": "plan",
+      "group": "actions",
+      "id": "bone-appetit-trail-itinerary",
+      "name": "trail-itinerary",
+      "label": "Trail itinerary",
+      "file": "trail-itinerary.svg",
+      "sha256": "55612662ada25031e1efce704181746dea1a04ef40ddcab79f89f391c132cca4"
+    },
+    {
+      "role": "save",
+      "group": "actions",
+      "id": "bone-appetit-ledger-bookmark",
+      "name": "ledger-bookmark",
+      "label": "Save in the ledger",
+      "file": "ledger-bookmark.svg",
+      "sha256": "b4e925d92df475a75250c885d90101da9f3739bea6665f0e1e9faf3d4fa57b75"
+    },
+    {
+      "role": "download",
+      "group": "actions",
+      "id": "bone-appetit-porch-download",
+      "name": "porch-download",
+      "label": "Download to the porch",
+      "file": "porch-download.svg",
+      "sha256": "eccc5bc85751b63467fb52863dae62d74f69c0897c6ed99e423bb6a602a91945"
+    },
+    {
+      "role": "print",
+      "group": "actions",
+      "id": "bone-appetit-woodblock-print",
+      "name": "woodblock-print",
+      "label": "Woodblock printer",
+      "file": "woodblock-print.svg",
+      "sha256": "e64dcd47869d3525a2e0b89cf0aca307b3035af758bf1553c795de14d828951f"
+    },
+    {
+      "role": "share",
+      "group": "actions",
+      "id": "bone-appetit-forked-trail-share",
+      "name": "forked-trail-share",
+      "label": "Share a route",
+      "file": "forked-trail-share.svg",
+      "sha256": "18969a03f646ba190305e9e853a7bf045794099f0b27d50a8ecb0c7ad5f45c07"
+    },
+    {
+      "role": "info",
+      "group": "actions",
+      "id": "bone-appetit-visitor-notice",
+      "name": "visitor-notice",
+      "label": "Visitor notice",
+      "file": "visitor-notice.svg",
+      "sha256": "704c617e3fb1712c8cdfc8232a611e33465e4dea539182cb46fc9c054a7ac9c0"
+    },
+    {
+      "role": "close",
+      "group": "actions",
+      "id": "bone-appetit-crossed-bones-close",
+      "name": "crossed-bones-close",
+      "label": "Close the ledger",
+      "file": "crossed-bones-close.svg",
+      "sha256": "d57f82f2bcc266558fa4b82dd2676abe4a463c2f07c034043c334dc4518d197a"
+    },
+    {
+      "role": "arrow",
+      "group": "actions",
+      "id": "bone-appetit-lane-arrow",
+      "name": "lane-arrow",
+      "label": "Wicked Lane arrow",
+      "file": "lane-arrow.svg",
+      "sha256": "c9e44f020a2a29613be456856768dcef8b3ad347c875a416cc2b6a852ec3f4f6"
+    },
+    {
+      "role": "oven",
+      "group": "house",
+      "id": "bone-appetit-roadhouse-oven",
+      "name": "roadhouse-oven",
+      "label": "Roadhouse oven",
+      "file": "roadhouse-oven.svg",
+      "sha256": "143d8fa3ce2be9045c6d92735d2eaf5765dcffb7ba169141971c6ecb7d48e62c"
+    },
+    {
+      "role": "grill",
+      "group": "house",
+      "id": "bone-appetit-bone-grill",
+      "name": "bone-grill",
+      "label": "Roadhouse grill",
+      "file": "bone-grill.svg",
+      "sha256": "de6086b8d9dd4090d41f6cec1fe9ddeb46160a841b4eec9ce08950367058662d"
+    },
+    {
+      "role": "coffee",
+      "group": "house",
+      "id": "bone-appetit-afterlife-affogato",
+      "name": "afterlife-affogato",
+      "label": "Afterlife affogato",
+      "file": "afterlife-affogato.svg",
+      "sha256": "7a067bac7764e2503c026eab21764dd5e2401391b4f54d78d2cc3c07422b3164"
+    },
+    {
+      "role": "music",
+      "group": "house",
+      "id": "bone-appetit-porch-fiddle",
+      "name": "porch-fiddle",
+      "label": "Porch fiddle",
+      "file": "porch-fiddle.svg",
+      "sha256": "e051e7d263e0639428fed064a5312fc1b79682d6622a1bab886803cea237643f"
+    }
+  ]
+}
