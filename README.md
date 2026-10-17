@@ -21,7 +21,7 @@ The preview now contains four full restaurant websites. Use **Choose your haunt*
 | Grave Expectations Chop House | `grave-expectations.html` | Candlelit steaks, terrace air and an ancestral collection with excellent posture. |
 | BooBies Lodge | `boobies-lodge.html` | A cheeky 21+ sports lodge, beer garden, monster games and unofficial trophies. |
 
-Each includes its own introduction, full menu (24 items at Bone Appétit; 18 at each new property), three house experiences, long-form story, six collection records, fictional map, day/night visit modes, FAQs, shareable menu/detail links, visitor guide, visit planner, and text/illustrated itinerary downloads. All retain the local fonts and Halloween paper/ink design. The three illustrated sites use their own artwork and restrained accent variations.
+Each includes its own introduction, full menu (24 items at Bone Appétit; 18 at each new property), three house experiences, long-form story, six collection records, fictional map, day/night visit modes, FAQs, shareable menu/detail links, visitor guide, visit planner, and text/illustrated itinerary downloads. All use local assets and retain their Halloween parody. Each now has its own visual theme, typography treatment, layout details and artwork; the identities are described below.
 
 Saved visitor plans stay separate: Bone Appétit retains `bone-appetit-visit-v1`; the others use `bone-property-rest-in-pizza-visit-v1`, `bone-property-grave-expectations-visit-v1`, and `bone-property-boobies-lodge-visit-v1`. **Save my plan** remains explicit. Switching through the property links asks before discarding an itinerary that differs from its saved or default state; Cancel lets you save or download first. Clicking the current property returns to the top without replacing its current draft. Browser-local creator campaigns keep their existing separate key.
 
@@ -29,7 +29,74 @@ The lodge accepts parties age 21+ only in this fictional concept; its planner ha
 
 Without JavaScript, all four sites still show their full menus, house details, maps, FAQs and property links. Scripts enhance those static pages with dialogs, filtering, saved plans and downloads. No website creates reservations, orders, payments, subscriptions or real game/broadcast promises.
 
-Public visitor pages are built from source content. Creator campaigns can now preview these complete websites with edited copy through the workspace. Campaign previews do not overwrite the bundled public pages. For maintenance of the original public sources, edit `site-data.json` for Bone Appétit, each `reference` in `property-data.json` for the other restaurants' menus/facts/experiences, and `visitor-sites.json` for their page introductions, stories and section copy. `index.template.html` owns the common structure; `properties.css` owns the switcher and property layout variations. Run `npm run build` to validate and regenerate all four pages. Do not edit generated delivery HTML directly.
+Public visitor pages are built from source content. Creator campaigns can now preview these complete websites with edited copy through the workspace. Campaign previews do not overwrite the bundled public pages. For maintenance of the original public sources, edit `site-data.json` for Bone Appétit, each `reference` in `property-data.json` for the other restaurants' menus/facts/experiences, and `visitor-sites.json` for their page introductions, stories and section copy. `index.template.html` owns the common structure; `properties.css` owns the switcher, property layouts and four scoped visual themes. Run `npm run build` to validate and regenerate all four pages. Do not edit generated delivery HTML directly.
+
+## Four different restaurant identities
+
+The visitor sites now have distinct themes throughout their headers, heroes, buttons, menu cards, stories, visit panels and footer details:
+
+| Property | Visual identity |
+| --- | --- |
+| Bone Appétit | Cozy haunted roadside house: lantern orange, forest ink, warm paper, rounded hospitality cards and the original roadhouse art. |
+| Rest in Pizza | Retro neighborhood pizza parlor: tomato red and cream, gingham, italic signage, pill-shaped buttons and a framed ghost-pizzaiolo illustration. |
+| Grave Expectations | Candlelit ancestral steakhouse: oxblood, near-black and gold, classic serif typography, a cinematic dining-room hero and restrained estate framing. |
+| BooBies Lodge | Timber sports lodge: pine green, amber, woodgrain, bold condensed display type, sturdy card borders and a campy adult taproom scene. |
+
+Three new 1536×1024 WebP images are under `assets/`: `rest-in-pizza-theme.webp`, `grave-expectations-theme.webp` and `boobies-lodge-theme.webp`. They were generated using the built-in image tool and converted without cropping or visual edits; [the prompt/source record](verification/theme-art-prompts-2026-10-16.json) records the full prompt set. The original illustrations remain available. Bone Appétit's existing hero is retained.
+
+`properties.css` contains the scoped visual themes; `styles.css` remains the shared structural and interaction baseline. The shared renderer adds a stable `theme-<property>` body class and resolves current-edition hero artwork/alt text through `heroAsset` and `heroAlt`. Creator cards/previews, individual website exports, collection exports and marketing artwork use that same lookup. New artwork is bundled in ZIPs rather than loaded remotely. The shared CSS is included automatically by existing preview and export paths.
+
+Existing campaign/reference snapshots, menus, prices, parody copy, fixed season, admission rules and saved plans are unchanged. Older campaigns whose reference hero still names an SVG receive the current theme and hero through presentation code; their saved reference is not rewritten. Menus, dialogs, planner safeguards, mobile navigation and offline exports retain their existing behavior. Download a fresh website ZIP to include the new themes in a previously exported site.
+
+Focused checks:
+
+```sh
+npm run check:themes
+npm run check:themes-browser
+```
+
+The source check verifies all four theme identities and current WebP art across live rendering, legacy campaigns, individual/collection exports and marketing documents. The separate browser pass checks live desktop/tablet/phone layouts, sampled text contrast, interactions, legacy creator previews, WebP marketing preview and matching offline website exports. It does not establish accessibility conformance or cover every browser.
+
+## Custom logos and food artwork
+
+Each restaurant now has its own transparent WebP emblem paired with a live, editable restaurant name. Bone Appétit has a skull chef; Rest in Pizza has a pizza-serving ghost; Grave Expectations has a crowned bull-skull crest; BooBies Lodge has an owl-and-pines lodge emblem. The same marks appear in website headers, footers and favicons, creator property cards and campaign previews, and embedded marketing documents.
+
+Nine individual featured-dish images replace the repeated generic illustrations: three candlelit Bone Appétit pizzas, two retro gingham-table pizzas, two formal steakhouse dishes, and the lodge's half/full rib racks. Food artwork appears on visitor food cards, the dining experience card/dialog, the selected-item creator preview, and marketing landing/menu documents. Dishes without dedicated artwork stay text-only in creator and marketing previews; selecting one clears any previous dish image. Edited dish names keep their stable ID and its reference artwork. Concept-image labels remind the creator to review imagery against edited ingredients.
+
+`website-renderer.js` owns `RESTAURANT_ART` and the shared `logoAsset`, `foodArt`, `featuredArt`, `attractionArt` and `artAssets` lookups. These resolve presentation independently of immutable campaign reference snapshots. No campaign schema migration, original art replacement, menu change, or new remote dependency is required. `app.js` uses the rendered attraction card's resolved image for its detail dialog. Website ZIPs bundle the current artwork; individual marketing HTML embeds WebP bytes with the correct MIME type. Download fresh exports to update previously downloaded files.
+
+All thirteen new assets are in `assets/` as WebP: four `*-logo.webp` files with genuine alpha, and nine `*-food.webp` files. The [exact prompt/source record](verification/restaurant-art-prompts-2026-10-16.json) records built-in image generation and conversion details. Original generated PNGs and all existing project artwork remain intact.
+
+```sh
+npm run check:restaurant-art
+npm run check:restaurant-art-browser
+```
+
+The source check covers actual WebP decoding/alpha, dish/property matching, legacy saves, edited draft/named exports, unchanged records, embedded marketing art, missing-resource errors, static packaging and independent website ZIP integrity/resource closure. It uses Python with Pillow for image decoding. The separate headless browser command uses the project's pinned Playwright/Chromium and temporary isolated browser storage; it requires permission to bind a temporary loopback server. It exercises the live sites, creator previews, source selection, and extracted offline exports without opening a visible window. See [the artwork verification record](verification/restaurant-art-2026-10-16.json) for this increment's results and limits.
+
+## Fully illustrated restaurant destinations
+
+All four restaurants now feature individual WebP imagery for every single menu item across all four properties (78 dishes total: 24 at Bone Appétit, 18 each at Rest in Pizza, Grave Expectations Chop House, and BooBies Lodge). Full menus show individual pictures alongside prices, ingredients, and tags in both the interactive modal dialogs and the no-JavaScript guides. Menu printing stays text-focused so category printouts remain compact.
+
+Each destination also features dedicated illustrations for all three of its house experiences (12 total), distinct portraits for all six of its curated curiosity/collection objects (24 total), and a separate exterior view for its long-form story rather than repeating the hero. Lossless WebP renderings of each property's original six-location map appear on visitor pages and planner cards; original vector SVGs remain the source for printable field-note downloads.
+
+In total, 161 presentation assets are managed in `assets/`:
+- **Bone Appétit** (37 assets): skull chef logo, roadside hero, 24 menu items, 3 spaces, 6 objects, story exterior, lossless map WebP (`assets/bone-*.webp`).
+- **Rest in Pizza** (31 assets): pizza ghost logo, retro hero, 18 menu items, 3 spaces, 6 objects, story exterior, lossless map WebP (`assets/rest-*.webp`).
+- **Grave Expectations Chop House** (31 assets): bull-skull crest logo, dining hero, 18 menu items, 3 spaces, 6 objects, story exterior, lossless map WebP (`assets/grave-*.webp`).
+- **BooBies Lodge** (31 assets): owl lodge logo, timber hero, 18 menu items, 3 spaces, 6 objects, story exterior, lossless map WebP (`assets/lodge-*.webp`).
+
+The shared renderer resolves all artwork dynamically via stable property and dish IDs. Creator previews display all selected menu and experience scenes. Website exports and collection ZIPs bundle the full asset inventory (with ZIP archive capacity extended up to 256 files).
+
+Focused checks:
+
+```sh
+npm run check:lodge-art
+npm run check:pizza-art
+npm run check:remaining-art
+```
+
+The source checks cover actual WebP image decoding, menu/collection coverage, map route pixels, legacy saves, missing-resource rejection, and independent ZIP closure. Rebuild exact map conversions with `npm run build:lodge-map`, `npm run build:pizza-map`, and `npm run build:remaining-maps`, followed by `npm run build` to regenerate delivery pages.
 
 ## Create and resume campaigns
 
@@ -67,6 +134,27 @@ Share the complete ZIP so someone can extract it and open the site, or serve the
 The exported planner has the same date, price, schedule, admission, save/restore/reset/undo and text/illustrated itinerary behavior as the visitor site. It uses a content-derived storage key separate from the creator, bundled visitor pages and differently edited exports. Identical public content retains the same key; a public copy/menu change creates a new one. Browser storage behavior for directly opened files varies; blocked storage falls back to in-memory use and itinerary downloads. A stable static-host URL provides consistent browser-local resumption. No visitor's plan is embedded in the shared ZIP, and a saved itinerary remains a fictional plan rather than a reservation.
 
 The download is built from a frozen source and cleared if that source changes during resource loading or hashing. A missing/empty resource stops the download and supports retry. The ZIP uses the existing bounded archive writer and includes only resources required by that property; PNG source artwork, the creator, other restaurant sites and marketing documents are excluded.
+
+## Download all four edited websites together
+
+In the creator library, use **Take the whole neighborhood**. Select one campaign for each of Bone Appétit, Rest in Pizza, Grave Expectations Chop House and BooBies Lodge. A property's sole campaign is selected automatically. If you have several campaigns for the same property, choose the intended one explicitly; the exporter does not guess the latest or substitute the original site. Missing properties can be started using the library's existing starter buttons or imported from a creator backup.
+
+Choose **Current drafts** or **Last named versions** for the collection, then **Download four-website collection ZIP**. The selected source applies to all four properties. A missing named version blocks a named collection and identifies the campaign that needs saving; it never silently uses a draft. Invalid content blocks the entire export. Campaign selection and source settings reset on reopening the workspace; they do not change the campaigns or saved versions.
+
+Extract the entire ZIP and open `index.html` to begin at Bone Appétit. The top and footer **Choose your haunt** strips link all four edited restaurants at their usual relative filenames. Each page retains its design, artwork, copy, full menu, map, collection, admission rules and planner. The strip displays the selected properties' edited public venue names. Shared scripts, styles, artwork, four fonts and licenses are included once. Each property's public snapshot is under `content/`; `README.txt` explains opening/sharing, and `manifest.json` records routes, source type, public-content hashes, separate planner keys and file-integrity checks.
+
+Send the complete ZIP to share it, or serve the whole folder on a static host, including a subfolder. It works offline after extraction, with readable menu/detail fallbacks when JavaScript is disabled. The collection contains no creator pages, working campaign names, briefs, other campaigns or saved visitor plans. It is a public website package; keep a separate creator backup for future editing. Downloading does not publish or send anything.
+
+All four planners save separately. A property's unchanged public content uses the same content-derived key as its individual website export, while differently edited versions and the original visitor sites remain separate. File-URL storage varies across browsers; itinerary downloads work as a portable fallback, and a stable static URL supports consistent local saving. Switching properties retains the existing warning before discarding unsaved itinerary changes. Editing, saving, switching campaigns or changing collection selections during a build invalidates the pending download. Failed resource loads support retry without losing campaign work.
+
+The focused checks are:
+
+```sh
+npm run check:website-collection
+npm run check:website-collection-browser
+```
+
+The first validates edited pages, connected routes, shared-file deduplication, planner-key parity, adult admission, escaping, private-data exclusion, immutable snapshots, independent ZIP/hash/resource closure and inclusion of the new scripts in static-site packaging. The second checks explicit duplicate/missing/named selection, draft/named downloads, top/footer switching offline and under a static subfolder, menu/details/art/fonts, independent saved plans, no-JavaScript fallbacks, unsaved-switch cancellation, mobile reflow, validation, resource retry, stale-download prevention and missing-script recovery. Browser verification remains separate from the default non-browser checks.
 
 ## Three Halloween property starters
 
@@ -155,6 +243,7 @@ Review remains explicit: free-text claims are not fact-checked, ingredients/tags
 - `property-data.json` and `property-catalog.js`: three independent Halloween property starters, their content, and validated campaign creation.
 - `website-copy.js`: bounded editable page-copy fields, literal text handling, and campaign-to-page copy resolution.
 - `website-renderer.js`: DOM-free shared renderer for the static build and complete creator preview; `scripts/render-site.cjs` supplies files/assets for Node.
+- `website-collection.js` and `collection-workspace.js`: connected four-property archive, explicit campaign/source selection, deduplicated assets and canceled stale downloads.
 - `website-export.js`: complete public website packaging, asset closure, source isolation, standalone navigation and integrity manifest.
 - `website-workspace.js`: browser preview/export adapter, draft/named selection, resource retry, source invalidation, field picker, and isolated preview frame.
 - `scripts/export-properties.cjs`: portable named-campaign collection and marketing-pack export to a fresh directory.
@@ -191,7 +280,7 @@ Fast targeted checks, without launching a browser:
 npm run check
 ```
 
-This runs only generated-output, content-validation, planner, creative-content, creator-model, marketing-pack, property-catalog, four-website, website-workspace and website-export checks. It needs Node's standard library, npm and Python 3 (for independent ZIP/MIME reading); no dependency installation is needed. The checks cover invalid edits, all 800 current date/arrival/stop combinations, closing constraints, decimal currency formatting, generated-page preservation on errors, shared-content propagation, export escaping, offline assets, and creator recovery. Individual commands are `npm run check:generated`, `npm run check:validation`, `npm run check:planner`, `npm run check:creative`, `npm run check:creator`, `npm run check:marketing`, `npm run check:properties`, and `npm run check:websites`. `npm run check:website-workspace` checks shared rendering, page-copy validation, all four property previews, coherent featured/card edits, v1 compatibility and backup/import. The creator check covers duplication isolation, editable content, named/draft separation, import validation and limits, backup round trips, view resumption, damaged data, blocked/full storage, and changed local copies. `npm run check:preview` separately runs the six Python launcher checks using temporary loopback ports and mocked browser opening. Keep existing storage IDs/version stable unless a separate migration is planned. Use two-space indentation, readable HTML blocks, and one CSS declaration per line.
+This runs only generated-output, content-validation, planner, creative-content, creator-model, marketing-pack, property-catalog, four-website, website-workspace, website-export, website-collection and theme checks. It needs Node's standard library, npm and Python 3 (for independent ZIP/MIME reading); no dependency installation is needed. The checks cover invalid edits, all 800 current date/arrival/stop combinations, closing constraints, decimal currency formatting, generated-page preservation on errors, shared-content propagation, export escaping, offline assets, and creator recovery. Individual commands are `npm run check:generated`, `npm run check:validation`, `npm run check:planner`, `npm run check:creative`, `npm run check:creator`, `npm run check:marketing`, `npm run check:properties`, and `npm run check:websites`. `npm run check:website-workspace` checks shared rendering, page-copy validation, all four property previews, coherent featured/card edits, v1 compatibility and backup/import. The creator check covers duplication isolation, editable content, named/draft separation, import validation and limits, backup round trips, view resumption, damaged data, blocked/full storage, and changed local copies. `npm run check:preview` separately runs the six Python launcher checks using temporary loopback ports and mocked browser opening. Keep existing storage IDs/version stable unless a separate migration is planned. Use two-space indentation, readable HTML blocks, and one CSS declaration per line.
 
 `npm run check:website-export` validates all four complete exports, frozen source consistency, edited copy/menu data, escaping, public-only contents, safe ZIP paths, font licenses, distinct planner keys and unchanged public pages. An independent Python ZIP/HTML/CSS reader verifies CRCs, sizes, SHA-256 hashes and that every referenced resource is present. The focused `npm run check:website-export-browser` downloads draft/named ZIPs, extracts them outside the checkout, opens all four websites offline, checks their menus/details/planners/fonts/art and no-JavaScript fallbacks, serves them under one temporary static host to check independent saved plans, and verifies validation, retry, stale-download prevention and missing-export-script recovery.
 
@@ -263,6 +352,78 @@ Everything describes a fictional destination. The address, history, prices, hour
 This is a permanent 2026 fictional concept, not a live seasonal booking service. After the season, the planner explicitly identifies its dates as archived rather than implying a future visit.
 
 ## Verification
+
+### Bone Appétit and Grave Expectations fully stocked imagery — October 16, 2026
+
+The two remaining properties now resolve complete WebP artwork through the shared current-art registry. Bone Appétit has 24 menu images, three spaces, six collection objects, a separate story exterior, logo/hero and a lossless original-map conversion: 37 distinct assets. Its existing finished food photos, woodland scene and wooden curiosity cabinet are retained. Grave Expectations has 18 menu images, three spaces, six collection objects, a separate story exterior, logo/hero and a lossless original-map conversion: 31 distinct assets. The new set adds 55 built-in generated images and two exact map conversions; original art and source SVGs remain available.
+
+Bone's dark timber, moss green and amber roadside hospitality differ from Grave's black marble, oxblood velvet, gold trim and composed ancestral confidence. Copy, menu prices/ingredients/tags, admission and planner rules are unchanged. Full menus retain images without JavaScript and compact text when printed. The creator now also defaults original Bone references without a branding property ID to Bone's own experience images, matching the website renderer's established fallback. Draft/named website previews, individual and collection exports, and selected marketing dishes use the same artwork mappings.
+
+Targeted remaining-property artwork, shared restaurant artwork, pizza/lodge artwork, marketing, generated-page and collection checks passed. The authorized focused headless pass verified both new sets at 320/375/768/1440 widths, all creator food/experience selections (including original Bone references), draft/named consistency, marketing packs, no-JavaScript menus and extracted offline linked sites. It reported no page errors, external requests or failed resources, and independently verified five UI-downloaded website archives. Representative desktop scenes/collections and phone menu screenshots were visually inspected.
+
+Verification corrected a map assertion that sampled a pale road stripe instead of its surrounding road, and updated older marketing fixtures to resolve current assets rather than the historical three-photo constant. The first browser attempt stopped on an unlocalized image-decoding rejection; the helper now reports each failing image's URL and state, and the final complete pass decoded every referenced image successfully. The historical broad marketing browser script was updated for its asset fixture but was not rerun. Rest in Pizza/BooBies Lodge pages, all source content JSON, original art, creator model/schema, planner/application/field-note logic, base stylesheet, lockfile and prior verification records match the pre-edit snapshot. No full suite, human assistive-technology audit, physical-print acceptance, staging, commit or publication occurred.
+
+Reproduce the scoped source/archive checks with `npm run check:remaining-art`; run `npm run check:remaining-art-browser` when a focused headless browser pass is appropriate. Python 3 with Pillow decodes the assets; browser checks use the existing pinned Playwright/Chromium setup. `npm run build:remaining-maps` reproduces both exact map conversions, followed by `npm run build` to regenerate the pages. Exact prompts and image paths are in [the artwork record](verification/remaining-stock-prompts-2026-10-16.json); final checks, hashes, artifacts and limitations are in [the verification record](verification/remaining-stock-2026-10-16.json).
+
+### Rest in Pizza fully stocked imagery — October 16, 2026
+
+Added 26 built-in generated images and one lossless map conversion, all WebP. Rest in Pizza now uses 31 distinct assets: the existing logo, hero and two pizzas plus complete imagery for 18 menu items, three spaces, six collection objects, a separate storefront story and the original schematic. Cream crockery, tomato red, gingham, herbs and friendly ghosts keep its retro Halloween identity distinct from the lodge. All food and drink names, ingredients, prices, tags and all-ages admission remain unchanged.
+
+The full menu shows individual images with or without JavaScript; printed categories retain compact text. Creator menu/experience selections, full website previews, draft/named website exports, linked collection exports and selected marketing dishes resolve the same art by stable IDs. Old campaign references and original SVG sources remain valid. New art is in `assets/rest-*.webp`; exact prompts, source paths, conversion details and hashes are in [the image record](verification/pizza-stock-prompts-2026-10-16.json).
+
+The fully illustrated collection now exceeds 100 files, so the shared ZIP builder accepts 1–256 files while preserving unique safe paths, the 16 MiB per-file bound and 64 MiB archive limit. `check:pizza-art` covers the 256/257 boundary, independent ZIP CRC/hash/resource closure, missing resources, all 31 decoded WebPs, all menu/collection IDs, original map route pixels and draft/named/marketing consistency. The older collection ceiling assertion and lodge property-switch assertion now reflect the larger archive and the pizzeria's own scenes.
+
+Targeted pizza artwork, shared restaurant/lodge artwork, marketing, generated-page and collection checks passed. The authorized headless pizza pass verified 320/375/768/1440 layouts, all creator selections, draft/named consistency, no-JavaScript menus and extracted offline exports with no page errors, external requests or failed resources. The final UI-downloaded website archives passed independent CRC/hash/resource-closure checks; the collection contains 115 files. Desktop experience/collection and phone menu/story screenshots were visually inspected. The other three generated pages, all source content, original art, creator/model and planner logic match the pre-edit snapshot. No full suite, human assistive-technology audit, physical-print acceptance, commit or publication was performed.
+
+Reproduce the focused checks with `npm run check:pizza-art` and, when browser verification is appropriate, `npm run check:pizza-art-browser`. They require the existing pinned Playwright/Chromium setup; the source check also uses Python 3 with Pillow. Rebuild only the exact map conversion with `npm run build:pizza-map`, then `npm run build` for generated pages. See [the scoped verification record](verification/pizza-stock-2026-10-16.json) for the final checks, artifacts and limitations.
+
+### BooBies Lodge fully stocked imagery — October 16, 2026
+
+Added 26 built-in generated illustrations and one lossless map conversion, all WebP. The lodge now uses 31 distinct assets: its existing logo/hero/rib images plus complete imagery for 18 menu items, three spaces, six collection objects, the exterior story and original schematic. Full menus display the dish images in both enhanced and no-JavaScript modes; print categories remain compact text. Selected creator experiences now show their matching scene; old campaigns resolve all current artwork without reference or schema changes.
+
+Targeted `check:lodge-art`, `check:restaurant-art`, `check:marketing`, `check:generated`, `check:website-export` and `check:website-collection` passed during this increment. The lodge-specific check verifies coverage, actual image decoding, map route pixels, 31 local WebPs, unchanged legacy sources/admission, missing-resource rejection, marketing image selections and independent draft/named/collection ZIP integrity and resource closure. Changed/new scripts passed syntax, and lodge/creator HTML passed structure, IDs, local resources and anchors.
+
+The authorized focused `check:lodge-art-browser` passed with Playwright 1.63.0 / Chromium 153.0.8010.12: 320/375/768/1440 layouts, 18 full-menu images with prices/tags, all three attraction cards/dialogs, all six collection portraits, separate story/map, no-JavaScript menu, all selected creator menu/experience images, legacy draft/named preview and export consistency, four-image marketing output and offline individual/linked collection websites. No page errors, external requests or failed resources remained. The final UI-downloaded draft, named and collection ZIPs also passed independent CRC/hash/resource-closure checks. Captured experience/collection/menu/story layouts were visually inspected; specimen labels gained opaque light badges to remain readable over dark photographs.
+
+Verification corrected a missed planner-card SVG reference and a browser test that initially tried to select a field inside a collapsed editor section. An ImageMagick map-conversion trial omitted SVG path strokes; that output was discarded and the original source SVG was rendered through headless Chromium instead. Route pixels and the finished map were then checked. The map's original SVG and all prior art remain intact.
+
+See [the lodge verification record](verification/lodge-stock-2026-10-16.json) and [prompts/final paths/hashes](verification/lodge-stock-prompts-2026-10-16.json). The other three generated visitor pages, all source content JSON, creator schema/model, planner/field-note logic, base stylesheet, original assets, dependency lockfile and previous verification records match the pre-increment snapshot. Historical broad browser tests were not rerun; only two older artwork assertions were adjusted for the lodge's new scene overrides and complete menu coverage. No full suite, other browser engines, human assistive-technology audit, actual print acceptance, staging, commit, push, publication or deployment occurred.
+
+### Restaurant logos and food artwork — October 16, 2026
+
+Four transparent WebP logo emblems and nine individual featured-dish WebPs now follow the four scoped restaurant themes. The shared renderer selects art by stable property/dish IDs without rewriting campaign snapshots. Visitor headers/footers/favicons, food and dining cards/dialogs, creator starter cards and selected-item previews, individual/collection website exports and embedded marketing documents use the matching artwork. Editable venue names remain live text. Original artwork, menu/content JSON, creator model/schema and planner logic are preserved.
+
+Targeted `check:restaurant-art`, `check:marketing`, `check:themes`, `check:website-export`, `check:website-collection` and `check:generated` passed; all four pages were rebuilt. The artwork source check independently verifies ZIP resource closure and hashes for eight edited draft/named individual sites plus one collection, decodes all thirteen WebPs, checks genuine logo alpha, rejects missing images and verifies static packaging. Five visitor/creator HTML files passed structure/ID/reference checks. Changed/new scripts passed syntax.
+
+The authorized focused `check:restaurant-art-browser` passed with Playwright 1.63.0 / Chromium 153.0.8010.12: 320/375/768/1440px layouts, all logos/favicons and nine food images, matching dining dialogs, legacy draft/named full previews, selected-dish image clearing, embedded marketing art, supplied Letter menu geometry, unchanged source records, and all four individual/linked collection exports extracted offline. No page errors, external requests or failed resources remained. The pass corrected a test helper's iframe dismissal and an observed Bone Appétit menu-insert overflow through compact print spacing. Historical property/site browser assertions were updated for square logos and resolved art; those older broad passes were not rerun.
+
+See [the artwork verification record](verification/restaurant-art-2026-10-16.json) and [exact prompts, final asset paths and hashes](verification/restaurant-art-prompts-2026-10-16.json). Retained screenshots and ZIPs use isolated test campaigns, not the owner's saved browser campaigns. Full-suite, other-engine, human assistive-technology, full accessibility and physical-print acceptance remain outside this focused pass. All changes remain local; nothing was staged, committed, pushed, deployed or published.
+
+### Four restaurant themes — October 16, 2026
+
+All four websites now have distinct scoped visual identities in `properties.css`: cozy roadside Bone Appétit, retro cream/tomato Rest in Pizza, candlelit oxblood/gold Grave Expectations and timber/amber BooBies Lodge. The differences include hero composition, typography, cards, buttons, story treatment, visit panels and decorative detail. Three new 1536×1024 WebP illustrations are saved in the project; original artwork is retained. The shared renderer resolves current presentation art independently of saved reference snapshots. Live pages, creator cards/previews, individual and collection website ZIPs and marketing hero art use that same lookup, with WebP MIME declarations. Canonical/property/profile content, menu data, model schema, admission and planner logic were not changed.
+
+GitNexus impact analysis on the bound `bone-appetit` checkout identified the shared renderer, Node render adapter and creator preview as HIGH risk because build/preview/individual-export/collection-export flows consume them. That risk was reported before implementation. Marketing art selection/generation was LOW and website-export preparation MEDIUM. Ambiguous renderer results were resolved with a Function filter; UNKNOWN results for test entrypoints/new helpers were corroborated through local test calls and were not treated as graph clearance. No indexing or commit operation was run.
+
+Targeted `check:themes`, `check:properties`, `check:marketing`, `check:website-collection` and `check:website-export` passed during the increment; build regenerated all four visitor pages. These checks covered real WebP files, unchanged legacy reference snapshots, consistent live/individual/collection/marketing art, source isolation, validation, independent ZIP checks and static packaging. All five visitor/creator HTML files passed nesting, ID and local-reference checks; twelve edited/new scripts passed syntax. Existing browser assertions were updated to inspect source text rather than CSS-transformed capitalization, and property-art assertions now expect the current WebP source. Those historical browser suites were not rerun.
+
+The authorized focused `check:themes-browser` passed with Playwright 1.63.0 / Chromium 153.0.8010.12: four distinct live theme fingerprints, 1440/768/375px reflow, mobile navigation, art/font loading, sampled foreground/background text contrast, all menu categories, detail dialogs, planner saving, old-reference creator previews, correct WebP marketing poster, and matching themes/art in extracted offline collection and individual exports. No page errors, external requests or failed resources remained. Visual review inspected the four homepages, mobile pizza/lodge and representative menu/story/visit/access sections. It corrected lodge small print, pizza footnote/caption colors, the steakhouse season strip and steakhouse badge/tag contrast. The final browser pass includes those sampled labels.
+
+See [the theme verification record](verification/themes-2026-10-16.json) and [image prompt/source record](verification/theme-art-prompts-2026-10-16.json). Original art/font files, canonical/property/profile JSON, base stylesheet, application/planner/content validation, creator model, launchers and previous verification records remain intact. Earlier ZIPs retain their old presentation; download fresh exports for the new themes. No full suite, other browser engines, human screen-reader/dictation, comprehensive accessibility audit, physical print or production deployment was performed. No staging, commits, pushes, publication or deployment took place.
+
+
+### Connected four-website collection — October 16, 2026
+
+The creator library now selects one campaign for each property and exports all four current drafts or all four last named versions together. Missing properties, ambiguous campaigns and missing named versions require explicit resolution; no original site or draft is silently substituted. The package opens at `index.html` with top/footer links to all four edited pages, shared resources included once, separate public snapshots and an integrity manifest. The existing standalone export path remains available, and normal public-page generation is unchanged.
+
+Targeted collection, individual-export, website-workspace and generated-output checks passed. Independent Python checks validated every HTML page and stylesheet in the archives for complete local resource references, safe paths, CRCs, file sizes and SHA-256 hashes. Collection checks also verified edited names/copy/menu data, adult admission, source immutability, private-data exclusion, standalone planner-key parity, deduplication and inclusion of the collection scripts in static packaging. Creator HTML nesting/IDs/local references and seven edited/new JavaScript files plus the Python helper passed syntax checks.
+
+The authorized focused headless collection pass passed with Playwright 1.63.0 / Chromium 153.0.8010.12. It covered duplicate/missing-property/missing-named selection, named/draft ZIP contents, all four extracted offline designs, top/footer switcher links and active indication, menus/details/fonts/art, independent file and shared-host planner saves, no-JavaScript guides, unsaved-switch cancellation, mobile reflow, invalid prices, resource retry, stale-build cancellation and missing-script recovery. No page errors, external requests or failed file resources remained. The collection selector and narrow edited lodge/switcher captures were visually inspected. One test party size was corrected to an advertised option. An intermediate resource-retry download timed out; status diagnostics were added and the timeout did not recur in the final complete pass. No product defect was established for that timeout.
+
+GitNexus instructions appeared during this increment after the owner ran analysis. A subsequent impact check was bound explicitly to this checkout at indexed commit `2d6cb10`; the new browser helper was absent from that pre-increment index and returned UNKNOWN. Text inspection confirmed its callers were local test-runner calls. The index was not refreshed and UNKNOWN was not treated as a clean graph result. The read-only wrapper stalled, so task-started wrapper processes were stopped and the existing installed CLI was used directly. No graph change/commit gate was claimed or needed because no commit was made.
+
+See [the collection verification record](verification/website-collection-2026-10-16.json) for hashes, scope, preservation and retained fixtures. The full suite, older broad browser passes, other browser engines, human VoiceOver/dictation, printing and production hosting were not checked. No staging, commits, pushes, deployment or publication took place.
+
 
 ### Complete website ZIP exports — October 16, 2026
 

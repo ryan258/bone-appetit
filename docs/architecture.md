@@ -50,8 +50,9 @@ scripts/render-site.cjs                   website-workspace.js
 - **`field-notes.js` / `field-notes.css`**: Renderers and style definitions for the field-note keepsake cards and standalone downloadable HTML documents.
 
 ### B. Visitor Page Runtime
+- **`website-renderer.js`**: Shared visitor/preview/export renderer. Its current-art registry resolves property logos and stable dish IDs independently of saved campaign reference snapshots. Header/footer/favicon logos, featured food and dining-card artwork are WebP; the editable restaurant name remains live text. Export resource lists and marketing image embedding use the same registry. All four properties have complete illustrated menus (24 items for Bone Appétit, 18 each for the other three), three dedicated experience scenes, six object portraits, a separate story exterior and a lossless WebP of the original map. Original Bone campaign references without branding use the same Bone property fallback in selected creator experience previews. Creator selection previews use these scene/dish mappings, and full menus retain photos without JavaScript. The SVG source remains embedded for printable field notes. Shared ZIP generation accepts up to 256 files (16 MiB per file, 64 MiB total) to accommodate the fully illustrated collection.
 - **`app.js`**: Client-side orchestrator handling DOM events, modal dialog traps, hash-based navigation (`#full-menu`, `#details-pizzeria`), daytime/after-dark mood toggles, and local itinerary state management.
-- **`properties.css`**: Styling layer providing property switcher navigation and per-venue visual identity and accent colors.
+- **`properties.css`**: Scoped styling layer providing property switcher navigation, typography, custom color palettes, and four distinct visual identities (Bone Appétit, Rest in Pizza, Grave Expectations Chop House, BooBies Lodge).
 
 ### C. Creator Studio & Marketing Engine
 - **`creator-model.js`**: Pure functional model managing campaign life cycle, brief metadata, price validations, version snapshots, JSON export/import, and quota enforcement (max 20 campaigns, 2 MiB payload limit).
@@ -60,6 +61,8 @@ scripts/render-site.cjs                   website-workspace.js
 - **`website-copy.js`**: Defines the allowlist of overridable website fields and handles clean hierarchical fallback resolution.
 - **`website-workspace.js`**: Manages the live iframe sandbox, viewport size toggle (Desktop vs. 375px Phone), draft vs. named source selector, and async build cache invalidation.
 - **`website-export.js`**: Bundles a complete, standalone single-property website with all local assets, stylesheets, scripts, license notices, and integrity manifest into a downloadable offline ZIP.
+- **`website-collection.js`**: Pure functional generator bundling four edited restaurant websites ("Take the whole neighborhood") into a connected offline ZIP with linked top/footer property switchers, deduplicated shared assets, separate public snapshots, and a SHA-256 integrity manifest.
+- **`collection-workspace.js`**: Creator library UI adapter managing property campaign selection, draft vs. named source resolution, validation gating, and asynchronous collection ZIP download.
 
 ---
 
@@ -104,19 +107,27 @@ The test suite enforces stability and prevents regressions across multiple tiers
 
 ```
 [npm run check]
-├── check:generated        (Drift detection between source and delivery pages)
-├── check:validation       (39 content regressions, schedule boundary constraints)
-├── check:planner          (Arrival/departure math, party limits, closing times)
-├── check:creative         (6 oddities, map anchors, field-note generation)
-├── check:creator          (Duplication, versioning, conflict guards, backup/restore)
-├── check:marketing        (Deterministic ZIP generation, MIME validation, print letter limits)
-├── check:properties       (Multi-property catalogs, 21+ admission logic)
-├── check:websites         (4 sites, 78 menu items, 3,200 schedules, adult rules)
-├── check:website-workspace (Shared renderer parity, sandboxed preview, copy override resolution)
-└── check:website-export   (Standalone single-property ZIP packaging, full resource closure)
+├── check:generated          (Drift detection between source and delivery pages)
+├── check:validation         (39 content regressions, schedule boundary constraints)
+├── check:planner            (Arrival/departure math, party limits, closing times)
+├── check:creative           (6 oddities, map anchors, field-note generation)
+├── check:creator            (Duplication, versioning, conflict guards, backup/restore)
+├── check:marketing          (Deterministic ZIP generation, MIME validation, print letter limits)
+├── check:properties         (Multi-property catalogs, 21+ admission logic)
+├── check:websites           (4 sites, 78 menu items, 3,200 schedules, adult rules)
+├── check:website-workspace   (Shared renderer parity, sandboxed preview, copy override resolution)
+├── check:website-export     (Standalone single-property ZIP packaging, full resource closure)
+├── check:website-collection (Four-website connected collection ZIP packaging, parity & deduplication)
+└── check:themes             (Scoped visual identities, WebP theme artwork, CSS variable overrides)
 
-[npm run check:preview]    (Python unit tests for loopback server & identity check)
-[Browser Test Suite]       (Playwright + Chromium focused headless verification passes)
+[Focused Artwork Gates]
+├── check:restaurant-art     (Transparent WebP logos, 9 featured dish images, alpha decoding)
+├── check:lodge-art          (31 BooBies Lodge WebPs, 18 menu items, scenes, objects, map)
+├── check:pizza-art          (31 Rest in Pizza WebPs, 18 menu items, scenes, objects, map)
+└── check:remaining-art      (68 Bone Appétit & Grave Expectations WebPs, maps, scenes)
+
+[npm run check:preview]      (Python unit tests for loopback server & identity check)
+[Browser Test Suite]         (Playwright + Chromium focused headless verification passes)
 ```
 
 ---
@@ -133,7 +144,7 @@ The live web deployment publishes to GitHub Pages via an automated GitHub Action
   - Creator campaign workspace (`creator.html`)
   - Template & data sources for client-side previews (`index.template.html`, `site-data.json`, `property-data.json`, `visitor-sites.json`)
   - Stylesheets (`styles.css`, `properties.css`, `field-notes.css`, `creator.css`)
-  - Runtime client scripts (`app.js`, `planner.js`, `content.js`, `creator.js`, `website-workspace.js`, `website-export.js`, etc.)
+  - Runtime client scripts (`app.js`, `planner.js`, `content.js`, `creator.js`, `website-workspace.js`, `website-export.js`, `website-collection.js`, `collection-workspace.js`, etc.)
   - Complete local vector/image assets and font files (`assets/`)
   - GitHub Pages bypass flag (`.nojekyll`)
 - **Release Gating**: Deployment executes only on push to `main` after `npm run check` and `npm run check:preview` pass completely.

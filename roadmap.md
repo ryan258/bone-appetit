@@ -88,6 +88,25 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 - **Staging Automation**: `scripts/package-site.cjs` (`npm run build:pages`) stages all delivery HTML pages, creator studio, local stylesheets, scripts, JSON data, assets, and `.nojekyll` into `_site`.
 - **Live Destination**: Deployed directly to GitHub Pages at `https://ryan258.github.io/bone-appetit/`.
 
+### Milestone 11: Connected Four-Website Collection ZIP Export
+- **Neighborhood Batch Export**: `website-collection.js` and `collection-workspace.js` enable exporting all four edited campaigns together ("Take the whole neighborhood") from current drafts or last named versions.
+- **Unified Navigation & Parity**: Produces an offline connected website package rooted at `index.html` with functional top/footer switcher links, active venue indicator, deduplicated shared resources, and public content snapshots in `content/`.
+- **Dedicated Visitor Storage**: Preserves distinct content-derived planner storage keys for all four properties, maintaining full parity with standalone exports.
+
+### Milestone 12: Distinct Scoped Visual Themes & Theme Art
+- **Per-Venue Design Systems**: `properties.css` establishes four distinct scoped visual identities (`theme-bone-appetit`, `theme-rest-in-pizza`, `theme-grave-expectations`, `theme-boobies-lodge`) encompassing custom typography, color palettes, card geometry, buttons, and decorative motifs.
+- **High-Resolution Theme Art**: Curated 1536×1024 WebP hero illustrations for Rest in Pizza, Grave Expectations, and BooBies Lodge alongside Bone Appétit's roadhouse hero.
+- **Presentation-Layer Decoupling**: Shared renderer resolves theme artwork and body classes independently of immutable campaign reference snapshots.
+
+### Milestone 13: Custom Property Logos & Food Artwork
+- **Transparent Vector/WebP Logos**: Distinct emblem marks for all four properties (skull chef, pizza ghost, crowned bull-skull crest, owl-and-pines lodge) paired with editable live venue text across headers, footers, favicons, and marketing documents.
+- **Featured Dish Artwork**: Nine individual dish illustrations replacing generic placeholders across menus, dining cards, modal dialogs, and marketing collateral with automated WebP MIME declarations.
+
+### Milestone 14: Complete Four-Restaurant Stock Illustration & Converted Schematics
+- **100% Menu & Attraction Coverage**: 161 total assets providing custom WebP artwork for all 78 menu items across four properties, 12 experience scenes, 24 oddity/specimen portraits, and 4 separate story exteriors.
+- **Headless-Chromium Lossless Maps**: Dedicated scripts (`scripts/render-*-map.cjs`) render exact pixel-perfect WebP schematic maps from vector SVGs without external dependencies.
+- **Archive Capacity Extension**: Shared ZIP builder accommodates up to 256 files (64 MiB total payload) with strict path safety, CRC verification, and complete offline HTML/CSS resource closure.
+
 ---
 
 ## 3. Current System Status
@@ -102,6 +121,10 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 | Sister Properties Catalog | Verified v1.0 | `npm run check:properties` |
 | Website Workspace Adapter | Verified v1.0 | `npm run check:website-workspace` |
 | Single-Property Website Export | Verified v1.0 | `npm run check:website-export` |
+| Four-Website Collection Export | Verified v1.0 | `npm run check:website-collection` |
+| Scoped Restaurant Visual Themes | Verified v1.0 | `npm run check:themes` |
+| Restaurant Logos & Food Artwork | Verified v1.0 | `npm run check:restaurant-art` |
+| Full Restaurant Stock Artwork | Verified v1.0 | `npm run check:lodge-art` / `check:pizza-art` / `check:remaining-art` |
 | GitHub Pages Staging Pipeline | Verified v1.0 | `npm run build:pages` / `.github/workflows/deploy.yml` |
 | Python Preview Launcher | Verified v1.0 | `npm run check:preview` |
 | End-to-End Headless Browser Suite | Verified v1.0 | Playwright / Chromium (153.0.8010.12) |
