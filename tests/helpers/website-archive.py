@@ -36,13 +36,15 @@ def verify(file):
             data = archive.read(item["name"])
             assert len(data) == item["bytes"]
             assert hashlib.sha256(data).hexdigest() == item["sha256"]
-        parser = Links()
-        parser.feed(archive.read("index.html").decode())
-        for ref in parser.refs:
-            if ref.startswith("#"):
-                assert ref == "#" or ref[1:] in parser.ids, ref
-            else:
-                assert ":" not in ref and ref.split("#")[0] in names, ref
+        for page in (name for name in names if name.endswith(".html")):
+            parser = Links()
+            parser.feed(archive.read(page).decode())
+            for ref in parser.refs:
+                if ref.startswith("#"):
+                    assert ref == "#" or ref[1:] in parser.ids, (page, ref)
+                else:
+                    target = str(PurePosixPath(page).parent / ref.split("#")[0])
+                    assert ":" not in ref and target in names, (page, ref)
         pattern = r'''url\(\s*(?:"([^"]*)"|'([^']*)'|([^)\s]+))\s*\)'''
         for name in (name for name in names if name.endswith(".css")):
             for match in re.findall(pattern, archive.read(name).decode()):
