@@ -1,0 +1,1656 @@
+{
+  "date": "2026-10-16",
+  "mode": "built-in image_gen; one image per asset",
+  "jobs": [
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "cemetery-margherita",
+      "filename": "bone-cemetery-margherita-food.webp",
+      "name": "Cemetery Margherita",
+      "alt": "Concept image of Cemetery Margherita: San Marzano tomato, fresh mozzarella, basil, and black sea salt.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Cemetery Margherita. One complete wood-fired pizza. San Marzano tomato, fresh mozzarella, basil, and black sea salt.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-29f5afd1-b99f-4af2-aef4-7e21f21f818e.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-cemetery-margherita-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 284938,
+      "sha256": "3b37ec5e58679e597cc16e1304b3031c6e089ea698808a86a5d9eba5413efe7c"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "black-lagoon-bianca",
+      "filename": "bone-black-lagoon-bianca-food.webp",
+      "name": "Black Lagoon Bianca",
+      "alt": "Concept image of Black Lagoon Bianca: Garlic b\u00e9chamel, roasted mushrooms, truffle oil, and arugula.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Black Lagoon Bianca. One complete wood-fired pizza. Garlic b\u00e9chamel, roasted mushrooms, truffle oil, and arugula. Vegetarian white pizza; no tomato sauce or meat. Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d706340f-cfba-4eaf-a963-0f38aee726d9.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-black-lagoon-bianca-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 265748,
+      "sha256": "d206807fad6805023b70dbe7c0df692cafec58ba49ace855a3fa8fcde3a0a297"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "devils-harvest",
+      "filename": "bone-devils-harvest-food.webp",
+      "name": "Devil\u2019s Harvest",
+      "alt": "Concept image of Devil\u2019s Harvest: Spicy nduja, roasted peppers, caramelized onions, and Calabrian honey.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Devil\u2019s Harvest. One complete wood-fired pizza. Spicy nduja, roasted peppers, caramelized onions, and Calabrian honey. \nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-277d6065-e322-4ab8-bfcc-8f9643a6a142.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-devils-harvest-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 267428,
+      "sha256": "b6b695978c72be84aa211236f63dec312df703c3af3b7eabce3ef1e116777c2a"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "little-monster-cheese",
+      "filename": "bone-little-monster-cheese-food.webp",
+      "name": "Little Monster Cheese",
+      "alt": "Concept image of Little Monster Cheese: A smaller tomato-and-mozzarella pizza for a smaller appetite.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Little Monster Cheese. One complete wood-fired pizza. A smaller tomato-and-mozzarella pizza for a smaller appetite.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-976159fd-b02c-48eb-9278-4e6488fe038c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-little-monster-cheese-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 251876,
+      "sha256": "ecbfb172eaca8e9d336f37051865296c7bb7a5b48ff48bf9222bb7e911f19295"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "crawlers-breadsticks",
+      "filename": "bone-crawlers-breadsticks-food.webp",
+      "name": "Crawler\u2019s Breadsticks",
+      "alt": "Concept image of Crawler\u2019s Breadsticks: Garlic butter, parmesan, and a side of marinara.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Crawler\u2019s Breadsticks. Garlic butter, parmesan, and a side of marinara.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-88c95ff0-e7b2-48af-89cb-b215b4521232.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-crawlers-breadsticks-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 275892,
+      "sha256": "b2cbca4da027ef35f00aeba35a56cce917ac8cced8c673f9936e232d0d2462f0"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "pumpkin-arancini",
+      "filename": "bone-pumpkin-arancini-food.webp",
+      "name": "Pumpkin Arancini",
+      "alt": "Concept image of Pumpkin Arancini: Crispy pumpkin risotto balls with sage and pecorino cream.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Pumpkin Arancini. Crispy pumpkin risotto balls with sage and pecorino cream.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3d58cf86-18c3-456a-9c65-c2a8a0f1eeef.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-pumpkin-arancini-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 274640,
+      "sha256": "be5c6c53ade197d9a29e86d649bff79d6e65ebc56ddb35bd897cfd39a171de07"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "crypt-caprese",
+      "filename": "bone-crypt-caprese-food.webp",
+      "name": "Crypt Caprese",
+      "alt": "Concept image of Crypt Caprese: Heirloom tomatoes, burrata, basil, and aged balsamic.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Crypt Caprese. Heirloom tomatoes, burrata, basil, and aged balsamic. Burrata, not sliced mozzarella. Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5d9e2ae3-1748-477d-998d-0d63258edf55.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-crypt-caprese-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 263778,
+      "sha256": "0a1f65b9d876f905fc1dd07f5e06bb355fd587348dad04c8ab992daa4832eabc"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "funeral-fries",
+      "filename": "bone-funeral-fries-food.webp",
+      "name": "Funeral Fries",
+      "alt": "Concept image of Funeral Fries: Parmesan, herbs, and black garlic aioli.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Funeral Fries. Parmesan, herbs, and black garlic aioli.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-2d000f7e-81dd-4146-ade9-310eb30de960.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-funeral-fries-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 263400,
+      "sha256": "9b2a0c0cf2c48a8147c43d45717c24222fb6efa445ee4ac18d19436cd07138a2"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "bat-wing-wings",
+      "filename": "bone-bat-wing-wings-food.webp",
+      "name": "Bat-Wing Wings",
+      "alt": "Concept image of Bat-Wing Wings: Chicken wings with hot sauce, garlic parmesan, or smoky bourbon glaze.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Bat-Wing Wings. Chicken wings with hot sauce, garlic parmesan, or smoky bourbon glaze. Show ordinary chicken wings in three small groups: hot sauce, garlic parmesan and smoky bourbon glaze. No literal bat parts.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-4c66045f-a4e7-47ed-82d9-8b38c913ec6b.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-bat-wing-wings-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 259996,
+      "sha256": "0b5ef7f2aa33486355e68a5e62c16795d66a22741aba969b34808493f90ecf7d"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "graveyard-garlic-knots",
+      "filename": "bone-graveyard-garlic-knots-food.webp",
+      "name": "Graveyard Garlic Knots",
+      "alt": "Concept image of Graveyard Garlic Knots: Warm dough knots with garlic butter, parsley, and parmesan.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Graveyard Garlic Knots. Warm dough knots with garlic butter, parsley, and parmesan.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-a57916f2-dffa-4f6e-9030-2f75dfd8c37c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-graveyard-garlic-knots-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 285342,
+      "sha256": "b9ed40c9510ebbbb4d26ee0302be667e33c9724a9c2ba6bcdc9141a44d192592"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "inferno-mozzarella",
+      "filename": "bone-inferno-mozzarella-food.webp",
+      "name": "Inferno Mozzarella",
+      "alt": "Concept image of Inferno Mozzarella: Fried mozzarella with a gently fiery Calabrian marinara.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Inferno Mozzarella. Fried mozzarella with a gently fiery Calabrian marinara.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-fecbb0e9-40ec-4c85-98bb-4facce12308f.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-inferno-mozzarella-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 256312,
+      "sha256": "5c8149585c19ab35369d8ebebed6e2893a49f9881551f4f3fbdf603d0849c976"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "graveyard-gelato",
+      "filename": "bone-graveyard-gelato-food.webp",
+      "name": "Graveyard Gelato",
+      "alt": "Concept image of Graveyard Gelato: Vanilla bean gelato, chocolate soil, and a tombstone cookie.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Graveyard Gelato. Vanilla bean gelato, chocolate soil, and a tombstone cookie. Include a clearly edible simple tombstone-shaped biscuit without text. No real soil. Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3a14338c-d2cc-447c-a060-d6a54579400a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-graveyard-gelato-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 247618,
+      "sha256": "2bc0ae1cac9c4797117135e7a32cd6b302b2cd969c2455cfd739909a640c9e30"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "seance-tiramisu",
+      "filename": "bone-seance-tiramisu-food.webp",
+      "name": "S\u00e9ance Tiramisu",
+      "alt": "Concept image of S\u00e9ance Tiramisu: Espresso-soaked sponge, mascarpone, and cocoa dust.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: S\u00e9ance Tiramisu. Espresso-soaked sponge, mascarpone, and cocoa dust.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f9936562-6cde-4ba5-8a4d-43d77473b31c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-seance-tiramisu-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 263438,
+      "sha256": "82ddfa9e17805da94bd62a157da324b5a089f71e53043a95231cd57d6bd9b042"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "black-candle-cheesecake",
+      "filename": "bone-black-candle-cheesecake-food.webp",
+      "name": "Black Candle Cheesecake",
+      "alt": "Concept image of Black Candle Cheesecake: Baked cheesecake, blackberry compote, and dark cocoa crumble.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Black Candle Cheesecake. Baked cheesecake, blackberry compote, and dark cocoa crumble. No actual candle on the food. Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0ef97fa3-2df0-4ae9-8c89-79329509a5f0.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-black-candle-cheesecake-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 230550,
+      "sha256": "9f69663a2508900036aebf487c396eafc355b2e5d12315ddb83c5c4a4b51096d"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "afterlife-affogato",
+      "filename": "bone-afterlife-affogato-food.webp",
+      "name": "Afterlife Affogato",
+      "alt": "Concept image of Afterlife Affogato: Vanilla gelato drowned in hot espresso.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Afterlife Affogato. Vanilla gelato drowned in hot espresso.  Vegetarian dish; no meat or fish garnish.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-4467e3f0-071b-4d6c-bf68-9d8f67667846.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-afterlife-affogato-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 225426,
+      "sha256": "59b03d40369d4a7bf1ab00e50c6bbc001bab48dd040f6da5313731cebad8c5aa"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "wicked-orchard-cider",
+      "filename": "bone-wicked-orchard-cider-food.webp",
+      "name": "Wicked Orchard Cider",
+      "alt": "Concept image of Wicked Orchard Cider: Warm apple cider, cinnamon, and orange peel. Zero-proof drink.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Wicked Orchard Cider. Warm apple cider, cinnamon, and orange peel.  Nonalcoholic drink; no alcohol bottles or alcoholic drinks anywhere in frame.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8e7bcfee-4268-4a8d-b114-2b678638317a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-wicked-orchard-cider-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 239778,
+      "sha256": "1c8e5093e7ebeec1a77d4ed60dc26e6375313b32feb1f0adc2326e44ef348b54"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "midnight-cola",
+      "filename": "bone-midnight-cola-food.webp",
+      "name": "Midnight Cola",
+      "alt": "Concept image of Midnight Cola: House cola with vanilla, cherry, and a twist of lime. Zero-proof drink.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Midnight Cola. House cola with vanilla, cherry, and a twist of lime.  Nonalcoholic drink; no alcohol bottles or alcoholic drinks anywhere in frame.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7f9d1ecd-f3f1-4d25-9380-4d397d140eb8.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-midnight-cola-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 234564,
+      "sha256": "778c61f75c17cc77ca904533029481c793cf0e267864c2b3dc730c817f912332"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "little-ghost-cocoa",
+      "filename": "bone-little-ghost-cocoa-food.webp",
+      "name": "Little Ghost Cocoa",
+      "alt": "Concept image of Little Ghost Cocoa: Warm cocoa with a marshmallow ghost. Zero-proof drink.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Little Ghost Cocoa. Warm cocoa with a marshmallow ghost. A friendly ghost-shaped marshmallow floats on cocoa. No lettering. Nonalcoholic drink; no alcohol bottles or alcoholic drinks anywhere in frame.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7651c510-0ec6-4490-ab17-2c9fb1f69062.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-little-ghost-cocoa-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 242866,
+      "sha256": "28dde9d9853a4cf927cec528920839d8315572d158cbb32acd909f27adc9a440"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "ravens-negroni",
+      "filename": "bone-ravens-negroni-food.webp",
+      "name": "Raven\u2019s Negroni",
+      "alt": "Concept image of Raven\u2019s Negroni: Gin, Campari, sweet vermouth, and blood orange. Alcoholic drink, 21+.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Raven\u2019s Negroni. Gin, Campari, sweet vermouth, and blood orange.  Alcoholic beverage for adults; no real brand labels.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f89b6098-51ac-40a3-b59a-875fde333d70.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-ravens-negroni-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 245588,
+      "sha256": "c1a2f58f034b8f6b2835d394beaf92e9ecdea4e4b66c4490a95b61e2f3705ac0"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "the-last-rites",
+      "filename": "bone-the-last-rites-food.webp",
+      "name": "The Last Rites",
+      "alt": "Concept image of The Last Rites: Bourbon, maple, lemon, and smoky bitters over a large cube. Alcoholic drink, 21+.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: The Last Rites. Bourbon, maple, lemon, and smoky bitters over a large cube.  Alcoholic beverage for adults; no real brand labels.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e264ef3e-3b60-467f-9ee3-291b94b8ca7d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-the-last-rites-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 217680,
+      "sha256": "e9607b09944b02ead8e4a6c863e7c68cab53e89183abced00792878f7e24fbff"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "food",
+      "id": "blood-orange-spritz",
+      "filename": "bone-blood-orange-spritz-food.webp",
+      "name": "Blood Orange Spritz",
+      "alt": "Concept image of Blood Orange Spritz: Aperol, prosecco, blood orange, and soda. Alcoholic drink, 21+.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Blood Orange Spritz. Aperol, prosecco, blood orange, and soda.  Alcoholic beverage for adults; no real brand labels.\nScene: Warm dark wood table inside an original crooked Victorian roadside pizzeria, amber candlelight, tiny pumpkin lantern, faded moss-green upholstery and antique brass. Rural autumn woods seen softly through a window. Cozy, whimsical haunted roadhouse; no gingham, no sports-bar styling.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0c18faf6-0eff-4da7-af67-b2f52fcd1f16.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-blood-orange-spritz-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 243352,
+      "sha256": "a38be010558b2be1da88551cc6c54f67eca6fb7b1e681cf2a794abaf4736b2dc"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "attraction",
+      "id": "pizzeria",
+      "filename": "bone-dining-room-scene.webp",
+      "name": "The haunted pizzeria",
+      "alt": "Concept illustration of Wide interior of a crooked Victorian roadside pizzeria with old dark wood tables, moss-green chairs, a busy wood-fired oven, slightly off-kilter family portraits, pumpkins and warm amber lanterns.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: Wide interior of a crooked Victorian roadside pizzeria with old dark wood tables, moss-green chairs, a busy wood-fired oven, slightly off-kilter family portraits, pumpkins and warm amber lanterns. One empty chair has an extra place setting; an elusive friendly ghost is reflected faintly in an old mirror. Living mature adult diners enjoy supper; gently funny hospitality, no threatening action.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange.\nComposition: architectural scene, detailed materials, center-safe framing with breathing room for responsive crops.\nConstraints: no gore, threatening violence, real chain branding, lettering or watermarks. Any humans are clearly mature adults, no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ad0bee00-bdd3-4d42-9afe-4ccdcd3b1a9b.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-dining-room-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 342642,
+      "sha256": "3a7af16f203ebfdf52ba2b1b5272f1c2299f76ac271dc5e6922d49528b37dbe3"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "story",
+      "id": "story",
+      "filename": "bone-exterior-story.webp",
+      "name": "Roadhouse story exterior",
+      "alt": "Concept illustration of A lovingly crooked Victorian roadside restaurant at autumn dusk among rural woods, moss-green trim, amber windows, broad porch, small pumpkin lanterns, a pizza oven glowing through the side window.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: A lovingly crooked Victorian roadside restaurant at autumn dusk among rural woods, moss-green trim, amber windows, broad porch, small pumpkin lanterns, a pizza oven glowing through the side window. Full original house facade in frame, mysterious but welcoming, no people, no signage text.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange.\nComposition: architectural scene, detailed materials, center-safe framing with breathing room for responsive crops.\nConstraints: no gore, threatening violence, real chain branding, lettering or watermarks. Any humans are clearly mature adults, no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-cebb55a5-37c8-4c93-984f-20b52c48ae43.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-exterior-story.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 426572,
+      "sha256": "a7fc7acff2c959a2494c3f9ecace5120d5dd176ce65eab7598828c4b06910f03"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "oddity",
+      "id": "employee-of-the-month",
+      "filename": "bone-ghost-object.webp",
+      "name": "The Employee of the Month",
+      "alt": "Concept image of A small ivory glazed ceramic ghost figurine wearing a plain employee award medallion, friendly resigned face; aged brass medallion with moss-green ribbon on a worn wood base..",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: A small ivory glazed ceramic ghost figurine wearing a plain employee award medallion, friendly resigned face; aged brass medallion with moss-green ribbon on a worn wood base.\nScene: A worn dark wooden curiosity shelf, faded green felt, antique brass and a softly blurred pumpkin lantern.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f94fd227-71bf-46b7-ac24-147f90243558.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-ghost-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 207916,
+      "sha256": "f8ca4a71bc352aa6bdf543f9304acd71738517da93cd6f45fba5c35d91a06d70"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "oddity",
+      "id": "unlisted-room-key",
+      "filename": "bone-key-object.webp",
+      "name": "Key to the Unlisted Room",
+      "alt": "Concept image of One aged brass skeleton key with a weathered paper tag marked exactly \"13\", faded green twine..",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: One aged brass skeleton key with a weathered paper tag marked exactly \"13\", faded green twine.\nScene: A worn dark wooden curiosity shelf, faded green felt, antique brass and a softly blurred pumpkin lantern.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8c3d4ff2-9670-48e4-b06f-77b11341960f.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-key-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 255914,
+      "sha256": "7d6ed4b10a44e4586a91b368f6acf93e3a67ef42c943b13b9d6d8f03dde48f9c"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "oddity",
+      "id": "next-thursday-postcard",
+      "filename": "bone-postcard-object.webp",
+      "name": "Postcard from Next Thursday",
+      "alt": "Concept image of One weathered illustrated postcard depicting a crooked Victorian roadside house in autumn woods beneath a moon.",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: One weathered illustrated postcard depicting a crooked Victorian roadside house in autumn woods beneath a moon. Abstract cancellation lines; no readable words.\nScene: A worn dark wooden curiosity shelf, faded green felt, antique brass and a softly blurred pumpkin lantern.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-72588dbc-9416-4664-b10d-d6311be254d3.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-postcard-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 308518,
+      "sha256": "0cd7e91777a9efe5f94a087262a466a74a5f20f375a0c5d83d907887fdf89b59"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "oddity",
+      "id": "pumpkin-visitor-badge",
+      "filename": "bone-badge-object.webp",
+      "name": "The Pumpkin\u2019s Visitor Badge",
+      "alt": "Concept image of One orange jack-o-lantern enamel pin with a blank faded moss-green visitor ribbon and antique brass edges..",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: One orange jack-o-lantern enamel pin with a blank faded moss-green visitor ribbon and antique brass edges.\nScene: A worn dark wooden curiosity shelf, faded green felt, antique brass and a softly blurred pumpkin lantern.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-23b77c19-f922-45f6-8d6d-697dea0d967f.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-badge-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 197792,
+      "sha256": "d29dda367a9451035ad756c226e1023ae234571d1a9aeaad27f84deb15481223"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "oddity",
+      "id": "unresolved-business-magnet",
+      "filename": "bone-magnet-object.webp",
+      "name": "Magnet with Unresolved Business",
+      "alt": "Concept image of One crafted souvenir magnet depicting a crooked Victorian roadside house with a tiny pumpkin.",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: One crafted souvenir magnet depicting a crooked Victorian roadside house with a tiny pumpkin. A curling paper receipt clings to it, abstract faint rules with no readable words.\nScene: A worn dark wooden curiosity shelf, faded green felt, antique brass and a softly blurred pumpkin lantern.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-90e5aebb-1a7d-4a9e-9199-4ab4e1c76044.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-magnet-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 203954,
+      "sha256": "ce965359185c546efabbb2b74bd592bc83c2e24a80b415698dc31ec6b4fe0d15"
+    },
+    {
+      "propertyId": "bone-appetit",
+      "kind": "oddity",
+      "id": "raven-from-accounts",
+      "filename": "bone-raven-object.webp",
+      "name": "The Raven from Accounts",
+      "alt": "Concept image of One black painted-resin raven figurine perched on a small weathered moss-green accounting ledger on a wood shelf.",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Bone App\u00e9tit, an original fictional Halloween restaurant.\nSubject: One black painted-resin raven figurine perched on a small weathered moss-green accounting ledger on a wood shelf. A receipt lies beside it; clearly a crafted object, not a living bird.\nScene: A worn dark wooden curiosity shelf, faded green felt, antique brass and a softly blurred pumpkin lantern.\nStyle: Polished cinematic painterly realism with handmade Victorian roadside charm, dark timber, moss green, amber lanterns and autumn orange. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-062dd02c-e206-42c8-9f11-f22d82046795.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-raven-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 241994,
+      "sha256": "a0779273064eed5959321abe0490d5be05489980f5a6c1d4575a86dc253047b2"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "the-heir-apparent-strip",
+      "filename": "grave-the-heir-apparent-strip-food.webp",
+      "name": "The Heir Apparent Strip",
+      "alt": "Concept image of The Heir Apparent Strip: A 12 oz strip steak with bone-marrow butter.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: The Heir Apparent Strip. A 12 oz strip steak with bone-marrow butter. \nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-912101ff-ad2f-4de8-92a9-322fcdd3111c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-the-heir-apparent-strip-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 238478,
+      "sha256": "2f0488cc2908ed0dd8d8fe989317f4d91f13e6891d03f3edeedded965db31ef0"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "porterhouse-for-the-executors",
+      "filename": "grave-porterhouse-for-the-executors-food.webp",
+      "name": "Porterhouse for the Executors",
+      "alt": "Concept image of Porterhouse for the Executors: A 32 oz porterhouse to share, with herb butter and roast garlic.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Porterhouse for the Executors. A 32 oz porterhouse to share, with herb butter and roast garlic. Large bone-in porterhouse steak to share, clear T-shaped bone, herb butter and roasted garlic, generous platter.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d6e920ec-43e9-44d1-b7d5-339f9a0f212a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-porterhouse-for-the-executors-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 338016,
+      "sha256": "41c282612da8bc569b1e6d8c89c0f41d6b2f7ab95b80b0ece9b87d03ede16eaf"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "lamb-of-the-last-testament",
+      "filename": "grave-lamb-of-the-last-testament-food.webp",
+      "name": "Lamb of the Last Testament",
+      "alt": "Concept image of Lamb of the Last Testament: Roasted lamb chops, rosemary jus, and fondant potato.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Lamb of the Last Testament. Roasted lamb chops, rosemary jus, and fondant potato. \nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5d6ed877-32a0-40f2-ba61-ab6da80e3a97.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-lamb-of-the-last-testament-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 218908,
+      "sha256": "da095c8513395e206fc45b9c45264a13dcfff725de83bd215ccd021aa7c3d998"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "mushroom-mausoleum",
+      "filename": "grave-mushroom-mausoleum-food.webp",
+      "name": "Mushroom Mausoleum",
+      "alt": "Concept image of Mushroom Mausoleum: Roasted portobello, wild-mushroom ragout, parmesan polenta, and thyme butter.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Mushroom Mausoleum. Roasted portobello, wild-mushroom ragout, parmesan polenta, and thyme butter. Vegetarian roasted portobello and wild-mushroom ragout over parmesan polenta, thyme butter. No meat or meat garnish. Vegetarian dish; no meat or fish garnish.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3ce74295-408d-4074-9e30-4eee74e87a02.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-mushroom-mausoleum-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 226376,
+      "sha256": "303a64a65796558b363d771086d45ba8a565aaca11124c2be46733b77b545b39"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "estate-tartare",
+      "filename": "grave-estate-tartare-food.webp",
+      "name": "Estate Tartare",
+      "alt": "Concept image of Estate Tartare: Hand-cut beef, capers, shallot, egg yolk, and toasted sourdough.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Estate Tartare. Hand-cut beef, capers, shallot, egg yolk, and toasted sourdough. A tidy hand-cut beef tartare mound with an intact egg yolk, capers, finely diced shallot and toasted sourdough. Culinary raw beef, no gore.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e10cf428-bbcc-4812-af39-bbe7b38b415d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-estate-tartare-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 231806,
+      "sha256": "f3dd0b3c46f2cf8b742f89bcce36ed5777ab52208ab4d8e904eae790bd7bb7cf"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "ancestral-onion-soup",
+      "filename": "grave-ancestral-onion-soup-food.webp",
+      "name": "Ancestral Onion Soup",
+      "alt": "Concept image of Ancestral Onion Soup: Slow-cooked onion in beef broth, Gruy\u00e8re toast, and a lid of quiet authority.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Ancestral Onion Soup. Slow-cooked onion in beef broth, Gruy\u00e8re toast, and a lid of quiet authority. \nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b3d1a19a-09de-4bb8-8348-e677cb31258f.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ancestral-onion-soup-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 227000,
+      "sha256": "e7ccc32ce2308da551aa6a07bbae2dc20ade115b25f93b481a21a5ad58a2a75a"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "buried-bone-marrow",
+      "filename": "grave-buried-bone-marrow-food.webp",
+      "name": "Buried Bone Marrow",
+      "alt": "Concept image of Buried Bone Marrow: Roasted bone marrow, parsley salad, and sourdough.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Buried Bone Marrow. Roasted bone marrow, parsley salad, and sourdough. Prepared culinary cross-cut roasted beef marrow bones with parsley salad and sourdough, no body horror.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b8a9da26-9265-485d-8fd8-1c2ecf6fd48d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-buried-bone-marrow-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 253118,
+      "sha256": "83de6db5e6f3638ba7b72c0c3d7299effe9a3376ac52e3070aa494afa15cb88c"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "heirloom-wedge",
+      "filename": "grave-heirloom-wedge-food.webp",
+      "name": "The Heirloom Wedge",
+      "alt": "Concept image of The Heirloom Wedge: Iceberg, blue cheese, tomato, and chive dressing.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: The Heirloom Wedge. Iceberg, blue cheese, tomato, and chive dressing. Vegetarian iceberg wedge, blue cheese, tomato, chive dressing; no bacon. Vegetarian dish; no meat or fish garnish.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-1245494b-6437-45b5-ae9a-51b87f07fc75.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-heirloom-wedge-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 213566,
+      "sha256": "11dabad8bfe2214a8f4ca2c5cd3ba0c0898b26fe34574e8957ac74fa26d17269"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "creme-brulee-bequest",
+      "filename": "grave-creme-brulee-bequest-food.webp",
+      "name": "Cr\u00e8me Br\u00fbl\u00e9e Bequest",
+      "alt": "Concept image of Cr\u00e8me Br\u00fbl\u00e9e Bequest: Vanilla custard beneath a brittle caramel lid.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Cr\u00e8me Br\u00fbl\u00e9e Bequest. Vanilla custard beneath a brittle caramel lid.  Vegetarian dish; no meat or fish garnish.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f81a5b68-084a-4bcd-bc47-c9cdb91a3b35.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-creme-brulee-bequest-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 190810,
+      "sha256": "0b5b183ff3cf09e0540bd3729ec834b0263d2ebd45270c39a6092df450678ee2"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "black-tie-forest",
+      "filename": "grave-black-tie-forest-food.webp",
+      "name": "Black Tie Forest",
+      "alt": "Concept image of Black Tie Forest: Chocolate cake, cherries, and whipped cream.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Black Tie Forest. Chocolate cake, cherries, and whipped cream.  Vegetarian dish; no meat or fish garnish.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-302b16d6-5cc3-484d-be49-6f9bd741eaf1.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-black-tie-forest-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 207978,
+      "sha256": "ccd1220764bef23ea9e27d911b78abee0e07f5fe8cfae47c59871c4452c39a57"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "the-cheese-executor",
+      "filename": "grave-the-cheese-executor-food.webp",
+      "name": "The Cheese Executor",
+      "alt": "Concept image of The Cheese Executor: Three cheeses with fruit preserve and crackers.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: The Cheese Executor. Three cheeses with fruit preserve and crackers. Exactly three distinct cheese portions with fruit preserve and crackers. Vegetarian dish; no meat or fish garnish.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5b2fa2d5-343c-4778-8b25-b5ed4bca0a5c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-the-cheese-executor-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 205130,
+      "sha256": "c6c5c94d3914f5620551ec801c902c56889d3a714674d25c65d74806556ec40b"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "old-money-fashioned",
+      "filename": "grave-old-money-fashioned-food.webp",
+      "name": "Old Money Fashioned",
+      "alt": "Concept image of Old Money Fashioned: Bourbon, bitters, sugar, and orange oils. Alcoholic drink, 21+.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Old Money Fashioned. Bourbon, bitters, sugar, and orange oils.  Alcoholic beverage for adults; no real brand labels.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f74d6fd4-e3fe-45a9-9971-36e37d8992d4.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-old-money-fashioned-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 221494,
+      "sha256": "ecae887304152bb0eb783eb2e7ea4712aa418b5bc953f856f4c8628412700e00"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "widows-martini",
+      "filename": "grave-widows-martini-food.webp",
+      "name": "Widow\u2019s Martini",
+      "alt": "Concept image of Widow\u2019s Martini: Gin, dry vermouth, and a lemon twist. Alcoholic drink, 21+.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Widow\u2019s Martini. Gin, dry vermouth, and a lemon twist.  Alcoholic beverage for adults; no real brand labels.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0d8d6bec-bb5e-4826-bee0-5b237bbbade5.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-widows-martini-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 177476,
+      "sha256": "e020da3497f0cf1958a066d901db84cda8504326650b610c6f319381badcc70f"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "house-red-in-trust",
+      "filename": "grave-house-red-in-trust-food.webp",
+      "name": "House Red in Trust",
+      "alt": "Concept image of House Red in Trust: A fictional house red by the glass. Alcoholic drink, 21+.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: House Red in Trust. A fictional house red by the glass.  Alcoholic beverage for adults; no real brand labels.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6d8c967f-35f3-488f-a1b0-cfee33c7fc44.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-house-red-in-trust-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 199336,
+      "sha256": "54a26a3de5cb7129bb31bb4c3cff96076264c9a9261b3a9e8c7787514d45819d"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "bloodline-fizz",
+      "filename": "grave-bloodline-fizz-food.webp",
+      "name": "Bloodline Fizz",
+      "alt": "Concept image of Bloodline Fizz: Blood orange, rosemary, lemon, and sparkling water. Zero-proof drink.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Bloodline Fizz. Blood orange, rosemary, lemon, and sparkling water.  Nonalcoholic drink; no alcohol bottles or alcoholic drinks anywhere in frame.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6d176ba0-2a4f-47b3-ae38-5523196a33a8.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-bloodline-fizz-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 230106,
+      "sha256": "baf685ee1d1db040b025bb1c7e5bbe2336314463237a24cdee3f5fdd55daa0d2"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "food",
+      "id": "the-designated-heir",
+      "filename": "grave-the-designated-heir-food.webp",
+      "name": "The Designated Heir",
+      "alt": "Concept image of The Designated Heir: Blackcurrant, lime, and soda. Zero-proof drink.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: The Designated Heir. Blackcurrant, lime, and soda.  Nonalcoholic drink; no alcohol bottles or alcoholic drinks anywhere in frame.\nScene: Refined black marble table in an original ancestral steakhouse, cream porcelain with fine antique-gold rim, polished silver, oxblood velvet in soft background, low warm candlelight. Discreet small pumpkin at far back. Elegant, understated Halloween parody; no gingham or rustic sports-bar props.\nComposition: appetizing editorial food photography, tactile ingredients, named dish or drink is the clear central focal point, three-quarter tabletop view, entire plate/glass inside frame with breathing room for responsive crop.\nConstraints: no people, hands, lettering, watermarks, logos, gore, fake eyes or inedible props on food. Respect the stated ingredients, portion type, vegetarian and nonalcoholic requirements. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f3927713-dafc-49b3-88b6-46315b1e221a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-the-designated-heir-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 223128,
+      "sha256": "8b0d70a294670b8e090a489e1b281c3a069f520544a55c4adb6ee2eb902450bb"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "attraction",
+      "id": "pizzeria",
+      "filename": "grave-dining-room-scene.webp",
+      "name": "The candlelit dining room",
+      "alt": "Concept illustration of Wide interior of an ancestral upscale steakhouse: oxblood velvet banquettes, dark paneling, antique gold chandeliers, enormous original family portraits appearing slightly judgmental, cream linen and polished silver.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Wide interior of an ancestral upscale steakhouse: oxblood velvet banquettes, dark paneling, antique gold chandeliers, enormous original family portraits appearing slightly judgmental, cream linen and polished silver. A discreet friendly translucent ghost ma\u00eetre d\u2019 stands by an empty chair. Mature adult guests and fully dressed professional waitstaff. Composed grand hospitality with gently ridiculous old-money confidence.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits.\nComposition: architectural scene, detailed materials, center-safe framing with breathing room for responsive crops.\nConstraints: no gore, threatening violence, real chain branding, lettering or watermarks. Any humans are clearly mature adults, no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c59f73a9-666d-41a1-859a-aba594835319.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-dining-room-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 281722,
+      "sha256": "eb24292aae94e57132364a99c1733b6d8cae00f187f96e55d751e76ac0d44e78"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "attraction",
+      "id": "hollow",
+      "filename": "grave-mourning-terrace-scene.webp",
+      "name": "The mourning terrace",
+      "alt": "Concept illustration of A sheltered stone terrace outside an ancestral steakhouse at blue hour, clipped topiary hedges in absurdly formal shapes, iron cafe chairs with oxblood cushions, cream linen tables, antique brass lanterns and discreet carved pumpkins.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: A sheltered stone terrace outside an ancestral steakhouse at blue hour, clipped topiary hedges in absurdly formal shapes, iron cafe chairs with oxblood cushions, cream linen tables, antique brass lanterns and discreet carved pumpkins. One decorative marble bust appears to judge an empty wine glass. Refined, quiet and gently funny, no people.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits.\nComposition: architectural scene, detailed materials, center-safe framing with breathing room for responsive crops.\nConstraints: no gore, threatening violence, real chain branding, lettering or watermarks. Any humans are clearly mature adults, no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-be5f04e9-3734-4552-b237-197a023dd459.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-mourning-terrace-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 328602,
+      "sha256": "04d240984385170b1907c8120ea7c83c25a4f0aa94eb3f467d017bbecaf94af9"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "attraction",
+      "id": "oddities",
+      "filename": "grave-ancestral-cabinet-scene.webp",
+      "name": "The ancestral cabinet",
+      "alt": "Concept illustration of An elaborate antique-gold-trimmed walnut cabinet in a candlelit ancestral steakhouse.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: An elaborate antique-gold-trimmed walnut cabinet in a candlelit ancestral steakhouse. Six evenly spaced curiosities on oxblood velvet shelves: ivory ceramic ghost with gold medallion, brass key, mansion postcard, pumpkin enamel badge, manor souvenir magnet with receipt and a black raven figurine on an oxblood ledger. Confident museum-like presentation for ridiculous objects, no readable labels, no people.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits.\nComposition: architectural scene, detailed materials, center-safe framing with breathing room for responsive crops.\nConstraints: no gore, threatening violence, real chain branding, lettering or watermarks. Any humans are clearly mature adults, no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c1eba3c6-52d6-4e5c-957c-33dcacf0f68c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ancestral-cabinet-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 272844,
+      "sha256": "b391f5b81216d9b9c688a94052924642612b9db4f3cd8deb7db07a09a03a23ae"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "story",
+      "id": "story",
+      "filename": "grave-exterior-story.webp",
+      "name": "Chop house story exterior",
+      "alt": "Concept illustration of Entire facade of an original grand ancestral stone chop house at autumn dusk, imposing but inviting, arched gold-lit windows, oxblood canopy, clipped hedges and subtle pumpkin lanterns on stone steps.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: Entire facade of an original grand ancestral stone chop house at autumn dusk, imposing but inviting, arched gold-lit windows, oxblood canopy, clipped hedges and subtle pumpkin lanterns on stone steps. Old-money Halloween hospitality with a touch of theatrical vanity. No people, readable lettering or real branded architecture.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits.\nComposition: architectural scene, detailed materials, center-safe framing with breathing room for responsive crops.\nConstraints: no gore, threatening violence, real chain branding, lettering or watermarks. Any humans are clearly mature adults, no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b6b027cc-1165-4a3f-b6fd-84352bf5dac2.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-exterior-story.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 384450,
+      "sha256": "89135b4c347dfa69b16c1f3e74c1ff88f4a7f9d68acfb76ff413b92faad07476"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "oddity",
+      "id": "employee-of-the-month",
+      "filename": "grave-ghost-object.webp",
+      "name": "The Former Assistant Manager",
+      "alt": "Concept image of A small ivory glazed ceramic ghost figurine wearing a plain employee award medallion, friendly resigned face; antique-gold medallion on an oxblood velvet miniature plinth..",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: A small ivory glazed ceramic ghost figurine wearing a plain employee award medallion, friendly resigned face; antique-gold medallion on an oxblood velvet miniature plinth.\nScene: An elegant black-marble display ledge, oxblood velvet backing, antique-gold trim and softly blurred candlelight.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-86ddf695-1355-4397-a5d4-7451be28c534.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ghost-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 179500,
+      "sha256": "bc0d86e2f04d265529322aff92fcb0a03f5e5e11ced0525786f43df714fbf60a"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "oddity",
+      "id": "unlisted-room-key",
+      "filename": "grave-key-object.webp",
+      "name": "The Cellar Key",
+      "alt": "Concept image of One aged brass skeleton key with a weathered paper tag marked exactly \"13\", a luxurious oxblood tassel..",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: One aged brass skeleton key with a weathered paper tag marked exactly \"13\", a luxurious oxblood tassel.\nScene: An elegant black-marble display ledge, oxblood velvet backing, antique-gold trim and softly blurred candlelight.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5bc16bc2-fba5-45cc-9cdc-28b18b86ebb0.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-key-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 221688,
+      "sha256": "be157b949ddcdf6eed5e2b8dc310c762bfb74a8e2ce721f762fbe7c3acbddb4e"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "oddity",
+      "id": "next-thursday-postcard",
+      "filename": "grave-postcard-object.webp",
+      "name": "Postcard from the Previous Owner",
+      "alt": "Concept image of One weathered illustrated postcard depicting a grand ancestral stone steakhouse beneath an autumn moon.",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: One weathered illustrated postcard depicting a grand ancestral stone steakhouse beneath an autumn moon. Abstract cancellation lines; no readable words.\nScene: An elegant black-marble display ledge, oxblood velvet backing, antique-gold trim and softly blurred candlelight.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-da8118f1-21e1-44ed-8d34-2ac70c575659.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-postcard-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 285712,
+      "sha256": "b2d13df9f08c518716a93a774d181913adab273cf279292917b004d854574c12"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "oddity",
+      "id": "pumpkin-visitor-badge",
+      "filename": "grave-badge-object.webp",
+      "name": "The Pumpkin\u2019s Staff Badge",
+      "alt": "Concept image of One orange jack-o-lantern enamel pin with an elaborate antique-gold edge and blank oxblood staff ribbon..",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: One orange jack-o-lantern enamel pin with an elaborate antique-gold edge and blank oxblood staff ribbon.\nScene: An elegant black-marble display ledge, oxblood velvet backing, antique-gold trim and softly blurred candlelight.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-fddea31c-bd03-4735-9aa7-51ae1ad598f2.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-badge-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 211588,
+      "sha256": "e970b5dda1479155c17d9b4ed289bfeb59ffba2c3a06143926a4f99fd322c3bc"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "oddity",
+      "id": "unresolved-business-magnet",
+      "filename": "grave-magnet-object.webp",
+      "name": "The Unsettled Tab",
+      "alt": "Concept image of One crafted souvenir magnet depicting a grand stone manor restaurant with gold-lit windows.",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: One crafted souvenir magnet depicting a grand stone manor restaurant with gold-lit windows. A curling paper receipt clings to it, abstract faint rules with no readable words.\nScene: An elegant black-marble display ledge, oxblood velvet backing, antique-gold trim and softly blurred candlelight.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-01fb747c-8f85-4ba1-9e37-be3cbc494ae6.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-magnet-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 256234,
+      "sha256": "a06fb535f57ef338df4500522bf8a1b11210908f76bea6e2fb0a47ab05e0650f"
+    },
+    {
+      "propertyId": "grave-expectations",
+      "kind": "oddity",
+      "id": "raven-from-accounts",
+      "filename": "grave-raven-object.webp",
+      "name": "The Raven from Accounts",
+      "alt": "Concept image of One black painted-resin raven figurine perched on a small oxblood leather accounting ledger with gold corner pieces.",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Grave Expectations Chop House, an original fictional Halloween restaurant.\nSubject: One black painted-resin raven figurine perched on a small oxblood leather accounting ledger with gold corner pieces. A receipt lies beside it; clearly a crafted object, not a living bird.\nScene: An elegant black-marble display ledge, oxblood velvet backing, antique-gold trim and softly blurred candlelight.\nStyle: Polished cinematic painterly realism with aristocratic Halloween grandeur, oxblood velvet, black marble, antique gold, composed candlelight and original ancestral portraits. Polished tactile editorial product photography.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e4d21bc1-2175-46b6-8118-5efe8acd3acd.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-raven-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 228104,
+      "sha256": "e2fb4322f9eb1de2f528baf992c59b222f5fc41c6cc7f13b5f1d2128d8fb49cc"
+    }
+  ],
+  "conversion": "Pillow RGB WebP quality 86 method 6; original dimensions, no creative edits or cropping.",
+  "mapConversions": [
+    {
+      "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grounds-map.svg",
+      "sourceSha256": "1de4ce6d263e1ed75f3c9bd474510a1831355f56306aa81150440de6956c90a2",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-grounds-map.webp",
+      "dimensions": [
+        760,
+        560
+      ],
+      "bytes": 31488,
+      "sha256": "af682358e95dc0ac9329aad0cd4a50a8815c257e5f64177c0b2f207310d7134f",
+      "method": "Exact source SVG through Chromium; lossless RGB WebP, original source preserved.",
+      "reproduce": "npm run build:remaining-maps"
+    },
+    {
+      "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-expectations-map.svg",
+      "sourceSha256": "96321b5e89cfc2cd6408672416ca511eb707f9616af59a2110870cfd7f50b813",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-grounds-map.webp",
+      "dimensions": [
+        960,
+        960
+      ],
+      "bytes": 19352,
+      "sha256": "b760bc3bf6327e4aa2b35d9775644e5b115aef14a4693db57da4caa94b7027eb",
+      "method": "Exact source SVG through Chromium; lossless RGB WebP, original source preserved.",
+      "reproduce": "npm run build:remaining-maps"
+    }
+  ],
+  "currentPropertyAssets": {
+    "bone-appetit": [
+      {
+        "filename": "haunted-roadhouse.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/haunted-roadhouse.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 311442,
+        "sha256": "d6bfef3a57a5412fd227d4dac0748b37e330caba940736f4cf489f651c5bc0f3"
+      },
+      {
+        "filename": "bone-appetit-logo.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-appetit-logo.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "bytes": 364368,
+        "sha256": "24953a0571238b8beef403223d0f1812ee021d5586d872cc96843f97491a691b"
+      },
+      {
+        "filename": "bone-exterior-story.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-exterior-story.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 426572,
+        "sha256": "a7fc7acff2c959a2494c3f9ecace5120d5dd176ce65eab7598828c4b06910f03"
+      },
+      {
+        "filename": "bone-grounds-map.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-grounds-map.webp",
+        "dimensions": [
+          760,
+          560
+        ],
+        "bytes": 31488,
+        "sha256": "af682358e95dc0ac9329aad0cd4a50a8815c257e5f64177c0b2f207310d7134f"
+      },
+      {
+        "filename": "bone-witchs-cauldron-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-witchs-cauldron-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 349312,
+        "sha256": "929255be6573e47ba38137dea30e4f5f952041343d7e3b5e88908d47c2c2e016"
+      },
+      {
+        "filename": "bone-headless-horseman-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-headless-horseman-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 402808,
+        "sha256": "efc58549482ff37c1686023abbf3c29d91f712a41aff752933225326d4666a1e"
+      },
+      {
+        "filename": "bone-poltergeist-pepperoni-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-poltergeist-pepperoni-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 351948,
+        "sha256": "2d2993cb9932e120917f9bd46f4194f6b030788b6d23340128c646d513cad377"
+      },
+      {
+        "filename": "bone-cemetery-margherita-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-cemetery-margherita-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 284938,
+        "sha256": "3b37ec5e58679e597cc16e1304b3031c6e089ea698808a86a5d9eba5413efe7c"
+      },
+      {
+        "filename": "bone-black-lagoon-bianca-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-black-lagoon-bianca-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 265748,
+        "sha256": "d206807fad6805023b70dbe7c0df692cafec58ba49ace855a3fa8fcde3a0a297"
+      },
+      {
+        "filename": "bone-devils-harvest-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-devils-harvest-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 267428,
+        "sha256": "b6b695978c72be84aa211236f63dec312df703c3af3b7eabce3ef1e116777c2a"
+      },
+      {
+        "filename": "bone-little-monster-cheese-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-little-monster-cheese-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 251876,
+        "sha256": "ecbfb172eaca8e9d336f37051865296c7bb7a5b48ff48bf9222bb7e911f19295"
+      },
+      {
+        "filename": "bone-crawlers-breadsticks-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-crawlers-breadsticks-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 275892,
+        "sha256": "b2cbca4da027ef35f00aeba35a56cce917ac8cced8c673f9936e232d0d2462f0"
+      },
+      {
+        "filename": "bone-pumpkin-arancini-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-pumpkin-arancini-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 274640,
+        "sha256": "be5c6c53ade197d9a29e86d649bff79d6e65ebc56ddb35bd897cfd39a171de07"
+      },
+      {
+        "filename": "bone-crypt-caprese-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-crypt-caprese-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 263778,
+        "sha256": "0a1f65b9d876f905fc1dd07f5e06bb355fd587348dad04c8ab992daa4832eabc"
+      },
+      {
+        "filename": "bone-funeral-fries-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-funeral-fries-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 263400,
+        "sha256": "9b2a0c0cf2c48a8147c43d45717c24222fb6efa445ee4ac18d19436cd07138a2"
+      },
+      {
+        "filename": "bone-bat-wing-wings-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-bat-wing-wings-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 259996,
+        "sha256": "0b5ef7f2aa33486355e68a5e62c16795d66a22741aba969b34808493f90ecf7d"
+      },
+      {
+        "filename": "bone-graveyard-garlic-knots-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-graveyard-garlic-knots-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 285342,
+        "sha256": "b9ed40c9510ebbbb4d26ee0302be667e33c9724a9c2ba6bcdc9141a44d192592"
+      },
+      {
+        "filename": "bone-inferno-mozzarella-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-inferno-mozzarella-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 256312,
+        "sha256": "5c8149585c19ab35369d8ebebed6e2893a49f9881551f4f3fbdf603d0849c976"
+      },
+      {
+        "filename": "bone-graveyard-gelato-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-graveyard-gelato-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 247618,
+        "sha256": "2bc0ae1cac9c4797117135e7a32cd6b302b2cd969c2455cfd739909a640c9e30"
+      },
+      {
+        "filename": "bone-seance-tiramisu-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-seance-tiramisu-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 263438,
+        "sha256": "82ddfa9e17805da94bd62a157da324b5a089f71e53043a95231cd57d6bd9b042"
+      },
+      {
+        "filename": "bone-black-candle-cheesecake-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-black-candle-cheesecake-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 230550,
+        "sha256": "9f69663a2508900036aebf487c396eafc355b2e5d12315ddb83c5c4a4b51096d"
+      },
+      {
+        "filename": "bone-afterlife-affogato-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-afterlife-affogato-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 225426,
+        "sha256": "59b03d40369d4a7bf1ab00e50c6bbc001bab48dd040f6da5313731cebad8c5aa"
+      },
+      {
+        "filename": "bone-wicked-orchard-cider-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-wicked-orchard-cider-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 239778,
+        "sha256": "1c8e5093e7ebeec1a77d4ed60dc26e6375313b32feb1f0adc2326e44ef348b54"
+      },
+      {
+        "filename": "bone-midnight-cola-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-midnight-cola-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 234564,
+        "sha256": "778c61f75c17cc77ca904533029481c793cf0e267864c2b3dc730c817f912332"
+      },
+      {
+        "filename": "bone-little-ghost-cocoa-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-little-ghost-cocoa-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 242866,
+        "sha256": "28dde9d9853a4cf927cec528920839d8315572d158cbb32acd909f27adc9a440"
+      },
+      {
+        "filename": "bone-ravens-negroni-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-ravens-negroni-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 245588,
+        "sha256": "c1a2f58f034b8f6b2835d394beaf92e9ecdea4e4b66c4490a95b61e2f3705ac0"
+      },
+      {
+        "filename": "bone-the-last-rites-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-the-last-rites-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 217680,
+        "sha256": "e9607b09944b02ead8e4a6c863e7c68cab53e89183abced00792878f7e24fbff"
+      },
+      {
+        "filename": "bone-blood-orange-spritz-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-blood-orange-spritz-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 243352,
+        "sha256": "a38be010558b2be1da88551cc6c54f67eca6fb7b1e681cf2a794abaf4736b2dc"
+      },
+      {
+        "filename": "bone-ghost-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-ghost-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 207916,
+        "sha256": "f8ca4a71bc352aa6bdf543f9304acd71738517da93cd6f45fba5c35d91a06d70"
+      },
+      {
+        "filename": "bone-key-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-key-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 255914,
+        "sha256": "7d6ed4b10a44e4586a91b368f6acf93e3a67ef42c943b13b9d6d8f03dde48f9c"
+      },
+      {
+        "filename": "bone-postcard-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-postcard-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 308518,
+        "sha256": "0cd7e91777a9efe5f94a087262a466a74a5f20f375a0c5d83d907887fdf89b59"
+      },
+      {
+        "filename": "bone-badge-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-badge-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 197792,
+        "sha256": "d29dda367a9451035ad756c226e1023ae234571d1a9aeaad27f84deb15481223"
+      },
+      {
+        "filename": "bone-magnet-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-magnet-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 203954,
+        "sha256": "ce965359185c546efabbb2b74bd592bc83c2e24a80b415698dc31ec6b4fe0d15"
+      },
+      {
+        "filename": "bone-raven-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-raven-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 241994,
+        "sha256": "a0779273064eed5959321abe0490d5be05489980f5a6c1d4575a86dc253047b2"
+      },
+      {
+        "filename": "bone-dining-room-scene.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-dining-room-scene.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 342642,
+        "sha256": "3a7af16f203ebfdf52ba2b1b5272f1c2299f76ac271dc5e6922d49528b37dbe3"
+      },
+      {
+        "filename": "pumpkin-hollow.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/pumpkin-hollow.webp",
+        "dimensions": [
+          1100,
+          733
+        ],
+        "bytes": 207056,
+        "sha256": "07c0f3719d9c44330c45dd94d1aead3628e1c0ac062c1a314f9955053e40cd7e"
+      },
+      {
+        "filename": "oddities-cabinet.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/oddities-cabinet.webp",
+        "dimensions": [
+          1100,
+          733
+        ],
+        "bytes": 171206,
+        "sha256": "a2b1d688019dfd9f9291ac51b79700c3d04552df7fcc049bd9a703135de36e53"
+      }
+    ],
+    "grave-expectations": [
+      {
+        "filename": "grave-expectations-theme.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-expectations-theme.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 309820,
+        "sha256": "d28499c1ae881f89257de7fd20648bd636a49881a2d5e9d7e360b7b74b91670e"
+      },
+      {
+        "filename": "grave-expectations-logo.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-expectations-logo.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "bytes": 424334,
+        "sha256": "bfd585774596db40913dcf75616815704150ad420610e88435e17ba2aaed2dc4"
+      },
+      {
+        "filename": "grave-exterior-story.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-exterior-story.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 384450,
+        "sha256": "89135b4c347dfa69b16c1f3e74c1ff88f4a7f9d68acfb76ff413b92faad07476"
+      },
+      {
+        "filename": "grave-grounds-map.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-grounds-map.webp",
+        "dimensions": [
+          960,
+          960
+        ],
+        "bytes": 19352,
+        "sha256": "b760bc3bf6327e4aa2b35d9775644e5b115aef14a4693db57da4caa94b7027eb"
+      },
+      {
+        "filename": "grave-ribeye-in-perpetuity-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ribeye-in-perpetuity-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 280982,
+        "sha256": "9561c53ba7193500a7c91aa8779ba0380272587904c6ef769f79a401e862e7de"
+      },
+      {
+        "filename": "grave-filet-of-the-deceased-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-filet-of-the-deceased-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 293884,
+        "sha256": "6ad5a8c1587c0aa7a8699b1f9b32c5b0ec0beff5b2cb67000300f2e9e4ac55cb"
+      },
+      {
+        "filename": "grave-the-heir-apparent-strip-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-the-heir-apparent-strip-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 238478,
+        "sha256": "2f0488cc2908ed0dd8d8fe989317f4d91f13e6891d03f3edeedded965db31ef0"
+      },
+      {
+        "filename": "grave-porterhouse-for-the-executors-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-porterhouse-for-the-executors-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 338016,
+        "sha256": "41c282612da8bc569b1e6d8c89c0f41d6b2f7ab95b80b0ece9b87d03ede16eaf"
+      },
+      {
+        "filename": "grave-lamb-of-the-last-testament-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-lamb-of-the-last-testament-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 218908,
+        "sha256": "da095c8513395e206fc45b9c45264a13dcfff725de83bd215ccd021aa7c3d998"
+      },
+      {
+        "filename": "grave-mushroom-mausoleum-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-mushroom-mausoleum-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 226376,
+        "sha256": "303a64a65796558b363d771086d45ba8a565aaca11124c2be46733b77b545b39"
+      },
+      {
+        "filename": "grave-estate-tartare-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-estate-tartare-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 231806,
+        "sha256": "f3dd0b3c46f2cf8b742f89bcce36ed5777ab52208ab4d8e904eae790bd7bb7cf"
+      },
+      {
+        "filename": "grave-ancestral-onion-soup-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ancestral-onion-soup-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 227000,
+        "sha256": "e7ccc32ce2308da551aa6a07bbae2dc20ade115b25f93b481a21a5ad58a2a75a"
+      },
+      {
+        "filename": "grave-buried-bone-marrow-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-buried-bone-marrow-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 253118,
+        "sha256": "83de6db5e6f3638ba7b72c0c3d7299effe9a3376ac52e3070aa494afa15cb88c"
+      },
+      {
+        "filename": "grave-heirloom-wedge-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-heirloom-wedge-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 213566,
+        "sha256": "11dabad8bfe2214a8f4ca2c5cd3ba0c0898b26fe34574e8957ac74fa26d17269"
+      },
+      {
+        "filename": "grave-creme-brulee-bequest-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-creme-brulee-bequest-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 190810,
+        "sha256": "0b5b183ff3cf09e0540bd3729ec834b0263d2ebd45270c39a6092df450678ee2"
+      },
+      {
+        "filename": "grave-black-tie-forest-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-black-tie-forest-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 207978,
+        "sha256": "ccd1220764bef23ea9e27d911b78abee0e07f5fe8cfae47c59871c4452c39a57"
+      },
+      {
+        "filename": "grave-the-cheese-executor-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-the-cheese-executor-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 205130,
+        "sha256": "c6c5c94d3914f5620551ec801c902c56889d3a714674d25c65d74806556ec40b"
+      },
+      {
+        "filename": "grave-old-money-fashioned-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-old-money-fashioned-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 221494,
+        "sha256": "ecae887304152bb0eb783eb2e7ea4712aa418b5bc953f856f4c8628412700e00"
+      },
+      {
+        "filename": "grave-widows-martini-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-widows-martini-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 177476,
+        "sha256": "e020da3497f0cf1958a066d901db84cda8504326650b610c6f319381badcc70f"
+      },
+      {
+        "filename": "grave-house-red-in-trust-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-house-red-in-trust-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 199336,
+        "sha256": "54a26a3de5cb7129bb31bb4c3cff96076264c9a9261b3a9e8c7787514d45819d"
+      },
+      {
+        "filename": "grave-bloodline-fizz-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-bloodline-fizz-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 230106,
+        "sha256": "baf685ee1d1db040b025bb1c7e5bbe2336314463237a24cdee3f5fdd55daa0d2"
+      },
+      {
+        "filename": "grave-the-designated-heir-food.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-the-designated-heir-food.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 223128,
+        "sha256": "8b0d70a294670b8e090a489e1b281c3a069f520544a55c4adb6ee2eb902450bb"
+      },
+      {
+        "filename": "grave-ghost-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ghost-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 179500,
+        "sha256": "bc0d86e2f04d265529322aff92fcb0a03f5e5e11ced0525786f43df714fbf60a"
+      },
+      {
+        "filename": "grave-key-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-key-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 221688,
+        "sha256": "be157b949ddcdf6eed5e2b8dc310c762bfb74a8e2ce721f762fbe7c3acbddb4e"
+      },
+      {
+        "filename": "grave-postcard-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-postcard-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 285712,
+        "sha256": "b2d13df9f08c518716a93a774d181913adab273cf279292917b004d854574c12"
+      },
+      {
+        "filename": "grave-badge-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-badge-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 211588,
+        "sha256": "e970b5dda1479155c17d9b4ed289bfeb59ffba2c3a06143926a4f99fd322c3bc"
+      },
+      {
+        "filename": "grave-magnet-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-magnet-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 256234,
+        "sha256": "a06fb535f57ef338df4500522bf8a1b11210908f76bea6e2fb0a47ab05e0650f"
+      },
+      {
+        "filename": "grave-raven-object.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-raven-object.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 228104,
+        "sha256": "e2fb4322f9eb1de2f528baf992c59b222f5fc41c6cc7f13b5f1d2128d8fb49cc"
+      },
+      {
+        "filename": "grave-dining-room-scene.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-dining-room-scene.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 281722,
+        "sha256": "eb24292aae94e57132364a99c1733b6d8cae00f187f96e55d751e76ac0d44e78"
+      },
+      {
+        "filename": "grave-mourning-terrace-scene.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-mourning-terrace-scene.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 328602,
+        "sha256": "04d240984385170b1907c8120ea7c83c25a4f0aa94eb3f467d017bbecaf94af9"
+      },
+      {
+        "filename": "grave-ancestral-cabinet-scene.webp",
+        "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ancestral-cabinet-scene.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 272844,
+        "sha256": "b391f5b81216d9b9c688a94052924642612b9db4f3cd8deb7db07a09a03a23ae"
+      }
+    ]
+  }
+}
