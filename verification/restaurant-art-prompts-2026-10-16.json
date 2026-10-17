@@ -1,0 +1,161 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "filename": "bone-appetit-logo.webp",
+      "prompt": "Use case: logo-brand\nAsset type: standalone custom restaurant logo emblem, to sit beside LIVE editable restaurant name in a website header and export.\nPrimary request: A unique polished Halloween parody emblem for fictional restaurant Bone Appétit. A smiling skull wearing a tall chefs toque, two tiny crossed rosemary sprigs beneath, warm pumpkin orange accents, charcoal ink and warm ivory fills. Cozy haunted roadhouse hospitality; subtly weathered vintage woodcut, clean bold silhouette.\nComposition: one centered compact emblem, fill most of a square canvas with modest clear margins, readable at 64px, strong simple shapes, transparent background outside the emblem. No rectangular background or mockup.\nConstraints: absolutely NO text, letters, numbers, banners or watermarks; the restaurant name will be typeset separately in HTML. Keep the interior ivory fills opaque, outside genuinely transparent. No gore. Do not copy any existing restaurant logo.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d20898f5-330a-49d7-8c21-0c9746e091b7.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 364368,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-appetit-logo.webp",
+      "sha256": "24953a0571238b8beef403223d0f1812ee021d5586d872cc96843f97491a691b"
+    },
+    {
+      "filename": "rest-in-pizza-logo.webp",
+      "prompt": "Use case: logo-brand\nAsset type: standalone custom restaurant logo emblem, to sit beside LIVE editable restaurant name in a website header and export.\nPrimary request: A unique polished Halloween parody emblem for fictional restaurant Rest in Pizza. A cheerful sheet ghost holding a triangular pepperoni pizza slice as if presenting supper, basil leaf flourish below. Tomato-red ink, warm ivory fills, dark espresso line work. Retro Italian neighborhood pizzeria badge, playful hand-cut screen print silhouette.\nComposition: one centered compact emblem, fill most of a square canvas with modest clear margins, readable at 64px, strong simple shapes, transparent background outside the emblem. No rectangular background or mockup.\nConstraints: absolutely NO text, letters, numbers, banners or watermarks; the restaurant name will be typeset separately in HTML. Keep the interior ivory fills opaque, outside genuinely transparent. No gore. Do not copy any existing restaurant logo.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ffc8e555-f20f-4fc7-9335-dc59dad3f789.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 249320,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-in-pizza-logo.webp",
+      "sha256": "2789e11d5666a1c6cd5e8e45ae1615df0874d9c0693e0b3c09f57f711c527d16"
+    },
+    {
+      "filename": "grave-expectations-logo.webp",
+      "prompt": "Use case: logo-brand\nAsset type: standalone custom restaurant logo emblem, to sit beside LIVE editable restaurant name in a website header and export.\nPrimary request: A unique polished Halloween parody emblem for fictional restaurant Grave Expectations Chop House. A dignified frontal bull skull with elegant curving horns, small three-point antique crown, restrained laurel flourishes. Antique gold and oxblood accents with deep charcoal outlines and warm ivory fills. Refined engraved steakhouse heraldic emblem; symmetrical and spare, expensive and slightly absurd.\nComposition: one centered compact emblem, fill most of a square canvas with modest clear margins, readable at 64px, strong simple shapes, transparent background outside the emblem. No rectangular background or mockup.\nConstraints: absolutely NO text, letters, numbers, banners or watermarks; the restaurant name will be typeset separately in HTML. Keep the interior ivory fills opaque, outside genuinely transparent. No gore. Do not copy any existing restaurant logo.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-98a25149-a5a6-4cfd-b14b-b7d5245cc7c9.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 424334,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-expectations-logo.webp",
+      "sha256": "bfd585774596db40913dcf75616815704150ad420610e88435e17ba2aaed2dc4"
+    },
+    {
+      "filename": "boobies-lodge-logo.webp",
+      "prompt": "Use case: logo-brand\nAsset type: standalone custom restaurant logo emblem, to sit beside LIVE editable restaurant name in a website header and export.\nPrimary request: A unique polished Halloween parody emblem for fictional restaurant BooBies Lodge. A cheeky wide-eyed owl with two little swept wings, perched over crossed pine branches with a tiny crescent moon above, a compact mountain-lodge silhouette. Amber gold, pine green, warm ivory and charcoal. Bold vintage varsity sports lodge patch emblem, playful adult Halloween taproom personality, no people.\nComposition: one centered compact emblem, fill most of a square canvas with modest clear margins, readable at 64px, strong simple shapes, transparent background outside the emblem. No rectangular background or mockup.\nConstraints: absolutely NO text, letters, numbers, banners or watermarks; the restaurant name will be typeset separately in HTML. Keep the interior ivory fills opaque, outside genuinely transparent. No gore. Do not copy any existing restaurant logo.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e61ce16b-4f56-44cf-8d71-4d5ce36ded3f.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 297106,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/boobies-lodge-logo.webp",
+      "sha256": "00d756edf64e5f79a6c5dc06a5d6d6a65a82f11445cb64a18b804a78392e7a41"
+    },
+    {
+      "filename": "bone-witchs-cauldron-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Bone Appétit. Witch’s Cauldron pizza: one round wood-fired pizza with very dark blistered blackened crust, bubbling mozzarella, sliced small red and green hot peppers, a light truffle-oil sheen. Vegetarian, absolutely no meat.\nScene/backdrop: Cozy haunted roadhouse, dark worn wooden table, forest green napkin, warm lantern orange candle glow, a small soft-focus jack-o-lantern and atmospheric shadows.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c14830c2-2de2-4ba2-8024-7cc991586dad.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 349312,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-witchs-cauldron-food.webp",
+      "sha256": "929255be6573e47ba38137dea30e4f5f952041343d7e3b5e88908d47c2c2e016"
+    },
+    {
+      "filename": "bone-headless-horseman-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Bone Appétit. Headless Horseman pizza: one round wood-fired pizza topped with charred sausage, smoked gouda, small clearly bone-shaped parmesan pieces, and red onion.\nScene/backdrop: Cozy haunted roadhouse, dark worn wooden table, forest green napkin, warm lantern orange candle glow, subtle blurred pumpkin and antique candle in background.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-537edaf3-3638-48c0-a939-44b00ee90ab3.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 402808,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-headless-horseman-food.webp",
+      "sha256": "efc58549482ff37c1686023abbf3c29d91f712a41aff752933225326d4666a1e"
+    },
+    {
+      "filename": "bone-poltergeist-pepperoni-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Bone Appétit. Poltergeist Pepperoni pizza: cupped pepperoni, provolone, golden garlic confit and fresh basil on wood-fired crust. One slice lifted slightly on a pizza server with long natural stretchy cheese strands, the remainder of the round pie visible beneath.\nScene/backdrop: Cozy haunted roadhouse, dark worn wooden table, forest green napkin, lantern orange candle glow, small out-of-focus jack-o-lantern.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6ee76ade-679a-4a8c-a6a1-dfe2dbae24af.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 351948,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/bone-poltergeist-pepperoni-food.webp",
+      "sha256": "2d2993cb9932e120917f9bd46f4194f6b030788b6d23340128c646d513cad377"
+    },
+    {
+      "filename": "rest-dead-and-buried-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Rest in Pizza. Dead & Buried Pepperoni pizza: one complete round wood-fired pizza loaded with cupped pepperoni, mozzarella, tomato sauce and oregano, bubbly golden cheese, lightly charred crust.\nScene/backdrop: Bright warm retro neighborhood Italian pizzeria, cream enamel plate on red and cream gingham tablecloth, tomato-red details, tiny friendly ceramic ghost and small pumpkin in soft-focus background.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-29d0580f-ed4c-4319-9417-f2de8f680ac2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 382558,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-dead-and-buried-food.webp",
+      "sha256": "33d3fb61adc143ef2410d2c333d10917e67f9dbc550be6ac2288dd2b6ce3b705"
+    },
+    {
+      "filename": "rest-margherita-morticia-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Rest in Pizza. Margherita Morticia pizza: one complete round wood-fired pizza with vivid tomato sauce, distinct fresh mozzarella pools, fresh green basil leaves and glistening olive oil, airy charred crust. Vegetarian, no meat.\nScene/backdrop: Bright warm retro neighborhood Italian pizzeria, cream enamel plate on red and cream gingham tablecloth, tomato-red details, tiny friendly ceramic ghost and small pumpkin in soft-focus background.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6e4922cb-de7b-4037-8465-97ad4212c3b0.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 330962,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-margherita-morticia-food.webp",
+      "sha256": "8ee5f881a96da9fbf8ce7e7af416799943121e34dbd1c885030b76ee186126bb"
+    },
+    {
+      "filename": "grave-ribeye-in-perpetuity-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Grave Expectations Chop House. Ribeye in Perpetuity: one luxurious thick 14-ounce boneless ribeye steak with a beautiful dark sear, a pat of melting peppercorn butter and roasted shallot. Entire steak on a refined porcelain plate, no bones or skulls in food.\nScene/backdrop: Formal haunted estate steakhouse, charcoal and oxblood table setting, antique gold-rimmed plate, candlelit velvet background, silver cutlery, tiny distant decorative pumpkin; elegant, discreetly Halloween.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7d7c20be-41b7-4262-b320-b215b54fdc36.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 280982,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-ribeye-in-perpetuity-food.webp",
+      "sha256": "9561c53ba7193500a7c91aa8779ba0380272587904c6ef769f79a401e862e7de"
+    },
+    {
+      "filename": "grave-filet-of-the-deceased-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional Grave Expectations Chop House. Filet of the Deceased: one elegant thick 8-ounce filet mignon medallion with a superb sear, glossy red-wine jus pooled below and glazed shallots arranged alongside. Entire plate visible, food looks delicious, no bones or skulls in food.\nScene/backdrop: Formal haunted estate steakhouse, charcoal and oxblood table setting, antique gold-rimmed plate, candlelit velvet background, silver cutlery, tiny distant decorative pumpkin; elegant, discreetly Halloween.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5f18ddc4-5c58-4fee-acb2-7f56c95be9d1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 293884,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/grave-filet-of-the-deceased-food.webp",
+      "sha256": "6ad5a8c1587c0aa7a8699b1f9b32c5b0ec0beff5b2cb67000300f2e9e4ac55cb"
+    },
+    {
+      "filename": "lodge-the-great-rack-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional BooBies Lodge. The Great Rack: a HALF rack of smoked pork ribs, about six meaty ribs, lacquered bourbon barbecue glaze, generous golden fries and a small bowl of creamy slaw on a metal tray. One modest half rack, no full rack.\nScene/backdrop: Rustic adult Halloween sports lodge, knotty timber table, pine-green and amber plaid details, frosty beer blurred at edge, soft-focus jack-o-lantern and warm sports bar lights; hearty, campy, appetizing.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-edd10e13-1e78-4cf9-9098-c5a1a53475fc.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 388560,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-the-great-rack-food.webp",
+      "sha256": "2dcb8ecb99bca6222d163938e43ef0feb9da2da7dfab65fb3b953eaf28b3e96c"
+    },
+    {
+      "filename": "lodge-double-dare-rack-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 restaurant featured-dish photograph, full bleed, for a Halloween parody restaurant website.\nPrimary request: a polished editorial food image for the fictional BooBies Lodge. Double Dare Rack: a FULL long rack of smoked pork ribs, about twelve ribs, glossy barbecue glaze, generous golden fries and a small bowl of creamy slaw on a large metal tray. Clearly larger full rack for sharing, whole rack in frame.\nScene/backdrop: Rustic adult Halloween sports lodge, knotty timber table, pine-green and amber plaid details, frosty beer blurred at edge, soft-focus jack-o-lantern and warm sports bar lights; hearty, campy, appetizing.\nComposition/framing: three-quarter overhead view, the food is the unmistakable focal point and fills the central 70 percent. Keep entire plate or tray inside the frame with useful breathing room, safe for responsive center cropping.\nLighting: appetizing natural food texture, carefully lit, authentic crust/sear/glaze, shallow depth of field, premium restaurant campaign quality.\nConstraints: no lettering, captions, labels, watermark, logos, people, hands, horror gore, eyeballs or inedible props on the food. Halloween humor comes from the surrounding atmosphere; retain the stated ingredients.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-4fe99ebb-88bb-4e89-8f4b-449e04db528a.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 392300,
+      "alphaExtrema": null,
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-double-dare-rack-food.webp",
+      "sha256": "1c2ecc5f1c4563f552ec18604d6112746ebb184413c758423af8b8d0d60552b2"
+    }
+  ],
+  "conversion": "Pillow WebP quality 88, method 6; original dimensions, RGBA logo alpha preserved, RGB food. No cropping or visual edits."
+}

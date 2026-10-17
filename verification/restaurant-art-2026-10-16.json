@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-16",
+  "timezone": "America/Chicago",
+  "increment": "Custom restaurant logos and featured food imagery",
+  "repository": "/Users/ryanjohnson/Projects/nonsense/bone-appetit",
+  "head": "2d6cb10",
+  "status": "local, uncommitted",
+  "scope": {
+    "logos": 4,
+    "foodImages": 9,
+    "format": "WebP",
+    "logosHaveRealAlpha": true,
+    "originalArtPreserved": true,
+    "savedCampaignSchemaChanged": false,
+    "artByPropertyAndStableDishId": true,
+    "liveNamesRemainEditableText": true
+  },
+  "generation": {
+    "mode": "built-in image_gen",
+    "promptRecord": "verification/restaurant-art-prompts-2026-10-16.json",
+    "conversion": "Pillow WebP quality 88, method 6; original dimensions, RGBA logo alpha preserved, RGB food. No cropping or visual edits.",
+    "bytes": 4508442
+  },
+  "gitnexus": {
+    "repositoryBound": true,
+    "indexCommit": "2d6cb10",
+    "indexRefreshRun": false,
+    "highRiskWarnedBeforeEdits": [
+      "website-renderer.js render (12 impacted, 5 direct, 3 processes)",
+      "scripts/render-site.cjs render (9 impacted, 5 direct, 3 processes)",
+      "creator.js renderPreview (6 impacted, 2 direct, 4 processes)"
+    ],
+    "otherImpacts": [
+      "website-export.js prepare MEDIUM (8 impacted, 6 direct, 2 processes)",
+      "marketing-pack.js assetsFor LOW",
+      "marketing-pack.js createPack LOW",
+      "marketing-pack.js styles LOW",
+      "creator.js loadProperties LOW",
+      "app.js renderAttraction LOW"
+    ],
+    "unknowns": "New browser helper and historical browser run entrypoints had UNKNOWN graph callers; source inspection confirmed the local test callers/entrypoints before assertion edits. UNKNOWN was not treated as a clean result.",
+    "detectChanges": "Not run; no commit requested or created."
+  },
+  "passed": [
+    "npm run build",
+    "npm run check:restaurant-art (rerun after print repair)",
+    "npm run check:marketing (rerun after print repair)",
+    "npm run check:themes",
+    "npm run check:website-export",
+    "npm run check:website-collection",
+    "npm run check:generated",
+    "Five HTML files: nesting, unique IDs, local resource references and anchors",
+    "Changed/new JavaScript syntax checks",
+    "npm run check:restaurant-art-browser"
+  ],
+  "browser": {
+    "headless": true,
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12",
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "scope": [
+      "Four visitor header/footer logos and WebP favicons",
+      "All nine featured food images decode and match property/dish IDs",
+      "Attraction card/detail artwork consistency",
+      "Legacy campaign compact/full previews",
+      "Edited draft versus unchanged named source names",
+      "Selected dish food art and clearing of stale images for unpictured dishes",
+      "Embedded logos and food in marketing landing/menu HTML, logo in poster",
+      "Four supplied menu inserts fit the Letter printable height under Chromium print-media emulation",
+      "Source records unchanged by previews/exports (editing position may change)",
+      "All four named individual website ZIPs extracted offline",
+      "Current draft collection ZIP extracted offline with property-switcher links",
+      "All four marketing menu-insert HTML documents extracted offline"
+    ],
+    "pageErrors": 0,
+    "externalRequests": 0,
+    "failedResources": 0,
+    "artifactDirectory": "/var/folders/xy/slwljxr93j506j12yn9t7fsc0000gn/T/bone-restaurant-art-browser-9oXV6R",
+    "retainedArtifacts": "/Users/ryanjohnson/.codex/visualizations/2026/10/16/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/restaurant-art",
+    "fixtures": "Isolated test campaigns; not owner browser-local saved campaigns."
+  },
+  "repairsDuringVerification": [
+    "Initial sandbox loopback bind was blocked; authorized headless pass ran with escalation.",
+    "Browser test helper used Page.keyboard on a Frame; corrected to dialog close-button interaction.",
+    "Bone menu insert initially measured 1011 CSS px; compact print logo/spacing corrected the supplied sample to fit the 979px Letter printable height."
+  ],
+  "visualReview": [
+    "All four generated emblems and nine generated dish images",
+    "Four desktop food menus",
+    "Representative desktop/mobile headers",
+    "Bone footer",
+    "Lodge compact creator preview"
+  ],
+  "historicalBrowserAssertionsUpdatedNotRerun": [
+    "tests/properties-browser.cjs now distinguishes 3:2 scene thumbnails from square logo emblems",
+    "tests/websites-browser.cjs expects resolved attraction artwork"
+  ],
+  "limitations": [
+    "No full suite or historical broad browser passes",
+    "No other browser engines or human assistive-technology acceptance",
+    "No comprehensive accessibility audit",
+    "No actual PDF pagination or physical print; supplied menu sample geometry only",
+    "Arbitrary edited copy/ingredients may need different artwork or additional print pages",
+    "Previously downloaded ZIPs must be exported again",
+    "New targeted image decoding check needs Python with Pillow (documented in README)"
+  ],
+  "preserved": [
+    "site-data.json",
+    "property-data.json",
+    "visitor-sites.json",
+    "styles.css",
+    "content.js",
+    "planner.js",
+    "creator-model.js",
+    "property-catalog.js",
+    "package-lock.json",
+    "Preview.command",
+    "preview.py",
+    "website-collection.js",
+    "collection-workspace.js",
+    "website-workspace.js",
+    "marketing-workspace.js",
+    "field-notes.js",
+    "field-notes.css",
+    "All preexisting art/fonts and verification records"
+  ],
+  "changedThisIncrement": [
+    "properties.css",
+    "rest-in-pizza.html",
+    "index.html",
+    "boobies-lodge.html",
+    "marketing-pack.js",
+    "grave-expectations.html",
+    "creator.css",
+    "README.md",
+    "creator.js",
+    "package.json",
+    "website-export.js",
+    "creator.html",
+    "website-renderer.js",
+    "app.js",
+    "index.template.html",
+    "tests/properties-browser.cjs",
+    "tests/websites-browser.cjs",
+    "docs/architecture.md",
+    "scripts/render-site.cjs"
+  ],
+  "sourceHashes": {
+    "properties.css": "ce5a65aa3e518eeb010571d797f4c02bca6a0edd443f5d6c84f9c0399799d1b3",
+    "rest-in-pizza.html": "54e34d98d4967cfce9ea9d6bc6211675a7beca0e5e1832b9ccc7b60c18cda1c3",
+    "index.html": "6248bb8e44d568774c45d155003d879e64b8aa80210504fcd6d9d5cb3976c1b2",
+    "boobies-lodge.html": "4ac82b902e2106444fe1b77ea7d8a6d8214a6c8f15843d3de77fa99837ae9f4f",
+    "marketing-pack.js": "ed5a1921cedd0738a9d31e82c379e3635ca4293eaf70eeea23360176538e51f0",
+    "grave-expectations.html": "0007fbc974e5955b2303f995d4f26e6f0e0212cb181a23696fa3cc1c20dac6f2",
+    "creator.css": "c98bb1c75dc97f2b425b595262e24c6416258d3f297f9397efe6176834c05acc",
+    "README.md": "19c51fd022040c4f174267a373f594c232320abbb77e30b3714f8dd1991bab45",
+    "creator.js": "f193b1e4079a4268ae619c881930d4be354ba7e6da80018289923591cdb2c666",
+    "package.json": "5a37492a1ae5572669cd6a5cf9621da3b59edfc17ae8b8ce6b31c952d9103bf1",
+    "website-export.js": "6b55671dbb60e4011dd24690cb4bfb08e1c89b63777bcb4fcc4bcab93010fe3b",
+    "creator.html": "b19f0121ce40792dcf304b2e995302647deef4fe910f1d7d8852ba2ba1836217",
+    "website-renderer.js": "076fb9448b91444abbe444bc227667594e94e49470aadb7324dbc4272ba3fd04",
+    "app.js": "afbf52015cc3b9bcfc4dcfcc02c3fc0a1e21193c21b139fd00a69d9bce7eb5bb",
+    "index.template.html": "9676653ea7f3dcf0e9d0d701e2a3562539467ce946f796ed5dc1ebb1bbc0a178",
+    "tests/properties-browser.cjs": "2d7b7a09e7b91202d41bd104735bdaa067ab653b08cff8b92bf10707649f9cfd",
+    "tests/websites-browser.cjs": "de26ddd076b9b769c9d5e1b98b6d5a34af5bb3ffba3b8cea94e2613df4a194e9",
+    "docs/architecture.md": "abe456c4ce43936942d5393dac3ffc854e02e2b361929aae7f06abcb75423780",
+    "scripts/render-site.cjs": "7008d1dc78b7860be331b3a28442aad6e3cf44b572b210b23f04168bec60bca4",
+    "tests/restaurant-art.cjs": "d3184601bc27397b28288be83c762b4b64a0cf8529e55f144c90c230b69e6a3e",
+    "tests/restaurant-art-browser.cjs": "3cda5ebb0324e41336886e541358732481305fbe0686138c9d0e435cba7740d9",
+    "verification/restaurant-art-prompts-2026-10-16.json": "5d807b1cee165fb70700dadd630db97be58b93bd3d4132f4736da5368a9f0a37"
+  },
+  "assetHashes": {
+    "bone-appetit-logo.webp": "24953a0571238b8beef403223d0f1812ee021d5586d872cc96843f97491a691b",
+    "rest-in-pizza-logo.webp": "2789e11d5666a1c6cd5e8e45ae1615df0874d9c0693e0b3c09f57f711c527d16",
+    "grave-expectations-logo.webp": "bfd585774596db40913dcf75616815704150ad420610e88435e17ba2aaed2dc4",
+    "boobies-lodge-logo.webp": "00d756edf64e5f79a6c5dc06a5d6d6a65a82f11445cb64a18b804a78392e7a41",
+    "bone-witchs-cauldron-food.webp": "929255be6573e47ba38137dea30e4f5f952041343d7e3b5e88908d47c2c2e016",
+    "bone-headless-horseman-food.webp": "efc58549482ff37c1686023abbf3c29d91f712a41aff752933225326d4666a1e",
+    "bone-poltergeist-pepperoni-food.webp": "2d2993cb9932e120917f9bd46f4194f6b030788b6d23340128c646d513cad377",
+    "rest-dead-and-buried-food.webp": "33d3fb61adc143ef2410d2c333d10917e67f9dbc550be6ac2288dd2b6ce3b705",
+    "rest-margherita-morticia-food.webp": "8ee5f881a96da9fbf8ce7e7af416799943121e34dbd1c885030b76ee186126bb",
+    "grave-ribeye-in-perpetuity-food.webp": "9561c53ba7193500a7c91aa8779ba0380272587904c6ef769f79a401e862e7de",
+    "grave-filet-of-the-deceased-food.webp": "6ad5a8c1587c0aa7a8699b1f9b32c5b0ec0beff5b2cb67000300f2e9e4ac55cb",
+    "lodge-the-great-rack-food.webp": "2dcb8ecb99bca6222d163938e43ef0feb9da2da7dfab65fb3b953eaf28b3e96c",
+    "lodge-double-dare-rack-food.webp": "1c2ecc5f1c4563f552ec18604d6112746ebb184413c758423af8b8d0d60552b2"
+  },
+  "externalActions": "No stage, commit, push, deploy, publication or messaging."
+}
