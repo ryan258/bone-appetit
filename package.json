@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "node scripts/render-site.cjs",
+    "build:pages": "node scripts/package-site.cjs _site",
     "validate": "node scripts/render-site.cjs --validate",
     "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace && npm run check:website-export",
     "check:generated": "node scripts/render-site.cjs --check",

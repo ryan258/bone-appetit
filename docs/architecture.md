@@ -112,8 +112,28 @@ The test suite enforces stability and prevents regressions across multiple tiers
 ├── check:marketing        (Deterministic ZIP generation, MIME validation, print letter limits)
 ├── check:properties       (Multi-property catalogs, 21+ admission logic)
 ├── check:websites         (4 sites, 78 menu items, 3,200 schedules, adult rules)
-└── check:website-workspace (Shared renderer parity, sandboxed preview, copy override resolution)
+├── check:website-workspace (Shared renderer parity, sandboxed preview, copy override resolution)
+└── check:website-export   (Standalone single-property ZIP packaging, full resource closure)
 
 [npm run check:preview]    (Python unit tests for loopback server & identity check)
 [Browser Test Suite]       (Playwright + Chromium focused headless verification passes)
 ```
+
+---
+
+## 6. GitHub Pages Deployment Architecture
+
+The live web deployment publishes to GitHub Pages via an automated GitHub Actions pipeline:
+
+- **Workflow**: `.github/workflows/deploy.yml`
+- **Target URL**: `https://ryan258.github.io/bone-appetit/`
+- **Staging Engine**: `scripts/package-site.cjs` (`npm run build:pages`)
+- **Staged Artifacts (`_site`)**:
+  - Four visitor pages (`index.html`, `rest-in-pizza.html`, `grave-expectations.html`, `boobies-lodge.html`)
+  - Creator campaign workspace (`creator.html`)
+  - Template & data sources for client-side previews (`index.template.html`, `site-data.json`, `property-data.json`, `visitor-sites.json`)
+  - Stylesheets (`styles.css`, `properties.css`, `field-notes.css`, `creator.css`)
+  - Runtime client scripts (`app.js`, `planner.js`, `content.js`, `creator.js`, `website-workspace.js`, `website-export.js`, etc.)
+  - Complete local vector/image assets and font files (`assets/`)
+  - GitHub Pages bypass flag (`.nojekyll`)
+- **Release Gating**: Deployment executes only on push to `main` after `npm run check` and `npm run check:preview` pass completely.

@@ -163,6 +163,8 @@ Review remains explicit: free-text claims are not fact-checked, ingredients/tags
 - `visitor-sites.json`: per-property visitor copy, narratives, section headings, metadata and stable page routes.
 - `properties.css`: shared property switcher and the three illustrated restaurant layouts/accent variations.
 - `scripts/render-site.cjs`: dependency-free four-page generation and read-only generated-output drift checking. It validates every source and stages every rendered file before replacing delivery pages.
+- `scripts/package-site.cjs`: stages all four complete visitor websites, creator studio, local assets, styles, scripts and `.nojekyll` for static hosting or GitHub Pages.
+- `.github/workflows/deploy.yml`: automated GitHub Actions workflow validating all gates and deploying to GitHub Pages on push to `main`.
 - `assets/manifest.json`: existing image-generation prompts, retained image filenames, font-license paths, and provenance for the seven new project-authored SVG assets.
 - `assets/grounds-map.svg` and `assets/oddity-*.svg`: editable vector art. The map is a fictional schematic, not geography or verified access evidence. The six object images are invented specimen illustrations.
 - `assets/fonts/`: locally hosted typefaces and their SIL Open Font Licenses.
@@ -196,6 +198,19 @@ This runs only generated-output, content-validation, planner, creative-content, 
 ```sh
 npm run check:website-export
 npm run check:website-export-browser
+```
+
+### GitHub Pages hosting
+
+The repository includes an automated GitHub Pages deployment workflow in `.github/workflows/deploy.yml`. On push to `main` (or manual `workflow_dispatch`), the workflow:
+1. Runs the deterministic validation gates (`npm run check && npm run check:preview`).
+2. Packages all four static restaurant sites, creator studio, local assets, styles, scripts, and `.nojekyll` into `_site` using `npm run build:pages`.
+3. Deploys the static bundle to GitHub Pages at `https://ryan258.github.io/bone-appetit/`.
+
+To package and inspect the static deployment bundle locally:
+
+```sh
+npm run build:pages
 ```
 
 Browser checks are separate and never run as part of `npm run check`. Development dependencies are pinned in `package.json` and `package-lock.json`; this edition uses Playwright 1.63.0 and its matching Chromium revision. Prepare them once, or after changing the lockfile:
@@ -248,6 +263,17 @@ Everything describes a fictional destination. The address, history, prices, hour
 This is a permanent 2026 fictional concept, not a live seasonal booking service. After the season, the planner explicitly identifies its dates as archived rather than implying a future visit.
 
 ## Verification
+
+### Complete website ZIP exports — October 16, 2026
+
+Each edited campaign can now export a complete standalone website from the current draft or last named version. `website-export.js` validates and freezes the selected public content, renders it with the shared website renderer, bundles exactly its local styles/scripts/artwork/fonts/licenses, and adds opening instructions, a public content snapshot and integrity manifest. The existing archive writer creates the ZIP. Working briefs, campaign names, other campaigns, creator pages and saved visitor plans are excluded. Standalone navigation has no links to absent sibling websites or creator pages; public-page generation remains byte-identical. Different public edits get different planner storage keys.
+
+The targeted export, website-workspace, four-website and generated-output checks passed. An independent Python reader verified four ZIPs for CRCs, paths, file sizes, SHA-256 hashes, and complete HTML/CSS resource references. Creator HTML and edited/new script syntax were also checked. No full suite or older broad browser pass was run.
+
+The authorized focused headless export pass passed with Playwright 1.63.0 / Chromium 153.0.8010.12: eight draft/named downloads, all four extracted websites opened offline via file URLs, original fonts/art, menu categories and direct links/reloads, attraction dialogs, planner save/reload, text and illustrated itinerary downloads, no-JavaScript menu/detail fallbacks, and 375px reflow. Four extracted sites were also served under a single temporary static host to verify independent planner saves and recovery. Invalid input, failed-resource retry, prevention of stale downloads after editing, missing-export-script recovery and unchanged named/draft source data were checked. No collected page errors, external requests or final file-resource failures remained. The browser found a redundant cross-origin font preload that failed for file URLs; standalone exports now omit that preload while preserving the original CSS/font files. The complete pass then passed. Desktop steakhouse and narrow lodge exports were visually inspected.
+
+See [the export verification record](verification/website-export-2026-10-16.json) for hashes, source preservation and retained test fixtures. Existing generated public pages, canonical/property/profile JSON, artwork, base styles, application, planner, creator model, marketing pack, lockfile and earlier verification records match the pre-export snapshot. The shared renderer/template gained standalone-only navigation/preload choices; the creator adapter/UI gained the export action. Other engines, human VoiceOver/dictation, printing and production hosting were not checked. No files were staged, committed, pushed, published or sent.
+
 
 ### Creator-to-website editing — October 16, 2026
 

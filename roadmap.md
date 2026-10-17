@@ -82,6 +82,12 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 - **Frozen Source Isolation**: Source snapshot is frozen at export trigger to guarantee consistency during asynchronous resource gathering and hashing.
 - **Dedicated Visitor Storage**: Exported sites generate a unique content-hash planner storage key (`bone-website-{propertyId}-{hash}-visit-v1`), preventing plan collisions when hosted alongside other exports.
 
+### Milestone 10: GitHub Pages Deployment Pipeline
+- **Automated Workflow**: `.github/workflows/deploy.yml` triggers on push to `main` and manual `workflow_dispatch`.
+- **Pre-Deployment Deterministic Gates**: Pipeline enforces passing unit/planner/properties/websites/export checks (`npm run check`) and loopback preview checks (`npm run check:preview`) prior to packaging.
+- **Staging Automation**: `scripts/package-site.cjs` (`npm run build:pages`) stages all delivery HTML pages, creator studio, local stylesheets, scripts, JSON data, assets, and `.nojekyll` into `_site`.
+- **Live Destination**: Deployed directly to GitHub Pages at `https://ryan258.github.io/bone-appetit/`.
+
 ---
 
 ## 3. Current System Status
@@ -96,6 +102,7 @@ A roadmap of completed milestones, architectural boundaries, and future directio
 | Sister Properties Catalog | Verified v1.0 | `npm run check:properties` |
 | Website Workspace Adapter | Verified v1.0 | `npm run check:website-workspace` |
 | Single-Property Website Export | Verified v1.0 | `npm run check:website-export` |
+| GitHub Pages Staging Pipeline | Verified v1.0 | `npm run build:pages` / `.github/workflows/deploy.yml` |
 | Python Preview Launcher | Verified v1.0 | `npm run check:preview` |
 | End-to-End Headless Browser Suite | Verified v1.0 | Playwright / Chromium (153.0.8010.12) |
 
