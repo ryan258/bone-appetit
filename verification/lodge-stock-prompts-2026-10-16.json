@@ -1,0 +1,303 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "filename": "lodge-resting-witch-burger-food.webp",
+      "name": "Resting Witch Burger",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Resting Witch Burger. A single beef burger with smoked cheddar, crisp bacon, sliced pickles and creamy lodge sauce on a toasted bun, served on a small metal tray. Clearly one patty.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-b5fa6683-4dd6-4469-bd2c-6d496ee1a80a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-resting-witch-burger-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 241122,
+      "sha256": "9c6786cc4e337a92e569fc4552b5b753949fc3b438c418aff0077cdcba231271"
+    },
+    {
+      "filename": "lodge-hot-ghoul-chicken-food.webp",
+      "name": "Hot Ghoul Chicken",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Hot Ghoul Chicken. One crispy fried chicken sandwich with glossy chili glaze, pickles and slaw on a bun; crunchy chicken visible, not a beef burger.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-c6171b64-a04d-42c0-afb1-0814bef4f04a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-hot-ghoul-chicken-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 265914,
+      "sha256": "c899b388d6552293bf72578606e05ec0addd10e9f0a46874f4f9fd4a9f6cb8f4"
+    },
+    {
+      "filename": "lodge-deadwood-smash-food.webp",
+      "name": "Deadwood Smash",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Deadwood Smash. A double smash burger with two thin seared beef patties, melted American cheese, griddled onions and mustard on a toasted bun. Distinct double-patty side profile.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-99001389-90f1-4a08-8e4a-a8917877ed29.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-deadwood-smash-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 270966,
+      "sha256": "8ea3c228aa47c96c3e110b79e2628b8b28630f026650640ecfb335c20085e07f"
+    },
+    {
+      "filename": "lodge-the-veggie-vixen-food.webp",
+      "name": "The Veggie Vixen",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: The Veggie Vixen. A vegetarian burger with a textured bean-and-mushroom patty, cheddar, lettuce and tomato relish on a toasted bun. No meat or bacon anywhere.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0ebf299e-c439-4641-b25e-f606643225b5.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-the-veggie-vixen-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 253996,
+      "sha256": "ab9f3364d76c802295b6dc8cbf1bd72aeb6a1a5a071bcb8e7955660e6f8e2612"
+    },
+    {
+      "filename": "lodge-boo-bites-wings-food.webp",
+      "name": "Boo Bites Wings",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Boo Bites Wings. A basket of crisp chicken wings coated in orange buffalo sauce, with a small ramekin of chunky blue-cheese dip.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5660df51-ed9a-4452-9c80-40df34fa2391.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-boo-bites-wings-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 283246,
+      "sha256": "c331e8dcb9bccf4b07d34a70e95f10e466fd9e963f8f99a0e61a2f77a5c83f46"
+    },
+    {
+      "filename": "lodge-loaded-lumberjacks-food.webp",
+      "name": "Loaded Lumberjacks",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Loaded Lumberjacks. A generous tray of loaded golden fries covered with smoked pulled pork, melted cheddar, fresh scallions and creamy lodge sauce. No burger or ribs.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-60f9667e-9df3-4f4b-b15f-8a25b508a5d1.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-loaded-lumberjacks-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 334668,
+      "sha256": "87649cd5541e231f023aec57d664656cdb6b7ac9812e78739ac1a7570289f29a"
+    },
+    {
+      "filename": "lodge-haunted-hoops-food.webp",
+      "name": "Haunted Hoops",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Haunted Hoops. A basket of large crispy beer-battered onion rings with a ramekin of ranch dip. Vegetarian, no meat. The rings look delicious and golden, no novelty shapes.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0c17321b-649b-47af-a1d5-af5d5d7005a6.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-haunted-hoops-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 355722,
+      "sha256": "68b3d086235dd8c2f0a31a7aafb8901241a1455abab0014e665d18075d3c9a48"
+    },
+    {
+      "filename": "lodge-nachos-of-the-living-dead-food.webp",
+      "name": "Nachos of the Living Dead",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Nachos of the Living Dead. A generous pan of corn tortilla chips with black beans, golden queso, sliced jalapeños, salsa and sour cream. Vegetarian, no meat.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-02503e82-4426-4b5a-b2da-35873ad8c84d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-nachos-of-the-living-dead-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 297962,
+      "sha256": "6f77f3fb3d5c7f070ce5421bcf5dea2ca424ce7074ae9ed487791a1ae86d3f57"
+    },
+    {
+      "filename": "lodge-cheesecake-after-dark-food.webp",
+      "name": "Cheesecake After Dark",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Cheesecake After Dark. A thick slice of vanilla cheesecake with blackberry sauce and chocolate crumbs on a dark ceramic dessert plate.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0366b2f6-a763-4bba-ac16-cc2699714c4c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-cheesecake-after-dark-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 270074,
+      "sha256": "a99a310b1ebbcc5d4a65a9f936fb2b94430c829c5bbf992dd9d83cfdce02cd20"
+    },
+    {
+      "filename": "lodge-brownie-points-afterlife-food.webp",
+      "name": "Afterlife Brownie Points",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Afterlife Brownie Points. A warm chocolate brownie topped with a scoop of vanilla ice cream and caramel sauce on a dark ceramic dessert plate.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f2d57227-c70c-4757-a14f-16be8c8fbbd9.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-brownie-points-afterlife-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 236328,
+      "sha256": "dfa03c5440e4bf5887e3fd75c8fb313926e6c20c02fd9113632af66b3c508d3d"
+    },
+    {
+      "filename": "lodge-pumpkin-spice-sinner-food.webp",
+      "name": "Pumpkin Spice Sinner",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Pumpkin Spice Sinner. A generous portion of pumpkin bread pudding, cinnamon cream and caramel on a dark ceramic dessert plate. Clearly rustic bread pudding, no cheesecake.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-aaaa9c75-3d59-41db-b776-25be3329b96d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-pumpkin-spice-sinner-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 294432,
+      "sha256": "8a0bfafc8ae80b8ffd57fc224d115effe41871dde838bb9df8e8685af485c08a"
+    },
+    {
+      "filename": "lodge-cold-shoulder-lager-food.webp",
+      "name": "Cold Shoulder Lager",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Cold Shoulder Lager. One frosty handled beer mug filled with clear golden fictional house lager and a thick white foam head, condensation on the glass.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-158d61ec-e4cb-4328-91ca-822fb7108ef2.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-cold-shoulder-lager-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 269412,
+      "sha256": "970b60748f21811af5ee9e53d229270a4e5296ce5218fe1e761461d585de5aa8"
+    },
+    {
+      "filename": "lodge-lumberjack-o-lantern-food.webp",
+      "name": "Lumberjack-o’-Lantern",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Lumberjack-o’-Lantern. One amber bourbon, apple, lemon and cinnamon cocktail in a short rocks glass with clear ice, a restrained apple slice and cinnamon stick garnish.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-e1b2baf7-5231-48ba-8b7b-3210c7e9cff6.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-lumberjack-o-lantern-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 250466,
+      "sha256": "578ca874c9e1df08dd147283c261488817924b667c582e9562f03f34e614e5e2"
+    },
+    {
+      "filename": "lodge-resting-beach-face-food.webp",
+      "name": "Resting Beach Face",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Resting Beach Face. One tropical rum, pineapple, lime and ginger cocktail in a tall glass with clear ice, a pineapple wedge and lime garnish. Rustic lodge styling, not a beach setting.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5ab2d80f-004d-4559-be8b-626ab0b7211c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-resting-beach-face-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 217988,
+      "sha256": "e47fa6f6fc3204fcd120b5b751afd7faa4aa8249eea791d7a1d75b12927d5511"
+    },
+    {
+      "filename": "lodge-designated-monster-food.webp",
+      "name": "Designated Monster",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Designated Monster. One vivid purple blackberry, lime, mint and soda ZERO-PROOF mocktail in a tall glass with ice, fresh blackberries, lime and mint. No alcohol bottles, beer or other alcoholic beverages anywhere in frame.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8c79a371-802f-4d41-bb28-ef9236b0b78b.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-designated-monster-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 264388,
+      "sha256": "c3e60d54e8b2229a12ea433269a0e7851a73656fb0eb84a7cca2f0f1dd07cfc5"
+    },
+    {
+      "filename": "lodge-banshee-ginger-fizz-food.webp",
+      "name": "Banshee Ginger Fizz",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for BooBies Lodge, an original fictional 21+ Halloween sports lodge.\nPrimary request: Banshee Ginger Fizz. One pale gold ZERO-PROOF ginger beer, orange, lime and sparkling water mocktail in a tall glass with ice, orange and lime garnish. No alcohol bottles, beer or other alcoholic beverages anywhere in frame.\nScene/backdrop: Knotty timber tabletop, pine-green and amber plaid napkin, warm bar lights, small softly blurred jack-o’-lantern in the background. Consistent with an appetizing rustic sports lodge restaurant campaign.\nComposition: single named dish or drink dominates the center, all of the plate/tray/glass inside frame, useful breathing room for responsive 3:2 cropping, three-quarter tabletop view. Premium editorial food lighting, crisp delicious texture, shallow depth of field, warm amber tones.\nConstraints: no people, hands, lettering, logos, watermark, gore, insects, eyeballs or inedible novelty objects in food. Halloween humor is in the atmosphere, not ingredients. Do not add ingredients that change the described dish.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-2a8a3053-591c-4165-a1b3-6f8ac6228aad.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-banshee-ginger-fizz-food.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 239434,
+      "sha256": "a0f4219f64df225b0603a8362600a0ae99039ce38deef09e7337467cd117370a"
+    },
+    {
+      "filename": "lodge-main-event-scene.webp",
+      "name": "The main-event lodge",
+      "prompt": "Use case: illustration-story\nAsset type: polished landscape 3:2 environmental concept illustration for BooBies Lodge, a fictional adult Halloween sports lodge.\nSubject: A welcoming spacious timber sports lodge dining room and bar, plaid booths, knotty wood, amber pendants, pine-green upholstery, pumpkin lanterns, hanging friendly sheet ghosts. Several screens show anonymous illustrated monster sports with no readable text or real teams. A small group of clearly mature adult hosts age 30+ in campy red plaid tied shirts and denim shorts cheerfully serve clearly adult seated guests, tasteful original pin-up lumberjack hospitality, fully clothed, natural proportions, all adults. Wide architectural interior, three-quarter perspective, no one poses at the camera.\nStyle: richly detailed cinematic painterly realism, warm timber and amber light, pine-green and plaid palette, appetizing and welcoming Halloween parody. Match an upscale campy lumberjack sports-bar campaign. Keep main subject center-safe with breathing room for responsive crop.\nConstraints: no gore, nudity, real chain branding, watermarks or readable lettering. Any depicted people must be unambiguously mature adults.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-8833ca92-2182-4a7b-81de-e966ad7bafc5.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-main-event-scene.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 328210,
+      "sha256": "a6140209d2d94a285d212402ee8427d3363c75b988e22b974358f05ac5f8e631"
+    },
+    {
+      "filename": "lodge-afterlife-garden-scene.webp",
+      "name": "The afterlife beer garden",
+      "prompt": "Use case: illustration-story\nAsset type: polished landscape 3:2 environmental concept illustration for BooBies Lodge, a fictional adult Halloween sports lodge.\nSubject: A spacious outdoor timber beer garden beside the lodge at blue-hour dusk, pine trees, amber string lights and pumpkin lanterns, sturdy picnic tables and plaid cushions, a whimsical decorative skeleton seated at one table as if patiently hearing a referee complaint, a small beer mug on the table. Warm welcoming Halloween camp, no real people, no readable text. Wide environmental composition.\nStyle: richly detailed cinematic painterly realism, warm timber and amber light, pine-green and plaid palette, appetizing and welcoming Halloween parody. Match an upscale campy lumberjack sports-bar campaign. Keep main subject center-safe with breathing room for responsive crop.\nConstraints: no gore, nudity, real chain branding, watermarks or readable lettering. Any depicted people must be unambiguously mature adults.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3aeb1f9e-8801-4928-9d1f-832200d9d909.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-afterlife-garden-scene.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 355438,
+      "sha256": "5c59f4e6b22d157b03c31b4d4aac370c0f57e5abb60ffffdba1793e838d1db20"
+    },
+    {
+      "filename": "lodge-trophy-crypt-scene.webp",
+      "name": "The trophy crypt",
+      "prompt": "Use case: illustration-story\nAsset type: polished landscape 3:2 environmental concept illustration for BooBies Lodge, a fictional adult Halloween sports lodge.\nSubject: A warm timber alcove in a sports lodge, amber cabinet lighting and pine-green plaid, a large glass-front wooden curiosity cabinet containing six informal Halloween curiosities: small ceramic ghost with blank award medallion, old brass key, illustrated lodge postcard, pumpkin enamel staff badge, souvenir magnet with a curled receipt, small black raven figurine on a ledger. Include a couple of modest unengraved old sports cups behind them. Charming overconfident unofficial trophy-room atmosphere, no people, no readable labels. Wide interior detail.\nStyle: richly detailed cinematic painterly realism, warm timber and amber light, pine-green and plaid palette, appetizing and welcoming Halloween parody. Match an upscale campy lumberjack sports-bar campaign. Keep main subject center-safe with breathing room for responsive crop.\nConstraints: no gore, nudity, real chain branding, watermarks or readable lettering. Any depicted people must be unambiguously mature adults.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f031db88-ccce-4e70-b1c7-0b447fcd317a.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-trophy-crypt-scene.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 326988,
+      "sha256": "6b3423be57eb618284f76c780e7cd8837164d92f4a6a266cfc456d5f7c92aa9e"
+    },
+    {
+      "filename": "lodge-exterior-story.webp",
+      "name": "Lodge exterior for the story section",
+      "prompt": "Use case: illustration-story\nAsset type: polished landscape 3:2 environmental concept illustration for BooBies Lodge, a fictional adult Halloween sports lodge.\nSubject: A charming converted old lumber-yard timber lodge at autumn twilight, warm glowing windows and entrance lanterns, pine trees and turning leaves, jack-o-lanterns along a broad approach, a small owl-shaped hanging wood sign with NO lettering. A porch, a hint of the beer garden string lights at the side, campy haunted sports-lodge welcome. Entire original building visible, no people, no real logos, no readable text. Wide architectural exterior.\nStyle: richly detailed cinematic painterly realism, warm timber and amber light, pine-green and plaid palette, appetizing and welcoming Halloween parody. Match an upscale campy lumberjack sports-bar campaign. Keep main subject center-safe with breathing room for responsive crop.\nConstraints: no gore, nudity, real chain branding, watermarks or readable lettering. Any depicted people must be unambiguously mature adults.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7d01ebff-deb5-4a07-95c9-2bd40718e948.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-exterior-story.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 512428,
+      "sha256": "e6c97ea6f4316ff6469e6889ba9efdb42f436045b7daa01b651a970fe0aaadb4"
+    },
+    {
+      "filename": "lodge-former-manager-object.webp",
+      "name": "The Former Assistant Manager",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object image for BooBies Lodge, a fictional Halloween sports lodge.\nSubject: A small glossy ivory ceramic ghost figurine with a friendly resigned expression wearing a plain amber employee award medallion, sitting on a tiny dark wooden trophy base.\nScene: one item centered on a dark knotty timber shelf, warm amber cabinet light, softly blurred pine-green plaid and brass in background. A polished editorial collectible still life, subtly painterly realism, tactile ceramic/brass/paper/resin as appropriate. The main object fills central 60 percent with generous breathing room, all object edges in frame.\nConstraints: no people, hands, extra specimens, watermark, real brand names or readable text except the exact key tag \"13\" when applicable. Gentle Halloween parody, no gore.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-9d2671d9-bda6-4c0a-bd5e-85c0b0b1cf81.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-former-manager-object.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 141330,
+      "sha256": "97c1204f7588ccd8a23ad492fda9e7e468b18d1238f84abc91953f8aabf1097c"
+    },
+    {
+      "filename": "lodge-cellar-key-object.webp",
+      "name": "The Cellar Key",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object image for BooBies Lodge, a fictional Halloween sports lodge.\nSubject: One aged brass skeleton key with a little weathered hanging tag clearly marked only \"13\", lying beside a short length of worn green ribbon.\nScene: one item centered on a dark knotty timber shelf, warm amber cabinet light, softly blurred pine-green plaid and brass in background. A polished editorial collectible still life, subtly painterly realism, tactile ceramic/brass/paper/resin as appropriate. The main object fills central 60 percent with generous breathing room, all object edges in frame.\nConstraints: no people, hands, extra specimens, watermark, real brand names or readable text except the exact key tag \"13\" when applicable. Gentle Halloween parody, no gore.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-a0671c42-f63d-431f-8da7-ce14e0db1e8d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-cellar-key-object.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 164756,
+      "sha256": "a79b698a785d01020aab65f3b25e639ee05fb98ad60412a2ea801901d068b1cc"
+    },
+    {
+      "filename": "lodge-previous-owner-postcard-object.webp",
+      "name": "Postcard from the Previous Owner",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object image for BooBies Lodge, a fictional Halloween sports lodge.\nSubject: One worn vintage illustrated postcard depicting an original timber sports lodge among autumn pines under a moon, with a small blank stamp and abstract postal cancellation lines. No readable words.\nScene: one item centered on a dark knotty timber shelf, warm amber cabinet light, softly blurred pine-green plaid and brass in background. A polished editorial collectible still life, subtly painterly realism, tactile ceramic/brass/paper/resin as appropriate. The main object fills central 60 percent with generous breathing room, all object edges in frame.\nConstraints: no people, hands, extra specimens, watermark, real brand names or readable text except the exact key tag \"13\" when applicable. Gentle Halloween parody, no gore.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-02eea304-7bd1-4407-8fde-6c212b84942c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-previous-owner-postcard-object.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 294874,
+      "sha256": "1f8a09b13262ab8e07b19ac703cd36d6f750be7aaa30d74192127fc60aa290f9"
+    },
+    {
+      "filename": "lodge-pumpkin-badge-object.webp",
+      "name": "The Pumpkin’s Staff Badge",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object image for BooBies Lodge, a fictional Halloween sports lodge.\nSubject: One well-made orange pumpkin enamel staff pin with a tiny blank forest-green ribbon, polished metal edging, tiny clip visible; Halloween employee induction memento. No lettering.\nScene: one item centered on a dark knotty timber shelf, warm amber cabinet light, softly blurred pine-green plaid and brass in background. A polished editorial collectible still life, subtly painterly realism, tactile ceramic/brass/paper/resin as appropriate. The main object fills central 60 percent with generous breathing room, all object edges in frame.\nConstraints: no people, hands, extra specimens, watermark, real brand names or readable text except the exact key tag \"13\" when applicable. Gentle Halloween parody, no gore.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7fbaa0ab-dbee-4b24-9cb0-b1b889f9f5c3.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-pumpkin-badge-object.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 162652,
+      "sha256": "8124cf44a6ca24a13637791631efc6d728dbc7a99e9e153fd78389f4ec828a9f"
+    },
+    {
+      "filename": "lodge-unsettled-tab-object.webp",
+      "name": "The Unsettled Tab",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object image for BooBies Lodge, a fictional Halloween sports lodge.\nSubject: A small souvenir refrigerator magnet shaped like a rustic timber lodge, with a narrow curling paper receipt tucked beneath it; receipt has abstract faint ink rules without readable words or numbers.\nScene: one item centered on a dark knotty timber shelf, warm amber cabinet light, softly blurred pine-green plaid and brass in background. A polished editorial collectible still life, subtly painterly realism, tactile ceramic/brass/paper/resin as appropriate. The main object fills central 60 percent with generous breathing room, all object edges in frame.\nConstraints: no people, hands, extra specimens, watermark, real brand names or readable text except the exact key tag \"13\" when applicable. Gentle Halloween parody, no gore.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-5795cb2b-3a7a-4472-90e1-fccb07b30fba.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-unsettled-tab-object.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 195146,
+      "sha256": "9e0e947eacf61b325b1c293fc9e51a75dde927cb7aa545eaa61c4ca30ccb0ae3"
+    },
+    {
+      "filename": "lodge-raven-accounts-object.webp",
+      "name": "The Raven from Accounts",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object image for BooBies Lodge, a fictional Halloween sports lodge.\nSubject: One little glossy black painted-resin raven figurine perched on a miniature worn green accounting ledger, beside a tiny curled paper receipt. Clearly a crafted figurine, not a living bird. No readable text.\nScene: one item centered on a dark knotty timber shelf, warm amber cabinet light, softly blurred pine-green plaid and brass in background. A polished editorial collectible still life, subtly painterly realism, tactile ceramic/brass/paper/resin as appropriate. The main object fills central 60 percent with generous breathing room, all object edges in frame.\nConstraints: no people, hands, extra specimens, watermark, real brand names or readable text except the exact key tag \"13\" when applicable. Gentle Halloween parody, no gore.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-76f91cd8-6cd1-4fa3-a4d1-51e50d191ac8.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-raven-accounts-object.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 171194,
+      "sha256": "0f03e7b75c344baf4ca4f0b03a12a9ddbb13db66337298224849538a5da2b320"
+    }
+  ],
+  "conversion": "Pillow RGB WebP quality 86, method 6. Original dimensions, no cropping or visual edits.",
+  "mapConversion": {
+    "filename": "lodge-grounds-map.webp",
+    "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/lodge-grounds-map.webp",
+    "source": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/boobies-lodge-map.svg",
+    "method": "Exact original SVG rendered in headless Chromium, then lossless RGB WebP via Pillow; original SVG preserved. ImageMagick trial output was discarded because it omitted path strokes.",
+    "command": "npm run build:lodge-map",
+    "width": 960,
+    "height": 960,
+    "bytes": 19424,
+    "sha256": "8654c15eea303ff4756bd76b01a3d81c22968388b94ac05a5881964dbf247c59"
+  }
+}
