@@ -1,0 +1,669 @@
+{
+  "mode": "Built-in image_gen, one image per asset; Pillow codec conversion only",
+  "date": "2026-10-16",
+  "assets": [
+    {
+      "name": "The Exorcist",
+      "filename": "rest-the-exorcist-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A complete round wood-fired pizza with hot soppressata, roasted peppers, mozzarella and a light drizzle of chili honey.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-7e0db381-f346-47b9-bbe9-353d5794a38f.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-the-exorcist-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 282980,
+      "sha256": "5aa84084bc117aa7fcd6b011343d8cd014d7e87ce4b510d930e689ce374dd8a4"
+    },
+    {
+      "name": "Mushroom Afterlife",
+      "filename": "rest-mushroom-afterlife-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A complete round wood-fired white pizza with roasted mushrooms, fontina, garlic cream and thyme. Vegetarian; no meat or tomato sauce.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-d8e8bd10-e692-4dbd-92e8-bab7717d8266.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-mushroom-afterlife-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 291034,
+      "sha256": "9430dda554d116564b34f493d84e9cf63a7f190a84719bb28a569374fdba57da"
+    },
+    {
+      "name": "Sausage S\u00e9ance",
+      "filename": "rest-sausage-seance-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A complete round wood-fired pizza topped with fennel sausage, red onion, tomato sauce, mozzarella and pecorino.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ecdd8513-a5ba-47a9-a287-34517d782361.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-sausage-seance-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 371886,
+      "sha256": "ff122c4c9348b055b9275a5ebf83b4c688de6e28b1eb541cf209d0a17da8eb3f"
+    },
+    {
+      "name": "Little Boo Cheese",
+      "filename": "rest-little-boo-cheese-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: One small child-sized plain tomato-and-mozzarella pizza with a softly blistered wood-fired crust. Vegetarian, no meat or spicy toppings. No people or children in frame.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-456223af-7969-4789-960b-7148839fce3b.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-little-boo-cheese-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 215220,
+      "sha256": "0e124c830813f40617d270ad06d3b87d614a10b7f33e55ea1642988d010027ea"
+    },
+    {
+      "name": "Last Rites Garlic Knots",
+      "filename": "rest-last-rites-garlic-knots-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A basket of warm twisted garlic knots coated with garlic butter, parsley and grated parmesan, with a ramekin of red marinara. Vegetarian.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-caf1ce0b-9f21-4828-8957-364b6d64b198.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-last-rites-garlic-knots-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 321388,
+      "sha256": "39dbafb830eee462e8f514c1924601b9fd6c38c910113ff89f98de703c883ca3"
+    },
+    {
+      "name": "Burial Burrata",
+      "filename": "rest-burial-burrata-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A creamy ball of burrata opened slightly, roast tomatoes, fresh basil and toasted bread on a cream ceramic plate. Vegetarian.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-fa2e8f6a-927e-4944-8c27-ec9400ef90be.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-burial-burrata-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 289064,
+      "sha256": "2b88500fb13f384de9bc665f399e2719b2476a7bbc1d2ef3a944674e11e79d92"
+    },
+    {
+      "name": "Graveyard Meatballs",
+      "filename": "rest-graveyard-meatballs-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: Exactly three browned beef-and-pork meatballs in rich tomato sauce with grated pecorino, served in a shallow cream bowl.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-aae7969b-7f5f-47d3-b241-37c20b11c772.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-graveyard-meatballs-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 257010,
+      "sha256": "c342f65cc18f023965c4ecdaaa71a8fb6ffa07d657bc3320d5feaf36597dc3e2"
+    },
+    {
+      "name": "Crypt Caesar",
+      "filename": "rest-crypt-caesar-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A crisp romaine Caesar salad with shaved parmesan, creamy anchovy dressing and sourdough crumbs on a cream ceramic plate. No chicken, bacon or seafood garnish.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-900b3d7b-d49c-40a5-bd2c-d726becddcc3.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-crypt-caesar-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 235310,
+      "sha256": "c2b59b116a8fcf201695386a1fd480a9d5ca22a18ff6d2b988f93f9467a9aa9e"
+    },
+    {
+      "name": "Tiramisu Mortem",
+      "filename": "rest-tiramisu-mortem-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A neat generous square of tiramisu showing layers of espresso-soaked sponge and mascarpone, dusted with cocoa, on a small cream dessert plate.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-08362027-642f-4b33-9008-91c4d03596b3.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-tiramisu-mortem-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 256322,
+      "sha256": "69d50c1f902195e701395899d8b55be044b31a698c3494930f85fa971ef1919c"
+    },
+    {
+      "name": "Dearly Departed Cannoli",
+      "filename": "rest-dearly-departed-cannoli-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: Exactly two crisp cannoli shells filled with sweet ricotta, their ends decorated with dark chocolate and crushed pistachio, on a cream dessert plate.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6c1f6b49-8cce-4375-ac74-525bebe1f8e6.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-dearly-departed-cannoli-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 223866,
+      "sha256": "cbdb83b3adbc9e391e6219f0b3f16c6979459fe23ff60477f1d316647863edae"
+    },
+    {
+      "name": "The Haunted Sundae",
+      "filename": "rest-haunted-sundae-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A glass dessert bowl of vanilla gelato with glossy cherry sauce and dark chocolate crumbs resembling soil. No inedible props or novelty eyeballs.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-eb388091-fd49-41ec-ab88-bef07bda8ece.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-haunted-sundae-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 241100,
+      "sha256": "611eb4017aa7715228060b425200984dfb4faa26025c1224ad35d2e214117c55"
+    },
+    {
+      "name": "Blood Orange Soda",
+      "filename": "rest-blood-orange-soda-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: One tall glass of vivid blood-orange soda made with sparkling water, ice and a lime wedge. Nonalcoholic; no alcohol bottles or alcoholic drinks anywhere in frame.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-51c07fd5-6479-4829-92cf-678b8476bcaf.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-blood-orange-soda-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 216742,
+      "sha256": "fd6e651d9a1b879ace10d896a4cbbfc30b93d75bd1031a0af5a64ee9712b34a4"
+    },
+    {
+      "name": "Little Ghost Cocoa",
+      "filename": "rest-little-ghost-cocoa-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: One warm cream ceramic mug of cocoa topped with soft white marshmallows, a little steam rising. Nonalcoholic; no alcohol bottles or alcoholic drinks.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3179ec10-4157-4010-9539-8b0cbfddd0a2.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-little-ghost-cocoa-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 183906,
+      "sha256": "97fe46b348a1e4cfdfbb120876e1463d51e6b44bc9fea27294988b2ffc0189c9"
+    },
+    {
+      "name": "Wake-Up Espresso",
+      "filename": "rest-wake-up-espresso-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: A small cream porcelain cup holding a double espresso with rich golden crema, on a matching saucer with a teaspoon. Nonalcoholic; no alcohol bottles or alcoholic drinks.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-50ba544c-1dc0-40bf-87a2-5aaee39c69c6.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-wake-up-espresso-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 200134,
+      "sha256": "71ba36a372f7b900377508d65ef21648dd50f70da76d93e34ccd48ec8565b20e"
+    },
+    {
+      "name": "Dead Man\u2019s Draft",
+      "filename": "rest-dead-mans-draft-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: One chilled clear beer glass of golden fictional house lager with a thick white foam head and condensation. No readable branding.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-6ad3215d-c77e-4965-afe7-f23dede798b3.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-dead-mans-draft-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 230240,
+      "sha256": "4528755e0d3eba335bad5732ee1448569360bb50f6f91e2bd5663c132b079d28"
+    },
+    {
+      "name": "Last Call Negroni",
+      "filename": "rest-last-call-negroni-food.webp",
+      "prompt": "Use case: photorealistic-natural\nAsset type: landscape 3:2 individual menu photograph for Rest in Pizza, an original fictional family-friendly Halloween pizzeria.\nSubject: One ruby-orange Negroni cocktail of gin, bitter aperitivo and sweet vermouth, over a large clear ice cube in a short rocks glass with a restrained orange-peel garnish.\nScene: warm retro Italian pizza parlor, red-and-cream gingham tablecloth, cream crockery, softly blurred tiny friendly ceramic ghost and a small pumpkin behind the food. Tomato-red and warm cream palette, appetizing editorial food lighting, tactile food texture, shallow depth of field.\nComposition: the named dish or drink is the clear focal point, center-safe, all plate/glass edges inside frame with breathing room for responsive crop, three-quarter tabletop view.\nConstraints: no people, hands, lettering, watermark, logos, gore or inedible objects on food. Respect the stated ingredients and vegetarian/nonalcoholic instructions. Halloween humor belongs in the atmosphere.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-9a3b4990-0c97-4a9f-bc26-3c3f85b39d1c.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-last-call-negroni-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 235802,
+      "sha256": "df4e198bca49e20f2243efbbb616aa5431362f2972c3fc0b53b1d588321a622c"
+    },
+    {
+      "name": "The proofing room",
+      "filename": "rest-proofing-room-scene.webp",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: A cozy retro Italian neighborhood pizzeria dining room with cream walls, tomato-red booths, red-and-cream gingham tablecloths, a glowing wood-fired pizza oven and a slightly self-important antique founder portrait. A friendly translucent sheet ghost appears faintly near the oven; living adult staff serve pizzas, warm family hospitality, no jump scares. Wide architectural view.\nStyle: polished cinematic painterly realism, cozy retro Italian hospitality, tomato red, warm cream and gingham accents, gently funny Halloween atmosphere, detailed tactile architecture and props. Center-safe composition with breathing room for responsive crops.\nConstraints: no gore, scary violence, real chain branding, lettering or watermarks. Any people are clearly mature adults; no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-54c33ea9-0998-4f4b-8d53-d861225c1ace.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-proofing-room-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 283354,
+      "sha256": "46523e3f40ab6ed1300baec4e1a09718855620a40a8675766b022edd92e063b0"
+    },
+    {
+      "name": "The rising garden",
+      "filename": "rest-rising-garden-scene.webp",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: A quiet Italian pizzeria courtyard at dusk, terracotta pots of basil, thyme and rosemary, small cafe tables with red-and-cream gingham, pumpkin lanterns and warm string lights. One friendly straw scarecrow slouches on a bench as if on a very long lunch break. Cozy family-friendly Halloween, no people. Wide garden view.\nStyle: polished cinematic painterly realism, cozy retro Italian hospitality, tomato red, warm cream and gingham accents, gently funny Halloween atmosphere, detailed tactile architecture and props. Center-safe composition with breathing room for responsive crops.\nConstraints: no gore, scary violence, real chain branding, lettering or watermarks. Any people are clearly mature adults; no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-f767603c-32dd-449b-a0d6-2978e9af9e6d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-rising-garden-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 442012,
+      "sha256": "a50c6be565c45aee4363f5f177e0a34d40eee01c5b9af1bc61f98e1afe6df3ac"
+    },
+    {
+      "name": "The lost-and-found crypt",
+      "filename": "rest-lost-found-crypt-scene.webp",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: A cream-painted vintage lost-and-found cabinet inside a retro pizzeria with tomato-red trim, little gingham shelf liners and warm amber light. Six curiosities: a small ivory ceramic ghost with an employee medallion, brass key, illustrated pizzeria postcard, orange pumpkin enamel badge, little pizzeria magnet holding a curled receipt, and black raven figurine on a ledger. Charming gently haunted family-business inventory, no people or readable labels. Wide cabinet view.\nStyle: polished cinematic painterly realism, cozy retro Italian hospitality, tomato red, warm cream and gingham accents, gently funny Halloween atmosphere, detailed tactile architecture and props. Center-safe composition with breathing room for responsive crops.\nConstraints: no gore, scary violence, real chain branding, lettering or watermarks. Any people are clearly mature adults; no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-1c232856-f28d-403a-823e-fd9619c14980.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-lost-found-crypt-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 222658,
+      "sha256": "bccf26a340f5b789397be47217373c810f183d2f86d82a0e0c909b80c8b86d01"
+    },
+    {
+      "name": "Pizzeria story exterior",
+      "filename": "rest-exterior-story.webp",
+      "prompt": "Use case: illustration-story\nAsset type: landscape 3:2 environmental concept illustration for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: A charming original neighborhood Italian pizza parlor in a brick storefront at autumn dusk, tomato-red awning, warm cream window trim, glowing oven glimpsed through a window, terracotta basil pots and cheerful small pumpkins by the entrance. A little hanging pizza-slice symbol sign with no lettering, warm inviting family-friendly Halloween. Entire storefront in frame, no people or readable text.\nStyle: polished cinematic painterly realism, cozy retro Italian hospitality, tomato red, warm cream and gingham accents, gently funny Halloween atmosphere, detailed tactile architecture and props. Center-safe composition with breathing room for responsive crops.\nConstraints: no gore, scary violence, real chain branding, lettering or watermarks. Any people are clearly mature adults; no posed portraits.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-077af748-40eb-48fe-845d-6366505841f1.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-exterior-story.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 441542,
+      "sha256": "1303d63acc3b6ec1a6289945e608252713ca3296af1677ce2c038f2cd878869b"
+    },
+    {
+      "name": "The Former Assistant Manager",
+      "filename": "rest-former-manager-object.webp",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: One small glossy ivory ceramic ghost figurine with a resigned friendly expression and a plain tomato-red employee-award medallion, on a little cream pedestal.\nScene: cream-painted vintage shelf, red-and-cream gingham liner, softly blurred terracotta basil pot and warm pizzeria light. Tomato-red and cream accents, friendly gently haunted family-business memorabilia. Polished tactile editorial product photography with subtle painterly realism.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-66dd8b8a-cc86-4cbd-8c83-7ba4e5086287.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-former-manager-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 123198,
+      "sha256": "6b1e69263e1e5a2d829025c073a3918f69be61806e61c36bf53e5e7be926c1ea"
+    },
+    {
+      "name": "The Cellar Key",
+      "filename": "rest-cellar-key-object.webp",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: One aged brass skeleton key with a weathered paper tag marked exactly \"13\" and a little red twine loop.\nScene: cream-painted vintage shelf, red-and-cream gingham liner, softly blurred terracotta basil pot and warm pizzeria light. Tomato-red and cream accents, friendly gently haunted family-business memorabilia. Polished tactile editorial product photography with subtle painterly realism.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-806cf4b3-54dd-49f6-9486-2f8b6774831d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-cellar-key-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 162104,
+      "sha256": "b32ab3593e2f582f0f3cf8788ca1c279e43067b8a6a28f33c7b750f8a57fc2c9"
+    },
+    {
+      "name": "Postcard from the Previous Owner",
+      "filename": "rest-previous-owner-postcard-object.webp",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: One worn vintage illustrated postcard depicting a red-awning Italian neighborhood pizzeria beneath an autumn moon. Blank stamp and abstract cancellation lines, no readable words.\nScene: cream-painted vintage shelf, red-and-cream gingham liner, softly blurred terracotta basil pot and warm pizzeria light. Tomato-red and cream accents, friendly gently haunted family-business memorabilia. Polished tactile editorial product photography with subtle painterly realism.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-ea2277a1-4413-440a-93c4-1e7b30c3604d.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-previous-owner-postcard-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 292102,
+      "sha256": "c8ea917192f34325b12d335dc43f8de59803d091864c1c7cca222e97c0a150c1"
+    },
+    {
+      "name": "The Pumpkin\u2019s Staff Badge",
+      "filename": "rest-pumpkin-badge-object.webp",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: One polished orange jack-o-lantern enamel employee pin, cream-and-red blank ribbon below, metal clasp just visible. No lettering.\nScene: cream-painted vintage shelf, red-and-cream gingham liner, softly blurred terracotta basil pot and warm pizzeria light. Tomato-red and cream accents, friendly gently haunted family-business memorabilia. Polished tactile editorial product photography with subtle painterly realism.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-92c0e641-c440-4666-9ad6-c4876df2b918.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-pumpkin-badge-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 175040,
+      "sha256": "349e9ac45fb533239a3f31ffc3bb9f52800c98cb56694f5dd7eae460121b2a5d"
+    },
+    {
+      "name": "The Unsettled Tab",
+      "filename": "rest-unsettled-tab-object.webp",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: One small enamel souvenir magnet shaped like a cozy brick pizzeria with a red awning, holding a curled paper receipt. Abstract faint receipt rules, no readable words or numbers.\nScene: cream-painted vintage shelf, red-and-cream gingham liner, softly blurred terracotta basil pot and warm pizzeria light. Tomato-red and cream accents, friendly gently haunted family-business memorabilia. Polished tactile editorial product photography with subtle painterly realism.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-3d58c258-e282-4aad-90bb-5f5853f54716.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-unsettled-tab-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 176270,
+      "sha256": "cfaf7aa8c05dc6bce38d87e3ebfedb11c7a5a9592bb7cce08f4151445463bfab"
+    },
+    {
+      "name": "The Raven from Accounts",
+      "filename": "rest-raven-accounts-object.webp",
+      "prompt": "Use case: product-mockup\nAsset type: landscape 3:2 individual collection-object still life for Rest in Pizza, a fictional family-friendly Halloween pizzeria.\nSubject: One small black painted-resin raven figurine perched on a miniature red accounting ledger with a curled receipt beside it. Clearly a crafted figurine, not a living bird, no readable lettering.\nScene: cream-painted vintage shelf, red-and-cream gingham liner, softly blurred terracotta basil pot and warm pizzeria light. Tomato-red and cream accents, friendly gently haunted family-business memorabilia. Polished tactile editorial product photography with subtle painterly realism.\nComposition: one main object centered, all edges in frame, fills central 60 percent with generous breathing room.\nConstraints: no people, hands, extra specimens, gore, watermark or readable lettering except the exact key tag \"13\" if applicable.",
+      "source": "/Users/ryanjohnson/.codex/generated_images/01a14631-0ad2-76d2-a6a4-48d9563cb9f6/exec-0e1affb6-16ec-4fc1-a6aa-af3406be9c81.png",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-raven-accounts-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 166166,
+      "sha256": "e7887133c8d56fac6192372f41c35deb760b3a87a1f1e990f2f0283be89d28e6"
+    }
+  ],
+  "mapConversion": {
+    "source": "assets/rest-in-pizza-map.svg",
+    "sourceSha256": "aff84ff33eef8258526c99484cd5831ed2bb228fd410b09d38af8ddd4c163682",
+    "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-grounds-map.webp",
+    "dimensions": [
+      960,
+      960
+    ],
+    "bytes": 19388,
+    "sha256": "f8502978fe45173ef0a938b45a8ee3c3c737011cdbecc2a0c78f31d8fb54cb56",
+    "method": "Exact original SVG rendered by headless Chromium, RGB WebP lossless; no creative modification.",
+    "reproduce": "npm run build:pizza-map"
+  },
+  "currentPropertyAssets": [
+    {
+      "filename": "rest-in-pizza-theme.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-in-pizza-theme.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 489514,
+      "sha256": "543b6ed7317a057dc31590f9a639a397b720bb87777fa8b9c03413fadbd3160b"
+    },
+    {
+      "filename": "rest-in-pizza-logo.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-in-pizza-logo.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 249320,
+      "sha256": "2789e11d5666a1c6cd5e8e45ae1615df0874d9c0693e0b3c09f57f711c527d16"
+    },
+    {
+      "filename": "rest-exterior-story.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-exterior-story.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 441542,
+      "sha256": "1303d63acc3b6ec1a6289945e608252713ca3296af1677ce2c038f2cd878869b"
+    },
+    {
+      "filename": "rest-grounds-map.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-grounds-map.webp",
+      "dimensions": [
+        960,
+        960
+      ],
+      "bytes": 19388,
+      "sha256": "f8502978fe45173ef0a938b45a8ee3c3c737011cdbecc2a0c78f31d8fb54cb56"
+    },
+    {
+      "filename": "rest-dead-and-buried-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-dead-and-buried-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 382558,
+      "sha256": "33d3fb61adc143ef2410d2c333d10917e67f9dbc550be6ac2288dd2b6ce3b705"
+    },
+    {
+      "filename": "rest-margherita-morticia-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-margherita-morticia-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 330962,
+      "sha256": "8ee5f881a96da9fbf8ce7e7af416799943121e34dbd1c885030b76ee186126bb"
+    },
+    {
+      "filename": "rest-the-exorcist-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-the-exorcist-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 282980,
+      "sha256": "5aa84084bc117aa7fcd6b011343d8cd014d7e87ce4b510d930e689ce374dd8a4"
+    },
+    {
+      "filename": "rest-mushroom-afterlife-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-mushroom-afterlife-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 291034,
+      "sha256": "9430dda554d116564b34f493d84e9cf63a7f190a84719bb28a569374fdba57da"
+    },
+    {
+      "filename": "rest-sausage-seance-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-sausage-seance-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 371886,
+      "sha256": "ff122c4c9348b055b9275a5ebf83b4c688de6e28b1eb541cf209d0a17da8eb3f"
+    },
+    {
+      "filename": "rest-little-boo-cheese-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-little-boo-cheese-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 215220,
+      "sha256": "0e124c830813f40617d270ad06d3b87d614a10b7f33e55ea1642988d010027ea"
+    },
+    {
+      "filename": "rest-last-rites-garlic-knots-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-last-rites-garlic-knots-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 321388,
+      "sha256": "39dbafb830eee462e8f514c1924601b9fd6c38c910113ff89f98de703c883ca3"
+    },
+    {
+      "filename": "rest-burial-burrata-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-burial-burrata-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 289064,
+      "sha256": "2b88500fb13f384de9bc665f399e2719b2476a7bbc1d2ef3a944674e11e79d92"
+    },
+    {
+      "filename": "rest-graveyard-meatballs-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-graveyard-meatballs-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 257010,
+      "sha256": "c342f65cc18f023965c4ecdaaa71a8fb6ffa07d657bc3320d5feaf36597dc3e2"
+    },
+    {
+      "filename": "rest-crypt-caesar-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-crypt-caesar-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 235310,
+      "sha256": "c2b59b116a8fcf201695386a1fd480a9d5ca22a18ff6d2b988f93f9467a9aa9e"
+    },
+    {
+      "filename": "rest-tiramisu-mortem-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-tiramisu-mortem-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 256322,
+      "sha256": "69d50c1f902195e701395899d8b55be044b31a698c3494930f85fa971ef1919c"
+    },
+    {
+      "filename": "rest-dearly-departed-cannoli-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-dearly-departed-cannoli-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 223866,
+      "sha256": "cbdb83b3adbc9e391e6219f0b3f16c6979459fe23ff60477f1d316647863edae"
+    },
+    {
+      "filename": "rest-haunted-sundae-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-haunted-sundae-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 241100,
+      "sha256": "611eb4017aa7715228060b425200984dfb4faa26025c1224ad35d2e214117c55"
+    },
+    {
+      "filename": "rest-blood-orange-soda-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-blood-orange-soda-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 216742,
+      "sha256": "fd6e651d9a1b879ace10d896a4cbbfc30b93d75bd1031a0af5a64ee9712b34a4"
+    },
+    {
+      "filename": "rest-little-ghost-cocoa-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-little-ghost-cocoa-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 183906,
+      "sha256": "97fe46b348a1e4cfdfbb120876e1463d51e6b44bc9fea27294988b2ffc0189c9"
+    },
+    {
+      "filename": "rest-wake-up-espresso-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-wake-up-espresso-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 200134,
+      "sha256": "71ba36a372f7b900377508d65ef21648dd50f70da76d93e34ccd48ec8565b20e"
+    },
+    {
+      "filename": "rest-dead-mans-draft-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-dead-mans-draft-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 230240,
+      "sha256": "4528755e0d3eba335bad5732ee1448569360bb50f6f91e2bd5663c132b079d28"
+    },
+    {
+      "filename": "rest-last-call-negroni-food.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-last-call-negroni-food.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 235802,
+      "sha256": "df4e198bca49e20f2243efbbb616aa5431362f2972c3fc0b53b1d588321a622c"
+    },
+    {
+      "filename": "rest-former-manager-object.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-former-manager-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 123198,
+      "sha256": "6b1e69263e1e5a2d829025c073a3918f69be61806e61c36bf53e5e7be926c1ea"
+    },
+    {
+      "filename": "rest-cellar-key-object.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-cellar-key-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 162104,
+      "sha256": "b32ab3593e2f582f0f3cf8788ca1c279e43067b8a6a28f33c7b750f8a57fc2c9"
+    },
+    {
+      "filename": "rest-previous-owner-postcard-object.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-previous-owner-postcard-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 292102,
+      "sha256": "c8ea917192f34325b12d335dc43f8de59803d091864c1c7cca222e97c0a150c1"
+    },
+    {
+      "filename": "rest-pumpkin-badge-object.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-pumpkin-badge-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 175040,
+      "sha256": "349e9ac45fb533239a3f31ffc3bb9f52800c98cb56694f5dd7eae460121b2a5d"
+    },
+    {
+      "filename": "rest-unsettled-tab-object.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-unsettled-tab-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 176270,
+      "sha256": "cfaf7aa8c05dc6bce38d87e3ebfedb11c7a5a9592bb7cce08f4151445463bfab"
+    },
+    {
+      "filename": "rest-raven-accounts-object.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-raven-accounts-object.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 166166,
+      "sha256": "e7887133c8d56fac6192372f41c35deb760b3a87a1f1e990f2f0283be89d28e6"
+    },
+    {
+      "filename": "rest-proofing-room-scene.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-proofing-room-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 283354,
+      "sha256": "46523e3f40ab6ed1300baec4e1a09718855620a40a8675766b022edd92e063b0"
+    },
+    {
+      "filename": "rest-rising-garden-scene.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-rising-garden-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 442012,
+      "sha256": "a50c6be565c45aee4363f5f177e0a34d40eee01c5b9af1bc61f98e1afe6df3ac"
+    },
+    {
+      "filename": "rest-lost-found-crypt-scene.webp",
+      "savedPath": "/Users/ryanjohnson/Projects/nonsense/bone-appetit/assets/rest-lost-found-crypt-scene.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 222658,
+      "sha256": "bccf26a340f5b789397be47217373c810f183d2f86d82a0e0c909b80c8b86d01"
+    }
+  ]
+}
