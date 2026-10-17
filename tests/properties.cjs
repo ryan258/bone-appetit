@@ -45,7 +45,7 @@ async function run() {
       assert.ok(text.includes(data.disclosures.admission), 'Admission wording travels with each piece.');
       for (const other of catalog.list.filter(p => p.id !== property.id)) assert.ok(!text.includes(other.name), 'No cross-property copy leakage.');
     }
-    assert.ok(read('poster.html').includes('data:image/svg+xml;base64,'));
+    assert.ok(read('poster.html').includes('data:image/webp;base64,'));
     const restored = model.parseBackup(read('campaign.json'));
     assert.deepEqual(restored.entries[0].draft, record);
     assert.ok(planner.attractionFacts('hollow').find(([label]) => label === 'PRICE')[1].includes('Free'));

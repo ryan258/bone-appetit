@@ -434,6 +434,20 @@ html:not(.creator-ready) [data-creator-control] {
   font-size: 14px;
 }
 
+.creator-preview-identity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.creator-preview-identity img { width: 72px; height: 72px; object-fit: contain; flex-shrink: 0; }
+.creator-preview-identity .creator-preview-brand { margin: 0; }
+.property-card img.property-logo { width: 80px; height: 80px; object-fit: contain; margin-bottom: 12px; }
+#preview-food { margin: 0 0 18px; }
+#preview-food img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 3px; }
+#preview-food figcaption { font-size: 12px; margin-top: 8px; color: var(--muted); }
+#preview-experience-image:not([hidden]) { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 3px; margin-bottom: 18px; }
+
 .creator-recovery {
   margin-top: 36px;
   border-top: 1px solid var(--line);

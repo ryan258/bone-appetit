@@ -1,20 +1,28 @@
 /* Snapshot-based marketing copy, offline documents and ZIPs. No DOM or packages. */
 (function(root, factory) {
-  if (typeof module === 'object' && module.exports) module.exports = factory(require('./planner.js'));
-  else root.BoneMarketing = factory(root.BonePlanner);
-})(typeof globalThis === 'object' ? globalThis : this, function(plannerAPI) {
+  if (typeof module === 'object' && module.exports) module.exports = factory(require('./planner.js'), require('./website-renderer.js'));
+  else root.BoneMarketing = factory(root.BonePlanner, root.BoneWebsite);
+})(typeof globalThis === 'object' ? globalThis : this, function(plannerAPI, website) {
   'use strict';
   const ASSETS = Object.freeze({
     serif: 'assets/fonts/fraunces-700.ttf',
     sans: 'assets/fonts/dm-sans-400.ttf',
     label: 'assets/fonts/barlow-condensed-700.ttf',
     hero: 'assets/haunted-roadhouse.webp',
+    logo: 'assets/bone-appetit-logo.webp',
+    'food-witchs-cauldron': 'assets/bone-witchs-cauldron-food.webp',
+    'food-headless-horseman': 'assets/bone-headless-horseman-food.webp',
+    'food-poltergeist-pepperoni': 'assets/bone-poltergeist-pepperoni-food.webp',
     serifLicense: 'assets/fonts/OFL-Fraunces.txt',
     sansLicense: 'assets/fonts/OFL-DM-Sans.txt',
     labelLicense: 'assets/fonts/OFL-Barlow-Condensed.txt'
   });
   const TITLES = Object.freeze({ landing: 'Landing copy', 'menu-insert': 'Menu insert', 'social-copy': 'Social copy', 'email-draft': 'Email draft', poster: 'Poster', 'review-summary': 'Review summary' });
-  const assetsFor = record => ({ ...ASSETS, ...(record.reference.branding ? { hero: 'assets/' + record.reference.branding.hero } : {}) });
+  const assetsFor = record => ({
+    ...Object.fromEntries(Object.entries(ASSETS).filter(([key]) => !key.startsWith('food-'))),
+    hero: 'assets/' + website.heroAsset(record.reference), logo: 'assets/' + website.logoAsset(record.reference),
+    ...Object.fromEntries(Object.entries(website.RESTAURANT_ART[record.reference.branding?.propertyId || 'bone-appetit'].food).map(([id, art]) => ['food-' + id, 'assets/' + art.asset]))
+  });
   const FICTION = 'Fictional restaurant campaign. Concept dates, prices and facilities; no booking, purchase or subscription is offered.';
   const encode = text => new TextEncoder().encode(text);
   const escape = text => String(text).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
@@ -145,6 +153,34 @@ a:focus-visible {
 }
 .brand {
   font-size:24px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  line-height:1.3;
+}
+.brand img {
+  width:64px;
+  height:64px;
+  object-fit:contain;
+  flex-shrink:0;
+}
+.menu-food {
+  display:block;
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  margin-bottom:16px;
+}
+.menu-insert .menu-food {
+  float:right;
+  width:110px;
+  height:74px;
+  margin:0 0 10px 16px;
+}
+.card::after {
+  content:'';
+  display:table;
+  clear:both;
 }
 .hero {
   width:100%;
@@ -318,6 +354,20 @@ li {
   .menu-insert h1 {
     font-size:26pt;
   }
+  .menu-insert .brand {
+    margin:4px 0 10px;
+  }
+  .menu-insert .brand img {
+    width:48px;
+    height:48px;
+  }
+  .menu-insert .card {
+    padding:12px 0;
+  }
+  .menu-insert .meta {
+    font-size:9pt;
+    margin:6px 0;
+  }
   .menu-insert .offer {
     font-size:12pt;
   }
@@ -348,7 +398,7 @@ li {
 
   async function createPack(model, record, options, assets) {
     const pack = prepare(model, record, options), { source, facts: f, data } = pack;
-    for (const key of Object.keys(ASSETS)) {
+    for (const key of Object.keys(assetsFor(source))) {
       if (!(assets?.[key] instanceof Uint8Array) || !assets[key].length || assets[key].length > 2 * 1024 * 1024) fail(`The bundled ${key} asset is unavailable or too large. Retry loading the pack.`);
     }
     const css = styles(assets), p = value => `<p>${escape(value)}</p>`;
@@ -358,13 +408,17 @@ li {
     const factsText = `Concept venue season: ${f.season}\n${f.hours} · ${f.timezone}\n${f.closing}\n${f.address}${data.disclosures.admission ? '\n' + data.disclosures.admission : ''}`;
     const factsHTML = `<div class="facts">${p(factsText)}</div>`;
     const fictionHTML = `<footer class="fiction">${escape(FICTION)}</footer>`;
-    const hero = `<img class="hero" src="${dataURL(assets.hero, data.branding ? 'image/svg+xml' : 'image/webp')}" alt="${escape(data.branding?.heroAlt || 'Illustration of the fictional haunted roadhouse.')}">`;
+    const hero = `<img class="hero" src="${dataURL(assets.hero, assetsFor(source).hero.endsWith('.svg') ? 'image/svg+xml' : 'image/webp')}" alt="${escape(website.heroAlt(data))}">`;
     const headline = `<h1>${escape(f.headline)}</h1>`;
     const offer = `<p class="offer">${escape(f.offer)}</p>`;
-    const brand = `<p class="brand">${escape(f.venue)}</p>`;
+    const brand = `<p class="brand"><img src="${dataURL(assets.logo, 'image/webp')}" alt="" width="64" height="64"><span>${escape(f.venue)}</span></p>`;
     const doc = (key, body) => `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><!-- Bundled font licenses\n${licenses}\n--><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>${escape(TITLES[key] || 'Marketing pack')} — ${escape(f.venue)}</title><style>${css}</style></head><body><main class="${escape(key)}">${body}${fictionHTML}</main></body></html>\n`;
     const menuText = f.items.map(item => `${item.name} — ${item.priceLabel} USD\n${item.categoryLabel}${item.tags.length ? ' · ' + item.tags.join(' · ') : ''}\n${item.description}`).join('\n\n');
-    const menuHTML = f.items.map(item => `<article class="card"><div class="item-title"><h3>${escape(item.name)}</h3><span class="price">${escape(item.priceLabel)} USD</span></div><p class="tag">${escape(item.categoryLabel)}${item.tags.length ? ' · ' + escape(item.tags.join(' · ')) : ''}</p>${p(item.description)}</article>`).join('');
+    const menuHTML = f.items.map(item => {
+      const art = website.foodArt(data, item.id);
+      const image = art ? `<img class="menu-food" src="${dataURL(assets['food-' + item.id], 'image/webp')}" alt="${escape(art.alt)}" width="720" height="480">` : '';
+      return `<article class="card">${image}<div class="item-title"><h3>${escape(item.name)}</h3><span class="price">${escape(item.priceLabel)} USD</span></div><p class="tag">${escape(item.categoryLabel)}${item.tags.length ? ' · ' + escape(item.tags.join(' · ')) : ''}</p>${p(item.description)}</article>`;
+    }).join('') + '<p class="meta">AI-created concept food imagery. Illustrative plating; review against edited ingredients.</p>';
     const cta = p(f.cta) + `<p class="action">${escape(f.action)}</p>`;
     const landingText = `${f.venue}\n\n${f.headline}\n\n${f.introduction}\n\n${f.offer}\n\n${f.attractionTitle}\n${f.attractionCopy}\n${f.attractionFacts}\n\nFeatured menu\n${menuText}\n\n${data.disclosures.menu}\n\n${factsText}\n\n${data.disclosures.access}\n${data.disclosures.sensory}\n${data.disclosures.weather}\n\n${f.cta}\n${f.action}\n\n${FICTION}`;
     const menuCopy = `${f.venue}\n${f.headline}\n\n${f.offer}\n\n${menuText}\n\n${data.disclosures.menu}\n\n${factsText}\n\n${f.cta}\n${FICTION}`;
@@ -424,7 +478,7 @@ li {
     return (crc ^ 0xffffffff) >>> 0;
   }
   function zip(files) {
-    if (!Array.isArray(files) || !files.length || files.length > 100) fail('A pack needs 1–100 files.');
+    if (!Array.isArray(files) || !files.length || files.length > 256) fail('A pack needs 1–256 files.');
     const parts = [], central = [], names = new Set(); let offset = 0, centralSize = 0;
     function header(size, signature) { const bytes = new Uint8Array(size); const view = new DataView(bytes.buffer); view.setUint32(0, signature, true); return { bytes, view }; }
     for (const file of files) {

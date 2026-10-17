@@ -17,7 +17,7 @@
     const propertyId = data.branding?.propertyId || 'bone-appetit';
     const profile = sites.find(site => site.id === propertyId);
     const image = value => value.endsWith('.svg') ? value : value + '.webp';
-    const assets = [data.branding?.hero || 'haunted-roadhouse.webp', data.map.image,
+    const assets = [...website.artAssets(data), website.heroAsset(data), data.branding?.hero || 'haunted-roadhouse.webp', data.map.image,
       ...data.oddities.map(item => item.image), ...data.featured.map(item => image(item.image)), ...Object.values(data.attractions).map(item => image(item.image))];
     const paths = [...new Set(['index.template.html', ...FIXED, ...assets.map(asset => 'assets/' + asset)])];
     if (paths.some(path => path !== 'index.template.html' && !/^[a-zA-Z0-9_-]+(?:\/[a-zA-Z0-9_-]+)*\.[a-zA-Z0-9]+$/.test(path))) throw new TypeError('A website resource must be a bundled relative path.');

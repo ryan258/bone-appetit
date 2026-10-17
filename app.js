@@ -127,8 +127,10 @@
   function renderMenu(category = 'pizzas') {
     if (!Object.hasOwn(menu, category)) category = 'pizzas';
     $$('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === category)));
-    const items = menu[category].map(({ name, price, description, tags }) => {
+    const items = menu[category].map(({ id, name, price, description, tags }) => {
       const article = make('article', undefined, 'full-menu-item');
+      const photo = $(`#full-menu [data-menu-id="${id}"] .full-menu-photo`);
+      if (photo) { const image = photo.cloneNode(); image.loading = 'eager'; article.append(image); }
       const heading = make('div');
       heading.append(make('h3', name), make('strong', planner.money(price)));
       article.append(heading, make('p', description));
@@ -147,8 +149,10 @@
     const data = attractions[activeAttraction];
     $('#attraction-title').textContent = data.title;
     $('#attraction-kicker').textContent = data.kicker;
-    $('#attraction-image').src = `assets/${data.image.endsWith('.svg') ? data.image : data.image + '.webp'}`;
-    $('#attraction-image').alt = data.alt;
+    // Use the same resolved artwork as the static card, including in offline exports.
+    const cardImage = $(`.haunt-card [data-attraction="${key}"]`)?.closest('.haunt-card')?.querySelector('img');
+    $('#attraction-image').src = cardImage?.getAttribute('src') || `assets/${data.image.endsWith('.svg') ? data.image : data.image + '.webp'}`;
+    $('#attraction-image').alt = cardImage?.alt || data.alt;
     $('#attraction-description').textContent = planner.copy(data.description);
     $('#attraction-access').textContent = data.access;
     $('#attraction-facts').replaceChildren(...planner.attractionFacts(activeAttraction).map(([label, value]) => {

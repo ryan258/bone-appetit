@@ -9,7 +9,7 @@ const { createModel } = require('../creator-model.js');
 const api = require('../marketing-pack.js');
 const example = require('../site-data.json');
 const model = createModel(example, { now: () => '2026-10-16T18:00:00.000Z', newId: () => 'marketing-source' });
-const assets = Object.fromEntries(Object.entries(api.ASSETS).map(([key, file]) => [key, new Uint8Array(fs.readFileSync(path.resolve(__dirname, '..', file)))]));
+const assets = Object.fromEntries(Object.entries(api.assetsFor(model.newCampaign())).map(([key, file]) => [key, new Uint8Array(fs.readFileSync(path.resolve(__dirname, '..', file)))]));
 const decoder = new TextDecoder();
 const hash = value => createHash('sha256').update(value).digest('hex');
 async function run() {

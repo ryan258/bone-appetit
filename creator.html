@@ -19,6 +19,8 @@
   <script src="creator-model.js" defer></script>
   <script src="marketing-pack.js" defer></script>
   <script src="website-export.js" defer></script>
+  <script src="website-collection.js" defer></script>
+  <script src="collection-workspace.js" defer></script>
   <script src="marketing-workspace.js" defer></script>
   <script src="creator.js" defer></script>
 </head>
@@ -56,6 +58,18 @@
           <button id="undo-workspace" class="text-link" type="button" hidden>Undo change</button>
         </div>
         <p id="import-hint" class="creator-note">Import adds copies and keeps existing campaigns. A backup includes every campaign, its named version, and unfinished drafts. Up to 20 campaigns and 2 MiB per backup.</p>
+      </section>
+      <section id="collection-export" class="marketing-pack" aria-labelledby="collection-title" aria-busy="false">
+        <p class="eyebrow accent">FOUR ESTABLISHMENTS. ONE SUSPICIOUS PARCEL.</p>
+        <h2 id="collection-title">Take the whole neighborhood.</h2>
+        <p>Download all four edited restaurant websites in one ZIP, with Choose your haunt connecting them. Each keeps its own design, menu, story, artwork, and visit planner.</p>
+        <label class="creator-field">Collection source<select id="collection-source"><option value="draft">Current drafts</option><option value="named">Last named versions</option></select></label>
+        <p class="creator-note">Choose one campaign per property. A sole campaign is selected automatically; multiple campaigns need your choice. All four use the source selected above. Missing properties or named versions must be added before exporting.</p>
+        <div id="collection-properties" class="pack-settings"></div>
+        <button id="download-collection" class="button" type="button" disabled>Download four-website collection ZIP ↓</button>
+        <button id="retry-collection" class="text-link" type="button" hidden>Retry collection resources</button>
+        <p id="collection-status" class="creator-status" role="status" aria-atomic="true">Loading collection export…</p>
+        <p class="creator-note">Extract the entire ZIP and open index.html, or share the complete ZIP. Shared fonts, styles, scripts, and artwork are included. Working briefs, creator backups, and visitor plans stay here. Collection selections reset when you reopen the workspace.</p>
       </section>
       <p id="workspace-status" class="creator-status" role="status" aria-atomic="true"></p>
       <p id="storage-status" class="creator-notice" role="status" hidden></p>
@@ -126,10 +140,10 @@
             <div class="creator-preview-heading"><p class="eyebrow accent">A WORKING LOOK</p><h2 id="preview-title">Campaign preview</h2><p class="creator-note">A live copy preview. The original destination stays available as your reference.</p></div>
             <article class="campaign-paper">
               <img class="creator-preview-image" src="assets/haunted-roadhouse.webp" alt="The fictional haunted pizzeria at Wicked Lane." width="1536" height="1024">
-              <div class="campaign-paper-body"><p id="preview-venue" class="creator-preview-brand"></p><h3 id="preview-headline"></h3><p id="preview-introduction"></p><span id="preview-action" class="creator-preview-action"></span><p class="creator-fiction">FICTIONAL CAMPAIGN · COPY PREVIEW</p></div>
+              <div class="campaign-paper-body"><div class="creator-preview-identity"><img id="preview-logo" src="assets/bone-appetit-logo.webp" alt="" width="72" height="72"><p id="preview-venue" class="creator-preview-brand"></p></div><h3 id="preview-headline"></h3><p id="preview-introduction"></p><span id="preview-action" class="creator-preview-action"></span><p class="creator-fiction">FICTIONAL CAMPAIGN · COPY PREVIEW</p></div>
             </article>
-            <section class="creator-preview-card" aria-labelledby="preview-menu-heading"><h3 id="preview-menu-heading">Selected menu item</h3><div class="creator-preview-item-title"><p id="preview-menu-name"></p><strong id="preview-menu-price"></strong></div><p id="preview-menu-description"></p></section>
-            <section class="creator-preview-card" aria-labelledby="preview-attraction-heading"><h3 id="preview-attraction-heading">Selected attraction</h3><p id="preview-attraction-title" class="creator-preview-item-title"></p><p id="preview-attraction-description"></p></section>
+            <section class="creator-preview-card" aria-labelledby="preview-menu-heading"><h3 id="preview-menu-heading">Selected menu item</h3><figure id="preview-food" hidden><img id="preview-food-image" alt="" width="720" height="480"><figcaption>AI-created concept art. Review against edited ingredients.</figcaption></figure><div class="creator-preview-item-title"><p id="preview-menu-name"></p><strong id="preview-menu-price"></strong></div><p id="preview-menu-description"></p></section>
+            <section class="creator-preview-card" aria-labelledby="preview-attraction-heading"><h3 id="preview-attraction-heading">Selected attraction</h3><img id="preview-experience-image" alt="" width="720" height="480" hidden><p id="preview-attraction-title" class="creator-preview-item-title"></p><p id="preview-attraction-description"></p></section>
             <p id="preview-validation" class="creator-note" role="status"></p>
           </aside>
         </div>

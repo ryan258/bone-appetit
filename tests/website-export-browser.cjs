@@ -96,7 +96,7 @@ async function run() {
   for (const pack of packages.filter(pack => pack.state === 'draft')) {
     const entry = entries[pack.index];
     await filePage.goto(pathToFileURL(path.join(pack.directory, 'index.html')).href); await enhanced(filePage); await loadArt(filePage);
-    assert.equal(await filePage.locator('#hero-title').innerText(), `Draft haunt ${pack.index}`);
+    assert.equal(await filePage.locator('#hero-title').textContent(), `Draft haunt ${pack.index}`);
     assert.equal(await filePage.locator('[data-property-link]').count(), 2);
     assert.equal(await filePage.locator('a[href="creator.html"]').count(), 0);
     await filePage.locator('[data-open-menu]').first().click();

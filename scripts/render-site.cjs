@@ -10,7 +10,7 @@ function loadSites() {
 function render(data, template = fs.readFileSync(path.join(root, 'index.template.html'), 'utf8'), options = {}) {
   require('../planner.js').createPlanner(data);
   const imageFile = image => image.endsWith('.svg') ? image : image + '.webp';
-  const assets = [['map.image', data.map.image],
+  const assets = [...website.artAssets(data).map(asset => ['theme.art', asset]), ['theme.hero', website.heroAsset(data)], ['map.image', data.map.image],
     ...data.oddities.map((item, index) => [`oddities[${index}].image`, item.image]),
     ...data.featured.map((item, index) => [`featured[${index}].image`, imageFile(item.image)]),
     ...Object.entries(data.attractions).map(([key, item]) => [`attractions.${key}.image`, imageFile(item.image)]),

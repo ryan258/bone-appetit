@@ -10,7 +10,7 @@
     "build": "node scripts/render-site.cjs",
     "build:pages": "node scripts/package-site.cjs _site",
     "validate": "node scripts/render-site.cjs --validate",
-    "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace && npm run check:website-export",
+    "check": "npm run check:generated && npm run check:validation && npm run check:planner && npm run check:creative && npm run check:creator && npm run check:marketing && npm run check:properties && npm run check:websites && npm run check:website-workspace && npm run check:website-export && npm run check:website-collection && npm run check:themes",
     "check:generated": "node scripts/render-site.cjs --check",
     "check:validation": "node tests/content.cjs",
     "check:planner": "node tests/planner.cjs",
@@ -34,7 +34,22 @@
     "check:website-workspace": "node tests/website-workspace.cjs",
     "check:website-workspace-browser": "node tests/website-workspace-browser.cjs",
     "check:website-export": "node tests/website-export.cjs",
-    "check:website-export-browser": "node tests/website-export-browser.cjs"
+    "check:website-export-browser": "node tests/website-export-browser.cjs",
+    "check:website-collection": "node tests/website-collection.cjs",
+    "check:website-collection-browser": "node tests/website-collection-browser.cjs",
+    "check:themes": "node tests/themes.cjs",
+    "check:themes-browser": "node tests/themes-browser.cjs",
+    "check:restaurant-art": "node tests/restaurant-art.cjs",
+    "check:restaurant-art-browser": "node tests/restaurant-art-browser.cjs",
+    "build:lodge-map": "node scripts/render-lodge-map.cjs",
+    "check:lodge-art": "node tests/lodge-art.cjs",
+    "check:lodge-art-browser": "node tests/lodge-art-browser.cjs",
+    "build:pizza-map": "node scripts/render-pizza-map.cjs",
+    "check:pizza-art": "node tests/pizza-art.cjs",
+    "check:pizza-art-browser": "node tests/pizza-art-browser.cjs",
+    "build:remaining-maps": "node scripts/render-remaining-maps.cjs",
+    "check:remaining-art": "node tests/remaining-art.cjs",
+    "check:remaining-art-browser": "node tests/remaining-art-browser.cjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"

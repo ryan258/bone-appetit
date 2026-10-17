@@ -62,7 +62,7 @@ async function run() {
     await page.fill('[data-copy="headline"]', `Draft haunt ${index}`);
     await page.selectOption('#website-source', 'draft');
     let frame = await ready(page);
-    assert.equal(await frame.locator('#hero-title').innerText(), `Draft haunt ${index}`);
+    assert.equal(await frame.locator('#hero-title').textContent(), `Draft haunt ${index}`);
     assert.ok((await frame.locator('#story').innerText()).includes(`A fresh story ${index}`));
     assert.ok((await frame.locator('#story').innerText()).includes(`Second paragraph ${index}.`));
     assert.ok((await frame.locator('.pizza-card').first().innerText()).includes(`Fresh menu description ${index}.`));
@@ -79,7 +79,7 @@ async function run() {
     assert.ok((await frame.locator('#plan-status').innerText()).includes('only in this preview'), await frame.locator('#plan-status').innerText());
     await frame.locator('#planner-dialog [data-close]').click();
     await frame.locator('[data-property-link]').last().click();
-    assert.equal(await frame.locator('#hero-title').innerText(), `Draft haunt ${index}`);
+    assert.equal(await frame.locator('#hero-title').textContent(), `Draft haunt ${index}`);
     assert.ok(page.url().endsWith('/creator.html'));
     const child = await (await page.locator('#website-preview').elementHandle()).contentFrame();
     assert.ok(child);
@@ -95,7 +95,7 @@ async function run() {
     await page.selectOption('#website-source', 'named');
     assert.equal(await page.locator('#website-results').isVisible(), false);
     frame = await ready(page);
-    assert.equal(await frame.locator('#hero-title').innerText(), `Named haunt ${index}`);
+    assert.equal(await frame.locator('#hero-title').textContent(), `Named haunt ${index}`);
     await frame.locator('[data-open-planner]').first().click();
     assert.notEqual(await frame.locator('#visit-guests').inputValue(), '7');
     await frame.locator('#planner-dialog [data-close]').click();

@@ -13,7 +13,7 @@
     if (text !== undefined) element.textContent = text;
     return element;
   };
-  let model, repository, workspace, timer, marketing, website, properties, pending = false, writeFailed = false;
+  let model, repository, workspace, timer, marketing, website, collection, properties, pending = false, writeFailed = false;
   let recoveryRaw = null, undo = null, backedUpState = '', ready = false;
   const active = () => workspace.entries.find(entry => entry.draft.id === workspace.activeId);
   const announce = message => { $('#workspace-status').textContent = message; };
@@ -96,8 +96,13 @@
     const record = entry.draft, item = record.content.menu.find(item => item.id === entry.view.menuId);
     const attraction = record.content.attractions[entry.view.attractionId];
     const branding = record.reference.branding;
-    $('.creator-preview-image').src = branding ? `assets/${branding.hero}` : 'assets/haunted-roadhouse.webp';
-    $('.creator-preview-image').alt = branding?.heroAlt || 'The fictional haunted pizzeria at Wicked Lane.';
+    $('.creator-preview-image').src = `assets/${window.BoneWebsite?.heroAsset(record.reference) || branding?.hero || 'haunted-roadhouse.webp'}`;
+    $('.creator-preview-image').alt = window.BoneWebsite?.heroAlt(record.reference) || branding?.heroAlt || 'The fictional haunted pizzeria at Wicked Lane.';
+    $('#preview-logo').src = `assets/${window.BoneWebsite?.logoAsset(record.reference) || 'bone-appetit-logo.webp'}`;
+    const food = window.BoneWebsite?.foodArt(record.reference, item.id);
+    $('#preview-food').hidden = !food;
+    if (food) { $('#preview-food-image').src = `assets/${food.asset}`; $('#preview-food-image').alt = food.alt; }
+    else { $('#preview-food-image').removeAttribute('src'); $('#preview-food-image').alt = ''; }
     $('#preview-venue').textContent = record.content.venueName || 'Venue name';
     $('#preview-headline').textContent = record.copy.headline || 'Your headline';
     $('#preview-introduction').textContent = record.copy.introduction;
@@ -107,6 +112,10 @@
     $('#preview-menu-price').textContent = Number.isFinite(amount) ? new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: Number.isInteger(amount) ? 0 : 2 }).format(amount) : 'Price incomplete';
     $('#preview-menu-description').textContent = item.description;
     $('#preview-attraction-title').textContent = attraction.title || 'Attraction title';
+    const experienceArt = window.BoneWebsite?.RESTAURANT_ART[branding?.propertyId || 'bone-appetit']?.attractions?.[entry.view.attractionId];
+    $('#preview-experience-image').hidden = !experienceArt;
+    if (experienceArt) { $('#preview-experience-image').src = `assets/${experienceArt.asset}`; $('#preview-experience-image').alt = experienceArt.alt; }
+    else { $('#preview-experience-image').removeAttribute('src'); $('#preview-experience-image').alt = ''; }
     $('#preview-attraction-description').textContent = window.BonePlanner.createPlanner(record.reference).copy(attraction.description);
     try {
       model.materialize(record);
@@ -140,7 +149,7 @@
     renderPreview();
     renderSaveState();
   }
-  function render() { renderLibrary(); renderEditor(); marketing?.refresh(); website?.refresh(true); }
+  function render() { renderLibrary(); renderEditor(); marketing?.refresh(); website?.refresh(true); collection?.refresh(); }
   function focusEditor() { $('#campaign-name').focus(); }
   function addCampaign(draft, view = null) {
     if (workspace.entries.length >= model.MAX_CAMPAIGNS) { announce('The workspace holds 20 campaigns. Back up and remove an unneeded one before adding another.'); return; }
@@ -167,6 +176,7 @@
       workspace = candidate;
       marketing?.refresh();
       website?.refresh();
+      collection?.refresh();
       clearUndo();
       renderLibrary();
       renderSaveState();
@@ -192,11 +202,12 @@
       properties = window.BoneProperties.createCatalog(model, await response.json());
       const cards = properties.list.map(property => {
         const article = make('article'), image = make('img'), body = make('div'), button = make('button', 'Start this property');
-        article.className = 'property-card'; image.src = `assets/${property.hero}`; image.alt = property.heroAlt; image.width = 1536; image.height = 1024;
+        article.className = 'property-card'; image.src = `assets/${window.BoneWebsite?.HERO_ART[property.id]?.asset || property.hero}`; image.alt = window.BoneWebsite?.HERO_ART[property.id]?.alt || property.heroAlt; image.width = 1536; image.height = 1024;
         button.type = 'button'; button.className = 'text-link'; button.dataset.startProperty = property.id;
         button.setAttribute('aria-label', `Start ${property.name}`);
         const website = make('a', 'Explore the original property website ↗'); website.href = `${property.id}.html`; website.className = 'text-link';
-        body.append(make('p', property.type), make('h4', property.name), make('p', property.summary), button, website); article.append(image, body); return article;
+        const logo = make('img'); logo.className = 'property-logo'; logo.src = `assets/${window.BoneWebsite?.RESTAURANT_ART[property.id]?.logo || 'bone-appetit-logo.webp'}`; logo.alt = ''; logo.width = 80; logo.height = 80;
+        body.append(logo, make('p', property.type), make('h4', property.name), make('p', property.summary), button, website); article.append(image, body); return article;
       });
       $('#property-options').replaceChildren(...cards);
       $('#property-status').textContent = 'Start one property or add the collection. Existing campaigns are kept.';
@@ -277,6 +288,7 @@
       entry.draft.updatedAt = model.now();
       marketing?.refresh();
       website?.refresh();
+      collection?.refresh();
       clearUndo();
       checkpoint();
       // Keep focused fields in place; only non-interactive preview text changes.
@@ -400,6 +412,8 @@
       }
       if (window.BoneWebsiteWorkspace) website = window.BoneWebsiteWorkspace({ model, active, checkpoint });
       else $('#website-status').textContent = 'A website preview script is unavailable. Reload the workspace to retry. Your campaign editing and saves remain available.';
+      if (window.BoneCollectionWorkspace) collection = window.BoneCollectionWorkspace({ model, entries: () => workspace.entries });
+      else $('#collection-status').textContent = 'A collection export script is unavailable. Reload the workspace to retry.';
       bindEvents();
       render();
       ready = true;

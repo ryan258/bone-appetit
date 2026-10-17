@@ -130,7 +130,7 @@ async function run() {
   assert.match(sheet.url(), /poster.html$/);
   // Retain and verify an unedited example pack as well as the changed-price fixture.
   const exampleRecord = model.newCampaign();
-  const assets = Object.fromEntries(Object.entries(api.ASSETS).map(([key, file]) => [key, new Uint8Array(fs.readFileSync(path.resolve(__dirname, '..', file)))]));
+  const assets = Object.fromEntries(Object.entries(api.assetsFor(exampleRecord)).map(([key, file]) => [key, new Uint8Array(fs.readFileSync(path.resolve(__dirname, '..', file)))]));
   const examplePack = await api.createPack(model, exampleRecord, { sourceState: 'draft' }, assets);
   const exampleDirectory = path.join(output, 'example-pack');
   for (const file of examplePack.files) {

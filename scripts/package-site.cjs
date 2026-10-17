@@ -29,6 +29,8 @@ const REQUIRED_FILES = [
   'website-renderer.js',
   'website-workspace.js',
   'website-export.js',
+  'website-collection.js',
+  'collection-workspace.js',
   'site-data.json',
   'property-data.json',
   'visitor-sites.json'

@@ -36,7 +36,8 @@ async function stored(page) { return page.evaluate(key => JSON.parse(localStorag
 async function run() {
   server = await startServer(); browser = await chromium.launch({ headless: process.env.BONE_BROWSER_VISIBLE !== '1' });
   const session = await context(), page = await session.newPage(); await ready(page);
-  assert.ok(await page.locator('.property-card img').evaluateAll(images => images.every(image => Math.abs(image.getBoundingClientRect().height - image.getBoundingClientRect().width * 2 / 3) < 1)), 'Starter art keeps its compact 3:2 proportions.');
+  assert.ok(await page.locator('.property-card > img').evaluateAll(images => images.every(image => Math.abs(image.getBoundingClientRect().height - image.getBoundingClientRect().width * 2 / 3) < 1)), 'Starter scene art keeps its compact 3:2 proportions.');
+  assert.ok(await page.locator('.property-card .property-logo').evaluateAll(images => images.length === 3 && images.every(image => image.width === image.height)), 'Custom starter emblems keep square proportions.');
   await page.locator('#start-example').click();
   await page.locator('#creator-form [type=submit]').click();
   const original = (await stored(page)).entries[0];
@@ -50,7 +51,7 @@ async function run() {
     await page.locator(`[data-campaign-id="${entry.draft.id}"]`).click();
     assert.equal(await page.locator('#editor-title').textContent(), entry.draft.name);
     assert.equal(await page.locator('#menu-item-picker option').count(), 18);
-    assert.ok((await page.locator('.creator-preview-image').getAttribute('src')).endsWith(property.hero));
+    assert.ok((await page.locator('.creator-preview-image').getAttribute('src')).endsWith(require('../website-renderer.js').heroAsset({ branding: { propertyId: property.id } })));
     await page.locator('#creator-form [type=submit]').click();
     await page.selectOption('#pack-source', 'named');
     await page.locator('#build-pack').click();
@@ -66,8 +67,8 @@ async function run() {
     await page.selectOption('#pack-piece', 'poster');
     await page.frameLocator('#pack-preview').locator('main.poster').waitFor();
     const bytes = await page.frameLocator('#pack-preview').locator('img.hero').getAttribute('src');
-    assert.ok(bytes.startsWith('data:image/svg+xml;base64,'));
-    assert.deepEqual(Buffer.from(bytes.split(',')[1], 'base64'), fs.readFileSync(path.resolve(__dirname, '../assets', property.hero)), 'Each pack uses the selected property art, even after switching properties.');
+    assert.ok(bytes.startsWith('data:image/webp;base64,'));
+    assert.deepEqual(Buffer.from(bytes.split(',')[1], 'base64'), fs.readFileSync(path.resolve(__dirname, '../assets', require('../website-renderer.js').heroAsset({ branding: { propertyId: property.id } }))), 'Each pack uses the selected property art, even after switching properties.');
     const pending = page.waitForEvent('download'); await page.locator('#download-pack').click();
     const file = await pending;
     assert.equal(file.suggestedFilename(), property.id + '-marketing-pack.zip');

@@ -75,7 +75,7 @@ async function run() {
       await page.locator(`[data-attraction="${key}"]`).first().click();
       assert.equal(await page.locator('#attraction-title').textContent(), attraction.title);
       assert.ok((await page.locator('#attraction-description').textContent()).includes(p.copy(attraction.description)));
-      const asset = attraction.image.endsWith('.svg') ? attraction.image : attraction.image + '.webp';
+      const asset = require('../website-renderer.js').attractionArt(data, key).asset;
       assert.ok((await page.locator('#attraction-image').getAttribute('src')).endsWith(asset));
       await page.keyboard.press('Escape');
     }
